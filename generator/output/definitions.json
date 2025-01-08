@@ -1,0 +1,2358 @@
+{
+  "ImPlot3DBox_ClipLineSegment": [
+    {
+      "args": "(ImPlot3DBox* self,const ImPlot3DPoint p0,const ImPlot3DPoint p1,ImPlot3DPoint* p0_clipped,ImPlot3DPoint* p1_clipped)",
+      "argsT": [
+        {
+          "name": "self",
+          "type": "ImPlot3DBox*"
+        },
+        {
+          "name": "p0",
+          "type": "const ImPlot3DPoint"
+        },
+        {
+          "name": "p1",
+          "type": "const ImPlot3DPoint"
+        },
+        {
+          "name": "p0_clipped",
+          "reftoptr": true,
+          "type": "ImPlot3DPoint*"
+        },
+        {
+          "name": "p1_clipped",
+          "reftoptr": true,
+          "type": "ImPlot3DPoint*"
+        }
+      ],
+      "argsoriginal": "(const ImPlot3DPoint& p0,const ImPlot3DPoint& p1,ImPlot3DPoint& p0_clipped,ImPlot3DPoint& p1_clipped)",
+      "call_args": "(p0,p1,*p0_clipped,*p1_clipped)",
+      "cimguiname": "ImPlot3DBox_ClipLineSegment",
+      "defaults": {},
+      "funcname": "ClipLineSegment",
+      "location": "implot3d:631",
+      "ov_cimguiname": "ImPlot3DBox_ClipLineSegment",
+      "ret": "bool",
+      "signature": "(const ImPlot3DPoint,const ImPlot3DPoint,ImPlot3DPoint*,ImPlot3DPoint*)const",
+      "stname": "ImPlot3DBox"
+    }
+  ],
+  "ImPlot3DBox_Contains": [
+    {
+      "args": "(ImPlot3DBox* self,const ImPlot3DPoint point)",
+      "argsT": [
+        {
+          "name": "self",
+          "type": "ImPlot3DBox*"
+        },
+        {
+          "name": "point",
+          "type": "const ImPlot3DPoint"
+        }
+      ],
+      "argsoriginal": "(const ImPlot3DPoint& point)",
+      "call_args": "(point)",
+      "cimguiname": "ImPlot3DBox_Contains",
+      "defaults": {},
+      "funcname": "Contains",
+      "location": "implot3d:628",
+      "ov_cimguiname": "ImPlot3DBox_Contains",
+      "ret": "bool",
+      "signature": "(const ImPlot3DPoint)const",
+      "stname": "ImPlot3DBox"
+    }
+  ],
+  "ImPlot3DBox_Expand": [
+    {
+      "args": "(ImPlot3DBox* self,const ImPlot3DPoint point)",
+      "argsT": [
+        {
+          "name": "self",
+          "type": "ImPlot3DBox*"
+        },
+        {
+          "name": "point",
+          "type": "const ImPlot3DPoint"
+        }
+      ],
+      "argsoriginal": "(const ImPlot3DPoint& point)",
+      "call_args": "(point)",
+      "cimguiname": "ImPlot3DBox_Expand",
+      "defaults": {},
+      "funcname": "Expand",
+      "location": "implot3d:625",
+      "ov_cimguiname": "ImPlot3DBox_Expand",
+      "ret": "void",
+      "signature": "(const ImPlot3DPoint)",
+      "stname": "ImPlot3DBox"
+    }
+  ],
+  "ImPlot3DBox_ImPlot3DBox": [
+    {
+      "args": "()",
+      "argsT": [],
+      "argsoriginal": "()",
+      "call_args": "()",
+      "cimguiname": "ImPlot3DBox_ImPlot3DBox",
+      "constructor": true,
+      "defaults": {},
+      "funcname": "ImPlot3DBox",
+      "location": "implot3d:619",
+      "ov_cimguiname": "ImPlot3DBox_ImPlot3DBox_Nil",
+      "signature": "()",
+      "stname": "ImPlot3DBox"
+    },
+    {
+      "args": "(const ImPlot3DPoint min,const ImPlot3DPoint max)",
+      "argsT": [
+        {
+          "name": "min",
+          "type": "const ImPlot3DPoint"
+        },
+        {
+          "name": "max",
+          "type": "const ImPlot3DPoint"
+        }
+      ],
+      "argsoriginal": "(const ImPlot3DPoint& min,const ImPlot3DPoint& max)",
+      "call_args": "(min,max)",
+      "cimguiname": "ImPlot3DBox_ImPlot3DBox",
+      "constructor": true,
+      "defaults": {},
+      "funcname": "ImPlot3DBox",
+      "location": "implot3d:622",
+      "ov_cimguiname": "ImPlot3DBox_ImPlot3DBox_Plot3DPoInt",
+      "signature": "(const ImPlot3DPoint,const ImPlot3DPoint)",
+      "stname": "ImPlot3DBox"
+    }
+  ],
+  "ImPlot3DBox_destroy": [
+    {
+      "args": "(ImPlot3DBox* self)",
+      "argsT": [
+        {
+          "name": "self",
+          "type": "ImPlot3DBox*"
+        }
+      ],
+      "call_args": "(self)",
+      "cimguiname": "ImPlot3DBox_destroy",
+      "defaults": {},
+      "destructor": true,
+      "location": "implot3d:619",
+      "ov_cimguiname": "ImPlot3DBox_destroy",
+      "ret": "void",
+      "signature": "(ImPlot3DBox*)",
+      "stname": "ImPlot3DBox"
+    }
+  ],
+  "ImPlot3DPoint_Cross": [
+    {
+      "args": "(ImPlot3DPoint *pOut,ImPlot3DPoint* self,const ImPlot3DPoint rhs)",
+      "argsT": [
+        {
+          "name": "pOut",
+          "type": "ImPlot3DPoint*"
+        },
+        {
+          "name": "self",
+          "type": "ImPlot3DPoint*"
+        },
+        {
+          "name": "rhs",
+          "type": "const ImPlot3DPoint"
+        }
+      ],
+      "argsoriginal": "(const ImPlot3DPoint& rhs)",
+      "call_args": "(rhs)",
+      "cimguiname": "ImPlot3DPoint_Cross",
+      "defaults": {},
+      "funcname": "Cross",
+      "location": "implot3d:567",
+      "nonUDT": 1,
+      "ov_cimguiname": "ImPlot3DPoint_Cross",
+      "ret": "void",
+      "signature": "(const ImPlot3DPoint)const",
+      "stname": "ImPlot3DPoint"
+    }
+  ],
+  "ImPlot3DPoint_Dot": [
+    {
+      "args": "(ImPlot3DPoint* self,const ImPlot3DPoint rhs)",
+      "argsT": [
+        {
+          "name": "self",
+          "type": "ImPlot3DPoint*"
+        },
+        {
+          "name": "rhs",
+          "type": "const ImPlot3DPoint"
+        }
+      ],
+      "argsoriginal": "(const ImPlot3DPoint& rhs)",
+      "call_args": "(rhs)",
+      "cimguiname": "ImPlot3DPoint_Dot",
+      "defaults": {},
+      "funcname": "Dot",
+      "location": "implot3d:564",
+      "ov_cimguiname": "ImPlot3DPoint_Dot",
+      "ret": "float",
+      "signature": "(const ImPlot3DPoint)const",
+      "stname": "ImPlot3DPoint"
+    }
+  ],
+  "ImPlot3DPoint_ImPlot3DPoint": [
+    {
+      "args": "()",
+      "argsT": [],
+      "argsoriginal": "()",
+      "call_args": "()",
+      "cimguiname": "ImPlot3DPoint_ImPlot3DPoint",
+      "constructor": true,
+      "defaults": {},
+      "funcname": "ImPlot3DPoint",
+      "location": "implot3d:527",
+      "ov_cimguiname": "ImPlot3DPoint_ImPlot3DPoint_Nil",
+      "signature": "()",
+      "stname": "ImPlot3DPoint"
+    },
+    {
+      "args": "(float _x,float _y,float _z)",
+      "argsT": [
+        {
+          "name": "_x",
+          "type": "float"
+        },
+        {
+          "name": "_y",
+          "type": "float"
+        },
+        {
+          "name": "_z",
+          "type": "float"
+        }
+      ],
+      "argsoriginal": "(float _x,float _y,float _z)",
+      "call_args": "(_x,_y,_z)",
+      "cimguiname": "ImPlot3DPoint_ImPlot3DPoint",
+      "constructor": true,
+      "defaults": {},
+      "funcname": "ImPlot3DPoint",
+      "location": "implot3d:528",
+      "ov_cimguiname": "ImPlot3DPoint_ImPlot3DPoint_Float",
+      "signature": "(float,float,float)",
+      "stname": "ImPlot3DPoint"
+    }
+  ],
+  "ImPlot3DPoint_IsNaN": [
+    {
+      "args": "(ImPlot3DPoint* self)",
+      "argsT": [
+        {
+          "name": "self",
+          "type": "ImPlot3DPoint*"
+        }
+      ],
+      "argsoriginal": "()",
+      "call_args": "()",
+      "cimguiname": "ImPlot3DPoint_IsNaN",
+      "defaults": {},
+      "funcname": "IsNaN",
+      "location": "implot3d:585",
+      "ov_cimguiname": "ImPlot3DPoint_IsNaN",
+      "ret": "bool",
+      "signature": "()const",
+      "stname": "ImPlot3DPoint"
+    }
+  ],
+  "ImPlot3DPoint_Length": [
+    {
+      "args": "(ImPlot3DPoint* self)",
+      "argsT": [
+        {
+          "name": "self",
+          "type": "ImPlot3DPoint*"
+        }
+      ],
+      "argsoriginal": "()",
+      "call_args": "()",
+      "cimguiname": "ImPlot3DPoint_Length",
+      "defaults": {},
+      "funcname": "Length",
+      "location": "implot3d:570",
+      "ov_cimguiname": "ImPlot3DPoint_Length",
+      "ret": "float",
+      "signature": "()const",
+      "stname": "ImPlot3DPoint"
+    }
+  ],
+  "ImPlot3DPoint_LengthSquared": [
+    {
+      "args": "(ImPlot3DPoint* self)",
+      "argsT": [
+        {
+          "name": "self",
+          "type": "ImPlot3DPoint*"
+        }
+      ],
+      "argsoriginal": "()",
+      "call_args": "()",
+      "cimguiname": "ImPlot3DPoint_LengthSquared",
+      "defaults": {},
+      "funcname": "LengthSquared",
+      "location": "implot3d:573",
+      "ov_cimguiname": "ImPlot3DPoint_LengthSquared",
+      "ret": "float",
+      "signature": "()const",
+      "stname": "ImPlot3DPoint"
+    }
+  ],
+  "ImPlot3DPoint_Normalize": [
+    {
+      "args": "(ImPlot3DPoint* self)",
+      "argsT": [
+        {
+          "name": "self",
+          "type": "ImPlot3DPoint*"
+        }
+      ],
+      "argsoriginal": "()",
+      "call_args": "()",
+      "cimguiname": "ImPlot3DPoint_Normalize",
+      "defaults": {},
+      "funcname": "Normalize",
+      "location": "implot3d:576",
+      "ov_cimguiname": "ImPlot3DPoint_Normalize",
+      "ret": "void",
+      "signature": "()",
+      "stname": "ImPlot3DPoint"
+    }
+  ],
+  "ImPlot3DPoint_Normalized": [
+    {
+      "args": "(ImPlot3DPoint *pOut,ImPlot3DPoint* self)",
+      "argsT": [
+        {
+          "name": "pOut",
+          "type": "ImPlot3DPoint*"
+        },
+        {
+          "name": "self",
+          "type": "ImPlot3DPoint*"
+        }
+      ],
+      "argsoriginal": "()",
+      "call_args": "()",
+      "cimguiname": "ImPlot3DPoint_Normalized",
+      "defaults": {},
+      "funcname": "Normalized",
+      "location": "implot3d:579",
+      "nonUDT": 1,
+      "ov_cimguiname": "ImPlot3DPoint_Normalized",
+      "ret": "void",
+      "signature": "()const",
+      "stname": "ImPlot3DPoint"
+    }
+  ],
+  "ImPlot3DPoint_destroy": [
+    {
+      "args": "(ImPlot3DPoint* self)",
+      "argsT": [
+        {
+          "name": "self",
+          "type": "ImPlot3DPoint*"
+        }
+      ],
+      "call_args": "(self)",
+      "cimguiname": "ImPlot3DPoint_destroy",
+      "defaults": {},
+      "destructor": true,
+      "location": "implot3d:527",
+      "ov_cimguiname": "ImPlot3DPoint_destroy",
+      "ret": "void",
+      "signature": "(ImPlot3DPoint*)",
+      "stname": "ImPlot3DPoint"
+    }
+  ],
+  "ImPlot3DQuat_Conjugate": [
+    {
+      "args": "(ImPlot3DQuat *pOut,ImPlot3DQuat* self)",
+      "argsT": [
+        {
+          "name": "pOut",
+          "type": "ImPlot3DQuat*"
+        },
+        {
+          "name": "self",
+          "type": "ImPlot3DQuat*"
+        }
+      ],
+      "argsoriginal": "()",
+      "call_args": "()",
+      "cimguiname": "ImPlot3DQuat_Conjugate",
+      "defaults": {},
+      "funcname": "Conjugate",
+      "location": "implot3d:673",
+      "nonUDT": 1,
+      "ov_cimguiname": "ImPlot3DQuat_Conjugate",
+      "ret": "void",
+      "signature": "()const",
+      "stname": "ImPlot3DQuat"
+    }
+  ],
+  "ImPlot3DQuat_Dot": [
+    {
+      "args": "(ImPlot3DQuat* self,const ImPlot3DQuat rhs)",
+      "argsT": [
+        {
+          "name": "self",
+          "type": "ImPlot3DQuat*"
+        },
+        {
+          "name": "rhs",
+          "type": "const ImPlot3DQuat"
+        }
+      ],
+      "argsoriginal": "(const ImPlot3DQuat& rhs)",
+      "call_args": "(rhs)",
+      "cimguiname": "ImPlot3DQuat_Dot",
+      "defaults": {},
+      "funcname": "Dot",
+      "location": "implot3d:695",
+      "ov_cimguiname": "ImPlot3DQuat_Dot",
+      "ret": "float",
+      "signature": "(const ImPlot3DQuat)const",
+      "stname": "ImPlot3DQuat"
+    }
+  ],
+  "ImPlot3DQuat_FromTwoVectors": [
+    {
+      "args": "(ImPlot3DQuat *pOut,const ImPlot3DPoint v0,const ImPlot3DPoint v1)",
+      "argsT": [
+        {
+          "name": "pOut",
+          "type": "ImPlot3DQuat*"
+        },
+        {
+          "name": "v0",
+          "type": "const ImPlot3DPoint"
+        },
+        {
+          "name": "v1",
+          "type": "const ImPlot3DPoint"
+        }
+      ],
+      "argsoriginal": "(const ImPlot3DPoint& v0,const ImPlot3DPoint& v1)",
+      "call_args": "(v0,v1)",
+      "cimguiname": "ImPlot3DQuat_FromTwoVectors",
+      "defaults": {},
+      "funcname": "FromTwoVectors",
+      "is_static_function": true,
+      "location": "implot3d:664",
+      "nonUDT": 1,
+      "ov_cimguiname": "ImPlot3DQuat_FromTwoVectors",
+      "ret": "void",
+      "signature": "(const ImPlot3DPoint,const ImPlot3DPoint)",
+      "stname": "ImPlot3DQuat"
+    }
+  ],
+  "ImPlot3DQuat_ImPlot3DQuat": [
+    {
+      "args": "()",
+      "argsT": [],
+      "argsoriginal": "()",
+      "call_args": "()",
+      "cimguiname": "ImPlot3DQuat_ImPlot3DQuat",
+      "constructor": true,
+      "defaults": {},
+      "funcname": "ImPlot3DQuat",
+      "location": "implot3d:658",
+      "ov_cimguiname": "ImPlot3DQuat_ImPlot3DQuat_Nil",
+      "signature": "()",
+      "stname": "ImPlot3DQuat"
+    },
+    {
+      "args": "(float _x,float _y,float _z,float _w)",
+      "argsT": [
+        {
+          "name": "_x",
+          "type": "float"
+        },
+        {
+          "name": "_y",
+          "type": "float"
+        },
+        {
+          "name": "_z",
+          "type": "float"
+        },
+        {
+          "name": "_w",
+          "type": "float"
+        }
+      ],
+      "argsoriginal": "(float _x,float _y,float _z,float _w)",
+      "call_args": "(_x,_y,_z,_w)",
+      "cimguiname": "ImPlot3DQuat_ImPlot3DQuat",
+      "constructor": true,
+      "defaults": {},
+      "funcname": "ImPlot3DQuat",
+      "location": "implot3d:659",
+      "ov_cimguiname": "ImPlot3DQuat_ImPlot3DQuat_FloatFloat",
+      "signature": "(float,float,float,float)",
+      "stname": "ImPlot3DQuat"
+    },
+    {
+      "args": "(float _angle,const ImPlot3DPoint _axis)",
+      "argsT": [
+        {
+          "name": "_angle",
+          "type": "float"
+        },
+        {
+          "name": "_axis",
+          "type": "const ImPlot3DPoint"
+        }
+      ],
+      "argsoriginal": "(float _angle,const ImPlot3DPoint& _axis)",
+      "call_args": "(_angle,_axis)",
+      "cimguiname": "ImPlot3DQuat_ImPlot3DQuat",
+      "constructor": true,
+      "defaults": {},
+      "funcname": "ImPlot3DQuat",
+      "location": "implot3d:661",
+      "ov_cimguiname": "ImPlot3DQuat_ImPlot3DQuat_FloatPlot3DPoInt",
+      "signature": "(float,const ImPlot3DPoint)",
+      "stname": "ImPlot3DQuat"
+    }
+  ],
+  "ImPlot3DQuat_Inverse": [
+    {
+      "args": "(ImPlot3DQuat *pOut,ImPlot3DQuat* self)",
+      "argsT": [
+        {
+          "name": "pOut",
+          "type": "ImPlot3DQuat*"
+        },
+        {
+          "name": "self",
+          "type": "ImPlot3DQuat*"
+        }
+      ],
+      "argsoriginal": "()",
+      "call_args": "()",
+      "cimguiname": "ImPlot3DQuat_Inverse",
+      "defaults": {},
+      "funcname": "Inverse",
+      "location": "implot3d:676",
+      "nonUDT": 1,
+      "ov_cimguiname": "ImPlot3DQuat_Inverse",
+      "ret": "void",
+      "signature": "()const",
+      "stname": "ImPlot3DQuat"
+    }
+  ],
+  "ImPlot3DQuat_Length": [
+    {
+      "args": "(ImPlot3DQuat* self)",
+      "argsT": [
+        {
+          "name": "self",
+          "type": "ImPlot3DQuat*"
+        }
+      ],
+      "argsoriginal": "()",
+      "call_args": "()",
+      "cimguiname": "ImPlot3DQuat_Length",
+      "defaults": {},
+      "funcname": "Length",
+      "location": "implot3d:667",
+      "ov_cimguiname": "ImPlot3DQuat_Length",
+      "ret": "float",
+      "signature": "()const",
+      "stname": "ImPlot3DQuat"
+    }
+  ],
+  "ImPlot3DQuat_Normalize": [
+    {
+      "args": "(ImPlot3DQuat* self)",
+      "argsT": [
+        {
+          "name": "self",
+          "type": "ImPlot3DQuat*"
+        }
+      ],
+      "argsoriginal": "()",
+      "call_args": "()",
+      "cimguiname": "ImPlot3DQuat_Normalize",
+      "defaults": {},
+      "funcname": "Normalize",
+      "location": "implot3d:682",
+      "ov_cimguiname": "ImPlot3DQuat_Normalize",
+      "ret": "ImPlot3DQuat*",
+      "retref": "&",
+      "signature": "()",
+      "stname": "ImPlot3DQuat"
+    }
+  ],
+  "ImPlot3DQuat_Normalized": [
+    {
+      "args": "(ImPlot3DQuat *pOut,ImPlot3DQuat* self)",
+      "argsT": [
+        {
+          "name": "pOut",
+          "type": "ImPlot3DQuat*"
+        },
+        {
+          "name": "self",
+          "type": "ImPlot3DQuat*"
+        }
+      ],
+      "argsoriginal": "()",
+      "call_args": "()",
+      "cimguiname": "ImPlot3DQuat_Normalized",
+      "defaults": {},
+      "funcname": "Normalized",
+      "location": "implot3d:670",
+      "nonUDT": 1,
+      "ov_cimguiname": "ImPlot3DQuat_Normalized",
+      "ret": "void",
+      "signature": "()const",
+      "stname": "ImPlot3DQuat"
+    }
+  ],
+  "ImPlot3DQuat_Slerp": [
+    {
+      "args": "(ImPlot3DQuat *pOut,const ImPlot3DQuat q1,const ImPlot3DQuat q2,float t)",
+      "argsT": [
+        {
+          "name": "pOut",
+          "type": "ImPlot3DQuat*"
+        },
+        {
+          "name": "q1",
+          "type": "const ImPlot3DQuat"
+        },
+        {
+          "name": "q2",
+          "type": "const ImPlot3DQuat"
+        },
+        {
+          "name": "t",
+          "type": "float"
+        }
+      ],
+      "argsoriginal": "(const ImPlot3DQuat& q1,const ImPlot3DQuat& q2,float t)",
+      "call_args": "(q1,q2,t)",
+      "cimguiname": "ImPlot3DQuat_Slerp",
+      "defaults": {},
+      "funcname": "Slerp",
+      "is_static_function": true,
+      "location": "implot3d:692",
+      "nonUDT": 1,
+      "ov_cimguiname": "ImPlot3DQuat_Slerp",
+      "ret": "void",
+      "signature": "(const ImPlot3DQuat,const ImPlot3DQuat,float)",
+      "stname": "ImPlot3DQuat"
+    }
+  ],
+  "ImPlot3DQuat_destroy": [
+    {
+      "args": "(ImPlot3DQuat* self)",
+      "argsT": [
+        {
+          "name": "self",
+          "type": "ImPlot3DQuat*"
+        }
+      ],
+      "call_args": "(self)",
+      "cimguiname": "ImPlot3DQuat_destroy",
+      "defaults": {},
+      "destructor": true,
+      "location": "implot3d:658",
+      "ov_cimguiname": "ImPlot3DQuat_destroy",
+      "ret": "void",
+      "signature": "(ImPlot3DQuat*)",
+      "stname": "ImPlot3DQuat"
+    }
+  ],
+  "ImPlot3DRange_Contains": [
+    {
+      "args": "(ImPlot3DRange* self,float value)",
+      "argsT": [
+        {
+          "name": "self",
+          "type": "ImPlot3DRange*"
+        },
+        {
+          "name": "value",
+          "type": "float"
+        }
+      ],
+      "argsoriginal": "(float value)",
+      "call_args": "(value)",
+      "cimguiname": "ImPlot3DRange_Contains",
+      "defaults": {},
+      "funcname": "Contains",
+      "location": "implot3d:646",
+      "ov_cimguiname": "ImPlot3DRange_Contains",
+      "ret": "bool",
+      "signature": "(float)const",
+      "stname": "ImPlot3DRange"
+    }
+  ],
+  "ImPlot3DRange_Expand": [
+    {
+      "args": "(ImPlot3DRange* self,float value)",
+      "argsT": [
+        {
+          "name": "self",
+          "type": "ImPlot3DRange*"
+        },
+        {
+          "name": "value",
+          "type": "float"
+        }
+      ],
+      "argsoriginal": "(float value)",
+      "call_args": "(value)",
+      "cimguiname": "ImPlot3DRange_Expand",
+      "defaults": {},
+      "funcname": "Expand",
+      "location": "implot3d:645",
+      "ov_cimguiname": "ImPlot3DRange_Expand",
+      "ret": "void",
+      "signature": "(float)",
+      "stname": "ImPlot3DRange"
+    }
+  ],
+  "ImPlot3DRange_ImPlot3DRange": [
+    {
+      "args": "()",
+      "argsT": [],
+      "argsoriginal": "()",
+      "call_args": "()",
+      "cimguiname": "ImPlot3DRange_ImPlot3DRange",
+      "constructor": true,
+      "defaults": {},
+      "funcname": "ImPlot3DRange",
+      "location": "implot3d:642",
+      "ov_cimguiname": "ImPlot3DRange_ImPlot3DRange_Nil",
+      "signature": "()",
+      "stname": "ImPlot3DRange"
+    },
+    {
+      "args": "(float min,float max)",
+      "argsT": [
+        {
+          "name": "min",
+          "type": "float"
+        },
+        {
+          "name": "max",
+          "type": "float"
+        }
+      ],
+      "argsoriginal": "(float min,float max)",
+      "call_args": "(min,max)",
+      "cimguiname": "ImPlot3DRange_ImPlot3DRange",
+      "constructor": true,
+      "defaults": {},
+      "funcname": "ImPlot3DRange",
+      "location": "implot3d:643",
+      "ov_cimguiname": "ImPlot3DRange_ImPlot3DRange_Float",
+      "signature": "(float,float)",
+      "stname": "ImPlot3DRange"
+    }
+  ],
+  "ImPlot3DRange_Size": [
+    {
+      "args": "(ImPlot3DRange* self)",
+      "argsT": [
+        {
+          "name": "self",
+          "type": "ImPlot3DRange*"
+        }
+      ],
+      "argsoriginal": "()",
+      "call_args": "()",
+      "cimguiname": "ImPlot3DRange_Size",
+      "defaults": {},
+      "funcname": "Size",
+      "location": "implot3d:647",
+      "ov_cimguiname": "ImPlot3DRange_Size",
+      "ret": "float",
+      "signature": "()const",
+      "stname": "ImPlot3DRange"
+    }
+  ],
+  "ImPlot3DRange_destroy": [
+    {
+      "args": "(ImPlot3DRange* self)",
+      "argsT": [
+        {
+          "name": "self",
+          "type": "ImPlot3DRange*"
+        }
+      ],
+      "call_args": "(self)",
+      "cimguiname": "ImPlot3DRange_destroy",
+      "defaults": {},
+      "destructor": true,
+      "location": "implot3d:642",
+      "ov_cimguiname": "ImPlot3DRange_destroy",
+      "ret": "void",
+      "signature": "(ImPlot3DRange*)",
+      "stname": "ImPlot3DRange"
+    }
+  ],
+  "ImPlot3DStyle_ImPlot3DStyle": [
+    {
+      "args": "()",
+      "argsT": [],
+      "argsoriginal": "()",
+      "call_args": "()",
+      "cimguiname": "ImPlot3DStyle_ImPlot3DStyle",
+      "constructor": true,
+      "defaults": {},
+      "funcname": "ImPlot3DStyle",
+      "location": "implot3d:727",
+      "ov_cimguiname": "ImPlot3DStyle_ImPlot3DStyle",
+      "signature": "()",
+      "stname": "ImPlot3DStyle"
+    }
+  ],
+  "ImPlot3DStyle_destroy": [
+    {
+      "args": "(ImPlot3DStyle* self)",
+      "argsT": [
+        {
+          "name": "self",
+          "type": "ImPlot3DStyle*"
+        }
+      ],
+      "call_args": "(self)",
+      "cimguiname": "ImPlot3DStyle_destroy",
+      "defaults": {},
+      "destructor": true,
+      "location": "implot3d:727",
+      "ov_cimguiname": "ImPlot3DStyle_destroy",
+      "ret": "void",
+      "signature": "(ImPlot3DStyle*)",
+      "stname": "ImPlot3DStyle"
+    }
+  ],
+  "ImPlot3D_AddColormap": [
+    {
+      "args": "(const char* name,const ImVec4* cols,int size,bool qual)",
+      "argsT": [
+        {
+          "name": "name",
+          "type": "const char*"
+        },
+        {
+          "name": "cols",
+          "type": "const ImVec4*"
+        },
+        {
+          "name": "size",
+          "type": "int"
+        },
+        {
+          "name": "qual",
+          "type": "bool"
+        }
+      ],
+      "argsoriginal": "(const char* name,const ImVec4* cols,int size,bool qual=true)",
+      "call_args": "(name,cols,size,qual)",
+      "cimguiname": "ImPlot3D_AddColormap",
+      "defaults": {
+        "qual": "true"
+      },
+      "funcname": "AddColormap",
+      "location": "implot3d:479",
+      "namespace": "ImPlot3D",
+      "ov_cimguiname": "ImPlot3D_AddColormap_Vec4Ptr",
+      "ret": "ImPlot3DColormap",
+      "signature": "(const char*,const ImVec4*,int,bool)",
+      "stname": ""
+    },
+    {
+      "args": "(const char* name,const ImU32* cols,int size,bool qual)",
+      "argsT": [
+        {
+          "name": "name",
+          "type": "const char*"
+        },
+        {
+          "name": "cols",
+          "type": "const ImU32*"
+        },
+        {
+          "name": "size",
+          "type": "int"
+        },
+        {
+          "name": "qual",
+          "type": "bool"
+        }
+      ],
+      "argsoriginal": "(const char* name,const ImU32* cols,int size,bool qual=true)",
+      "call_args": "(name,cols,size,qual)",
+      "cimguiname": "ImPlot3D_AddColormap",
+      "defaults": {
+        "qual": "true"
+      },
+      "funcname": "AddColormap",
+      "location": "implot3d:480",
+      "namespace": "ImPlot3D",
+      "ov_cimguiname": "ImPlot3D_AddColormap_U32Ptr",
+      "ret": "ImPlot3DColormap",
+      "signature": "(const char*,const ImU32*,int,bool)",
+      "stname": ""
+    }
+  ],
+  "ImPlot3D_BeginPlot": [
+    {
+      "args": "(const char* title_id,const ImVec2 size,ImPlot3DFlags flags)",
+      "argsT": [
+        {
+          "name": "title_id",
+          "type": "const char*"
+        },
+        {
+          "name": "size",
+          "type": "const ImVec2"
+        },
+        {
+          "name": "flags",
+          "type": "ImPlot3DFlags"
+        }
+      ],
+      "argsoriginal": "(const char* title_id,const ImVec2& size=ImVec2(-1,0),ImPlot3DFlags flags=0)",
+      "call_args": "(title_id,size,flags)",
+      "cimguiname": "ImPlot3D_BeginPlot",
+      "defaults": {
+        "flags": "0",
+        "size": "ImVec2(-1,0)"
+      },
+      "funcname": "BeginPlot",
+      "location": "implot3d:328",
+      "namespace": "ImPlot3D",
+      "ov_cimguiname": "ImPlot3D_BeginPlot",
+      "ret": "bool",
+      "signature": "(const char*,const ImVec2,ImPlot3DFlags)",
+      "stname": ""
+    }
+  ],
+  "ImPlot3D_CreateContext": [
+    {
+      "args": "()",
+      "argsT": [],
+      "argsoriginal": "()",
+      "call_args": "()",
+      "cimguiname": "ImPlot3D_CreateContext",
+      "defaults": {},
+      "funcname": "CreateContext",
+      "location": "implot3d:305",
+      "namespace": "ImPlot3D",
+      "ov_cimguiname": "ImPlot3D_CreateContext",
+      "ret": "ImPlot3DContext*",
+      "signature": "()",
+      "stname": ""
+    }
+  ],
+  "ImPlot3D_DestroyContext": [
+    {
+      "args": "(ImPlot3DContext* ctx)",
+      "argsT": [
+        {
+          "name": "ctx",
+          "type": "ImPlot3DContext*"
+        }
+      ],
+      "argsoriginal": "(ImPlot3DContext* ctx=nullptr)",
+      "call_args": "(ctx)",
+      "cimguiname": "ImPlot3D_DestroyContext",
+      "defaults": {
+        "ctx": "nullptr"
+      },
+      "funcname": "DestroyContext",
+      "location": "implot3d:306",
+      "namespace": "ImPlot3D",
+      "ov_cimguiname": "ImPlot3D_DestroyContext",
+      "ret": "void",
+      "signature": "(ImPlot3DContext*)",
+      "stname": ""
+    }
+  ],
+  "ImPlot3D_EndPlot": [
+    {
+      "args": "()",
+      "argsT": [],
+      "argsoriginal": "()",
+      "call_args": "()",
+      "cimguiname": "ImPlot3D_EndPlot",
+      "defaults": {},
+      "funcname": "EndPlot",
+      "location": "implot3d:329",
+      "namespace": "ImPlot3D",
+      "ov_cimguiname": "ImPlot3D_EndPlot",
+      "ret": "void",
+      "signature": "()",
+      "stname": ""
+    }
+  ],
+  "ImPlot3D_GetColormapColor": [
+    {
+      "args": "(ImVec4 *pOut,int idx,ImPlot3DColormap cmap)",
+      "argsT": [
+        {
+          "name": "pOut",
+          "type": "ImVec4*"
+        },
+        {
+          "name": "idx",
+          "type": "int"
+        },
+        {
+          "name": "cmap",
+          "type": "ImPlot3DColormap"
+        }
+      ],
+      "argsoriginal": "(int idx,ImPlot3DColormap cmap=-1)",
+      "call_args": "(idx,cmap)",
+      "cimguiname": "ImPlot3D_GetColormapColor",
+      "defaults": {
+        "cmap": "-1"
+      },
+      "funcname": "GetColormapColor",
+      "location": "implot3d:503",
+      "namespace": "ImPlot3D",
+      "nonUDT": 1,
+      "ov_cimguiname": "ImPlot3D_GetColormapColor",
+      "ret": "void",
+      "signature": "(int,ImPlot3DColormap)",
+      "stname": ""
+    }
+  ],
+  "ImPlot3D_GetColormapCount": [
+    {
+      "args": "()",
+      "argsT": [],
+      "argsoriginal": "()",
+      "call_args": "()",
+      "cimguiname": "ImPlot3D_GetColormapCount",
+      "defaults": {},
+      "funcname": "GetColormapCount",
+      "location": "implot3d:483",
+      "namespace": "ImPlot3D",
+      "ov_cimguiname": "ImPlot3D_GetColormapCount",
+      "ret": "int",
+      "signature": "()",
+      "stname": ""
+    }
+  ],
+  "ImPlot3D_GetColormapIndex": [
+    {
+      "args": "(const char* name)",
+      "argsT": [
+        {
+          "name": "name",
+          "type": "const char*"
+        }
+      ],
+      "argsoriginal": "(const char* name)",
+      "call_args": "(name)",
+      "cimguiname": "ImPlot3D_GetColormapIndex",
+      "defaults": {},
+      "funcname": "GetColormapIndex",
+      "location": "implot3d:487",
+      "namespace": "ImPlot3D",
+      "ov_cimguiname": "ImPlot3D_GetColormapIndex",
+      "ret": "ImPlot3DColormap",
+      "signature": "(const char*)",
+      "stname": ""
+    }
+  ],
+  "ImPlot3D_GetColormapName": [
+    {
+      "args": "(ImPlot3DColormap cmap)",
+      "argsT": [
+        {
+          "name": "cmap",
+          "type": "ImPlot3DColormap"
+        }
+      ],
+      "argsoriginal": "(ImPlot3DColormap cmap)",
+      "call_args": "(cmap)",
+      "cimguiname": "ImPlot3D_GetColormapName",
+      "defaults": {},
+      "funcname": "GetColormapName",
+      "location": "implot3d:485",
+      "namespace": "ImPlot3D",
+      "ov_cimguiname": "ImPlot3D_GetColormapName",
+      "ret": "const char*",
+      "signature": "(ImPlot3DColormap)",
+      "stname": ""
+    }
+  ],
+  "ImPlot3D_GetColormapSize": [
+    {
+      "args": "(ImPlot3DColormap cmap)",
+      "argsT": [
+        {
+          "name": "cmap",
+          "type": "ImPlot3DColormap"
+        }
+      ],
+      "argsoriginal": "(ImPlot3DColormap cmap=-1)",
+      "call_args": "(cmap)",
+      "cimguiname": "ImPlot3D_GetColormapSize",
+      "defaults": {
+        "cmap": "-1"
+      },
+      "funcname": "GetColormapSize",
+      "location": "implot3d:501",
+      "namespace": "ImPlot3D",
+      "ov_cimguiname": "ImPlot3D_GetColormapSize",
+      "ret": "int",
+      "signature": "(ImPlot3DColormap)",
+      "stname": ""
+    }
+  ],
+  "ImPlot3D_GetCurrentContext": [
+    {
+      "args": "()",
+      "argsT": [],
+      "argsoriginal": "()",
+      "call_args": "()",
+      "cimguiname": "ImPlot3D_GetCurrentContext",
+      "defaults": {},
+      "funcname": "GetCurrentContext",
+      "location": "implot3d:307",
+      "namespace": "ImPlot3D",
+      "ov_cimguiname": "ImPlot3D_GetCurrentContext",
+      "ret": "ImPlot3DContext*",
+      "signature": "()",
+      "stname": ""
+    }
+  ],
+  "ImPlot3D_GetPlotDrawList": [
+    {
+      "args": "()",
+      "argsT": [],
+      "argsoriginal": "()",
+      "call_args": "()",
+      "cimguiname": "ImPlot3D_GetPlotDrawList",
+      "defaults": {},
+      "funcname": "GetPlotDrawList",
+      "location": "implot3d:419",
+      "namespace": "ImPlot3D",
+      "ov_cimguiname": "ImPlot3D_GetPlotDrawList",
+      "ret": "ImDrawList*",
+      "signature": "()",
+      "stname": ""
+    }
+  ],
+  "ImPlot3D_GetPlotPos": [
+    {
+      "args": "(ImVec2 *pOut)",
+      "argsT": [
+        {
+          "name": "pOut",
+          "type": "ImVec2*"
+        }
+      ],
+      "argsoriginal": "()",
+      "call_args": "()",
+      "cimguiname": "ImPlot3D_GetPlotPos",
+      "defaults": {},
+      "funcname": "GetPlotPos",
+      "location": "implot3d:412",
+      "namespace": "ImPlot3D",
+      "nonUDT": 1,
+      "ov_cimguiname": "ImPlot3D_GetPlotPos",
+      "ret": "void",
+      "signature": "()",
+      "stname": ""
+    }
+  ],
+  "ImPlot3D_GetPlotSize": [
+    {
+      "args": "(ImVec2 *pOut)",
+      "argsT": [
+        {
+          "name": "pOut",
+          "type": "ImVec2*"
+        }
+      ],
+      "argsoriginal": "()",
+      "call_args": "()",
+      "cimguiname": "ImPlot3D_GetPlotSize",
+      "defaults": {},
+      "funcname": "GetPlotSize",
+      "location": "implot3d:413",
+      "namespace": "ImPlot3D",
+      "nonUDT": 1,
+      "ov_cimguiname": "ImPlot3D_GetPlotSize",
+      "ret": "void",
+      "signature": "()",
+      "stname": ""
+    }
+  ],
+  "ImPlot3D_GetStyle": [
+    {
+      "args": "()",
+      "argsT": [],
+      "argsoriginal": "()",
+      "call_args": "()",
+      "cimguiname": "ImPlot3D_GetStyle",
+      "defaults": {},
+      "funcname": "GetStyle",
+      "location": "implot3d:426",
+      "namespace": "ImPlot3D",
+      "ov_cimguiname": "ImPlot3D_GetStyle",
+      "ret": "ImPlot3DStyle*",
+      "retref": "&",
+      "signature": "()",
+      "stname": ""
+    }
+  ],
+  "ImPlot3D_GetStyleColorU32": [
+    {
+      "args": "(ImPlot3DCol idx)",
+      "argsT": [
+        {
+          "name": "idx",
+          "type": "ImPlot3DCol"
+        }
+      ],
+      "argsoriginal": "(ImPlot3DCol idx)",
+      "call_args": "(idx)",
+      "cimguiname": "ImPlot3D_GetStyleColorU32",
+      "defaults": {},
+      "funcname": "GetStyleColorU32",
+      "location": "implot3d:458",
+      "namespace": "ImPlot3D",
+      "ov_cimguiname": "ImPlot3D_GetStyleColorU32",
+      "ret": "ImU32",
+      "signature": "(ImPlot3DCol)",
+      "stname": ""
+    }
+  ],
+  "ImPlot3D_GetStyleColorVec4": [
+    {
+      "args": "(ImVec4 *pOut,ImPlot3DCol idx)",
+      "argsT": [
+        {
+          "name": "pOut",
+          "type": "ImVec4*"
+        },
+        {
+          "name": "idx",
+          "type": "ImPlot3DCol"
+        }
+      ],
+      "argsoriginal": "(ImPlot3DCol idx)",
+      "call_args": "(idx)",
+      "cimguiname": "ImPlot3D_GetStyleColorVec4",
+      "defaults": {},
+      "funcname": "GetStyleColorVec4",
+      "location": "implot3d:457",
+      "namespace": "ImPlot3D",
+      "nonUDT": 1,
+      "ov_cimguiname": "ImPlot3D_GetStyleColorVec4",
+      "ret": "void",
+      "signature": "(ImPlot3DCol)",
+      "stname": ""
+    }
+  ],
+  "ImPlot3D_NextColormapColor": [
+    {
+      "args": "(ImVec4 *pOut)",
+      "argsT": [
+        {
+          "name": "pOut",
+          "type": "ImVec4*"
+        }
+      ],
+      "argsoriginal": "()",
+      "call_args": "()",
+      "cimguiname": "ImPlot3D_NextColormapColor",
+      "defaults": {},
+      "funcname": "NextColormapColor",
+      "location": "implot3d:498",
+      "namespace": "ImPlot3D",
+      "nonUDT": 1,
+      "ov_cimguiname": "ImPlot3D_NextColormapColor",
+      "ret": "void",
+      "signature": "()",
+      "stname": ""
+    }
+  ],
+  "ImPlot3D_PixelsToPlotPlane": [
+    {
+      "args": "(ImPlot3DPoint *pOut,const ImVec2 pix,ImPlane3D plane,bool mask)",
+      "argsT": [
+        {
+          "name": "pOut",
+          "type": "ImPlot3DPoint*"
+        },
+        {
+          "name": "pix",
+          "type": "const ImVec2"
+        },
+        {
+          "name": "plane",
+          "type": "ImPlane3D"
+        },
+        {
+          "name": "mask",
+          "type": "bool"
+        }
+      ],
+      "argsoriginal": "(const ImVec2& pix,ImPlane3D plane,bool mask=true)",
+      "call_args": "(pix,plane,mask)",
+      "cimguiname": "ImPlot3D_PixelsToPlotPlane",
+      "defaults": {
+        "mask": "true"
+      },
+      "funcname": "PixelsToPlotPlane",
+      "location": "implot3d:409",
+      "namespace": "ImPlot3D",
+      "nonUDT": 1,
+      "ov_cimguiname": "ImPlot3D_PixelsToPlotPlane_Vec2",
+      "ret": "void",
+      "signature": "(const ImVec2,ImPlane3D,bool)",
+      "stname": ""
+    },
+    {
+      "args": "(ImPlot3DPoint *pOut,double x,double y,ImPlane3D plane,bool mask)",
+      "argsT": [
+        {
+          "name": "pOut",
+          "type": "ImPlot3DPoint*"
+        },
+        {
+          "name": "x",
+          "type": "double"
+        },
+        {
+          "name": "y",
+          "type": "double"
+        },
+        {
+          "name": "plane",
+          "type": "ImPlane3D"
+        },
+        {
+          "name": "mask",
+          "type": "bool"
+        }
+      ],
+      "argsoriginal": "(double x,double y,ImPlane3D plane,bool mask=true)",
+      "call_args": "(x,y,plane,mask)",
+      "cimguiname": "ImPlot3D_PixelsToPlotPlane",
+      "defaults": {
+        "mask": "true"
+      },
+      "funcname": "PixelsToPlotPlane",
+      "location": "implot3d:410",
+      "namespace": "ImPlot3D",
+      "nonUDT": 1,
+      "ov_cimguiname": "ImPlot3D_PixelsToPlotPlane_double",
+      "ret": "void",
+      "signature": "(double,double,ImPlane3D,bool)",
+      "stname": ""
+    }
+  ],
+  "ImPlot3D_PixelsToPlotRay": [
+    {
+      "args": "(const ImVec2 pix)",
+      "argsT": [
+        {
+          "name": "pix",
+          "type": "const ImVec2"
+        }
+      ],
+      "argsoriginal": "(const ImVec2& pix)",
+      "call_args": "(pix)",
+      "cimguiname": "ImPlot3D_PixelsToPlotRay",
+      "defaults": {},
+      "funcname": "PixelsToPlotRay",
+      "location": "implot3d:406",
+      "namespace": "ImPlot3D",
+      "ov_cimguiname": "ImPlot3D_PixelsToPlotRay_Vec2",
+      "ret": "ImPlot3DRay",
+      "signature": "(const ImVec2)",
+      "stname": ""
+    },
+    {
+      "args": "(double x,double y)",
+      "argsT": [
+        {
+          "name": "x",
+          "type": "double"
+        },
+        {
+          "name": "y",
+          "type": "double"
+        }
+      ],
+      "argsoriginal": "(double x,double y)",
+      "call_args": "(x,y)",
+      "cimguiname": "ImPlot3D_PixelsToPlotRay",
+      "defaults": {},
+      "funcname": "PixelsToPlotRay",
+      "location": "implot3d:407",
+      "namespace": "ImPlot3D",
+      "ov_cimguiname": "ImPlot3D_PixelsToPlotRay_double",
+      "ret": "ImPlot3DRay",
+      "signature": "(double,double)",
+      "stname": ""
+    }
+  ],
+  "ImPlot3D_PlotMesh": [
+    {
+      "args": "(const char* label_id,const ImPlot3DPoint* vtx,const unsigned int* idx,int vtx_count,int idx_count,ImPlot3DMeshFlags flags)",
+      "argsT": [
+        {
+          "name": "label_id",
+          "type": "const char*"
+        },
+        {
+          "name": "vtx",
+          "type": "const ImPlot3DPoint*"
+        },
+        {
+          "name": "idx",
+          "type": "const unsigned int*"
+        },
+        {
+          "name": "vtx_count",
+          "type": "int"
+        },
+        {
+          "name": "idx_count",
+          "type": "int"
+        },
+        {
+          "name": "flags",
+          "type": "ImPlot3DMeshFlags"
+        }
+      ],
+      "argsoriginal": "(const char* label_id,const ImPlot3DPoint* vtx,const unsigned int* idx,int vtx_count,int idx_count,ImPlot3DMeshFlags flags=0)",
+      "call_args": "(label_id,vtx,idx,vtx_count,idx_count,flags)",
+      "cimguiname": "ImPlot3D_PlotMesh",
+      "defaults": {
+        "flags": "0"
+      },
+      "funcname": "PlotMesh",
+      "location": "implot3d:393",
+      "namespace": "ImPlot3D",
+      "ov_cimguiname": "ImPlot3D_PlotMesh",
+      "ret": "void",
+      "signature": "(const char*,const ImPlot3DPoint*,const unsigned int*,int,int,ImPlot3DMeshFlags)",
+      "stname": ""
+    }
+  ],
+  "ImPlot3D_PlotText": [
+    {
+      "args": "(const char* text,float x,float y,float z,float angle,const ImVec2 pix_offset)",
+      "argsT": [
+        {
+          "name": "text",
+          "type": "const char*"
+        },
+        {
+          "name": "x",
+          "type": "float"
+        },
+        {
+          "name": "y",
+          "type": "float"
+        },
+        {
+          "name": "z",
+          "type": "float"
+        },
+        {
+          "name": "angle",
+          "type": "float"
+        },
+        {
+          "name": "pix_offset",
+          "type": "const ImVec2"
+        }
+      ],
+      "argsoriginal": "(const char* text,float x,float y,float z,float angle=0.0f,const ImVec2& pix_offset=ImVec2(0,0))",
+      "call_args": "(text,x,y,z,angle,pix_offset)",
+      "cimguiname": "ImPlot3D_PlotText",
+      "defaults": {
+        "angle": "0.0f",
+        "pix_offset": "ImVec2(0,0)"
+      },
+      "funcname": "PlotText",
+      "location": "implot3d:396",
+      "namespace": "ImPlot3D",
+      "ov_cimguiname": "ImPlot3D_PlotText",
+      "ret": "void",
+      "signature": "(const char*,float,float,float,float,const ImVec2)",
+      "stname": ""
+    }
+  ],
+  "ImPlot3D_PlotToPixels": [
+    {
+      "args": "(ImVec2 *pOut,const ImPlot3DPoint point)",
+      "argsT": [
+        {
+          "name": "pOut",
+          "type": "ImVec2*"
+        },
+        {
+          "name": "point",
+          "type": "const ImPlot3DPoint"
+        }
+      ],
+      "argsoriginal": "(const ImPlot3DPoint& point)",
+      "call_args": "(point)",
+      "cimguiname": "ImPlot3D_PlotToPixels",
+      "defaults": {},
+      "funcname": "PlotToPixels",
+      "location": "implot3d:403",
+      "namespace": "ImPlot3D",
+      "nonUDT": 1,
+      "ov_cimguiname": "ImPlot3D_PlotToPixels_Plot3DPoInt",
+      "ret": "void",
+      "signature": "(const ImPlot3DPoint)",
+      "stname": ""
+    },
+    {
+      "args": "(ImVec2 *pOut,double x,double y,double z)",
+      "argsT": [
+        {
+          "name": "pOut",
+          "type": "ImVec2*"
+        },
+        {
+          "name": "x",
+          "type": "double"
+        },
+        {
+          "name": "y",
+          "type": "double"
+        },
+        {
+          "name": "z",
+          "type": "double"
+        }
+      ],
+      "argsoriginal": "(double x,double y,double z)",
+      "call_args": "(x,y,z)",
+      "cimguiname": "ImPlot3D_PlotToPixels",
+      "defaults": {},
+      "funcname": "PlotToPixels",
+      "location": "implot3d:404",
+      "namespace": "ImPlot3D",
+      "nonUDT": 1,
+      "ov_cimguiname": "ImPlot3D_PlotToPixels_double",
+      "ret": "void",
+      "signature": "(double,double,double)",
+      "stname": ""
+    }
+  ],
+  "ImPlot3D_PopColormap": [
+    {
+      "args": "(int count)",
+      "argsT": [
+        {
+          "name": "count",
+          "type": "int"
+        }
+      ],
+      "argsoriginal": "(int count=1)",
+      "call_args": "(count)",
+      "cimguiname": "ImPlot3D_PopColormap",
+      "defaults": {
+        "count": "1"
+      },
+      "funcname": "PopColormap",
+      "location": "implot3d:494",
+      "namespace": "ImPlot3D",
+      "ov_cimguiname": "ImPlot3D_PopColormap",
+      "ret": "void",
+      "signature": "(int)",
+      "stname": ""
+    }
+  ],
+  "ImPlot3D_PopStyleColor": [
+    {
+      "args": "(int count)",
+      "argsT": [
+        {
+          "name": "count",
+          "type": "int"
+        }
+      ],
+      "argsoriginal": "(int count=1)",
+      "call_args": "(count)",
+      "cimguiname": "ImPlot3D_PopStyleColor",
+      "defaults": {
+        "count": "1"
+      },
+      "funcname": "PopStyleColor",
+      "location": "implot3d:438",
+      "namespace": "ImPlot3D",
+      "ov_cimguiname": "ImPlot3D_PopStyleColor",
+      "ret": "void",
+      "signature": "(int)",
+      "stname": ""
+    }
+  ],
+  "ImPlot3D_PopStyleVar": [
+    {
+      "args": "(int count)",
+      "argsT": [
+        {
+          "name": "count",
+          "type": "int"
+        }
+      ],
+      "argsoriginal": "(int count=1)",
+      "call_args": "(count)",
+      "cimguiname": "ImPlot3D_PopStyleVar",
+      "defaults": {
+        "count": "1"
+      },
+      "funcname": "PopStyleVar",
+      "location": "implot3d:447",
+      "namespace": "ImPlot3D",
+      "ov_cimguiname": "ImPlot3D_PopStyleVar",
+      "ret": "void",
+      "signature": "(int)",
+      "stname": ""
+    }
+  ],
+  "ImPlot3D_PushColormap": [
+    {
+      "args": "(ImPlot3DColormap cmap)",
+      "argsT": [
+        {
+          "name": "cmap",
+          "type": "ImPlot3DColormap"
+        }
+      ],
+      "argsoriginal": "(ImPlot3DColormap cmap)",
+      "call_args": "(cmap)",
+      "cimguiname": "ImPlot3D_PushColormap",
+      "defaults": {},
+      "funcname": "PushColormap",
+      "location": "implot3d:490",
+      "namespace": "ImPlot3D",
+      "ov_cimguiname": "ImPlot3D_PushColormap_Plot3DColormap",
+      "ret": "void",
+      "signature": "(ImPlot3DColormap)",
+      "stname": ""
+    },
+    {
+      "args": "(const char* name)",
+      "argsT": [
+        {
+          "name": "name",
+          "type": "const char*"
+        }
+      ],
+      "argsoriginal": "(const char* name)",
+      "call_args": "(name)",
+      "cimguiname": "ImPlot3D_PushColormap",
+      "defaults": {},
+      "funcname": "PushColormap",
+      "location": "implot3d:492",
+      "namespace": "ImPlot3D",
+      "ov_cimguiname": "ImPlot3D_PushColormap_Str",
+      "ret": "void",
+      "signature": "(const char*)",
+      "stname": ""
+    }
+  ],
+  "ImPlot3D_PushStyleColor": [
+    {
+      "args": "(ImPlot3DCol idx,ImU32 col)",
+      "argsT": [
+        {
+          "name": "idx",
+          "type": "ImPlot3DCol"
+        },
+        {
+          "name": "col",
+          "type": "ImU32"
+        }
+      ],
+      "argsoriginal": "(ImPlot3DCol idx,ImU32 col)",
+      "call_args": "(idx,col)",
+      "cimguiname": "ImPlot3D_PushStyleColor",
+      "defaults": {},
+      "funcname": "PushStyleColor",
+      "location": "implot3d:435",
+      "namespace": "ImPlot3D",
+      "ov_cimguiname": "ImPlot3D_PushStyleColor_U32",
+      "ret": "void",
+      "signature": "(ImPlot3DCol,ImU32)",
+      "stname": ""
+    },
+    {
+      "args": "(ImPlot3DCol idx,const ImVec4 col)",
+      "argsT": [
+        {
+          "name": "idx",
+          "type": "ImPlot3DCol"
+        },
+        {
+          "name": "col",
+          "type": "const ImVec4"
+        }
+      ],
+      "argsoriginal": "(ImPlot3DCol idx,const ImVec4& col)",
+      "call_args": "(idx,col)",
+      "cimguiname": "ImPlot3D_PushStyleColor",
+      "defaults": {},
+      "funcname": "PushStyleColor",
+      "location": "implot3d:436",
+      "namespace": "ImPlot3D",
+      "ov_cimguiname": "ImPlot3D_PushStyleColor_Vec4",
+      "ret": "void",
+      "signature": "(ImPlot3DCol,const ImVec4)",
+      "stname": ""
+    }
+  ],
+  "ImPlot3D_PushStyleVar": [
+    {
+      "args": "(ImPlot3DStyleVar idx,float val)",
+      "argsT": [
+        {
+          "name": "idx",
+          "type": "ImPlot3DStyleVar"
+        },
+        {
+          "name": "val",
+          "type": "float"
+        }
+      ],
+      "argsoriginal": "(ImPlot3DStyleVar idx,float val)",
+      "call_args": "(idx,val)",
+      "cimguiname": "ImPlot3D_PushStyleVar",
+      "defaults": {},
+      "funcname": "PushStyleVar",
+      "location": "implot3d:441",
+      "namespace": "ImPlot3D",
+      "ov_cimguiname": "ImPlot3D_PushStyleVar_Float",
+      "ret": "void",
+      "signature": "(ImPlot3DStyleVar,float)",
+      "stname": ""
+    },
+    {
+      "args": "(ImPlot3DStyleVar idx,int val)",
+      "argsT": [
+        {
+          "name": "idx",
+          "type": "ImPlot3DStyleVar"
+        },
+        {
+          "name": "val",
+          "type": "int"
+        }
+      ],
+      "argsoriginal": "(ImPlot3DStyleVar idx,int val)",
+      "call_args": "(idx,val)",
+      "cimguiname": "ImPlot3D_PushStyleVar",
+      "defaults": {},
+      "funcname": "PushStyleVar",
+      "location": "implot3d:443",
+      "namespace": "ImPlot3D",
+      "ov_cimguiname": "ImPlot3D_PushStyleVar_Int",
+      "ret": "void",
+      "signature": "(ImPlot3DStyleVar,int)",
+      "stname": ""
+    },
+    {
+      "args": "(ImPlot3DStyleVar idx,const ImVec2 val)",
+      "argsT": [
+        {
+          "name": "idx",
+          "type": "ImPlot3DStyleVar"
+        },
+        {
+          "name": "val",
+          "type": "const ImVec2"
+        }
+      ],
+      "argsoriginal": "(ImPlot3DStyleVar idx,const ImVec2& val)",
+      "call_args": "(idx,val)",
+      "cimguiname": "ImPlot3D_PushStyleVar",
+      "defaults": {},
+      "funcname": "PushStyleVar",
+      "location": "implot3d:445",
+      "namespace": "ImPlot3D",
+      "ov_cimguiname": "ImPlot3D_PushStyleVar_Vec2",
+      "ret": "void",
+      "signature": "(ImPlot3DStyleVar,const ImVec2)",
+      "stname": ""
+    }
+  ],
+  "ImPlot3D_SampleColormap": [
+    {
+      "args": "(ImVec4 *pOut,float t,ImPlot3DColormap cmap)",
+      "argsT": [
+        {
+          "name": "pOut",
+          "type": "ImVec4*"
+        },
+        {
+          "name": "t",
+          "type": "float"
+        },
+        {
+          "name": "cmap",
+          "type": "ImPlot3DColormap"
+        }
+      ],
+      "argsoriginal": "(float t,ImPlot3DColormap cmap=-1)",
+      "call_args": "(t,cmap)",
+      "cimguiname": "ImPlot3D_SampleColormap",
+      "defaults": {
+        "cmap": "-1"
+      },
+      "funcname": "SampleColormap",
+      "location": "implot3d:505",
+      "namespace": "ImPlot3D",
+      "nonUDT": 1,
+      "ov_cimguiname": "ImPlot3D_SampleColormap",
+      "ret": "void",
+      "signature": "(float,ImPlot3DColormap)",
+      "stname": ""
+    }
+  ],
+  "ImPlot3D_SetCurrentContext": [
+    {
+      "args": "(ImPlot3DContext* ctx)",
+      "argsT": [
+        {
+          "name": "ctx",
+          "type": "ImPlot3DContext*"
+        }
+      ],
+      "argsoriginal": "(ImPlot3DContext* ctx)",
+      "call_args": "(ctx)",
+      "cimguiname": "ImPlot3D_SetCurrentContext",
+      "defaults": {},
+      "funcname": "SetCurrentContext",
+      "location": "implot3d:308",
+      "namespace": "ImPlot3D",
+      "ov_cimguiname": "ImPlot3D_SetCurrentContext",
+      "ret": "void",
+      "signature": "(ImPlot3DContext*)",
+      "stname": ""
+    }
+  ],
+  "ImPlot3D_SetNextFillStyle": [
+    {
+      "args": "(const ImVec4 col,float alpha_mod)",
+      "argsT": [
+        {
+          "name": "col",
+          "type": "const ImVec4"
+        },
+        {
+          "name": "alpha_mod",
+          "type": "float"
+        }
+      ],
+      "argsoriginal": "(const ImVec4& col=ImVec4(0,0,0,-1),float alpha_mod=-1)",
+      "call_args": "(col,alpha_mod)",
+      "cimguiname": "ImPlot3D_SetNextFillStyle",
+      "defaults": {
+        "alpha_mod": "-1",
+        "col": "ImVec4(0,0,0,-1)"
+      },
+      "funcname": "SetNextFillStyle",
+      "location": "implot3d:452",
+      "namespace": "ImPlot3D",
+      "ov_cimguiname": "ImPlot3D_SetNextFillStyle",
+      "ret": "void",
+      "signature": "(const ImVec4,float)",
+      "stname": ""
+    }
+  ],
+  "ImPlot3D_SetNextLineStyle": [
+    {
+      "args": "(const ImVec4 col,float weight)",
+      "argsT": [
+        {
+          "name": "col",
+          "type": "const ImVec4"
+        },
+        {
+          "name": "weight",
+          "type": "float"
+        }
+      ],
+      "argsoriginal": "(const ImVec4& col=ImVec4(0,0,0,-1),float weight=-1)",
+      "call_args": "(col,weight)",
+      "cimguiname": "ImPlot3D_SetNextLineStyle",
+      "defaults": {
+        "col": "ImVec4(0,0,0,-1)",
+        "weight": "-1"
+      },
+      "funcname": "SetNextLineStyle",
+      "location": "implot3d:450",
+      "namespace": "ImPlot3D",
+      "ov_cimguiname": "ImPlot3D_SetNextLineStyle",
+      "ret": "void",
+      "signature": "(const ImVec4,float)",
+      "stname": ""
+    }
+  ],
+  "ImPlot3D_SetNextMarkerStyle": [
+    {
+      "args": "(ImPlot3DMarker marker,float size,const ImVec4 fill,float weight,const ImVec4 outline)",
+      "argsT": [
+        {
+          "name": "marker",
+          "type": "ImPlot3DMarker"
+        },
+        {
+          "name": "size",
+          "type": "float"
+        },
+        {
+          "name": "fill",
+          "type": "const ImVec4"
+        },
+        {
+          "name": "weight",
+          "type": "float"
+        },
+        {
+          "name": "outline",
+          "type": "const ImVec4"
+        }
+      ],
+      "argsoriginal": "(ImPlot3DMarker marker=-1,float size=-1,const ImVec4& fill=ImVec4(0,0,0,-1),float weight=-1,const ImVec4& outline=ImVec4(0,0,0,-1))",
+      "call_args": "(marker,size,fill,weight,outline)",
+      "cimguiname": "ImPlot3D_SetNextMarkerStyle",
+      "defaults": {
+        "fill": "ImVec4(0,0,0,-1)",
+        "marker": "-1",
+        "outline": "ImVec4(0,0,0,-1)",
+        "size": "-1",
+        "weight": "-1"
+      },
+      "funcname": "SetNextMarkerStyle",
+      "location": "implot3d:454",
+      "namespace": "ImPlot3D",
+      "ov_cimguiname": "ImPlot3D_SetNextMarkerStyle",
+      "ret": "void",
+      "signature": "(ImPlot3DMarker,float,const ImVec4,float,const ImVec4)",
+      "stname": ""
+    }
+  ],
+  "ImPlot3D_SetupAxes": [
+    {
+      "args": "(const char* x_label,const char* y_label,const char* z_label,ImPlot3DAxisFlags x_flags,ImPlot3DAxisFlags y_flags,ImPlot3DAxisFlags z_flags)",
+      "argsT": [
+        {
+          "name": "x_label",
+          "type": "const char*"
+        },
+        {
+          "name": "y_label",
+          "type": "const char*"
+        },
+        {
+          "name": "z_label",
+          "type": "const char*"
+        },
+        {
+          "name": "x_flags",
+          "type": "ImPlot3DAxisFlags"
+        },
+        {
+          "name": "y_flags",
+          "type": "ImPlot3DAxisFlags"
+        },
+        {
+          "name": "z_flags",
+          "type": "ImPlot3DAxisFlags"
+        }
+      ],
+      "argsoriginal": "(const char* x_label,const char* y_label,const char* z_label,ImPlot3DAxisFlags x_flags=0,ImPlot3DAxisFlags y_flags=0,ImPlot3DAxisFlags z_flags=0)",
+      "call_args": "(x_label,y_label,z_label,x_flags,y_flags,z_flags)",
+      "cimguiname": "ImPlot3D_SetupAxes",
+      "defaults": {
+        "x_flags": "0",
+        "y_flags": "0",
+        "z_flags": "0"
+      },
+      "funcname": "SetupAxes",
+      "location": "implot3d:368",
+      "namespace": "ImPlot3D",
+      "ov_cimguiname": "ImPlot3D_SetupAxes",
+      "ret": "void",
+      "signature": "(const char*,const char*,const char*,ImPlot3DAxisFlags,ImPlot3DAxisFlags,ImPlot3DAxisFlags)",
+      "stname": ""
+    }
+  ],
+  "ImPlot3D_SetupAxesLimits": [
+    {
+      "args": "(double x_min,double x_max,double y_min,double y_max,double z_min,double z_max,ImPlot3DCond cond)",
+      "argsT": [
+        {
+          "name": "x_min",
+          "type": "double"
+        },
+        {
+          "name": "x_max",
+          "type": "double"
+        },
+        {
+          "name": "y_min",
+          "type": "double"
+        },
+        {
+          "name": "y_max",
+          "type": "double"
+        },
+        {
+          "name": "z_min",
+          "type": "double"
+        },
+        {
+          "name": "z_max",
+          "type": "double"
+        },
+        {
+          "name": "cond",
+          "type": "ImPlot3DCond"
+        }
+      ],
+      "argsoriginal": "(double x_min,double x_max,double y_min,double y_max,double z_min,double z_max,ImPlot3DCond cond=ImPlot3DCond_Once)",
+      "call_args": "(x_min,x_max,y_min,y_max,z_min,z_max,cond)",
+      "cimguiname": "ImPlot3D_SetupAxesLimits",
+      "defaults": {
+        "cond": "ImPlot3DCond_Once"
+      },
+      "funcname": "SetupAxesLimits",
+      "location": "implot3d:371",
+      "namespace": "ImPlot3D",
+      "ov_cimguiname": "ImPlot3D_SetupAxesLimits",
+      "ret": "void",
+      "signature": "(double,double,double,double,double,double,ImPlot3DCond)",
+      "stname": ""
+    }
+  ],
+  "ImPlot3D_SetupAxis": [
+    {
+      "args": "(ImAxis3D axis,const char* label,ImPlot3DAxisFlags flags)",
+      "argsT": [
+        {
+          "name": "axis",
+          "type": "ImAxis3D"
+        },
+        {
+          "name": "label",
+          "type": "const char*"
+        },
+        {
+          "name": "flags",
+          "type": "ImPlot3DAxisFlags"
+        }
+      ],
+      "argsoriginal": "(ImAxis3D axis,const char* label=nullptr,ImPlot3DAxisFlags flags=0)",
+      "call_args": "(axis,label,flags)",
+      "cimguiname": "ImPlot3D_SetupAxis",
+      "defaults": {
+        "flags": "0",
+        "label": "nullptr"
+      },
+      "funcname": "SetupAxis",
+      "location": "implot3d:361",
+      "namespace": "ImPlot3D",
+      "ov_cimguiname": "ImPlot3D_SetupAxis",
+      "ret": "void",
+      "signature": "(ImAxis3D,const char*,ImPlot3DAxisFlags)",
+      "stname": ""
+    }
+  ],
+  "ImPlot3D_SetupAxisFormat": [
+    {
+      "args": "(ImAxis3D idx,ImPlot3DFormatter formatter,void* data)",
+      "argsT": [
+        {
+          "name": "idx",
+          "type": "ImAxis3D"
+        },
+        {
+          "name": "formatter",
+          "type": "ImPlot3DFormatter"
+        },
+        {
+          "name": "data",
+          "type": "void*"
+        }
+      ],
+      "argsoriginal": "(ImAxis3D idx,ImPlot3DFormatter formatter,void* data=nullptr)",
+      "call_args": "(idx,formatter,data)",
+      "cimguiname": "ImPlot3D_SetupAxisFormat",
+      "defaults": {
+        "data": "nullptr"
+      },
+      "funcname": "SetupAxisFormat",
+      "location": "implot3d:365",
+      "namespace": "ImPlot3D",
+      "ov_cimguiname": "ImPlot3D_SetupAxisFormat",
+      "ret": "void",
+      "signature": "(ImAxis3D,ImPlot3DFormatter,void*)",
+      "stname": ""
+    }
+  ],
+  "ImPlot3D_SetupAxisLimits": [
+    {
+      "args": "(ImAxis3D axis,double v_min,double v_max,ImPlot3DCond cond)",
+      "argsT": [
+        {
+          "name": "axis",
+          "type": "ImAxis3D"
+        },
+        {
+          "name": "v_min",
+          "type": "double"
+        },
+        {
+          "name": "v_max",
+          "type": "double"
+        },
+        {
+          "name": "cond",
+          "type": "ImPlot3DCond"
+        }
+      ],
+      "argsoriginal": "(ImAxis3D axis,double v_min,double v_max,ImPlot3DCond cond=ImPlot3DCond_Once)",
+      "call_args": "(axis,v_min,v_max,cond)",
+      "cimguiname": "ImPlot3D_SetupAxisLimits",
+      "defaults": {
+        "cond": "ImPlot3DCond_Once"
+      },
+      "funcname": "SetupAxisLimits",
+      "location": "implot3d:363",
+      "namespace": "ImPlot3D",
+      "ov_cimguiname": "ImPlot3D_SetupAxisLimits",
+      "ret": "void",
+      "signature": "(ImAxis3D,double,double,ImPlot3DCond)",
+      "stname": ""
+    }
+  ],
+  "ImPlot3D_SetupBoxScale": [
+    {
+      "args": "(float x,float y,float z)",
+      "argsT": [
+        {
+          "name": "x",
+          "type": "float"
+        },
+        {
+          "name": "y",
+          "type": "float"
+        },
+        {
+          "name": "z",
+          "type": "float"
+        }
+      ],
+      "argsoriginal": "(float x,float y,float z)",
+      "call_args": "(x,y,z)",
+      "cimguiname": "ImPlot3D_SetupBoxScale",
+      "defaults": {},
+      "funcname": "SetupBoxScale",
+      "location": "implot3d:374",
+      "namespace": "ImPlot3D",
+      "ov_cimguiname": "ImPlot3D_SetupBoxScale",
+      "ret": "void",
+      "signature": "(float,float,float)",
+      "stname": ""
+    }
+  ],
+  "ImPlot3D_SetupLegend": [
+    {
+      "args": "(ImPlot3DLocation location,ImPlot3DLegendFlags flags)",
+      "argsT": [
+        {
+          "name": "location",
+          "type": "ImPlot3DLocation"
+        },
+        {
+          "name": "flags",
+          "type": "ImPlot3DLegendFlags"
+        }
+      ],
+      "argsoriginal": "(ImPlot3DLocation location,ImPlot3DLegendFlags flags=0)",
+      "call_args": "(location,flags)",
+      "cimguiname": "ImPlot3D_SetupLegend",
+      "defaults": {
+        "flags": "0"
+      },
+      "funcname": "SetupLegend",
+      "location": "implot3d:376",
+      "namespace": "ImPlot3D",
+      "ov_cimguiname": "ImPlot3D_SetupLegend",
+      "ret": "void",
+      "signature": "(ImPlot3DLocation,ImPlot3DLegendFlags)",
+      "stname": ""
+    }
+  ],
+  "ImPlot3D_ShowDemoWindow": [
+    {
+      "args": "(bool* p_open)",
+      "argsT": [
+        {
+          "name": "p_open",
+          "type": "bool*"
+        }
+      ],
+      "argsoriginal": "(bool* p_open=nullptr)",
+      "call_args": "(p_open)",
+      "cimguiname": "ImPlot3D_ShowDemoWindow",
+      "defaults": {
+        "p_open": "nullptr"
+      },
+      "funcname": "ShowDemoWindow",
+      "location": "implot3d:513",
+      "namespace": "ImPlot3D",
+      "ov_cimguiname": "ImPlot3D_ShowDemoWindow",
+      "ret": "void",
+      "signature": "(bool*)",
+      "stname": ""
+    }
+  ],
+  "ImPlot3D_ShowStyleEditor": [
+    {
+      "args": "(ImPlot3DStyle* ref)",
+      "argsT": [
+        {
+          "name": "ref",
+          "type": "ImPlot3DStyle*"
+        }
+      ],
+      "argsoriginal": "(ImPlot3DStyle* ref=nullptr)",
+      "call_args": "(ref)",
+      "cimguiname": "ImPlot3D_ShowStyleEditor",
+      "defaults": {
+        "ref": "nullptr"
+      },
+      "funcname": "ShowStyleEditor",
+      "location": "implot3d:516",
+      "namespace": "ImPlot3D",
+      "ov_cimguiname": "ImPlot3D_ShowStyleEditor",
+      "ret": "void",
+      "signature": "(ImPlot3DStyle*)",
+      "stname": ""
+    }
+  ],
+  "ImPlot3D_StyleColorsAuto": [
+    {
+      "args": "(ImPlot3DStyle* dst)",
+      "argsT": [
+        {
+          "name": "dst",
+          "type": "ImPlot3DStyle*"
+        }
+      ],
+      "argsoriginal": "(ImPlot3DStyle* dst=nullptr)",
+      "call_args": "(dst)",
+      "cimguiname": "ImPlot3D_StyleColorsAuto",
+      "defaults": {
+        "dst": "nullptr"
+      },
+      "funcname": "StyleColorsAuto",
+      "location": "implot3d:429",
+      "namespace": "ImPlot3D",
+      "ov_cimguiname": "ImPlot3D_StyleColorsAuto",
+      "ret": "void",
+      "signature": "(ImPlot3DStyle*)",
+      "stname": ""
+    }
+  ],
+  "ImPlot3D_StyleColorsClassic": [
+    {
+      "args": "(ImPlot3DStyle* dst)",
+      "argsT": [
+        {
+          "name": "dst",
+          "type": "ImPlot3DStyle*"
+        }
+      ],
+      "argsoriginal": "(ImPlot3DStyle* dst=nullptr)",
+      "call_args": "(dst)",
+      "cimguiname": "ImPlot3D_StyleColorsClassic",
+      "defaults": {
+        "dst": "nullptr"
+      },
+      "funcname": "StyleColorsClassic",
+      "location": "implot3d:432",
+      "namespace": "ImPlot3D",
+      "ov_cimguiname": "ImPlot3D_StyleColorsClassic",
+      "ret": "void",
+      "signature": "(ImPlot3DStyle*)",
+      "stname": ""
+    }
+  ],
+  "ImPlot3D_StyleColorsDark": [
+    {
+      "args": "(ImPlot3DStyle* dst)",
+      "argsT": [
+        {
+          "name": "dst",
+          "type": "ImPlot3DStyle*"
+        }
+      ],
+      "argsoriginal": "(ImPlot3DStyle* dst=nullptr)",
+      "call_args": "(dst)",
+      "cimguiname": "ImPlot3D_StyleColorsDark",
+      "defaults": {
+        "dst": "nullptr"
+      },
+      "funcname": "StyleColorsDark",
+      "location": "implot3d:430",
+      "namespace": "ImPlot3D",
+      "ov_cimguiname": "ImPlot3D_StyleColorsDark",
+      "ret": "void",
+      "signature": "(ImPlot3DStyle*)",
+      "stname": ""
+    }
+  ],
+  "ImPlot3D_StyleColorsLight": [
+    {
+      "args": "(ImPlot3DStyle* dst)",
+      "argsT": [
+        {
+          "name": "dst",
+          "type": "ImPlot3DStyle*"
+        }
+      ],
+      "argsoriginal": "(ImPlot3DStyle* dst=nullptr)",
+      "call_args": "(dst)",
+      "cimguiname": "ImPlot3D_StyleColorsLight",
+      "defaults": {
+        "dst": "nullptr"
+      },
+      "funcname": "StyleColorsLight",
+      "location": "implot3d:431",
+      "namespace": "ImPlot3D",
+      "ov_cimguiname": "ImPlot3D_StyleColorsLight",
+      "ret": "void",
+      "signature": "(ImPlot3DStyle*)",
+      "stname": ""
+    }
+  ]
+}
