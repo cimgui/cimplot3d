@@ -141,6 +141,8 @@ local function parseImGuiHeader(header,names)
 	parser.COMMENTS_GENERATION = COMMENTS_GENERATION
 	local include_cmd = COMPILER=="cl" and [[ /I ]] or [[ -I ]]
 	local extra_includes = include_cmd.." ../../cimgui/imgui "
+	parser.ftemplate_list = {}
+	parser.ftemplate_list.T = {"float", "double", "ImS8", "ImU8", "ImS16", "ImU16", "ImS32", "ImU32", "ImS64", "ImU64"}
 
 	parser:take_lines(CPRE..extra_includes..header, names, COMPILER)
 	

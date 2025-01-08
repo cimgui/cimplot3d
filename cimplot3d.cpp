@@ -59,6 +59,206 @@ CIMGUI_API void ImPlot3D_SetupLegend(ImPlot3DLocation location,ImPlot3DLegendFla
 {
     return ImPlot3D::SetupLegend(location,flags);
 }
+CIMGUI_API void ImPlot3D_PlotScatter_FloatPtr(const char* label_id,const float* xs,const float* ys,const float* zs,int count,ImPlot3DScatterFlags flags,int offset,int stride)
+{
+    return ImPlot3D::PlotScatter(label_id,xs,ys,zs,count,flags,offset,stride);
+}
+CIMGUI_API void ImPlot3D_PlotScatter_doublePtr(const char* label_id,const double* xs,const double* ys,const double* zs,int count,ImPlot3DScatterFlags flags,int offset,int stride)
+{
+    return ImPlot3D::PlotScatter(label_id,xs,ys,zs,count,flags,offset,stride);
+}
+CIMGUI_API void ImPlot3D_PlotScatter_S8Ptr(const char* label_id,const ImS8* xs,const ImS8* ys,const ImS8* zs,int count,ImPlot3DScatterFlags flags,int offset,int stride)
+{
+    return ImPlot3D::PlotScatter(label_id,xs,ys,zs,count,flags,offset,stride);
+}
+CIMGUI_API void ImPlot3D_PlotScatter_U8Ptr(const char* label_id,const ImU8* xs,const ImU8* ys,const ImU8* zs,int count,ImPlot3DScatterFlags flags,int offset,int stride)
+{
+    return ImPlot3D::PlotScatter(label_id,xs,ys,zs,count,flags,offset,stride);
+}
+CIMGUI_API void ImPlot3D_PlotScatter_S16Ptr(const char* label_id,const ImS16* xs,const ImS16* ys,const ImS16* zs,int count,ImPlot3DScatterFlags flags,int offset,int stride)
+{
+    return ImPlot3D::PlotScatter(label_id,xs,ys,zs,count,flags,offset,stride);
+}
+CIMGUI_API void ImPlot3D_PlotScatter_U16Ptr(const char* label_id,const ImU16* xs,const ImU16* ys,const ImU16* zs,int count,ImPlot3DScatterFlags flags,int offset,int stride)
+{
+    return ImPlot3D::PlotScatter(label_id,xs,ys,zs,count,flags,offset,stride);
+}
+CIMGUI_API void ImPlot3D_PlotScatter_S32Ptr(const char* label_id,const ImS32* xs,const ImS32* ys,const ImS32* zs,int count,ImPlot3DScatterFlags flags,int offset,int stride)
+{
+    return ImPlot3D::PlotScatter(label_id,xs,ys,zs,count,flags,offset,stride);
+}
+CIMGUI_API void ImPlot3D_PlotScatter_U32Ptr(const char* label_id,const ImU32* xs,const ImU32* ys,const ImU32* zs,int count,ImPlot3DScatterFlags flags,int offset,int stride)
+{
+    return ImPlot3D::PlotScatter(label_id,xs,ys,zs,count,flags,offset,stride);
+}
+CIMGUI_API void ImPlot3D_PlotScatter_S64Ptr(const char* label_id,const ImS64* xs,const ImS64* ys,const ImS64* zs,int count,ImPlot3DScatterFlags flags,int offset,int stride)
+{
+    return ImPlot3D::PlotScatter(label_id,xs,ys,zs,count,flags,offset,stride);
+}
+CIMGUI_API void ImPlot3D_PlotScatter_U64Ptr(const char* label_id,const ImU64* xs,const ImU64* ys,const ImU64* zs,int count,ImPlot3DScatterFlags flags,int offset,int stride)
+{
+    return ImPlot3D::PlotScatter(label_id,xs,ys,zs,count,flags,offset,stride);
+}
+CIMGUI_API void ImPlot3D_PlotLine_FloatPtr(const char* label_id,const float* xs,const float* ys,const float* zs,int count,ImPlot3DLineFlags flags,int offset,int stride)
+{
+    return ImPlot3D::PlotLine(label_id,xs,ys,zs,count,flags,offset,stride);
+}
+CIMGUI_API void ImPlot3D_PlotLine_doublePtr(const char* label_id,const double* xs,const double* ys,const double* zs,int count,ImPlot3DLineFlags flags,int offset,int stride)
+{
+    return ImPlot3D::PlotLine(label_id,xs,ys,zs,count,flags,offset,stride);
+}
+CIMGUI_API void ImPlot3D_PlotLine_S8Ptr(const char* label_id,const ImS8* xs,const ImS8* ys,const ImS8* zs,int count,ImPlot3DLineFlags flags,int offset,int stride)
+{
+    return ImPlot3D::PlotLine(label_id,xs,ys,zs,count,flags,offset,stride);
+}
+CIMGUI_API void ImPlot3D_PlotLine_U8Ptr(const char* label_id,const ImU8* xs,const ImU8* ys,const ImU8* zs,int count,ImPlot3DLineFlags flags,int offset,int stride)
+{
+    return ImPlot3D::PlotLine(label_id,xs,ys,zs,count,flags,offset,stride);
+}
+CIMGUI_API void ImPlot3D_PlotLine_S16Ptr(const char* label_id,const ImS16* xs,const ImS16* ys,const ImS16* zs,int count,ImPlot3DLineFlags flags,int offset,int stride)
+{
+    return ImPlot3D::PlotLine(label_id,xs,ys,zs,count,flags,offset,stride);
+}
+CIMGUI_API void ImPlot3D_PlotLine_U16Ptr(const char* label_id,const ImU16* xs,const ImU16* ys,const ImU16* zs,int count,ImPlot3DLineFlags flags,int offset,int stride)
+{
+    return ImPlot3D::PlotLine(label_id,xs,ys,zs,count,flags,offset,stride);
+}
+CIMGUI_API void ImPlot3D_PlotLine_S32Ptr(const char* label_id,const ImS32* xs,const ImS32* ys,const ImS32* zs,int count,ImPlot3DLineFlags flags,int offset,int stride)
+{
+    return ImPlot3D::PlotLine(label_id,xs,ys,zs,count,flags,offset,stride);
+}
+CIMGUI_API void ImPlot3D_PlotLine_U32Ptr(const char* label_id,const ImU32* xs,const ImU32* ys,const ImU32* zs,int count,ImPlot3DLineFlags flags,int offset,int stride)
+{
+    return ImPlot3D::PlotLine(label_id,xs,ys,zs,count,flags,offset,stride);
+}
+CIMGUI_API void ImPlot3D_PlotLine_S64Ptr(const char* label_id,const ImS64* xs,const ImS64* ys,const ImS64* zs,int count,ImPlot3DLineFlags flags,int offset,int stride)
+{
+    return ImPlot3D::PlotLine(label_id,xs,ys,zs,count,flags,offset,stride);
+}
+CIMGUI_API void ImPlot3D_PlotLine_U64Ptr(const char* label_id,const ImU64* xs,const ImU64* ys,const ImU64* zs,int count,ImPlot3DLineFlags flags,int offset,int stride)
+{
+    return ImPlot3D::PlotLine(label_id,xs,ys,zs,count,flags,offset,stride);
+}
+CIMGUI_API void ImPlot3D_PlotTriangle_FloatPtr(const char* label_id,const float* xs,const float* ys,const float* zs,int count,ImPlot3DTriangleFlags flags,int offset,int stride)
+{
+    return ImPlot3D::PlotTriangle(label_id,xs,ys,zs,count,flags,offset,stride);
+}
+CIMGUI_API void ImPlot3D_PlotTriangle_doublePtr(const char* label_id,const double* xs,const double* ys,const double* zs,int count,ImPlot3DTriangleFlags flags,int offset,int stride)
+{
+    return ImPlot3D::PlotTriangle(label_id,xs,ys,zs,count,flags,offset,stride);
+}
+CIMGUI_API void ImPlot3D_PlotTriangle_S8Ptr(const char* label_id,const ImS8* xs,const ImS8* ys,const ImS8* zs,int count,ImPlot3DTriangleFlags flags,int offset,int stride)
+{
+    return ImPlot3D::PlotTriangle(label_id,xs,ys,zs,count,flags,offset,stride);
+}
+CIMGUI_API void ImPlot3D_PlotTriangle_U8Ptr(const char* label_id,const ImU8* xs,const ImU8* ys,const ImU8* zs,int count,ImPlot3DTriangleFlags flags,int offset,int stride)
+{
+    return ImPlot3D::PlotTriangle(label_id,xs,ys,zs,count,flags,offset,stride);
+}
+CIMGUI_API void ImPlot3D_PlotTriangle_S16Ptr(const char* label_id,const ImS16* xs,const ImS16* ys,const ImS16* zs,int count,ImPlot3DTriangleFlags flags,int offset,int stride)
+{
+    return ImPlot3D::PlotTriangle(label_id,xs,ys,zs,count,flags,offset,stride);
+}
+CIMGUI_API void ImPlot3D_PlotTriangle_U16Ptr(const char* label_id,const ImU16* xs,const ImU16* ys,const ImU16* zs,int count,ImPlot3DTriangleFlags flags,int offset,int stride)
+{
+    return ImPlot3D::PlotTriangle(label_id,xs,ys,zs,count,flags,offset,stride);
+}
+CIMGUI_API void ImPlot3D_PlotTriangle_S32Ptr(const char* label_id,const ImS32* xs,const ImS32* ys,const ImS32* zs,int count,ImPlot3DTriangleFlags flags,int offset,int stride)
+{
+    return ImPlot3D::PlotTriangle(label_id,xs,ys,zs,count,flags,offset,stride);
+}
+CIMGUI_API void ImPlot3D_PlotTriangle_U32Ptr(const char* label_id,const ImU32* xs,const ImU32* ys,const ImU32* zs,int count,ImPlot3DTriangleFlags flags,int offset,int stride)
+{
+    return ImPlot3D::PlotTriangle(label_id,xs,ys,zs,count,flags,offset,stride);
+}
+CIMGUI_API void ImPlot3D_PlotTriangle_S64Ptr(const char* label_id,const ImS64* xs,const ImS64* ys,const ImS64* zs,int count,ImPlot3DTriangleFlags flags,int offset,int stride)
+{
+    return ImPlot3D::PlotTriangle(label_id,xs,ys,zs,count,flags,offset,stride);
+}
+CIMGUI_API void ImPlot3D_PlotTriangle_U64Ptr(const char* label_id,const ImU64* xs,const ImU64* ys,const ImU64* zs,int count,ImPlot3DTriangleFlags flags,int offset,int stride)
+{
+    return ImPlot3D::PlotTriangle(label_id,xs,ys,zs,count,flags,offset,stride);
+}
+CIMGUI_API void ImPlot3D_PlotQuad_FloatPtr(const char* label_id,const float* xs,const float* ys,const float* zs,int count,ImPlot3DQuadFlags flags,int offset,int stride)
+{
+    return ImPlot3D::PlotQuad(label_id,xs,ys,zs,count,flags,offset,stride);
+}
+CIMGUI_API void ImPlot3D_PlotQuad_doublePtr(const char* label_id,const double* xs,const double* ys,const double* zs,int count,ImPlot3DQuadFlags flags,int offset,int stride)
+{
+    return ImPlot3D::PlotQuad(label_id,xs,ys,zs,count,flags,offset,stride);
+}
+CIMGUI_API void ImPlot3D_PlotQuad_S8Ptr(const char* label_id,const ImS8* xs,const ImS8* ys,const ImS8* zs,int count,ImPlot3DQuadFlags flags,int offset,int stride)
+{
+    return ImPlot3D::PlotQuad(label_id,xs,ys,zs,count,flags,offset,stride);
+}
+CIMGUI_API void ImPlot3D_PlotQuad_U8Ptr(const char* label_id,const ImU8* xs,const ImU8* ys,const ImU8* zs,int count,ImPlot3DQuadFlags flags,int offset,int stride)
+{
+    return ImPlot3D::PlotQuad(label_id,xs,ys,zs,count,flags,offset,stride);
+}
+CIMGUI_API void ImPlot3D_PlotQuad_S16Ptr(const char* label_id,const ImS16* xs,const ImS16* ys,const ImS16* zs,int count,ImPlot3DQuadFlags flags,int offset,int stride)
+{
+    return ImPlot3D::PlotQuad(label_id,xs,ys,zs,count,flags,offset,stride);
+}
+CIMGUI_API void ImPlot3D_PlotQuad_U16Ptr(const char* label_id,const ImU16* xs,const ImU16* ys,const ImU16* zs,int count,ImPlot3DQuadFlags flags,int offset,int stride)
+{
+    return ImPlot3D::PlotQuad(label_id,xs,ys,zs,count,flags,offset,stride);
+}
+CIMGUI_API void ImPlot3D_PlotQuad_S32Ptr(const char* label_id,const ImS32* xs,const ImS32* ys,const ImS32* zs,int count,ImPlot3DQuadFlags flags,int offset,int stride)
+{
+    return ImPlot3D::PlotQuad(label_id,xs,ys,zs,count,flags,offset,stride);
+}
+CIMGUI_API void ImPlot3D_PlotQuad_U32Ptr(const char* label_id,const ImU32* xs,const ImU32* ys,const ImU32* zs,int count,ImPlot3DQuadFlags flags,int offset,int stride)
+{
+    return ImPlot3D::PlotQuad(label_id,xs,ys,zs,count,flags,offset,stride);
+}
+CIMGUI_API void ImPlot3D_PlotQuad_S64Ptr(const char* label_id,const ImS64* xs,const ImS64* ys,const ImS64* zs,int count,ImPlot3DQuadFlags flags,int offset,int stride)
+{
+    return ImPlot3D::PlotQuad(label_id,xs,ys,zs,count,flags,offset,stride);
+}
+CIMGUI_API void ImPlot3D_PlotQuad_U64Ptr(const char* label_id,const ImU64* xs,const ImU64* ys,const ImU64* zs,int count,ImPlot3DQuadFlags flags,int offset,int stride)
+{
+    return ImPlot3D::PlotQuad(label_id,xs,ys,zs,count,flags,offset,stride);
+}
+CIMGUI_API void ImPlot3D_PlotSurface_FloatPtr(const char* label_id,const float* xs,const float* ys,const float* zs,int x_count,int y_count,double scale_min,double scale_max,ImPlot3DSurfaceFlags flags,int offset,int stride)
+{
+    return ImPlot3D::PlotSurface(label_id,xs,ys,zs,x_count,y_count,scale_min,scale_max,flags,offset,stride);
+}
+CIMGUI_API void ImPlot3D_PlotSurface_doublePtr(const char* label_id,const double* xs,const double* ys,const double* zs,int x_count,int y_count,double scale_min,double scale_max,ImPlot3DSurfaceFlags flags,int offset,int stride)
+{
+    return ImPlot3D::PlotSurface(label_id,xs,ys,zs,x_count,y_count,scale_min,scale_max,flags,offset,stride);
+}
+CIMGUI_API void ImPlot3D_PlotSurface_S8Ptr(const char* label_id,const ImS8* xs,const ImS8* ys,const ImS8* zs,int x_count,int y_count,double scale_min,double scale_max,ImPlot3DSurfaceFlags flags,int offset,int stride)
+{
+    return ImPlot3D::PlotSurface(label_id,xs,ys,zs,x_count,y_count,scale_min,scale_max,flags,offset,stride);
+}
+CIMGUI_API void ImPlot3D_PlotSurface_U8Ptr(const char* label_id,const ImU8* xs,const ImU8* ys,const ImU8* zs,int x_count,int y_count,double scale_min,double scale_max,ImPlot3DSurfaceFlags flags,int offset,int stride)
+{
+    return ImPlot3D::PlotSurface(label_id,xs,ys,zs,x_count,y_count,scale_min,scale_max,flags,offset,stride);
+}
+CIMGUI_API void ImPlot3D_PlotSurface_S16Ptr(const char* label_id,const ImS16* xs,const ImS16* ys,const ImS16* zs,int x_count,int y_count,double scale_min,double scale_max,ImPlot3DSurfaceFlags flags,int offset,int stride)
+{
+    return ImPlot3D::PlotSurface(label_id,xs,ys,zs,x_count,y_count,scale_min,scale_max,flags,offset,stride);
+}
+CIMGUI_API void ImPlot3D_PlotSurface_U16Ptr(const char* label_id,const ImU16* xs,const ImU16* ys,const ImU16* zs,int x_count,int y_count,double scale_min,double scale_max,ImPlot3DSurfaceFlags flags,int offset,int stride)
+{
+    return ImPlot3D::PlotSurface(label_id,xs,ys,zs,x_count,y_count,scale_min,scale_max,flags,offset,stride);
+}
+CIMGUI_API void ImPlot3D_PlotSurface_S32Ptr(const char* label_id,const ImS32* xs,const ImS32* ys,const ImS32* zs,int x_count,int y_count,double scale_min,double scale_max,ImPlot3DSurfaceFlags flags,int offset,int stride)
+{
+    return ImPlot3D::PlotSurface(label_id,xs,ys,zs,x_count,y_count,scale_min,scale_max,flags,offset,stride);
+}
+CIMGUI_API void ImPlot3D_PlotSurface_U32Ptr(const char* label_id,const ImU32* xs,const ImU32* ys,const ImU32* zs,int x_count,int y_count,double scale_min,double scale_max,ImPlot3DSurfaceFlags flags,int offset,int stride)
+{
+    return ImPlot3D::PlotSurface(label_id,xs,ys,zs,x_count,y_count,scale_min,scale_max,flags,offset,stride);
+}
+CIMGUI_API void ImPlot3D_PlotSurface_S64Ptr(const char* label_id,const ImS64* xs,const ImS64* ys,const ImS64* zs,int x_count,int y_count,double scale_min,double scale_max,ImPlot3DSurfaceFlags flags,int offset,int stride)
+{
+    return ImPlot3D::PlotSurface(label_id,xs,ys,zs,x_count,y_count,scale_min,scale_max,flags,offset,stride);
+}
+CIMGUI_API void ImPlot3D_PlotSurface_U64Ptr(const char* label_id,const ImU64* xs,const ImU64* ys,const ImU64* zs,int x_count,int y_count,double scale_min,double scale_max,ImPlot3DSurfaceFlags flags,int offset,int stride)
+{
+    return ImPlot3D::PlotSurface(label_id,xs,ys,zs,x_count,y_count,scale_min,scale_max,flags,offset,stride);
+}
 CIMGUI_API void ImPlot3D_PlotMesh(const char* label_id,const ImPlot3DPoint* vtx,const unsigned int* idx,int vtx_count,int idx_count,ImPlot3DMeshFlags flags)
 {
     return ImPlot3D::PlotMesh(label_id,vtx,idx,vtx_count,idx_count,flags);
