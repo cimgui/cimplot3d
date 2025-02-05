@@ -31,7 +31,7 @@
       "cimguiname": "ImPlot3DBox_ClipLineSegment",
       "defaults": {},
       "funcname": "ClipLineSegment",
-      "location": "implot3d:631",
+      "location": "implot3d:637",
       "ov_cimguiname": "ImPlot3DBox_ClipLineSegment",
       "ret": "bool",
       "signature": "(const ImPlot3DPoint,const ImPlot3DPoint,ImPlot3DPoint*,ImPlot3DPoint*)const",
@@ -56,7 +56,7 @@
       "cimguiname": "ImPlot3DBox_Contains",
       "defaults": {},
       "funcname": "Contains",
-      "location": "implot3d:628",
+      "location": "implot3d:634",
       "ov_cimguiname": "ImPlot3DBox_Contains",
       "ret": "bool",
       "signature": "(const ImPlot3DPoint)const",
@@ -81,7 +81,7 @@
       "cimguiname": "ImPlot3DBox_Expand",
       "defaults": {},
       "funcname": "Expand",
-      "location": "implot3d:625",
+      "location": "implot3d:631",
       "ov_cimguiname": "ImPlot3DBox_Expand",
       "ret": "void",
       "signature": "(const ImPlot3DPoint)",
@@ -98,7 +98,7 @@
       "constructor": true,
       "defaults": {},
       "funcname": "ImPlot3DBox",
-      "location": "implot3d:619",
+      "location": "implot3d:625",
       "ov_cimguiname": "ImPlot3DBox_ImPlot3DBox_Nil",
       "signature": "()",
       "stname": "ImPlot3DBox"
@@ -121,7 +121,7 @@
       "constructor": true,
       "defaults": {},
       "funcname": "ImPlot3DBox",
-      "location": "implot3d:622",
+      "location": "implot3d:628",
       "ov_cimguiname": "ImPlot3DBox_ImPlot3DBox_Plot3DPoInt",
       "signature": "(const ImPlot3DPoint,const ImPlot3DPoint)",
       "stname": "ImPlot3DBox"
@@ -140,7 +140,7 @@
       "cimguiname": "ImPlot3DBox_destroy",
       "defaults": {},
       "destructor": true,
-      "location": "implot3d:619",
+      "location": "implot3d:625",
       "ov_cimguiname": "ImPlot3DBox_destroy",
       "ret": "void",
       "signature": "(ImPlot3DBox*)",
@@ -169,7 +169,7 @@
       "cimguiname": "ImPlot3DPoint_Cross",
       "defaults": {},
       "funcname": "Cross",
-      "location": "implot3d:567",
+      "location": "implot3d:573",
       "nonUDT": 1,
       "ov_cimguiname": "ImPlot3DPoint_Cross",
       "ret": "void",
@@ -195,7 +195,7 @@
       "cimguiname": "ImPlot3DPoint_Dot",
       "defaults": {},
       "funcname": "Dot",
-      "location": "implot3d:564",
+      "location": "implot3d:570",
       "ov_cimguiname": "ImPlot3DPoint_Dot",
       "ret": "float",
       "signature": "(const ImPlot3DPoint)const",
@@ -212,7 +212,7 @@
       "constructor": true,
       "defaults": {},
       "funcname": "ImPlot3DPoint",
-      "location": "implot3d:527",
+      "location": "implot3d:533",
       "ov_cimguiname": "ImPlot3DPoint_ImPlot3DPoint_Nil",
       "signature": "()",
       "stname": "ImPlot3DPoint"
@@ -239,7 +239,7 @@
       "constructor": true,
       "defaults": {},
       "funcname": "ImPlot3DPoint",
-      "location": "implot3d:528",
+      "location": "implot3d:534",
       "ov_cimguiname": "ImPlot3DPoint_ImPlot3DPoint_Float",
       "signature": "(float,float,float)",
       "stname": "ImPlot3DPoint"
@@ -259,7 +259,7 @@
       "cimguiname": "ImPlot3DPoint_IsNaN",
       "defaults": {},
       "funcname": "IsNaN",
-      "location": "implot3d:585",
+      "location": "implot3d:591",
       "ov_cimguiname": "ImPlot3DPoint_IsNaN",
       "ret": "bool",
       "signature": "()const",
@@ -280,7 +280,7 @@
       "cimguiname": "ImPlot3DPoint_Length",
       "defaults": {},
       "funcname": "Length",
-      "location": "implot3d:570",
+      "location": "implot3d:576",
       "ov_cimguiname": "ImPlot3DPoint_Length",
       "ret": "float",
       "signature": "()const",
@@ -301,7 +301,7 @@
       "cimguiname": "ImPlot3DPoint_LengthSquared",
       "defaults": {},
       "funcname": "LengthSquared",
-      "location": "implot3d:573",
+      "location": "implot3d:579",
       "ov_cimguiname": "ImPlot3DPoint_LengthSquared",
       "ret": "float",
       "signature": "()const",
@@ -322,7 +322,7 @@
       "cimguiname": "ImPlot3DPoint_Normalize",
       "defaults": {},
       "funcname": "Normalize",
-      "location": "implot3d:576",
+      "location": "implot3d:582",
       "ov_cimguiname": "ImPlot3DPoint_Normalize",
       "ret": "void",
       "signature": "()",
@@ -347,7 +347,7 @@
       "cimguiname": "ImPlot3DPoint_Normalized",
       "defaults": {},
       "funcname": "Normalized",
-      "location": "implot3d:579",
+      "location": "implot3d:585",
       "nonUDT": 1,
       "ov_cimguiname": "ImPlot3DPoint_Normalized",
       "ret": "void",
@@ -368,7 +368,7 @@
       "cimguiname": "ImPlot3DPoint_destroy",
       "defaults": {},
       "destructor": true,
-      "location": "implot3d:527",
+      "location": "implot3d:533",
       "ov_cimguiname": "ImPlot3DPoint_destroy",
       "ret": "void",
       "signature": "(ImPlot3DPoint*)",
@@ -393,7 +393,7 @@
       "cimguiname": "ImPlot3DQuat_Conjugate",
       "defaults": {},
       "funcname": "Conjugate",
-      "location": "implot3d:673",
+      "location": "implot3d:679",
       "nonUDT": 1,
       "ov_cimguiname": "ImPlot3DQuat_Conjugate",
       "ret": "void",
@@ -419,7 +419,7 @@
       "cimguiname": "ImPlot3DQuat_Dot",
       "defaults": {},
       "funcname": "Dot",
-      "location": "implot3d:695",
+      "location": "implot3d:701",
       "ov_cimguiname": "ImPlot3DQuat_Dot",
       "ret": "float",
       "signature": "(const ImPlot3DQuat)const",
@@ -449,7 +449,7 @@
       "defaults": {},
       "funcname": "FromTwoVectors",
       "is_static_function": true,
-      "location": "implot3d:664",
+      "location": "implot3d:670",
       "nonUDT": 1,
       "ov_cimguiname": "ImPlot3DQuat_FromTwoVectors",
       "ret": "void",
@@ -467,7 +467,7 @@
       "constructor": true,
       "defaults": {},
       "funcname": "ImPlot3DQuat",
-      "location": "implot3d:658",
+      "location": "implot3d:664",
       "ov_cimguiname": "ImPlot3DQuat_ImPlot3DQuat_Nil",
       "signature": "()",
       "stname": "ImPlot3DQuat"
@@ -498,7 +498,7 @@
       "constructor": true,
       "defaults": {},
       "funcname": "ImPlot3DQuat",
-      "location": "implot3d:659",
+      "location": "implot3d:665",
       "ov_cimguiname": "ImPlot3DQuat_ImPlot3DQuat_FloatFloat",
       "signature": "(float,float,float,float)",
       "stname": "ImPlot3DQuat"
@@ -521,7 +521,7 @@
       "constructor": true,
       "defaults": {},
       "funcname": "ImPlot3DQuat",
-      "location": "implot3d:661",
+      "location": "implot3d:667",
       "ov_cimguiname": "ImPlot3DQuat_ImPlot3DQuat_FloatPlot3DPoInt",
       "signature": "(float,const ImPlot3DPoint)",
       "stname": "ImPlot3DQuat"
@@ -545,7 +545,7 @@
       "cimguiname": "ImPlot3DQuat_Inverse",
       "defaults": {},
       "funcname": "Inverse",
-      "location": "implot3d:676",
+      "location": "implot3d:682",
       "nonUDT": 1,
       "ov_cimguiname": "ImPlot3DQuat_Inverse",
       "ret": "void",
@@ -567,7 +567,7 @@
       "cimguiname": "ImPlot3DQuat_Length",
       "defaults": {},
       "funcname": "Length",
-      "location": "implot3d:667",
+      "location": "implot3d:673",
       "ov_cimguiname": "ImPlot3DQuat_Length",
       "ret": "float",
       "signature": "()const",
@@ -588,7 +588,7 @@
       "cimguiname": "ImPlot3DQuat_Normalize",
       "defaults": {},
       "funcname": "Normalize",
-      "location": "implot3d:682",
+      "location": "implot3d:688",
       "ov_cimguiname": "ImPlot3DQuat_Normalize",
       "ret": "ImPlot3DQuat*",
       "retref": "&",
@@ -614,7 +614,7 @@
       "cimguiname": "ImPlot3DQuat_Normalized",
       "defaults": {},
       "funcname": "Normalized",
-      "location": "implot3d:670",
+      "location": "implot3d:676",
       "nonUDT": 1,
       "ov_cimguiname": "ImPlot3DQuat_Normalized",
       "ret": "void",
@@ -649,7 +649,7 @@
       "defaults": {},
       "funcname": "Slerp",
       "is_static_function": true,
-      "location": "implot3d:692",
+      "location": "implot3d:698",
       "nonUDT": 1,
       "ov_cimguiname": "ImPlot3DQuat_Slerp",
       "ret": "void",
@@ -670,7 +670,7 @@
       "cimguiname": "ImPlot3DQuat_destroy",
       "defaults": {},
       "destructor": true,
-      "location": "implot3d:658",
+      "location": "implot3d:664",
       "ov_cimguiname": "ImPlot3DQuat_destroy",
       "ret": "void",
       "signature": "(ImPlot3DQuat*)",
@@ -695,7 +695,7 @@
       "cimguiname": "ImPlot3DRange_Contains",
       "defaults": {},
       "funcname": "Contains",
-      "location": "implot3d:646",
+      "location": "implot3d:652",
       "ov_cimguiname": "ImPlot3DRange_Contains",
       "ret": "bool",
       "signature": "(float)const",
@@ -720,7 +720,7 @@
       "cimguiname": "ImPlot3DRange_Expand",
       "defaults": {},
       "funcname": "Expand",
-      "location": "implot3d:645",
+      "location": "implot3d:651",
       "ov_cimguiname": "ImPlot3DRange_Expand",
       "ret": "void",
       "signature": "(float)",
@@ -737,7 +737,7 @@
       "constructor": true,
       "defaults": {},
       "funcname": "ImPlot3DRange",
-      "location": "implot3d:642",
+      "location": "implot3d:648",
       "ov_cimguiname": "ImPlot3DRange_ImPlot3DRange_Nil",
       "signature": "()",
       "stname": "ImPlot3DRange"
@@ -760,7 +760,7 @@
       "constructor": true,
       "defaults": {},
       "funcname": "ImPlot3DRange",
-      "location": "implot3d:643",
+      "location": "implot3d:649",
       "ov_cimguiname": "ImPlot3DRange_ImPlot3DRange_Float",
       "signature": "(float,float)",
       "stname": "ImPlot3DRange"
@@ -780,7 +780,7 @@
       "cimguiname": "ImPlot3DRange_Size",
       "defaults": {},
       "funcname": "Size",
-      "location": "implot3d:647",
+      "location": "implot3d:653",
       "ov_cimguiname": "ImPlot3DRange_Size",
       "ret": "float",
       "signature": "()const",
@@ -800,7 +800,7 @@
       "cimguiname": "ImPlot3DRange_destroy",
       "defaults": {},
       "destructor": true,
-      "location": "implot3d:642",
+      "location": "implot3d:648",
       "ov_cimguiname": "ImPlot3DRange_destroy",
       "ret": "void",
       "signature": "(ImPlot3DRange*)",
@@ -817,7 +817,7 @@
       "constructor": true,
       "defaults": {},
       "funcname": "ImPlot3DStyle",
-      "location": "implot3d:727",
+      "location": "implot3d:733",
       "ov_cimguiname": "ImPlot3DStyle_ImPlot3DStyle",
       "signature": "()",
       "stname": "ImPlot3DStyle"
@@ -836,7 +836,7 @@
       "cimguiname": "ImPlot3DStyle_destroy",
       "defaults": {},
       "destructor": true,
-      "location": "implot3d:727",
+      "location": "implot3d:733",
       "ov_cimguiname": "ImPlot3DStyle_destroy",
       "ret": "void",
       "signature": "(ImPlot3DStyle*)",
@@ -871,7 +871,7 @@
         "qual": "true"
       },
       "funcname": "AddColormap",
-      "location": "implot3d:479",
+      "location": "implot3d:485",
       "namespace": "ImPlot3D",
       "ov_cimguiname": "ImPlot3D_AddColormap_Vec4Ptr",
       "ret": "ImPlot3DColormap",
@@ -905,7 +905,7 @@
         "qual": "true"
       },
       "funcname": "AddColormap",
-      "location": "implot3d:480",
+      "location": "implot3d:486",
       "namespace": "ImPlot3D",
       "ov_cimguiname": "ImPlot3D_AddColormap_U32Ptr",
       "ret": "ImPlot3DColormap",
@@ -1028,7 +1028,7 @@
         "cmap": "-1"
       },
       "funcname": "GetColormapColor",
-      "location": "implot3d:503",
+      "location": "implot3d:509",
       "namespace": "ImPlot3D",
       "nonUDT": 1,
       "ov_cimguiname": "ImPlot3D_GetColormapColor",
@@ -1046,7 +1046,7 @@
       "cimguiname": "ImPlot3D_GetColormapCount",
       "defaults": {},
       "funcname": "GetColormapCount",
-      "location": "implot3d:483",
+      "location": "implot3d:489",
       "namespace": "ImPlot3D",
       "ov_cimguiname": "ImPlot3D_GetColormapCount",
       "ret": "int",
@@ -1068,7 +1068,7 @@
       "cimguiname": "ImPlot3D_GetColormapIndex",
       "defaults": {},
       "funcname": "GetColormapIndex",
-      "location": "implot3d:487",
+      "location": "implot3d:493",
       "namespace": "ImPlot3D",
       "ov_cimguiname": "ImPlot3D_GetColormapIndex",
       "ret": "ImPlot3DColormap",
@@ -1090,7 +1090,7 @@
       "cimguiname": "ImPlot3D_GetColormapName",
       "defaults": {},
       "funcname": "GetColormapName",
-      "location": "implot3d:485",
+      "location": "implot3d:491",
       "namespace": "ImPlot3D",
       "ov_cimguiname": "ImPlot3D_GetColormapName",
       "ret": "const char*",
@@ -1114,7 +1114,7 @@
         "cmap": "-1"
       },
       "funcname": "GetColormapSize",
-      "location": "implot3d:501",
+      "location": "implot3d:507",
       "namespace": "ImPlot3D",
       "ov_cimguiname": "ImPlot3D_GetColormapSize",
       "ret": "int",
@@ -1148,7 +1148,7 @@
       "cimguiname": "ImPlot3D_GetPlotDrawList",
       "defaults": {},
       "funcname": "GetPlotDrawList",
-      "location": "implot3d:419",
+      "location": "implot3d:425",
       "namespace": "ImPlot3D",
       "ov_cimguiname": "ImPlot3D_GetPlotDrawList",
       "ret": "ImDrawList*",
@@ -1170,7 +1170,7 @@
       "cimguiname": "ImPlot3D_GetPlotPos",
       "defaults": {},
       "funcname": "GetPlotPos",
-      "location": "implot3d:412",
+      "location": "implot3d:418",
       "namespace": "ImPlot3D",
       "nonUDT": 1,
       "ov_cimguiname": "ImPlot3D_GetPlotPos",
@@ -1193,7 +1193,7 @@
       "cimguiname": "ImPlot3D_GetPlotSize",
       "defaults": {},
       "funcname": "GetPlotSize",
-      "location": "implot3d:413",
+      "location": "implot3d:419",
       "namespace": "ImPlot3D",
       "nonUDT": 1,
       "ov_cimguiname": "ImPlot3D_GetPlotSize",
@@ -1211,7 +1211,7 @@
       "cimguiname": "ImPlot3D_GetStyle",
       "defaults": {},
       "funcname": "GetStyle",
-      "location": "implot3d:426",
+      "location": "implot3d:432",
       "namespace": "ImPlot3D",
       "ov_cimguiname": "ImPlot3D_GetStyle",
       "ret": "ImPlot3DStyle*",
@@ -1234,7 +1234,7 @@
       "cimguiname": "ImPlot3D_GetStyleColorU32",
       "defaults": {},
       "funcname": "GetStyleColorU32",
-      "location": "implot3d:458",
+      "location": "implot3d:464",
       "namespace": "ImPlot3D",
       "ov_cimguiname": "ImPlot3D_GetStyleColorU32",
       "ret": "ImU32",
@@ -1260,7 +1260,7 @@
       "cimguiname": "ImPlot3D_GetStyleColorVec4",
       "defaults": {},
       "funcname": "GetStyleColorVec4",
-      "location": "implot3d:457",
+      "location": "implot3d:463",
       "namespace": "ImPlot3D",
       "nonUDT": 1,
       "ov_cimguiname": "ImPlot3D_GetStyleColorVec4",
@@ -1283,7 +1283,7 @@
       "cimguiname": "ImPlot3D_NextColormapColor",
       "defaults": {},
       "funcname": "NextColormapColor",
-      "location": "implot3d:498",
+      "location": "implot3d:504",
       "namespace": "ImPlot3D",
       "nonUDT": 1,
       "ov_cimguiname": "ImPlot3D_NextColormapColor",
@@ -1320,7 +1320,7 @@
         "mask": "true"
       },
       "funcname": "PixelsToPlotPlane",
-      "location": "implot3d:409",
+      "location": "implot3d:415",
       "namespace": "ImPlot3D",
       "nonUDT": 1,
       "ov_cimguiname": "ImPlot3D_PixelsToPlotPlane_Vec2",
@@ -1359,7 +1359,7 @@
         "mask": "true"
       },
       "funcname": "PixelsToPlotPlane",
-      "location": "implot3d:410",
+      "location": "implot3d:416",
       "namespace": "ImPlot3D",
       "nonUDT": 1,
       "ov_cimguiname": "ImPlot3D_PixelsToPlotPlane_double",
@@ -1382,7 +1382,7 @@
       "cimguiname": "ImPlot3D_PixelsToPlotRay",
       "defaults": {},
       "funcname": "PixelsToPlotRay",
-      "location": "implot3d:406",
+      "location": "implot3d:412",
       "namespace": "ImPlot3D",
       "ov_cimguiname": "ImPlot3D_PixelsToPlotRay_Vec2",
       "ret": "ImPlot3DRay",
@@ -1406,7 +1406,7 @@
       "cimguiname": "ImPlot3D_PixelsToPlotRay",
       "defaults": {},
       "funcname": "PixelsToPlotRay",
-      "location": "implot3d:407",
+      "location": "implot3d:413",
       "namespace": "ImPlot3D",
       "ov_cimguiname": "ImPlot3D_PixelsToPlotRay_double",
       "ret": "ImPlot3DRay",
@@ -1460,7 +1460,7 @@
         "stride": "sizeof(float)"
       },
       "funcname": "PlotLine",
-      "location": "implot3d:384",
+      "location": "implot3d:390",
       "namespace": "ImPlot3D",
       "ov_cimguiname": "ImPlot3D_PlotLine_FloatPtr",
       "ret": "void",
@@ -1512,7 +1512,7 @@
         "stride": "sizeof(double)"
       },
       "funcname": "PlotLine",
-      "location": "implot3d:384",
+      "location": "implot3d:390",
       "namespace": "ImPlot3D",
       "ov_cimguiname": "ImPlot3D_PlotLine_doublePtr",
       "ret": "void",
@@ -1564,7 +1564,7 @@
         "stride": "sizeof(ImS8)"
       },
       "funcname": "PlotLine",
-      "location": "implot3d:384",
+      "location": "implot3d:390",
       "namespace": "ImPlot3D",
       "ov_cimguiname": "ImPlot3D_PlotLine_S8Ptr",
       "ret": "void",
@@ -1616,7 +1616,7 @@
         "stride": "sizeof(ImU8)"
       },
       "funcname": "PlotLine",
-      "location": "implot3d:384",
+      "location": "implot3d:390",
       "namespace": "ImPlot3D",
       "ov_cimguiname": "ImPlot3D_PlotLine_U8Ptr",
       "ret": "void",
@@ -1668,7 +1668,7 @@
         "stride": "sizeof(ImS16)"
       },
       "funcname": "PlotLine",
-      "location": "implot3d:384",
+      "location": "implot3d:390",
       "namespace": "ImPlot3D",
       "ov_cimguiname": "ImPlot3D_PlotLine_S16Ptr",
       "ret": "void",
@@ -1720,7 +1720,7 @@
         "stride": "sizeof(ImU16)"
       },
       "funcname": "PlotLine",
-      "location": "implot3d:384",
+      "location": "implot3d:390",
       "namespace": "ImPlot3D",
       "ov_cimguiname": "ImPlot3D_PlotLine_U16Ptr",
       "ret": "void",
@@ -1772,7 +1772,7 @@
         "stride": "sizeof(ImS32)"
       },
       "funcname": "PlotLine",
-      "location": "implot3d:384",
+      "location": "implot3d:390",
       "namespace": "ImPlot3D",
       "ov_cimguiname": "ImPlot3D_PlotLine_S32Ptr",
       "ret": "void",
@@ -1824,7 +1824,7 @@
         "stride": "sizeof(ImU32)"
       },
       "funcname": "PlotLine",
-      "location": "implot3d:384",
+      "location": "implot3d:390",
       "namespace": "ImPlot3D",
       "ov_cimguiname": "ImPlot3D_PlotLine_U32Ptr",
       "ret": "void",
@@ -1876,7 +1876,7 @@
         "stride": "sizeof(ImS64)"
       },
       "funcname": "PlotLine",
-      "location": "implot3d:384",
+      "location": "implot3d:390",
       "namespace": "ImPlot3D",
       "ov_cimguiname": "ImPlot3D_PlotLine_S64Ptr",
       "ret": "void",
@@ -1928,7 +1928,7 @@
         "stride": "sizeof(ImU64)"
       },
       "funcname": "PlotLine",
-      "location": "implot3d:384",
+      "location": "implot3d:390",
       "namespace": "ImPlot3D",
       "ov_cimguiname": "ImPlot3D_PlotLine_U64Ptr",
       "ret": "void",
@@ -1972,7 +1972,7 @@
         "flags": "0"
       },
       "funcname": "PlotMesh",
-      "location": "implot3d:393",
+      "location": "implot3d:399",
       "namespace": "ImPlot3D",
       "ov_cimguiname": "ImPlot3D_PlotMesh",
       "ret": "void",
@@ -2026,7 +2026,7 @@
         "stride": "sizeof(float)"
       },
       "funcname": "PlotQuad",
-      "location": "implot3d:388",
+      "location": "implot3d:394",
       "namespace": "ImPlot3D",
       "ov_cimguiname": "ImPlot3D_PlotQuad_FloatPtr",
       "ret": "void",
@@ -2078,7 +2078,7 @@
         "stride": "sizeof(double)"
       },
       "funcname": "PlotQuad",
-      "location": "implot3d:388",
+      "location": "implot3d:394",
       "namespace": "ImPlot3D",
       "ov_cimguiname": "ImPlot3D_PlotQuad_doublePtr",
       "ret": "void",
@@ -2130,7 +2130,7 @@
         "stride": "sizeof(ImS8)"
       },
       "funcname": "PlotQuad",
-      "location": "implot3d:388",
+      "location": "implot3d:394",
       "namespace": "ImPlot3D",
       "ov_cimguiname": "ImPlot3D_PlotQuad_S8Ptr",
       "ret": "void",
@@ -2182,7 +2182,7 @@
         "stride": "sizeof(ImU8)"
       },
       "funcname": "PlotQuad",
-      "location": "implot3d:388",
+      "location": "implot3d:394",
       "namespace": "ImPlot3D",
       "ov_cimguiname": "ImPlot3D_PlotQuad_U8Ptr",
       "ret": "void",
@@ -2234,7 +2234,7 @@
         "stride": "sizeof(ImS16)"
       },
       "funcname": "PlotQuad",
-      "location": "implot3d:388",
+      "location": "implot3d:394",
       "namespace": "ImPlot3D",
       "ov_cimguiname": "ImPlot3D_PlotQuad_S16Ptr",
       "ret": "void",
@@ -2286,7 +2286,7 @@
         "stride": "sizeof(ImU16)"
       },
       "funcname": "PlotQuad",
-      "location": "implot3d:388",
+      "location": "implot3d:394",
       "namespace": "ImPlot3D",
       "ov_cimguiname": "ImPlot3D_PlotQuad_U16Ptr",
       "ret": "void",
@@ -2338,7 +2338,7 @@
         "stride": "sizeof(ImS32)"
       },
       "funcname": "PlotQuad",
-      "location": "implot3d:388",
+      "location": "implot3d:394",
       "namespace": "ImPlot3D",
       "ov_cimguiname": "ImPlot3D_PlotQuad_S32Ptr",
       "ret": "void",
@@ -2390,7 +2390,7 @@
         "stride": "sizeof(ImU32)"
       },
       "funcname": "PlotQuad",
-      "location": "implot3d:388",
+      "location": "implot3d:394",
       "namespace": "ImPlot3D",
       "ov_cimguiname": "ImPlot3D_PlotQuad_U32Ptr",
       "ret": "void",
@@ -2442,7 +2442,7 @@
         "stride": "sizeof(ImS64)"
       },
       "funcname": "PlotQuad",
-      "location": "implot3d:388",
+      "location": "implot3d:394",
       "namespace": "ImPlot3D",
       "ov_cimguiname": "ImPlot3D_PlotQuad_S64Ptr",
       "ret": "void",
@@ -2494,7 +2494,7 @@
         "stride": "sizeof(ImU64)"
       },
       "funcname": "PlotQuad",
-      "location": "implot3d:388",
+      "location": "implot3d:394",
       "namespace": "ImPlot3D",
       "ov_cimguiname": "ImPlot3D_PlotQuad_U64Ptr",
       "ret": "void",
@@ -2548,7 +2548,7 @@
         "stride": "sizeof(float)"
       },
       "funcname": "PlotScatter",
-      "location": "implot3d:382",
+      "location": "implot3d:388",
       "namespace": "ImPlot3D",
       "ov_cimguiname": "ImPlot3D_PlotScatter_FloatPtr",
       "ret": "void",
@@ -2600,7 +2600,7 @@
         "stride": "sizeof(double)"
       },
       "funcname": "PlotScatter",
-      "location": "implot3d:382",
+      "location": "implot3d:388",
       "namespace": "ImPlot3D",
       "ov_cimguiname": "ImPlot3D_PlotScatter_doublePtr",
       "ret": "void",
@@ -2652,7 +2652,7 @@
         "stride": "sizeof(ImS8)"
       },
       "funcname": "PlotScatter",
-      "location": "implot3d:382",
+      "location": "implot3d:388",
       "namespace": "ImPlot3D",
       "ov_cimguiname": "ImPlot3D_PlotScatter_S8Ptr",
       "ret": "void",
@@ -2704,7 +2704,7 @@
         "stride": "sizeof(ImU8)"
       },
       "funcname": "PlotScatter",
-      "location": "implot3d:382",
+      "location": "implot3d:388",
       "namespace": "ImPlot3D",
       "ov_cimguiname": "ImPlot3D_PlotScatter_U8Ptr",
       "ret": "void",
@@ -2756,7 +2756,7 @@
         "stride": "sizeof(ImS16)"
       },
       "funcname": "PlotScatter",
-      "location": "implot3d:382",
+      "location": "implot3d:388",
       "namespace": "ImPlot3D",
       "ov_cimguiname": "ImPlot3D_PlotScatter_S16Ptr",
       "ret": "void",
@@ -2808,7 +2808,7 @@
         "stride": "sizeof(ImU16)"
       },
       "funcname": "PlotScatter",
-      "location": "implot3d:382",
+      "location": "implot3d:388",
       "namespace": "ImPlot3D",
       "ov_cimguiname": "ImPlot3D_PlotScatter_U16Ptr",
       "ret": "void",
@@ -2860,7 +2860,7 @@
         "stride": "sizeof(ImS32)"
       },
       "funcname": "PlotScatter",
-      "location": "implot3d:382",
+      "location": "implot3d:388",
       "namespace": "ImPlot3D",
       "ov_cimguiname": "ImPlot3D_PlotScatter_S32Ptr",
       "ret": "void",
@@ -2912,7 +2912,7 @@
         "stride": "sizeof(ImU32)"
       },
       "funcname": "PlotScatter",
-      "location": "implot3d:382",
+      "location": "implot3d:388",
       "namespace": "ImPlot3D",
       "ov_cimguiname": "ImPlot3D_PlotScatter_U32Ptr",
       "ret": "void",
@@ -2964,7 +2964,7 @@
         "stride": "sizeof(ImS64)"
       },
       "funcname": "PlotScatter",
-      "location": "implot3d:382",
+      "location": "implot3d:388",
       "namespace": "ImPlot3D",
       "ov_cimguiname": "ImPlot3D_PlotScatter_S64Ptr",
       "ret": "void",
@@ -3016,7 +3016,7 @@
         "stride": "sizeof(ImU64)"
       },
       "funcname": "PlotScatter",
-      "location": "implot3d:382",
+      "location": "implot3d:388",
       "namespace": "ImPlot3D",
       "ov_cimguiname": "ImPlot3D_PlotScatter_U64Ptr",
       "ret": "void",
@@ -3084,7 +3084,7 @@
         "stride": "sizeof(float)"
       },
       "funcname": "PlotSurface",
-      "location": "implot3d:391",
+      "location": "implot3d:397",
       "namespace": "ImPlot3D",
       "ov_cimguiname": "ImPlot3D_PlotSurface_FloatPtr",
       "ret": "void",
@@ -3150,7 +3150,7 @@
         "stride": "sizeof(double)"
       },
       "funcname": "PlotSurface",
-      "location": "implot3d:391",
+      "location": "implot3d:397",
       "namespace": "ImPlot3D",
       "ov_cimguiname": "ImPlot3D_PlotSurface_doublePtr",
       "ret": "void",
@@ -3216,7 +3216,7 @@
         "stride": "sizeof(ImS8)"
       },
       "funcname": "PlotSurface",
-      "location": "implot3d:391",
+      "location": "implot3d:397",
       "namespace": "ImPlot3D",
       "ov_cimguiname": "ImPlot3D_PlotSurface_S8Ptr",
       "ret": "void",
@@ -3282,7 +3282,7 @@
         "stride": "sizeof(ImU8)"
       },
       "funcname": "PlotSurface",
-      "location": "implot3d:391",
+      "location": "implot3d:397",
       "namespace": "ImPlot3D",
       "ov_cimguiname": "ImPlot3D_PlotSurface_U8Ptr",
       "ret": "void",
@@ -3348,7 +3348,7 @@
         "stride": "sizeof(ImS16)"
       },
       "funcname": "PlotSurface",
-      "location": "implot3d:391",
+      "location": "implot3d:397",
       "namespace": "ImPlot3D",
       "ov_cimguiname": "ImPlot3D_PlotSurface_S16Ptr",
       "ret": "void",
@@ -3414,7 +3414,7 @@
         "stride": "sizeof(ImU16)"
       },
       "funcname": "PlotSurface",
-      "location": "implot3d:391",
+      "location": "implot3d:397",
       "namespace": "ImPlot3D",
       "ov_cimguiname": "ImPlot3D_PlotSurface_U16Ptr",
       "ret": "void",
@@ -3480,7 +3480,7 @@
         "stride": "sizeof(ImS32)"
       },
       "funcname": "PlotSurface",
-      "location": "implot3d:391",
+      "location": "implot3d:397",
       "namespace": "ImPlot3D",
       "ov_cimguiname": "ImPlot3D_PlotSurface_S32Ptr",
       "ret": "void",
@@ -3546,7 +3546,7 @@
         "stride": "sizeof(ImU32)"
       },
       "funcname": "PlotSurface",
-      "location": "implot3d:391",
+      "location": "implot3d:397",
       "namespace": "ImPlot3D",
       "ov_cimguiname": "ImPlot3D_PlotSurface_U32Ptr",
       "ret": "void",
@@ -3612,7 +3612,7 @@
         "stride": "sizeof(ImS64)"
       },
       "funcname": "PlotSurface",
-      "location": "implot3d:391",
+      "location": "implot3d:397",
       "namespace": "ImPlot3D",
       "ov_cimguiname": "ImPlot3D_PlotSurface_S64Ptr",
       "ret": "void",
@@ -3678,7 +3678,7 @@
         "stride": "sizeof(ImU64)"
       },
       "funcname": "PlotSurface",
-      "location": "implot3d:391",
+      "location": "implot3d:397",
       "namespace": "ImPlot3D",
       "ov_cimguiname": "ImPlot3D_PlotSurface_U64Ptr",
       "ret": "void",
@@ -3723,7 +3723,7 @@
         "pix_offset": "ImVec2(0,0)"
       },
       "funcname": "PlotText",
-      "location": "implot3d:396",
+      "location": "implot3d:402",
       "namespace": "ImPlot3D",
       "ov_cimguiname": "ImPlot3D_PlotText",
       "ret": "void",
@@ -3749,7 +3749,7 @@
       "cimguiname": "ImPlot3D_PlotToPixels",
       "defaults": {},
       "funcname": "PlotToPixels",
-      "location": "implot3d:403",
+      "location": "implot3d:409",
       "namespace": "ImPlot3D",
       "nonUDT": 1,
       "ov_cimguiname": "ImPlot3D_PlotToPixels_Plot3DPoInt",
@@ -3782,7 +3782,7 @@
       "cimguiname": "ImPlot3D_PlotToPixels",
       "defaults": {},
       "funcname": "PlotToPixels",
-      "location": "implot3d:404",
+      "location": "implot3d:410",
       "namespace": "ImPlot3D",
       "nonUDT": 1,
       "ov_cimguiname": "ImPlot3D_PlotToPixels_double",
@@ -3837,7 +3837,7 @@
         "stride": "sizeof(float)"
       },
       "funcname": "PlotTriangle",
-      "location": "implot3d:386",
+      "location": "implot3d:392",
       "namespace": "ImPlot3D",
       "ov_cimguiname": "ImPlot3D_PlotTriangle_FloatPtr",
       "ret": "void",
@@ -3889,7 +3889,7 @@
         "stride": "sizeof(double)"
       },
       "funcname": "PlotTriangle",
-      "location": "implot3d:386",
+      "location": "implot3d:392",
       "namespace": "ImPlot3D",
       "ov_cimguiname": "ImPlot3D_PlotTriangle_doublePtr",
       "ret": "void",
@@ -3941,7 +3941,7 @@
         "stride": "sizeof(ImS8)"
       },
       "funcname": "PlotTriangle",
-      "location": "implot3d:386",
+      "location": "implot3d:392",
       "namespace": "ImPlot3D",
       "ov_cimguiname": "ImPlot3D_PlotTriangle_S8Ptr",
       "ret": "void",
@@ -3993,7 +3993,7 @@
         "stride": "sizeof(ImU8)"
       },
       "funcname": "PlotTriangle",
-      "location": "implot3d:386",
+      "location": "implot3d:392",
       "namespace": "ImPlot3D",
       "ov_cimguiname": "ImPlot3D_PlotTriangle_U8Ptr",
       "ret": "void",
@@ -4045,7 +4045,7 @@
         "stride": "sizeof(ImS16)"
       },
       "funcname": "PlotTriangle",
-      "location": "implot3d:386",
+      "location": "implot3d:392",
       "namespace": "ImPlot3D",
       "ov_cimguiname": "ImPlot3D_PlotTriangle_S16Ptr",
       "ret": "void",
@@ -4097,7 +4097,7 @@
         "stride": "sizeof(ImU16)"
       },
       "funcname": "PlotTriangle",
-      "location": "implot3d:386",
+      "location": "implot3d:392",
       "namespace": "ImPlot3D",
       "ov_cimguiname": "ImPlot3D_PlotTriangle_U16Ptr",
       "ret": "void",
@@ -4149,7 +4149,7 @@
         "stride": "sizeof(ImS32)"
       },
       "funcname": "PlotTriangle",
-      "location": "implot3d:386",
+      "location": "implot3d:392",
       "namespace": "ImPlot3D",
       "ov_cimguiname": "ImPlot3D_PlotTriangle_S32Ptr",
       "ret": "void",
@@ -4201,7 +4201,7 @@
         "stride": "sizeof(ImU32)"
       },
       "funcname": "PlotTriangle",
-      "location": "implot3d:386",
+      "location": "implot3d:392",
       "namespace": "ImPlot3D",
       "ov_cimguiname": "ImPlot3D_PlotTriangle_U32Ptr",
       "ret": "void",
@@ -4253,7 +4253,7 @@
         "stride": "sizeof(ImS64)"
       },
       "funcname": "PlotTriangle",
-      "location": "implot3d:386",
+      "location": "implot3d:392",
       "namespace": "ImPlot3D",
       "ov_cimguiname": "ImPlot3D_PlotTriangle_S64Ptr",
       "ret": "void",
@@ -4305,7 +4305,7 @@
         "stride": "sizeof(ImU64)"
       },
       "funcname": "PlotTriangle",
-      "location": "implot3d:386",
+      "location": "implot3d:392",
       "namespace": "ImPlot3D",
       "ov_cimguiname": "ImPlot3D_PlotTriangle_U64Ptr",
       "ret": "void",
@@ -4329,7 +4329,7 @@
         "count": "1"
       },
       "funcname": "PopColormap",
-      "location": "implot3d:494",
+      "location": "implot3d:500",
       "namespace": "ImPlot3D",
       "ov_cimguiname": "ImPlot3D_PopColormap",
       "ret": "void",
@@ -4353,7 +4353,7 @@
         "count": "1"
       },
       "funcname": "PopStyleColor",
-      "location": "implot3d:438",
+      "location": "implot3d:444",
       "namespace": "ImPlot3D",
       "ov_cimguiname": "ImPlot3D_PopStyleColor",
       "ret": "void",
@@ -4377,7 +4377,7 @@
         "count": "1"
       },
       "funcname": "PopStyleVar",
-      "location": "implot3d:447",
+      "location": "implot3d:453",
       "namespace": "ImPlot3D",
       "ov_cimguiname": "ImPlot3D_PopStyleVar",
       "ret": "void",
@@ -4399,7 +4399,7 @@
       "cimguiname": "ImPlot3D_PushColormap",
       "defaults": {},
       "funcname": "PushColormap",
-      "location": "implot3d:490",
+      "location": "implot3d:496",
       "namespace": "ImPlot3D",
       "ov_cimguiname": "ImPlot3D_PushColormap_Plot3DColormap",
       "ret": "void",
@@ -4419,7 +4419,7 @@
       "cimguiname": "ImPlot3D_PushColormap",
       "defaults": {},
       "funcname": "PushColormap",
-      "location": "implot3d:492",
+      "location": "implot3d:498",
       "namespace": "ImPlot3D",
       "ov_cimguiname": "ImPlot3D_PushColormap_Str",
       "ret": "void",
@@ -4445,7 +4445,7 @@
       "cimguiname": "ImPlot3D_PushStyleColor",
       "defaults": {},
       "funcname": "PushStyleColor",
-      "location": "implot3d:435",
+      "location": "implot3d:441",
       "namespace": "ImPlot3D",
       "ov_cimguiname": "ImPlot3D_PushStyleColor_U32",
       "ret": "void",
@@ -4469,7 +4469,7 @@
       "cimguiname": "ImPlot3D_PushStyleColor",
       "defaults": {},
       "funcname": "PushStyleColor",
-      "location": "implot3d:436",
+      "location": "implot3d:442",
       "namespace": "ImPlot3D",
       "ov_cimguiname": "ImPlot3D_PushStyleColor_Vec4",
       "ret": "void",
@@ -4495,7 +4495,7 @@
       "cimguiname": "ImPlot3D_PushStyleVar",
       "defaults": {},
       "funcname": "PushStyleVar",
-      "location": "implot3d:441",
+      "location": "implot3d:447",
       "namespace": "ImPlot3D",
       "ov_cimguiname": "ImPlot3D_PushStyleVar_Float",
       "ret": "void",
@@ -4519,7 +4519,7 @@
       "cimguiname": "ImPlot3D_PushStyleVar",
       "defaults": {},
       "funcname": "PushStyleVar",
-      "location": "implot3d:443",
+      "location": "implot3d:449",
       "namespace": "ImPlot3D",
       "ov_cimguiname": "ImPlot3D_PushStyleVar_Int",
       "ret": "void",
@@ -4543,7 +4543,7 @@
       "cimguiname": "ImPlot3D_PushStyleVar",
       "defaults": {},
       "funcname": "PushStyleVar",
-      "location": "implot3d:445",
+      "location": "implot3d:451",
       "namespace": "ImPlot3D",
       "ov_cimguiname": "ImPlot3D_PushStyleVar_Vec2",
       "ret": "void",
@@ -4575,7 +4575,7 @@
         "cmap": "-1"
       },
       "funcname": "SampleColormap",
-      "location": "implot3d:505",
+      "location": "implot3d:511",
       "namespace": "ImPlot3D",
       "nonUDT": 1,
       "ov_cimguiname": "ImPlot3D_SampleColormap",
@@ -4627,7 +4627,7 @@
         "col": "ImVec4(0,0,0,-1)"
       },
       "funcname": "SetNextFillStyle",
-      "location": "implot3d:452",
+      "location": "implot3d:458",
       "namespace": "ImPlot3D",
       "ov_cimguiname": "ImPlot3D_SetNextFillStyle",
       "ret": "void",
@@ -4656,7 +4656,7 @@
         "weight": "-1"
       },
       "funcname": "SetNextLineStyle",
-      "location": "implot3d:450",
+      "location": "implot3d:456",
       "namespace": "ImPlot3D",
       "ov_cimguiname": "ImPlot3D_SetNextLineStyle",
       "ret": "void",
@@ -4700,7 +4700,7 @@
         "weight": "-1"
       },
       "funcname": "SetNextMarkerStyle",
-      "location": "implot3d:454",
+      "location": "implot3d:460",
       "namespace": "ImPlot3D",
       "ov_cimguiname": "ImPlot3D_SetNextMarkerStyle",
       "ret": "void",
@@ -4746,7 +4746,7 @@
         "z_flags": "0"
       },
       "funcname": "SetupAxes",
-      "location": "implot3d:368",
+      "location": "implot3d:374",
       "namespace": "ImPlot3D",
       "ov_cimguiname": "ImPlot3D_SetupAxes",
       "ret": "void",
@@ -4794,7 +4794,7 @@
         "cond": "ImPlot3DCond_Once"
       },
       "funcname": "SetupAxesLimits",
-      "location": "implot3d:371",
+      "location": "implot3d:377",
       "namespace": "ImPlot3D",
       "ov_cimguiname": "ImPlot3D_SetupAxesLimits",
       "ret": "void",
@@ -4903,6 +4903,90 @@
       "stname": ""
     }
   ],
+  "ImPlot3D_SetupAxisTicks": [
+    {
+      "args": "(ImAxis3D axis,const double* values,int n_ticks,const char* const labels[],bool keep_default)",
+      "argsT": [
+        {
+          "name": "axis",
+          "type": "ImAxis3D"
+        },
+        {
+          "name": "values",
+          "type": "const double*"
+        },
+        {
+          "name": "n_ticks",
+          "type": "int"
+        },
+        {
+          "name": "labels",
+          "type": "const char* const[]"
+        },
+        {
+          "name": "keep_default",
+          "type": "bool"
+        }
+      ],
+      "argsoriginal": "(ImAxis3D axis,const double* values,int n_ticks,const char* const labels[]=nullptr,bool keep_default=false)",
+      "call_args": "(axis,values,n_ticks,labels,keep_default)",
+      "cimguiname": "ImPlot3D_SetupAxisTicks",
+      "defaults": {
+        "keep_default": "false",
+        "labels": "nullptr"
+      },
+      "funcname": "SetupAxisTicks",
+      "location": "implot3d:368",
+      "namespace": "ImPlot3D",
+      "ov_cimguiname": "ImPlot3D_SetupAxisTicks_doublePtr",
+      "ret": "void",
+      "signature": "(ImAxis3D,const double*,int,const char* const[],bool)",
+      "stname": ""
+    },
+    {
+      "args": "(ImAxis3D axis,double v_min,double v_max,int n_ticks,const char* const labels[],bool keep_default)",
+      "argsT": [
+        {
+          "name": "axis",
+          "type": "ImAxis3D"
+        },
+        {
+          "name": "v_min",
+          "type": "double"
+        },
+        {
+          "name": "v_max",
+          "type": "double"
+        },
+        {
+          "name": "n_ticks",
+          "type": "int"
+        },
+        {
+          "name": "labels",
+          "type": "const char* const[]"
+        },
+        {
+          "name": "keep_default",
+          "type": "bool"
+        }
+      ],
+      "argsoriginal": "(ImAxis3D axis,double v_min,double v_max,int n_ticks,const char* const labels[]=nullptr,bool keep_default=false)",
+      "call_args": "(axis,v_min,v_max,n_ticks,labels,keep_default)",
+      "cimguiname": "ImPlot3D_SetupAxisTicks",
+      "defaults": {
+        "keep_default": "false",
+        "labels": "nullptr"
+      },
+      "funcname": "SetupAxisTicks",
+      "location": "implot3d:371",
+      "namespace": "ImPlot3D",
+      "ov_cimguiname": "ImPlot3D_SetupAxisTicks_double",
+      "ret": "void",
+      "signature": "(ImAxis3D,double,double,int,const char* const[],bool)",
+      "stname": ""
+    }
+  ],
   "ImPlot3D_SetupBoxScale": [
     {
       "args": "(float x,float y,float z)",
@@ -4925,7 +5009,7 @@
       "cimguiname": "ImPlot3D_SetupBoxScale",
       "defaults": {},
       "funcname": "SetupBoxScale",
-      "location": "implot3d:374",
+      "location": "implot3d:380",
       "namespace": "ImPlot3D",
       "ov_cimguiname": "ImPlot3D_SetupBoxScale",
       "ret": "void",
@@ -4953,7 +5037,7 @@
         "flags": "0"
       },
       "funcname": "SetupLegend",
-      "location": "implot3d:376",
+      "location": "implot3d:382",
       "namespace": "ImPlot3D",
       "ov_cimguiname": "ImPlot3D_SetupLegend",
       "ret": "void",
@@ -4977,7 +5061,7 @@
         "p_open": "nullptr"
       },
       "funcname": "ShowDemoWindow",
-      "location": "implot3d:513",
+      "location": "implot3d:519",
       "namespace": "ImPlot3D",
       "ov_cimguiname": "ImPlot3D_ShowDemoWindow",
       "ret": "void",
@@ -5001,7 +5085,7 @@
         "ref": "nullptr"
       },
       "funcname": "ShowStyleEditor",
-      "location": "implot3d:516",
+      "location": "implot3d:522",
       "namespace": "ImPlot3D",
       "ov_cimguiname": "ImPlot3D_ShowStyleEditor",
       "ret": "void",
@@ -5025,7 +5109,7 @@
         "dst": "nullptr"
       },
       "funcname": "StyleColorsAuto",
-      "location": "implot3d:429",
+      "location": "implot3d:435",
       "namespace": "ImPlot3D",
       "ov_cimguiname": "ImPlot3D_StyleColorsAuto",
       "ret": "void",
@@ -5049,7 +5133,7 @@
         "dst": "nullptr"
       },
       "funcname": "StyleColorsClassic",
-      "location": "implot3d:432",
+      "location": "implot3d:438",
       "namespace": "ImPlot3D",
       "ov_cimguiname": "ImPlot3D_StyleColorsClassic",
       "ret": "void",
@@ -5073,7 +5157,7 @@
         "dst": "nullptr"
       },
       "funcname": "StyleColorsDark",
-      "location": "implot3d:430",
+      "location": "implot3d:436",
       "namespace": "ImPlot3D",
       "ov_cimguiname": "ImPlot3D_StyleColorsDark",
       "ret": "void",
@@ -5097,7 +5181,7 @@
         "dst": "nullptr"
       },
       "funcname": "StyleColorsLight",
-      "location": "implot3d:431",
+      "location": "implot3d:437",
       "namespace": "ImPlot3D",
       "ov_cimguiname": "ImPlot3D_StyleColorsLight",
       "ret": "void",

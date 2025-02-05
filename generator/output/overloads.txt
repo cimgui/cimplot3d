@@ -89,4 +89,7 @@ ImPlot3D_PushStyleVar	3
 1	void	ImPlot3D_PushStyleVar_Float (ImPlot3DStyleVar,float)
 2	void	ImPlot3D_PushStyleVar_Int (ImPlot3DStyleVar,int)
 3	void	ImPlot3D_PushStyleVar_Vec2 (ImPlot3DStyleVar,const ImVec2)
-74 overloaded
+ImPlot3D_SetupAxisTicks	2
+1	void	ImPlot3D_SetupAxisTicks_doublePtr (ImAxis3D,const double*,int,const char* const[],bool)
+2	void	ImPlot3D_SetupAxisTicks_double (ImAxis3D,double,double,int,const char* const[],bool)
+76 overloaded
