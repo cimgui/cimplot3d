@@ -1,4 +1,4 @@
 [submodule "implot3d"]
 	path = implot3d
-	url = https://github.com/sonoro1234/implot3d
-	branch = ImGuiColorEditFlags_AlphaPreview
+	url = https://github.com/brenocq/implot3d
+	branch = dev
