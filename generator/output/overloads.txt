@@ -21,6 +21,9 @@ ImPlot3D_PixelsToPlotPlane	2
 ImPlot3D_PixelsToPlotRay	2
 1	ImPlot3DRay	ImPlot3D_PixelsToPlotRay_Vec2 (const ImVec2)
 2	ImPlot3DRay	ImPlot3D_PixelsToPlotRay_double (double,double)
+ImPlot3D_PlotImage	2
+1	void	ImPlot3D_PlotImage_Vec2 (const char*,ImTextureRef,const ImPlot3DPoint,const ImPlot3DPoint,const ImPlot3DPoint,const ImVec2,const ImVec2,const ImVec4,ImPlot3DImageFlags)
+2	void	ImPlot3D_PlotImage_Plot3DPoInt (const char*,ImTextureRef,const ImPlot3DPoint,const ImPlot3DPoint,const ImPlot3DPoint,const ImPlot3DPoint,const ImVec2,const ImVec2,const ImVec2,const ImVec2,const ImVec4,ImPlot3DImageFlags)
 ImPlot3D_PlotLine	10
 1	void	ImPlot3D_PlotLine_FloatPtr (const char*,const float*,const float*,const float*,int,ImPlot3DLineFlags,int,int)
 2	void	ImPlot3D_PlotLine_doublePtr (const char*,const double*,const double*,const double*,int,ImPlot3DLineFlags,int,int)
@@ -98,4 +101,4 @@ ImPlot3D_SetupBoxInitialRotation	2
 ImPlot3D_SetupBoxRotation	2
 1	void	ImPlot3D_SetupBoxRotation_Float (float,float,bool,ImPlot3DCond)
 2	void	ImPlot3D_SetupBoxRotation_Plot3DQuat (ImPlot3DQuat,bool,ImPlot3DCond)
-80 overloaded
+82 overloaded

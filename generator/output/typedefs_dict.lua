@@ -9,6 +9,7 @@ local t={
   ImPlot3DContext="struct ImPlot3DContext",
   ImPlot3DFlags="int",
   ImPlot3DFormatter="int (*)(float value, char* buff, int size, void* user_data);",
+  ImPlot3DImageFlags="int",
   ImPlot3DItemFlags="int",
   ImPlot3DLegendFlags="int",
   ImPlot3DLineFlags="int",
