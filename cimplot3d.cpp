@@ -627,13 +627,17 @@ CIMGUI_API void ImPlot3DStyle_SetColor(ImPlot3DStyle* self,ImPlot3DCol idx,const
 {
     return self->SetColor(idx,col);
 }
-CIMGUI_API ImPlot3DStyle* ImPlot3DStyle_ImPlot3DStyle(void)
+CIMGUI_API ImPlot3DStyle* ImPlot3DStyle_ImPlot3DStyle_Nil(void)
 {
     return IM_NEW(ImPlot3DStyle)();
 }
 CIMGUI_API void ImPlot3DStyle_destroy(ImPlot3DStyle* self)
 {
     IM_DELETE(self);
+}
+CIMGUI_API ImPlot3DStyle* ImPlot3DStyle_ImPlot3DStyle_Plot3DStyle(const ImPlot3DStyle other)
+{
+    return IM_NEW(ImPlot3DStyle)(other);
 }
 
 

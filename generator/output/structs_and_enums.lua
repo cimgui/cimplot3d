@@ -704,8 +704,5 @@ local t={
         type="ImVec4"},
       [14]={
         name="Colormap",
-        type="ImPlot3DColormap"},
-      [15]={
-        name="other)",
-        type="ImPlot3DStyle(const ImPlot3DStyle&"}}}}
+        type="ImPlot3DColormap"}}}}
  return t

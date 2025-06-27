@@ -900,10 +900,6 @@
       {
         "name": "Colormap",
         "type": "ImPlot3DColormap"
-      },
-      {
-        "name": "other)",
-        "type": "ImPlot3DStyle(const ImPlot3DStyle&"
       }
     ]
   }

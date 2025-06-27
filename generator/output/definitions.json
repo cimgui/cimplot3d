@@ -879,8 +879,27 @@
       "defaults": {},
       "funcname": "ImPlot3DStyle",
       "location": "implot3d:828",
-      "ov_cimguiname": "ImPlot3DStyle_ImPlot3DStyle",
+      "ov_cimguiname": "ImPlot3DStyle_ImPlot3DStyle_Nil",
       "signature": "()",
+      "stname": "ImPlot3DStyle"
+    },
+    {
+      "args": "(const ImPlot3DStyle other)",
+      "argsT": [
+        {
+          "name": "other",
+          "type": "const ImPlot3DStyle"
+        }
+      ],
+      "argsoriginal": "(const ImPlot3DStyle& other)",
+      "call_args": "(other)",
+      "cimguiname": "ImPlot3DStyle_ImPlot3DStyle",
+      "constructor": true,
+      "defaults": {},
+      "funcname": "ImPlot3DStyle",
+      "location": "implot3d:805",
+      "ov_cimguiname": "ImPlot3DStyle_ImPlot3DStyle_Plot3DStyle",
+      "signature": "(const ImPlot3DStyle)",
       "stname": "ImPlot3DStyle"
     }
   ],

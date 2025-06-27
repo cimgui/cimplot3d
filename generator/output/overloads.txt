@@ -12,6 +12,9 @@ ImPlot3DQuat_ImPlot3DQuat	3
 ImPlot3DRange_ImPlot3DRange	2
 1	nil	ImPlot3DRange_ImPlot3DRange_Nil ()
 2	nil	ImPlot3DRange_ImPlot3DRange_Float (float,float)
+ImPlot3DStyle_ImPlot3DStyle	2
+1	nil	ImPlot3DStyle_ImPlot3DStyle_Nil ()
+2	nil	ImPlot3DStyle_ImPlot3DStyle_Plot3DStyle (const ImPlot3DStyle)
 ImPlot3D_AddColormap	2
 1	ImPlot3DColormap	ImPlot3D_AddColormap_Vec4Ptr (const char*,const ImVec4*,int,bool)
 2	ImPlot3DColormap	ImPlot3D_AddColormap_U32Ptr (const char*,const ImU32*,int,bool)
@@ -101,4 +104,4 @@ ImPlot3D_SetupBoxInitialRotation	2
 ImPlot3D_SetupBoxRotation	2
 1	void	ImPlot3D_SetupBoxRotation_Float (float,float,bool,ImPlot3DCond)
 2	void	ImPlot3D_SetupBoxRotation_Plot3DQuat (ImPlot3DQuat,bool,ImPlot3DCond)
-82 overloaded
+84 overloaded

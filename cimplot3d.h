@@ -264,7 +264,6 @@ struct ImPlot3DStyle
     ImVec2 LegendSpacing;
     ImVec4 Colors[ImPlot3DCol_COUNT];
     ImPlot3DColormap Colormap;
-    ImPlot3DStyle(const ImPlot3DStyle& other);
 };
 static const int CUBE_VTX_COUNT = 8;
 static const int CUBE_IDX_COUNT = 36;
@@ -438,8 +437,9 @@ CIMGUI_API void ImPlot3DQuat_Slerp(ImPlot3DQuat *pOut,const ImPlot3DQuat q1,cons
 CIMGUI_API float ImPlot3DQuat_Dot(ImPlot3DQuat* self,const ImPlot3DQuat rhs);
 CIMGUI_API void ImPlot3DStyle_GetColor(ImVec4 *pOut,ImPlot3DStyle* self,ImPlot3DCol idx);
 CIMGUI_API void ImPlot3DStyle_SetColor(ImPlot3DStyle* self,ImPlot3DCol idx,const ImVec4 col);
-CIMGUI_API ImPlot3DStyle* ImPlot3DStyle_ImPlot3DStyle(void);
+CIMGUI_API ImPlot3DStyle* ImPlot3DStyle_ImPlot3DStyle_Nil(void);
 CIMGUI_API void ImPlot3DStyle_destroy(ImPlot3DStyle* self);
+CIMGUI_API ImPlot3DStyle* ImPlot3DStyle_ImPlot3DStyle_Plot3DStyle(const ImPlot3DStyle other);
 
 
 
