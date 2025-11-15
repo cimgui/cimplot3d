@@ -85,12 +85,13 @@ local func_implementation = cpp2ffi.func_implementation
 local function cimgui_generation(parser,name)
 
     local hstrfile = read_data("./"..name.."_template.h")
-
+	
 	local outpre,outpost = parser.structs_and_enums[1], parser.structs_and_enums[2]
 
 	local cstructsstr = outpre..outpost 
 
     hstrfile = hstrfile:gsub([[#include "imgui_structs%.h"]],cstructsstr)
+	hstrfile = hstrfile:gsub([[PLACE_STRUCTS_C]],parser:gen_structs_c())
     local cfuncsstr = func_header_generate(parser)
     hstrfile = hstrfile:gsub([[#include "auto_funcs%.h"]],cfuncsstr)
     save_data("./output/"..name..".h",cimgui_header,hstrfile)
