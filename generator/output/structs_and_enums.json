@@ -287,6 +287,13 @@
         "value": "ImGuiCond_Once"
       }
     ],
+    "ImPlot3DDummyFlags_": [
+      {
+        "calc_value": 0,
+        "name": "ImPlot3DDummyFlags_None",
+        "value": "0"
+      }
+    ],
     "ImPlot3DFlags_": [
       {
         "calc_value": 0,
@@ -317,6 +324,31 @@
         "calc_value": 16,
         "name": "ImPlot3DFlags_NoMenus",
         "value": "1 << 4"
+      },
+      {
+        "calc_value": 32,
+        "name": "ImPlot3DFlags_Equal",
+        "value": "1 << 5"
+      },
+      {
+        "calc_value": 64,
+        "name": "ImPlot3DFlags_NoRotate",
+        "value": "1 << 6"
+      },
+      {
+        "calc_value": 128,
+        "name": "ImPlot3DFlags_NoPan",
+        "value": "1 << 7"
+      },
+      {
+        "calc_value": 256,
+        "name": "ImPlot3DFlags_NoZoom",
+        "value": "1 << 8"
+      },
+      {
+        "calc_value": 512,
+        "name": "ImPlot3DFlags_NoInputs",
+        "value": "1 << 9"
       },
       {
         "calc_value": 7,
@@ -585,6 +617,23 @@
         "value": "1 << 12"
       }
     ],
+    "ImPlot3DScale_": [
+      {
+        "calc_value": 0,
+        "name": "ImPlot3DScale_Linear",
+        "value": "0"
+      },
+      {
+        "calc_value": 1,
+        "name": "ImPlot3DScale_Log10",
+        "value": "1"
+      },
+      {
+        "calc_value": 2,
+        "name": "ImPlot3DScale_SymLog",
+        "value": "2"
+      }
+    ],
     "ImPlot3DScatterFlags_": [
       {
         "calc_value": 0,
@@ -650,23 +699,28 @@
       },
       {
         "calc_value": 9,
-        "name": "ImPlot3DStyleVar_LegendPadding",
+        "name": "ImPlot3DStyleVar_ViewScaleFactor",
         "value": "9"
       },
       {
         "calc_value": 10,
-        "name": "ImPlot3DStyleVar_LegendInnerPadding",
+        "name": "ImPlot3DStyleVar_LegendPadding",
         "value": "10"
       },
       {
         "calc_value": 11,
-        "name": "ImPlot3DStyleVar_LegendSpacing",
+        "name": "ImPlot3DStyleVar_LegendInnerPadding",
         "value": "11"
       },
       {
         "calc_value": 12,
-        "name": "ImPlot3DStyleVar_COUNT",
+        "name": "ImPlot3DStyleVar_LegendSpacing",
         "value": "12"
+      },
+      {
+        "calc_value": 13,
+        "name": "ImPlot3DStyleVar_COUNT",
+        "value": "13"
       }
     ],
     "ImPlot3DSurfaceFlags_": [
@@ -736,32 +790,34 @@
   },
   "enumtypes": [],
   "locations": {
-    "ImAxis3D_": "implot3d:286",
-    "ImPlane3D_": "implot3d:294",
-    "ImPlot3DAxisFlags_": "implot3d:270",
-    "ImPlot3DBox": "implot3d:709",
-    "ImPlot3DCol_": "implot3d:119",
-    "ImPlot3DColormap_": "implot3d:302",
-    "ImPlot3DCond_": "implot3d:113",
-    "ImPlot3DFlags_": "implot3d:102",
-    "ImPlot3DImageFlags_": "implot3d:242",
-    "ImPlot3DItemFlags_": "implot3d:178",
-    "ImPlot3DLegendFlags_": "implot3d:249",
-    "ImPlot3DLineFlags_": "implot3d:192",
-    "ImPlot3DLocation_": "implot3d:257",
-    "ImPlot3DMarker_": "implot3d:162",
-    "ImPlot3DMeshFlags_": "implot3d:232",
-    "ImPlot3DPlane": "implot3d:700",
-    "ImPlot3DPoint": "implot3d:619",
-    "ImPlot3DQuadFlags_": "implot3d:212",
-    "ImPlot3DQuat": "implot3d:749",
-    "ImPlot3DRange": "implot3d:733",
-    "ImPlot3DRay": "implot3d:691",
-    "ImPlot3DScatterFlags_": "implot3d:185",
-    "ImPlot3DStyle": "implot3d:805",
-    "ImPlot3DStyleVar_": "implot3d:143",
-    "ImPlot3DSurfaceFlags_": "implot3d:222",
-    "ImPlot3DTriangleFlags_": "implot3d:202"
+    "ImAxis3D_": "implot3d:298",
+    "ImPlane3D_": "implot3d:306",
+    "ImPlot3DAxisFlags_": "implot3d:282",
+    "ImPlot3DBox": "implot3d:798",
+    "ImPlot3DCol_": "implot3d:125",
+    "ImPlot3DColormap_": "implot3d:321",
+    "ImPlot3DCond_": "implot3d:119",
+    "ImPlot3DDummyFlags_": "implot3d:256",
+    "ImPlot3DFlags_": "implot3d:103",
+    "ImPlot3DImageFlags_": "implot3d:249",
+    "ImPlot3DItemFlags_": "implot3d:185",
+    "ImPlot3DLegendFlags_": "implot3d:261",
+    "ImPlot3DLineFlags_": "implot3d:199",
+    "ImPlot3DLocation_": "implot3d:269",
+    "ImPlot3DMarker_": "implot3d:169",
+    "ImPlot3DMeshFlags_": "implot3d:239",
+    "ImPlot3DPlane": "implot3d:788",
+    "ImPlot3DPoint": "implot3d:705",
+    "ImPlot3DQuadFlags_": "implot3d:219",
+    "ImPlot3DQuat": "implot3d:840",
+    "ImPlot3DRange": "implot3d:823",
+    "ImPlot3DRay": "implot3d:778",
+    "ImPlot3DScale_": "implot3d:314",
+    "ImPlot3DScatterFlags_": "implot3d:192",
+    "ImPlot3DStyle": "implot3d:897",
+    "ImPlot3DStyleVar_": "implot3d:149",
+    "ImPlot3DSurfaceFlags_": "implot3d:229",
+    "ImPlot3DTriangleFlags_": "implot3d:209"
   },
   "nonPOD": {
     "ImBitArray": "inherited",
@@ -894,43 +950,43 @@
     "ImPlot3DPoint": [
       {
         "name": "x",
-        "type": "float"
+        "type": "double"
       },
       {
         "name": "y",
-        "type": "float"
+        "type": "double"
       },
       {
         "name": "z",
-        "type": "float"
+        "type": "double"
       }
     ],
     "ImPlot3DQuat": [
       {
         "name": "x",
-        "type": "float"
+        "type": "double"
       },
       {
         "name": "y",
-        "type": "float"
+        "type": "double"
       },
       {
         "name": "z",
-        "type": "float"
+        "type": "double"
       },
       {
         "name": "w",
-        "type": "float"
+        "type": "double"
       }
     ],
     "ImPlot3DRange": [
       {
         "name": "Min",
-        "type": "float"
+        "type": "double"
       },
       {
         "name": "Max",
-        "type": "float"
+        "type": "double"
       }
     ],
     "ImPlot3DRay": [
@@ -979,6 +1035,10 @@
       {
         "name": "LabelPadding",
         "type": "ImVec2"
+      },
+      {
+        "name": "ViewScaleFactor",
+        "type": "float"
       },
       {
         "name": "LegendPadding",

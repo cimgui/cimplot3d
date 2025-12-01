@@ -4,14 +4,14 @@ ImPlot3DBox_ImPlot3DBox	2
 2	nil	ImPlot3DBox_ImPlot3DBox_Plot3DPoInt (const ImPlot3DPoint,const ImPlot3DPoint)
 ImPlot3DPoint_ImPlot3DPoint	2
 1	nil	ImPlot3DPoint_ImPlot3DPoint_Nil ()
-2	nil	ImPlot3DPoint_ImPlot3DPoint_Float (float,float,float)
+2	nil	ImPlot3DPoint_ImPlot3DPoint_double (double,double,double)
 ImPlot3DQuat_ImPlot3DQuat	3
 1	nil	ImPlot3DQuat_ImPlot3DQuat_Nil ()
-2	nil	ImPlot3DQuat_ImPlot3DQuat_FloatFloat (float,float,float,float)
-3	nil	ImPlot3DQuat_ImPlot3DQuat_FloatPlot3DPoInt (float,const ImPlot3DPoint)
+2	nil	ImPlot3DQuat_ImPlot3DQuat_doubledouble (double,double,double,double)
+3	nil	ImPlot3DQuat_ImPlot3DQuat_doublePlot3DPoInt (double,const ImPlot3DPoint)
 ImPlot3DRange_ImPlot3DRange	2
 1	nil	ImPlot3DRange_ImPlot3DRange_Nil ()
-2	nil	ImPlot3DRange_ImPlot3DRange_Float (float,float)
+2	nil	ImPlot3DRange_ImPlot3DRange_double (double,double)
 ImPlot3DStyle_ImPlot3DStyle	2
 1	nil	ImPlot3DStyle_ImPlot3DStyle_Nil ()
 2	nil	ImPlot3DStyle_ImPlot3DStyle_Plot3DStyle (const ImPlot3DStyle)
@@ -95,13 +95,16 @@ ImPlot3D_PushStyleVar	3
 1	void	ImPlot3D_PushStyleVar_Float (ImPlot3DStyleVar,float)
 2	void	ImPlot3D_PushStyleVar_Int (ImPlot3DStyleVar,int)
 3	void	ImPlot3D_PushStyleVar_Vec2 (ImPlot3DStyleVar,const ImVec2)
+ImPlot3D_SetupAxisScale	2
+1	void	ImPlot3D_SetupAxisScale_Plot3DScale (ImAxis3D,ImPlot3DScale)
+2	void	ImPlot3D_SetupAxisScale_Plot3DTransform (ImAxis3D,ImPlot3DTransform,ImPlot3DTransform,void*)
 ImPlot3D_SetupAxisTicks	2
 1	void	ImPlot3D_SetupAxisTicks_doublePtr (ImAxis3D,const double*,int,const char* const[],bool)
 2	void	ImPlot3D_SetupAxisTicks_double (ImAxis3D,double,double,int,const char* const[],bool)
 ImPlot3D_SetupBoxInitialRotation	2
-1	void	ImPlot3D_SetupBoxInitialRotation_Float (float,float)
+1	void	ImPlot3D_SetupBoxInitialRotation_double (double,double)
 2	void	ImPlot3D_SetupBoxInitialRotation_Plot3DQuat (ImPlot3DQuat)
 ImPlot3D_SetupBoxRotation	2
-1	void	ImPlot3D_SetupBoxRotation_Float (float,float,bool,ImPlot3DCond)
+1	void	ImPlot3D_SetupBoxRotation_double (double,double,bool,ImPlot3DCond)
 2	void	ImPlot3D_SetupBoxRotation_Plot3DQuat (ImPlot3DQuat,bool,ImPlot3DCond)
-84 overloaded
+86 overloaded

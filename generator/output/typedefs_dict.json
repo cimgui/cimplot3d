@@ -7,8 +7,9 @@
   "ImPlot3DColormap": "int",
   "ImPlot3DCond": "int",
   "ImPlot3DContext": "struct ImPlot3DContext",
+  "ImPlot3DDummyFlags": "int",
   "ImPlot3DFlags": "int",
-  "ImPlot3DFormatter": "int (*)(float value, char* buff, int size, void* user_data);",
+  "ImPlot3DFormatter": "int (*)(double value, char* buff, int size, void* user_data);",
   "ImPlot3DImageFlags": "int",
   "ImPlot3DItemFlags": "int",
   "ImPlot3DLegendFlags": "int",
@@ -22,9 +23,11 @@
   "ImPlot3DQuat": "struct ImPlot3DQuat",
   "ImPlot3DRange": "struct ImPlot3DRange",
   "ImPlot3DRay": "struct ImPlot3DRay",
+  "ImPlot3DScale": "int",
   "ImPlot3DScatterFlags": "int",
   "ImPlot3DStyle": "struct ImPlot3DStyle",
   "ImPlot3DStyleVar": "int",
   "ImPlot3DSurfaceFlags": "int",
+  "ImPlot3DTransform": "double (*)(double value, void* user_data);",
   "ImPlot3DTriangleFlags": "int"
 }
