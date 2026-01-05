@@ -446,7 +446,7 @@ CIMGUI_API void ImPlot3D_PlotImage_Vec2(const char* label_id,ImTextureRef_c tex_
 {
     return ImPlot3D::PlotImage(label_id,ConvertToCPP_ImTextureRef(tex_ref),ConvertToCPP_ImPlot3DPoint(center),ConvertToCPP_ImPlot3DPoint(axis_u),ConvertToCPP_ImPlot3DPoint(axis_v),ConvertToCPP_ImVec2(uv0),ConvertToCPP_ImVec2(uv1),ConvertToCPP_ImVec4(tint_col),flags);
 }
-CIMGUI_API void ImPlot3D_PlotImage_Plot3DPoInt(const char* label_id,ImTextureRef_c tex_ref,const ImPlot3DPoint_c p0,const ImPlot3DPoint_c p1,const ImPlot3DPoint_c p2,const ImPlot3DPoint_c p3,const ImVec2_c uv0,const ImVec2_c uv1,const ImVec2_c uv2,const ImVec2_c uv3,const ImVec4_c tint_col,ImPlot3DImageFlags flags)
+CIMGUI_API void ImPlot3D_PlotImage_Plot3DPoint(const char* label_id,ImTextureRef_c tex_ref,const ImPlot3DPoint_c p0,const ImPlot3DPoint_c p1,const ImPlot3DPoint_c p2,const ImPlot3DPoint_c p3,const ImVec2_c uv0,const ImVec2_c uv1,const ImVec2_c uv2,const ImVec2_c uv3,const ImVec4_c tint_col,ImPlot3DImageFlags flags)
 {
     return ImPlot3D::PlotImage(label_id,ConvertToCPP_ImTextureRef(tex_ref),ConvertToCPP_ImPlot3DPoint(p0),ConvertToCPP_ImPlot3DPoint(p1),ConvertToCPP_ImPlot3DPoint(p2),ConvertToCPP_ImPlot3DPoint(p3),ConvertToCPP_ImVec2(uv0),ConvertToCPP_ImVec2(uv1),ConvertToCPP_ImVec2(uv2),ConvertToCPP_ImVec2(uv3),ConvertToCPP_ImVec4(tint_col),flags);
 }
@@ -458,7 +458,7 @@ CIMGUI_API void ImPlot3D_PlotDummy(const char* label_id,ImPlot3DDummyFlags flags
 {
     return ImPlot3D::PlotDummy(label_id,flags);
 }
-CIMGUI_API ImVec2_c ImPlot3D_PlotToPixels_Plot3DPoInt(const ImPlot3DPoint_c point)
+CIMGUI_API ImVec2_c ImPlot3D_PlotToPixels_Plot3DPoint(const ImPlot3DPoint_c point)
 {
     return ConvertFromCPP_ImVec2(ImPlot3D::PlotToPixels(ConvertToCPP_ImPlot3DPoint(point)));
 }
@@ -690,7 +690,7 @@ CIMGUI_API void ImPlot3DBox_destroy(ImPlot3DBox* self)
 {
     IM_DELETE(self);
 }
-CIMGUI_API ImPlot3DBox* ImPlot3DBox_ImPlot3DBox_Plot3DPoInt(const ImPlot3DPoint_c min,const ImPlot3DPoint_c max)
+CIMGUI_API ImPlot3DBox* ImPlot3DBox_ImPlot3DBox_Plot3DPoint(const ImPlot3DPoint_c min,const ImPlot3DPoint_c max)
 {
     return IM_NEW(ImPlot3DBox)(ConvertToCPP_ImPlot3DPoint(min),ConvertToCPP_ImPlot3DPoint(max));
 }
@@ -742,7 +742,7 @@ CIMGUI_API ImPlot3DQuat* ImPlot3DQuat_ImPlot3DQuat_doubledouble(double _x,double
 {
     return IM_NEW(ImPlot3DQuat)(_x,_y,_z,_w);
 }
-CIMGUI_API ImPlot3DQuat* ImPlot3DQuat_ImPlot3DQuat_doublePlot3DPoInt(double _angle,const ImPlot3DPoint_c _axis)
+CIMGUI_API ImPlot3DQuat* ImPlot3DQuat_ImPlot3DQuat_doublePlot3DPoint(double _angle,const ImPlot3DPoint_c _axis)
 {
     return IM_NEW(ImPlot3DQuat)(_angle,ConvertToCPP_ImPlot3DPoint(_axis));
 }

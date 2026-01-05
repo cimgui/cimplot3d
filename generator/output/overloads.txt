@@ -1,14 +1,14 @@
 ----------------overloadings---------------------------
 ImPlot3DBox_ImPlot3DBox	2
 1	nil	ImPlot3DBox_ImPlot3DBox_Nil ()
-2	nil	ImPlot3DBox_ImPlot3DBox_Plot3DPoInt (const ImPlot3DPoint,const ImPlot3DPoint)
+2	nil	ImPlot3DBox_ImPlot3DBox_Plot3DPoint (const ImPlot3DPoint,const ImPlot3DPoint)
 ImPlot3DPoint_ImPlot3DPoint	2
 1	nil	ImPlot3DPoint_ImPlot3DPoint_Nil ()
 2	nil	ImPlot3DPoint_ImPlot3DPoint_double (double,double,double)
 ImPlot3DQuat_ImPlot3DQuat	3
 1	nil	ImPlot3DQuat_ImPlot3DQuat_Nil ()
 2	nil	ImPlot3DQuat_ImPlot3DQuat_doubledouble (double,double,double,double)
-3	nil	ImPlot3DQuat_ImPlot3DQuat_doublePlot3DPoInt (double,const ImPlot3DPoint)
+3	nil	ImPlot3DQuat_ImPlot3DQuat_doublePlot3DPoint (double,const ImPlot3DPoint)
 ImPlot3DRange_ImPlot3DRange	2
 1	nil	ImPlot3DRange_ImPlot3DRange_Nil ()
 2	nil	ImPlot3DRange_ImPlot3DRange_double (double,double)
@@ -26,7 +26,7 @@ ImPlot3D_PixelsToPlotRay	2
 2	ImPlot3DRay	ImPlot3D_PixelsToPlotRay_double (double,double)
 ImPlot3D_PlotImage	2
 1	void	ImPlot3D_PlotImage_Vec2 (const char*,ImTextureRef,const ImPlot3DPoint,const ImPlot3DPoint,const ImPlot3DPoint,const ImVec2,const ImVec2,const ImVec4,ImPlot3DImageFlags)
-2	void	ImPlot3D_PlotImage_Plot3DPoInt (const char*,ImTextureRef,const ImPlot3DPoint,const ImPlot3DPoint,const ImPlot3DPoint,const ImPlot3DPoint,const ImVec2,const ImVec2,const ImVec2,const ImVec2,const ImVec4,ImPlot3DImageFlags)
+2	void	ImPlot3D_PlotImage_Plot3DPoint (const char*,ImTextureRef,const ImPlot3DPoint,const ImPlot3DPoint,const ImPlot3DPoint,const ImPlot3DPoint,const ImVec2,const ImVec2,const ImVec2,const ImVec2,const ImVec4,ImPlot3DImageFlags)
 ImPlot3D_PlotLine	10
 1	void	ImPlot3D_PlotLine_FloatPtr (const char*,const float*,const float*,const float*,int,ImPlot3DLineFlags,int,int)
 2	void	ImPlot3D_PlotLine_doublePtr (const char*,const double*,const double*,const double*,int,ImPlot3DLineFlags,int,int)
@@ -72,7 +72,7 @@ ImPlot3D_PlotSurface	10
 9	void	ImPlot3D_PlotSurface_S64Ptr (const char*,const ImS64*,const ImS64*,const ImS64*,int,int,double,double,ImPlot3DSurfaceFlags,int,int)
 10	void	ImPlot3D_PlotSurface_U64Ptr (const char*,const ImU64*,const ImU64*,const ImU64*,int,int,double,double,ImPlot3DSurfaceFlags,int,int)
 ImPlot3D_PlotToPixels	2
-1	ImVec2	ImPlot3D_PlotToPixels_Plot3DPoInt (const ImPlot3DPoint)
+1	ImVec2	ImPlot3D_PlotToPixels_Plot3DPoint (const ImPlot3DPoint)
 2	ImVec2	ImPlot3D_PlotToPixels_double (double,double,double)
 ImPlot3D_PlotTriangle	10
 1	void	ImPlot3D_PlotTriangle_FloatPtr (const char*,const float*,const float*,const float*,int,ImPlot3DTriangleFlags,int,int)

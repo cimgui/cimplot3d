@@ -127,7 +127,7 @@
       "defaults": {},
       "funcname": "ImPlot3DBox",
       "location": "implot3d:806",
-      "ov_cimguiname": "ImPlot3DBox_ImPlot3DBox_Plot3DPoInt",
+      "ov_cimguiname": "ImPlot3DBox_ImPlot3DBox_Plot3DPoint",
       "signature": "(const ImPlot3DPoint,const ImPlot3DPoint)",
       "stname": "ImPlot3DBox"
     }
@@ -559,7 +559,7 @@
       "defaults": {},
       "funcname": "ImPlot3DQuat",
       "location": "implot3d:848",
-      "ov_cimguiname": "ImPlot3DQuat_ImPlot3DQuat_doublePlot3DPoInt",
+      "ov_cimguiname": "ImPlot3DQuat_ImPlot3DQuat_doublePlot3DPoint",
       "signature": "(double,const ImPlot3DPoint)",
       "stname": "ImPlot3DQuat"
     }
@@ -1686,7 +1686,7 @@
       "funcname": "PlotImage",
       "location": "implot3d:544",
       "namespace": "ImPlot3D",
-      "ov_cimguiname": "ImPlot3D_PlotImage_Plot3DPoInt",
+      "ov_cimguiname": "ImPlot3D_PlotImage_Plot3DPoint",
       "ret": "void",
       "signature": "(const char*,ImTextureRef,const ImPlot3DPoint,const ImPlot3DPoint,const ImPlot3DPoint,const ImPlot3DPoint,const ImVec2,const ImVec2,const ImVec2,const ImVec2,const ImVec4,ImPlot3DImageFlags)",
       "stname": ""
@@ -4070,7 +4070,7 @@
       "location": "implot3d:560",
       "namespace": "ImPlot3D",
       "nonUDT": 1,
-      "ov_cimguiname": "ImPlot3D_PlotToPixels_Plot3DPoInt",
+      "ov_cimguiname": "ImPlot3D_PlotToPixels_Plot3DPoint",
       "ret": "ImVec2_c",
       "signature": "(const ImPlot3DPoint)",
       "stname": ""
