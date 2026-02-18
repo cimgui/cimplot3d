@@ -32,7 +32,7 @@
       "cimguiname": "ImPlot3DBox_ClipLineSegment",
       "defaults": {},
       "funcname": "ClipLineSegment",
-      "location": "implot3d:815",
+      "location": "implot3d:904",
       "ov_cimguiname": "ImPlot3DBox_ClipLineSegment",
       "ret": "bool",
       "signature": "(const ImPlot3DPoint,const ImPlot3DPoint,ImPlot3DPoint*,ImPlot3DPoint*)const",
@@ -58,7 +58,7 @@
       "cimguiname": "ImPlot3DBox_Contains",
       "defaults": {},
       "funcname": "Contains",
-      "location": "implot3d:812",
+      "location": "implot3d:901",
       "ov_cimguiname": "ImPlot3DBox_Contains",
       "ret": "bool",
       "signature": "(const ImPlot3DPoint)const",
@@ -84,7 +84,7 @@
       "cimguiname": "ImPlot3DBox_Expand",
       "defaults": {},
       "funcname": "Expand",
-      "location": "implot3d:809",
+      "location": "implot3d:898",
       "ov_cimguiname": "ImPlot3DBox_Expand",
       "ret": "void",
       "signature": "(const ImPlot3DPoint)",
@@ -102,7 +102,7 @@
       "constructor": true,
       "defaults": {},
       "funcname": "ImPlot3DBox",
-      "location": "implot3d:803",
+      "location": "implot3d:892",
       "ov_cimguiname": "ImPlot3DBox_ImPlot3DBox_Nil",
       "signature": "()",
       "stname": "ImPlot3DBox"
@@ -126,7 +126,7 @@
       "constructor": true,
       "defaults": {},
       "funcname": "ImPlot3DBox",
-      "location": "implot3d:806",
+      "location": "implot3d:895",
       "ov_cimguiname": "ImPlot3DBox_ImPlot3DBox_Plot3DPoint",
       "signature": "(const ImPlot3DPoint,const ImPlot3DPoint)",
       "stname": "ImPlot3DBox"
@@ -145,7 +145,7 @@
       "cimguiname": "ImPlot3DBox_destroy",
       "defaults": {},
       "destructor": true,
-      "location": "implot3d:803",
+      "location": "implot3d:892",
       "ov_cimguiname": "ImPlot3DBox_destroy",
       "ret": "void",
       "signature": "(ImPlot3DBox*)",
@@ -172,7 +172,7 @@
       "conv": "ImPlot3DPoint",
       "defaults": {},
       "funcname": "Cross",
-      "location": "implot3d:747",
+      "location": "implot3d:836",
       "nonUDT": 1,
       "ov_cimguiname": "ImPlot3DPoint_Cross",
       "ret": "ImPlot3DPoint_c",
@@ -199,7 +199,7 @@
       "cimguiname": "ImPlot3DPoint_Dot",
       "defaults": {},
       "funcname": "Dot",
-      "location": "implot3d:744",
+      "location": "implot3d:833",
       "ov_cimguiname": "ImPlot3DPoint_Dot",
       "ret": "double",
       "signature": "(const ImPlot3DPoint)const",
@@ -217,7 +217,7 @@
       "constructor": true,
       "defaults": {},
       "funcname": "ImPlot3DPoint",
-      "location": "implot3d:707",
+      "location": "implot3d:796",
       "ov_cimguiname": "ImPlot3DPoint_ImPlot3DPoint_Nil",
       "signature": "()",
       "stname": "ImPlot3DPoint"
@@ -245,7 +245,7 @@
       "constructor": true,
       "defaults": {},
       "funcname": "ImPlot3DPoint",
-      "location": "implot3d:708",
+      "location": "implot3d:797",
       "ov_cimguiname": "ImPlot3DPoint_ImPlot3DPoint_double",
       "signature": "(double,double,double)",
       "stname": "ImPlot3DPoint"
@@ -266,7 +266,7 @@
       "cimguiname": "ImPlot3DPoint_IsNaN",
       "defaults": {},
       "funcname": "IsNaN",
-      "location": "implot3d:765",
+      "location": "implot3d:854",
       "ov_cimguiname": "ImPlot3DPoint_IsNaN",
       "ret": "bool",
       "signature": "()const",
@@ -288,7 +288,7 @@
       "cimguiname": "ImPlot3DPoint_Length",
       "defaults": {},
       "funcname": "Length",
-      "location": "implot3d:750",
+      "location": "implot3d:839",
       "ov_cimguiname": "ImPlot3DPoint_Length",
       "ret": "double",
       "signature": "()const",
@@ -310,7 +310,7 @@
       "cimguiname": "ImPlot3DPoint_LengthSquared",
       "defaults": {},
       "funcname": "LengthSquared",
-      "location": "implot3d:753",
+      "location": "implot3d:842",
       "ov_cimguiname": "ImPlot3DPoint_LengthSquared",
       "ret": "double",
       "signature": "()const",
@@ -332,7 +332,7 @@
       "cimguiname": "ImPlot3DPoint_Normalize",
       "defaults": {},
       "funcname": "Normalize",
-      "location": "implot3d:756",
+      "location": "implot3d:845",
       "ov_cimguiname": "ImPlot3DPoint_Normalize",
       "ret": "void",
       "signature": "()",
@@ -355,7 +355,7 @@
       "conv": "ImPlot3DPoint",
       "defaults": {},
       "funcname": "Normalized",
-      "location": "implot3d:759",
+      "location": "implot3d:848",
       "nonUDT": 1,
       "ov_cimguiname": "ImPlot3DPoint_Normalized",
       "ret": "ImPlot3DPoint_c",
@@ -376,7 +376,7 @@
       "cimguiname": "ImPlot3DPoint_destroy",
       "defaults": {},
       "destructor": true,
-      "location": "implot3d:707",
+      "location": "implot3d:796",
       "ov_cimguiname": "ImPlot3DPoint_destroy",
       "ret": "void",
       "signature": "(ImPlot3DPoint*)",
@@ -399,7 +399,7 @@
       "conv": "ImPlot3DQuat",
       "defaults": {},
       "funcname": "Conjugate",
-      "location": "implot3d:863",
+      "location": "implot3d:952",
       "nonUDT": 1,
       "ov_cimguiname": "ImPlot3DQuat_Conjugate",
       "ret": "ImPlot3DQuat_c",
@@ -426,7 +426,7 @@
       "cimguiname": "ImPlot3DQuat_Dot",
       "defaults": {},
       "funcname": "Dot",
-      "location": "implot3d:885",
+      "location": "implot3d:974",
       "ov_cimguiname": "ImPlot3DQuat_Dot",
       "ret": "double",
       "signature": "(const ImPlot3DQuat)const",
@@ -454,7 +454,7 @@
       "defaults": {},
       "funcname": "FromElAz",
       "is_static_function": true,
-      "location": "implot3d:854",
+      "location": "implot3d:943",
       "nonUDT": 1,
       "ov_cimguiname": "ImPlot3DQuat_FromElAz",
       "ret": "ImPlot3DQuat_c",
@@ -483,7 +483,7 @@
       "defaults": {},
       "funcname": "FromTwoVectors",
       "is_static_function": true,
-      "location": "implot3d:851",
+      "location": "implot3d:940",
       "nonUDT": 1,
       "ov_cimguiname": "ImPlot3DQuat_FromTwoVectors",
       "ret": "ImPlot3DQuat_c",
@@ -502,7 +502,7 @@
       "constructor": true,
       "defaults": {},
       "funcname": "ImPlot3DQuat",
-      "location": "implot3d:844",
+      "location": "implot3d:933",
       "ov_cimguiname": "ImPlot3DQuat_ImPlot3DQuat_Nil",
       "signature": "()",
       "stname": "ImPlot3DQuat"
@@ -534,7 +534,7 @@
       "constructor": true,
       "defaults": {},
       "funcname": "ImPlot3DQuat",
-      "location": "implot3d:845",
+      "location": "implot3d:934",
       "ov_cimguiname": "ImPlot3DQuat_ImPlot3DQuat_doubledouble",
       "signature": "(double,double,double,double)",
       "stname": "ImPlot3DQuat"
@@ -558,7 +558,7 @@
       "constructor": true,
       "defaults": {},
       "funcname": "ImPlot3DQuat",
-      "location": "implot3d:848",
+      "location": "implot3d:937",
       "ov_cimguiname": "ImPlot3DQuat_ImPlot3DQuat_doublePlot3DPoint",
       "signature": "(double,const ImPlot3DPoint)",
       "stname": "ImPlot3DQuat"
@@ -580,7 +580,7 @@
       "conv": "ImPlot3DQuat",
       "defaults": {},
       "funcname": "Inverse",
-      "location": "implot3d:866",
+      "location": "implot3d:955",
       "nonUDT": 1,
       "ov_cimguiname": "ImPlot3DQuat_Inverse",
       "ret": "ImPlot3DQuat_c",
@@ -603,7 +603,7 @@
       "cimguiname": "ImPlot3DQuat_Length",
       "defaults": {},
       "funcname": "Length",
-      "location": "implot3d:857",
+      "location": "implot3d:946",
       "ov_cimguiname": "ImPlot3DQuat_Length",
       "ret": "double",
       "signature": "()const",
@@ -625,7 +625,7 @@
       "cimguiname": "ImPlot3DQuat_Normalize",
       "defaults": {},
       "funcname": "Normalize",
-      "location": "implot3d:872",
+      "location": "implot3d:961",
       "nonUDT": 2,
       "ov_cimguiname": "ImPlot3DQuat_Normalize",
       "ret": "ImPlot3DQuat_c*",
@@ -650,7 +650,7 @@
       "conv": "ImPlot3DQuat",
       "defaults": {},
       "funcname": "Normalized",
-      "location": "implot3d:860",
+      "location": "implot3d:949",
       "nonUDT": 1,
       "ov_cimguiname": "ImPlot3DQuat_Normalized",
       "ret": "ImPlot3DQuat_c",
@@ -683,7 +683,7 @@
       "defaults": {},
       "funcname": "Slerp",
       "is_static_function": true,
-      "location": "implot3d:882",
+      "location": "implot3d:971",
       "nonUDT": 1,
       "ov_cimguiname": "ImPlot3DQuat_Slerp",
       "ret": "ImPlot3DQuat_c",
@@ -704,7 +704,7 @@
       "cimguiname": "ImPlot3DQuat_destroy",
       "defaults": {},
       "destructor": true,
-      "location": "implot3d:844",
+      "location": "implot3d:933",
       "ov_cimguiname": "ImPlot3DQuat_destroy",
       "ret": "void",
       "signature": "(ImPlot3DQuat*)",
@@ -730,7 +730,7 @@
       "cimguiname": "ImPlot3DRange_Contains",
       "defaults": {},
       "funcname": "Contains",
-      "location": "implot3d:831",
+      "location": "implot3d:920",
       "ov_cimguiname": "ImPlot3DRange_Contains",
       "ret": "bool",
       "signature": "(double)const",
@@ -756,7 +756,7 @@
       "cimguiname": "ImPlot3DRange_Expand",
       "defaults": {},
       "funcname": "Expand",
-      "location": "implot3d:830",
+      "location": "implot3d:919",
       "ov_cimguiname": "ImPlot3DRange_Expand",
       "ret": "void",
       "signature": "(double)",
@@ -774,7 +774,7 @@
       "constructor": true,
       "defaults": {},
       "funcname": "ImPlot3DRange",
-      "location": "implot3d:827",
+      "location": "implot3d:916",
       "ov_cimguiname": "ImPlot3DRange_ImPlot3DRange_Nil",
       "signature": "()",
       "stname": "ImPlot3DRange"
@@ -798,7 +798,7 @@
       "constructor": true,
       "defaults": {},
       "funcname": "ImPlot3DRange",
-      "location": "implot3d:828",
+      "location": "implot3d:917",
       "ov_cimguiname": "ImPlot3DRange_ImPlot3DRange_double",
       "signature": "(double,double)",
       "stname": "ImPlot3DRange"
@@ -819,7 +819,7 @@
       "cimguiname": "ImPlot3DRange_Size",
       "defaults": {},
       "funcname": "Size",
-      "location": "implot3d:832",
+      "location": "implot3d:921",
       "ov_cimguiname": "ImPlot3DRange_Size",
       "ret": "double",
       "signature": "()const",
@@ -839,11 +839,358 @@
       "cimguiname": "ImPlot3DRange_destroy",
       "defaults": {},
       "destructor": true,
-      "location": "implot3d:827",
+      "location": "implot3d:916",
       "ov_cimguiname": "ImPlot3DRange_destroy",
       "ret": "void",
       "signature": "(ImPlot3DRange*)",
       "stname": "ImPlot3DRange"
+    }
+  ],
+  "ImPlot3DSpec_ImPlot3DSpec": [
+    {
+      "args": "()",
+      "argsT": [],
+      "argsoriginal": "()",
+      "call_args": "()",
+      "call_args_old": "()",
+      "cimguiname": "ImPlot3DSpec_ImPlot3DSpec",
+      "constructor": true,
+      "defaults": {},
+      "funcname": "ImPlot3DSpec",
+      "location": "implot3d:390",
+      "ov_cimguiname": "ImPlot3DSpec_ImPlot3DSpec",
+      "signature": "()",
+      "stname": "ImPlot3DSpec"
+    }
+  ],
+  "ImPlot3DSpec_SetProp": [
+    {
+      "args": "(ImPlot3DSpec* self,ImPlot3DProp prop,float v)",
+      "argsT": [
+        {
+          "name": "self",
+          "type": "ImPlot3DSpec*"
+        },
+        {
+          "name": "prop",
+          "type": "ImPlot3DProp"
+        },
+        {
+          "name": "v",
+          "type": "float"
+        }
+      ],
+      "argsoriginal": "(ImPlot3DProp prop,float v)",
+      "call_args": "(prop,v)",
+      "call_args_old": "(prop,v)",
+      "cimguiname": "ImPlot3DSpec_SetProp",
+      "defaults": {},
+      "funcname": "SetProp",
+      "location": "implot3d:408",
+      "ov_cimguiname": "ImPlot3DSpec_SetProp_Float",
+      "ret": "void",
+      "signature": "(ImPlot3DProp,float)",
+      "stname": "ImPlot3DSpec"
+    },
+    {
+      "args": "(ImPlot3DSpec* self,ImPlot3DProp prop,double v)",
+      "argsT": [
+        {
+          "name": "self",
+          "type": "ImPlot3DSpec*"
+        },
+        {
+          "name": "prop",
+          "type": "ImPlot3DProp"
+        },
+        {
+          "name": "v",
+          "type": "double"
+        }
+      ],
+      "argsoriginal": "(ImPlot3DProp prop,double v)",
+      "call_args": "(prop,v)",
+      "call_args_old": "(prop,v)",
+      "cimguiname": "ImPlot3DSpec_SetProp",
+      "defaults": {},
+      "funcname": "SetProp",
+      "location": "implot3d:408",
+      "ov_cimguiname": "ImPlot3DSpec_SetProp_double",
+      "ret": "void",
+      "signature": "(ImPlot3DProp,double)",
+      "stname": "ImPlot3DSpec"
+    },
+    {
+      "args": "(ImPlot3DSpec* self,ImPlot3DProp prop,ImS8 v)",
+      "argsT": [
+        {
+          "name": "self",
+          "type": "ImPlot3DSpec*"
+        },
+        {
+          "name": "prop",
+          "type": "ImPlot3DProp"
+        },
+        {
+          "name": "v",
+          "type": "ImS8"
+        }
+      ],
+      "argsoriginal": "(ImPlot3DProp prop,ImS8 v)",
+      "call_args": "(prop,v)",
+      "call_args_old": "(prop,v)",
+      "cimguiname": "ImPlot3DSpec_SetProp",
+      "defaults": {},
+      "funcname": "SetProp",
+      "location": "implot3d:408",
+      "ov_cimguiname": "ImPlot3DSpec_SetProp_S8",
+      "ret": "void",
+      "signature": "(ImPlot3DProp,ImS8)",
+      "stname": "ImPlot3DSpec"
+    },
+    {
+      "args": "(ImPlot3DSpec* self,ImPlot3DProp prop,ImU8 v)",
+      "argsT": [
+        {
+          "name": "self",
+          "type": "ImPlot3DSpec*"
+        },
+        {
+          "name": "prop",
+          "type": "ImPlot3DProp"
+        },
+        {
+          "name": "v",
+          "type": "ImU8"
+        }
+      ],
+      "argsoriginal": "(ImPlot3DProp prop,ImU8 v)",
+      "call_args": "(prop,v)",
+      "call_args_old": "(prop,v)",
+      "cimguiname": "ImPlot3DSpec_SetProp",
+      "defaults": {},
+      "funcname": "SetProp",
+      "location": "implot3d:408",
+      "ov_cimguiname": "ImPlot3DSpec_SetProp_U8",
+      "ret": "void",
+      "signature": "(ImPlot3DProp,ImU8)",
+      "stname": "ImPlot3DSpec"
+    },
+    {
+      "args": "(ImPlot3DSpec* self,ImPlot3DProp prop,ImS16 v)",
+      "argsT": [
+        {
+          "name": "self",
+          "type": "ImPlot3DSpec*"
+        },
+        {
+          "name": "prop",
+          "type": "ImPlot3DProp"
+        },
+        {
+          "name": "v",
+          "type": "ImS16"
+        }
+      ],
+      "argsoriginal": "(ImPlot3DProp prop,ImS16 v)",
+      "call_args": "(prop,v)",
+      "call_args_old": "(prop,v)",
+      "cimguiname": "ImPlot3DSpec_SetProp",
+      "defaults": {},
+      "funcname": "SetProp",
+      "location": "implot3d:408",
+      "ov_cimguiname": "ImPlot3DSpec_SetProp_S16",
+      "ret": "void",
+      "signature": "(ImPlot3DProp,ImS16)",
+      "stname": "ImPlot3DSpec"
+    },
+    {
+      "args": "(ImPlot3DSpec* self,ImPlot3DProp prop,ImU16 v)",
+      "argsT": [
+        {
+          "name": "self",
+          "type": "ImPlot3DSpec*"
+        },
+        {
+          "name": "prop",
+          "type": "ImPlot3DProp"
+        },
+        {
+          "name": "v",
+          "type": "ImU16"
+        }
+      ],
+      "argsoriginal": "(ImPlot3DProp prop,ImU16 v)",
+      "call_args": "(prop,v)",
+      "call_args_old": "(prop,v)",
+      "cimguiname": "ImPlot3DSpec_SetProp",
+      "defaults": {},
+      "funcname": "SetProp",
+      "location": "implot3d:408",
+      "ov_cimguiname": "ImPlot3DSpec_SetProp_U16",
+      "ret": "void",
+      "signature": "(ImPlot3DProp,ImU16)",
+      "stname": "ImPlot3DSpec"
+    },
+    {
+      "args": "(ImPlot3DSpec* self,ImPlot3DProp prop,ImS32 v)",
+      "argsT": [
+        {
+          "name": "self",
+          "type": "ImPlot3DSpec*"
+        },
+        {
+          "name": "prop",
+          "type": "ImPlot3DProp"
+        },
+        {
+          "name": "v",
+          "type": "ImS32"
+        }
+      ],
+      "argsoriginal": "(ImPlot3DProp prop,ImS32 v)",
+      "call_args": "(prop,v)",
+      "call_args_old": "(prop,v)",
+      "cimguiname": "ImPlot3DSpec_SetProp",
+      "defaults": {},
+      "funcname": "SetProp",
+      "location": "implot3d:408",
+      "ov_cimguiname": "ImPlot3DSpec_SetProp_S32",
+      "ret": "void",
+      "signature": "(ImPlot3DProp,ImS32)",
+      "stname": "ImPlot3DSpec"
+    },
+    {
+      "args": "(ImPlot3DSpec* self,ImPlot3DProp prop,ImU32 v)",
+      "argsT": [
+        {
+          "name": "self",
+          "type": "ImPlot3DSpec*"
+        },
+        {
+          "name": "prop",
+          "type": "ImPlot3DProp"
+        },
+        {
+          "name": "v",
+          "type": "ImU32"
+        }
+      ],
+      "argsoriginal": "(ImPlot3DProp prop,ImU32 v)",
+      "call_args": "(prop,v)",
+      "call_args_old": "(prop,v)",
+      "cimguiname": "ImPlot3DSpec_SetProp",
+      "defaults": {},
+      "funcname": "SetProp",
+      "location": "implot3d:408",
+      "ov_cimguiname": "ImPlot3DSpec_SetProp_U32",
+      "ret": "void",
+      "signature": "(ImPlot3DProp,ImU32)",
+      "stname": "ImPlot3DSpec"
+    },
+    {
+      "args": "(ImPlot3DSpec* self,ImPlot3DProp prop,ImS64 v)",
+      "argsT": [
+        {
+          "name": "self",
+          "type": "ImPlot3DSpec*"
+        },
+        {
+          "name": "prop",
+          "type": "ImPlot3DProp"
+        },
+        {
+          "name": "v",
+          "type": "ImS64"
+        }
+      ],
+      "argsoriginal": "(ImPlot3DProp prop,ImS64 v)",
+      "call_args": "(prop,v)",
+      "call_args_old": "(prop,v)",
+      "cimguiname": "ImPlot3DSpec_SetProp",
+      "defaults": {},
+      "funcname": "SetProp",
+      "location": "implot3d:408",
+      "ov_cimguiname": "ImPlot3DSpec_SetProp_S64",
+      "ret": "void",
+      "signature": "(ImPlot3DProp,ImS64)",
+      "stname": "ImPlot3DSpec"
+    },
+    {
+      "args": "(ImPlot3DSpec* self,ImPlot3DProp prop,ImU64 v)",
+      "argsT": [
+        {
+          "name": "self",
+          "type": "ImPlot3DSpec*"
+        },
+        {
+          "name": "prop",
+          "type": "ImPlot3DProp"
+        },
+        {
+          "name": "v",
+          "type": "ImU64"
+        }
+      ],
+      "argsoriginal": "(ImPlot3DProp prop,ImU64 v)",
+      "call_args": "(prop,v)",
+      "call_args_old": "(prop,v)",
+      "cimguiname": "ImPlot3DSpec_SetProp",
+      "defaults": {},
+      "funcname": "SetProp",
+      "location": "implot3d:408",
+      "ov_cimguiname": "ImPlot3DSpec_SetProp_U64",
+      "ret": "void",
+      "signature": "(ImPlot3DProp,ImU64)",
+      "stname": "ImPlot3DSpec"
+    },
+    {
+      "args": "(ImPlot3DSpec* self,ImPlot3DProp prop,const ImVec4_c v)",
+      "argsT": [
+        {
+          "name": "self",
+          "type": "ImPlot3DSpec*"
+        },
+        {
+          "name": "prop",
+          "type": "ImPlot3DProp"
+        },
+        {
+          "name": "v",
+          "type": "const ImVec4"
+        }
+      ],
+      "argsoriginal": "(ImPlot3DProp prop,const ImVec4& v)",
+      "call_args": "(prop,ConvertToCPP_ImVec4(v))",
+      "call_args_old": "(prop,v)",
+      "cimguiname": "ImPlot3DSpec_SetProp",
+      "defaults": {},
+      "funcname": "SetProp",
+      "location": "implot3d:427",
+      "ov_cimguiname": "ImPlot3DSpec_SetProp_Vec4",
+      "ret": "void",
+      "signature": "(ImPlot3DProp,const ImVec4)",
+      "stname": "ImPlot3DSpec"
+    }
+  ],
+  "ImPlot3DSpec_destroy": [
+    {
+      "args": "(ImPlot3DSpec* self)",
+      "argsT": [
+        {
+          "name": "self",
+          "type": "ImPlot3DSpec*"
+        }
+      ],
+      "call_args": "(self)",
+      "cimguiname": "ImPlot3DSpec_destroy",
+      "defaults": {},
+      "destructor": true,
+      "location": "implot3d:390",
+      "ov_cimguiname": "ImPlot3DSpec_destroy",
+      "ret": "void",
+      "signature": "(ImPlot3DSpec*)",
+      "stname": "ImPlot3DSpec"
     }
   ],
   "ImPlot3DStyle_GetColor": [
@@ -866,7 +1213,7 @@
       "conv": "ImVec4",
       "defaults": {},
       "funcname": "GetColor",
-      "location": "implot3d:916",
+      "location": "implot3d:1004",
       "nonUDT": 1,
       "ov_cimguiname": "ImPlot3DStyle_GetColor",
       "ret": "ImVec4_c",
@@ -885,7 +1232,7 @@
       "constructor": true,
       "defaults": {},
       "funcname": "ImPlot3DStyle",
-      "location": "implot3d:921",
+      "location": "implot3d:1009",
       "ov_cimguiname": "ImPlot3DStyle_ImPlot3DStyle_Nil",
       "signature": "()",
       "stname": "ImPlot3DStyle"
@@ -905,7 +1252,7 @@
       "constructor": true,
       "defaults": {},
       "funcname": "ImPlot3DStyle",
-      "location": "implot3d:897",
+      "location": "implot3d:986",
       "ov_cimguiname": "ImPlot3DStyle_ImPlot3DStyle_Plot3DStyle",
       "signature": "(const ImPlot3DStyle)",
       "stname": "ImPlot3DStyle"
@@ -934,7 +1281,7 @@
       "cimguiname": "ImPlot3DStyle_SetColor",
       "defaults": {},
       "funcname": "SetColor",
-      "location": "implot3d:917",
+      "location": "implot3d:1005",
       "ov_cimguiname": "ImPlot3DStyle_SetColor",
       "ret": "void",
       "signature": "(ImPlot3DCol,const ImVec4)",
@@ -954,7 +1301,7 @@
       "cimguiname": "ImPlot3DStyle_destroy",
       "defaults": {},
       "destructor": true,
-      "location": "implot3d:921",
+      "location": "implot3d:1009",
       "ov_cimguiname": "ImPlot3DStyle_destroy",
       "ret": "void",
       "signature": "(ImPlot3DStyle*)",
@@ -990,7 +1337,7 @@
         "qual": "true"
       },
       "funcname": "AddColormap",
-      "location": "implot3d:645",
+      "location": "implot3d:734",
       "namespace": "ImPlot3D",
       "ov_cimguiname": "ImPlot3D_AddColormap_Vec4Ptr",
       "ret": "ImPlot3DColormap",
@@ -1025,7 +1372,7 @@
         "qual": "true"
       },
       "funcname": "AddColormap",
-      "location": "implot3d:646",
+      "location": "implot3d:735",
       "namespace": "ImPlot3D",
       "ov_cimguiname": "ImPlot3D_AddColormap_U32Ptr",
       "ret": "ImPlot3DColormap",
@@ -1059,7 +1406,7 @@
         "size": "ImVec2(-1,0)"
       },
       "funcname": "BeginPlot",
-      "location": "implot3d:385",
+      "location": "implot3d:484",
       "namespace": "ImPlot3D",
       "ov_cimguiname": "ImPlot3D_BeginPlot",
       "ret": "bool",
@@ -1077,7 +1424,7 @@
       "cimguiname": "ImPlot3D_CreateContext",
       "defaults": {},
       "funcname": "CreateContext",
-      "location": "implot3d:359",
+      "location": "implot3d:458",
       "namespace": "ImPlot3D",
       "ov_cimguiname": "ImPlot3D_CreateContext",
       "ret": "ImPlot3DContext*",
@@ -1102,7 +1449,7 @@
         "ctx": "nullptr"
       },
       "funcname": "DestroyContext",
-      "location": "implot3d:361",
+      "location": "implot3d:460",
       "namespace": "ImPlot3D",
       "ov_cimguiname": "ImPlot3D_DestroyContext",
       "ret": "void",
@@ -1120,7 +1467,7 @@
       "cimguiname": "ImPlot3D_EndPlot",
       "defaults": {},
       "funcname": "EndPlot",
-      "location": "implot3d:386",
+      "location": "implot3d:485",
       "namespace": "ImPlot3D",
       "ov_cimguiname": "ImPlot3D_EndPlot",
       "ret": "void",
@@ -1150,7 +1497,7 @@
         "cmap": "-1"
       },
       "funcname": "GetColormapColor",
-      "location": "implot3d:671",
+      "location": "implot3d:760",
       "namespace": "ImPlot3D",
       "nonUDT": 1,
       "ov_cimguiname": "ImPlot3D_GetColormapColor",
@@ -1169,7 +1516,7 @@
       "cimguiname": "ImPlot3D_GetColormapCount",
       "defaults": {},
       "funcname": "GetColormapCount",
-      "location": "implot3d:649",
+      "location": "implot3d:738",
       "namespace": "ImPlot3D",
       "ov_cimguiname": "ImPlot3D_GetColormapCount",
       "ret": "int",
@@ -1192,7 +1539,7 @@
       "cimguiname": "ImPlot3D_GetColormapIndex",
       "defaults": {},
       "funcname": "GetColormapIndex",
-      "location": "implot3d:653",
+      "location": "implot3d:742",
       "namespace": "ImPlot3D",
       "ov_cimguiname": "ImPlot3D_GetColormapIndex",
       "ret": "ImPlot3DColormap",
@@ -1215,7 +1562,7 @@
       "cimguiname": "ImPlot3D_GetColormapName",
       "defaults": {},
       "funcname": "GetColormapName",
-      "location": "implot3d:651",
+      "location": "implot3d:740",
       "namespace": "ImPlot3D",
       "ov_cimguiname": "ImPlot3D_GetColormapName",
       "ret": "const char*",
@@ -1240,7 +1587,7 @@
         "cmap": "-1"
       },
       "funcname": "GetColormapSize",
-      "location": "implot3d:669",
+      "location": "implot3d:758",
       "namespace": "ImPlot3D",
       "ov_cimguiname": "ImPlot3D_GetColormapSize",
       "ret": "int",
@@ -1258,7 +1605,7 @@
       "cimguiname": "ImPlot3D_GetCurrentContext",
       "defaults": {},
       "funcname": "GetCurrentContext",
-      "location": "implot3d:363",
+      "location": "implot3d:462",
       "namespace": "ImPlot3D",
       "ov_cimguiname": "ImPlot3D_GetCurrentContext",
       "ret": "ImPlot3DContext*",
@@ -1276,7 +1623,7 @@
       "cimguiname": "ImPlot3D_GetPlotDrawList",
       "defaults": {},
       "funcname": "GetPlotDrawList",
-      "location": "implot3d:583",
+      "location": "implot3d:678",
       "namespace": "ImPlot3D",
       "ov_cimguiname": "ImPlot3D_GetPlotDrawList",
       "ret": "ImDrawList*",
@@ -1295,7 +1642,7 @@
       "conv": "ImVec2",
       "defaults": {},
       "funcname": "GetPlotRectPos",
-      "location": "implot3d:574",
+      "location": "implot3d:669",
       "namespace": "ImPlot3D",
       "nonUDT": 1,
       "ov_cimguiname": "ImPlot3D_GetPlotRectPos",
@@ -1315,7 +1662,7 @@
       "conv": "ImVec2",
       "defaults": {},
       "funcname": "GetPlotRectSize",
-      "location": "implot3d:576",
+      "location": "implot3d:671",
       "namespace": "ImPlot3D",
       "nonUDT": 1,
       "ov_cimguiname": "ImPlot3D_GetPlotRectSize",
@@ -1334,7 +1681,7 @@
       "cimguiname": "ImPlot3D_GetStyle",
       "defaults": {},
       "funcname": "GetStyle",
-      "location": "implot3d:590",
+      "location": "implot3d:685",
       "namespace": "ImPlot3D",
       "ov_cimguiname": "ImPlot3D_GetStyle",
       "ret": "ImPlot3DStyle*",
@@ -1358,7 +1705,7 @@
       "cimguiname": "ImPlot3D_GetStyleColorU32",
       "defaults": {},
       "funcname": "GetStyleColorU32",
-      "location": "implot3d:624",
+      "location": "implot3d:711",
       "namespace": "ImPlot3D",
       "ov_cimguiname": "ImPlot3D_GetStyleColorU32",
       "ret": "ImU32",
@@ -1382,7 +1729,7 @@
       "conv": "ImVec4",
       "defaults": {},
       "funcname": "GetStyleColorVec4",
-      "location": "implot3d:623",
+      "location": "implot3d:710",
       "namespace": "ImPlot3D",
       "nonUDT": 1,
       "ov_cimguiname": "ImPlot3D_GetStyleColorVec4",
@@ -1402,11 +1749,29 @@
       "conv": "ImVec4",
       "defaults": {},
       "funcname": "NextColormapColor",
-      "location": "implot3d:666",
+      "location": "implot3d:755",
       "namespace": "ImPlot3D",
       "nonUDT": 1,
       "ov_cimguiname": "ImPlot3D_NextColormapColor",
       "ret": "ImVec4_c",
+      "signature": "()",
+      "stname": ""
+    }
+  ],
+  "ImPlot3D_NextMarker": [
+    {
+      "args": "()",
+      "argsT": [],
+      "argsoriginal": "()",
+      "call_args": "()",
+      "call_args_old": "()",
+      "cimguiname": "ImPlot3D_NextMarker",
+      "defaults": {},
+      "funcname": "NextMarker",
+      "location": "implot3d:714",
+      "namespace": "ImPlot3D",
+      "ov_cimguiname": "ImPlot3D_NextMarker",
+      "ret": "ImPlot3DMarker",
       "signature": "()",
       "stname": ""
     }
@@ -1437,7 +1802,7 @@
         "mask": "true"
       },
       "funcname": "PixelsToPlotPlane",
-      "location": "implot3d:570",
+      "location": "implot3d:665",
       "namespace": "ImPlot3D",
       "nonUDT": 1,
       "ov_cimguiname": "ImPlot3D_PixelsToPlotPlane_Vec2",
@@ -1474,7 +1839,7 @@
         "mask": "true"
       },
       "funcname": "PixelsToPlotPlane",
-      "location": "implot3d:571",
+      "location": "implot3d:666",
       "namespace": "ImPlot3D",
       "nonUDT": 1,
       "ov_cimguiname": "ImPlot3D_PixelsToPlotPlane_double",
@@ -1498,7 +1863,7 @@
       "cimguiname": "ImPlot3D_PixelsToPlotRay",
       "defaults": {},
       "funcname": "PixelsToPlotRay",
-      "location": "implot3d:564",
+      "location": "implot3d:659",
       "namespace": "ImPlot3D",
       "ov_cimguiname": "ImPlot3D_PixelsToPlotRay_Vec2",
       "ret": "ImPlot3DRay",
@@ -1523,7 +1888,7 @@
       "cimguiname": "ImPlot3D_PixelsToPlotRay",
       "defaults": {},
       "funcname": "PixelsToPlotRay",
-      "location": "implot3d:565",
+      "location": "implot3d:660",
       "namespace": "ImPlot3D",
       "ov_cimguiname": "ImPlot3D_PixelsToPlotRay_double",
       "ret": "ImPlot3DRay",
@@ -1533,36 +1898,36 @@
   ],
   "ImPlot3D_PlotDummy": [
     {
-      "args": "(const char* label_id,ImPlot3DDummyFlags flags)",
+      "args": "(const char* label_id,const ImPlot3DSpec_c spec)",
       "argsT": [
         {
           "name": "label_id",
           "type": "const char*"
         },
         {
-          "name": "flags",
-          "type": "ImPlot3DDummyFlags"
+          "name": "spec",
+          "type": "const ImPlot3DSpec"
         }
       ],
-      "argsoriginal": "(const char* label_id,ImPlot3DDummyFlags flags=0)",
-      "call_args": "(label_id,flags)",
-      "call_args_old": "(label_id,flags)",
+      "argsoriginal": "(const char* label_id,const ImPlot3DSpec& spec=ImPlot3DSpec())",
+      "call_args": "(label_id,ConvertToCPP_ImPlot3DSpec(spec))",
+      "call_args_old": "(label_id,spec)",
       "cimguiname": "ImPlot3D_PlotDummy",
       "defaults": {
-        "flags": "0"
+        "spec": "ImPlot3DSpec()"
       },
       "funcname": "PlotDummy",
-      "location": "implot3d:553",
+      "location": "implot3d:648",
       "namespace": "ImPlot3D",
       "ov_cimguiname": "ImPlot3D_PlotDummy",
       "ret": "void",
-      "signature": "(const char*,ImPlot3DDummyFlags)",
+      "signature": "(const char*,const ImPlot3DSpec)",
       "stname": ""
     }
   ],
   "ImPlot3D_PlotImage": [
     {
-      "args": "(const char* label_id,ImTextureRef_c tex_ref,const ImPlot3DPoint_c center,const ImPlot3DPoint_c axis_u,const ImPlot3DPoint_c axis_v,const ImVec2_c uv0,const ImVec2_c uv1,const ImVec4_c tint_col,ImPlot3DImageFlags flags)",
+      "args": "(const char* label_id,ImTextureRef_c tex_ref,const ImPlot3DPoint_c center,const ImPlot3DPoint_c axis_u,const ImPlot3DPoint_c axis_v,const ImVec2_c uv0,const ImVec2_c uv1,const ImVec4_c tint_col,const ImPlot3DSpec_c spec)",
       "argsT": [
         {
           "name": "label_id",
@@ -1597,30 +1962,30 @@
           "type": "const ImVec4"
         },
         {
-          "name": "flags",
-          "type": "ImPlot3DImageFlags"
+          "name": "spec",
+          "type": "const ImPlot3DSpec"
         }
       ],
-      "argsoriginal": "(const char* label_id,ImTextureRef tex_ref,const ImPlot3DPoint& center,const ImPlot3DPoint& axis_u,const ImPlot3DPoint& axis_v,const ImVec2& uv0=ImVec2(0,0),const ImVec2& uv1=ImVec2(1,1),const ImVec4& tint_col=ImVec4(1,1,1,1),ImPlot3DImageFlags flags=0)",
-      "call_args": "(label_id,ConvertToCPP_ImTextureRef(tex_ref),ConvertToCPP_ImPlot3DPoint(center),ConvertToCPP_ImPlot3DPoint(axis_u),ConvertToCPP_ImPlot3DPoint(axis_v),ConvertToCPP_ImVec2(uv0),ConvertToCPP_ImVec2(uv1),ConvertToCPP_ImVec4(tint_col),flags)",
-      "call_args_old": "(label_id,tex_ref,center,axis_u,axis_v,uv0,uv1,tint_col,flags)",
+      "argsoriginal": "(const char* label_id,ImTextureRef tex_ref,const ImPlot3DPoint& center,const ImPlot3DPoint& axis_u,const ImPlot3DPoint& axis_v,const ImVec2& uv0=ImVec2(0,0),const ImVec2& uv1=ImVec2(1,1),const ImVec4& tint_col=ImVec4(1,1,1,1),const ImPlot3DSpec& spec=ImPlot3DSpec())",
+      "call_args": "(label_id,ConvertToCPP_ImTextureRef(tex_ref),ConvertToCPP_ImPlot3DPoint(center),ConvertToCPP_ImPlot3DPoint(axis_u),ConvertToCPP_ImPlot3DPoint(axis_v),ConvertToCPP_ImVec2(uv0),ConvertToCPP_ImVec2(uv1),ConvertToCPP_ImVec4(tint_col),ConvertToCPP_ImPlot3DSpec(spec))",
+      "call_args_old": "(label_id,tex_ref,center,axis_u,axis_v,uv0,uv1,tint_col,spec)",
       "cimguiname": "ImPlot3D_PlotImage",
       "defaults": {
-        "flags": "0",
+        "spec": "ImPlot3DSpec()",
         "tint_col": "ImVec4(1,1,1,1)",
         "uv0": "ImVec2(0,0)",
         "uv1": "ImVec2(1,1)"
       },
       "funcname": "PlotImage",
-      "location": "implot3d:535",
+      "location": "implot3d:630",
       "namespace": "ImPlot3D",
       "ov_cimguiname": "ImPlot3D_PlotImage_Vec2",
       "ret": "void",
-      "signature": "(const char*,ImTextureRef,const ImPlot3DPoint,const ImPlot3DPoint,const ImPlot3DPoint,const ImVec2,const ImVec2,const ImVec4,ImPlot3DImageFlags)",
+      "signature": "(const char*,ImTextureRef,const ImPlot3DPoint,const ImPlot3DPoint,const ImPlot3DPoint,const ImVec2,const ImVec2,const ImVec4,const ImPlot3DSpec)",
       "stname": ""
     },
     {
-      "args": "(const char* label_id,ImTextureRef_c tex_ref,const ImPlot3DPoint_c p0,const ImPlot3DPoint_c p1,const ImPlot3DPoint_c p2,const ImPlot3DPoint_c p3,const ImVec2_c uv0,const ImVec2_c uv1,const ImVec2_c uv2,const ImVec2_c uv3,const ImVec4_c tint_col,ImPlot3DImageFlags flags)",
+      "args": "(const char* label_id,ImTextureRef_c tex_ref,const ImPlot3DPoint_c p0,const ImPlot3DPoint_c p1,const ImPlot3DPoint_c p2,const ImPlot3DPoint_c p3,const ImVec2_c uv0,const ImVec2_c uv1,const ImVec2_c uv2,const ImVec2_c uv3,const ImVec4_c tint_col,const ImPlot3DSpec_c spec)",
       "argsT": [
         {
           "name": "label_id",
@@ -1667,16 +2032,16 @@
           "type": "const ImVec4"
         },
         {
-          "name": "flags",
-          "type": "ImPlot3DImageFlags"
+          "name": "spec",
+          "type": "const ImPlot3DSpec"
         }
       ],
-      "argsoriginal": "(const char* label_id,ImTextureRef tex_ref,const ImPlot3DPoint& p0,const ImPlot3DPoint& p1,const ImPlot3DPoint& p2,const ImPlot3DPoint& p3,const ImVec2& uv0=ImVec2(0,0),const ImVec2& uv1=ImVec2(1,0),const ImVec2& uv2=ImVec2(1,1),const ImVec2& uv3=ImVec2(0,1),const ImVec4& tint_col=ImVec4(1,1,1,1),ImPlot3DImageFlags flags=0)",
-      "call_args": "(label_id,ConvertToCPP_ImTextureRef(tex_ref),ConvertToCPP_ImPlot3DPoint(p0),ConvertToCPP_ImPlot3DPoint(p1),ConvertToCPP_ImPlot3DPoint(p2),ConvertToCPP_ImPlot3DPoint(p3),ConvertToCPP_ImVec2(uv0),ConvertToCPP_ImVec2(uv1),ConvertToCPP_ImVec2(uv2),ConvertToCPP_ImVec2(uv3),ConvertToCPP_ImVec4(tint_col),flags)",
-      "call_args_old": "(label_id,tex_ref,p0,p1,p2,p3,uv0,uv1,uv2,uv3,tint_col,flags)",
+      "argsoriginal": "(const char* label_id,ImTextureRef tex_ref,const ImPlot3DPoint& p0,const ImPlot3DPoint& p1,const ImPlot3DPoint& p2,const ImPlot3DPoint& p3,const ImVec2& uv0=ImVec2(0,0),const ImVec2& uv1=ImVec2(1,0),const ImVec2& uv2=ImVec2(1,1),const ImVec2& uv3=ImVec2(0,1),const ImVec4& tint_col=ImVec4(1,1,1,1),const ImPlot3DSpec& spec=ImPlot3DSpec())",
+      "call_args": "(label_id,ConvertToCPP_ImTextureRef(tex_ref),ConvertToCPP_ImPlot3DPoint(p0),ConvertToCPP_ImPlot3DPoint(p1),ConvertToCPP_ImPlot3DPoint(p2),ConvertToCPP_ImPlot3DPoint(p3),ConvertToCPP_ImVec2(uv0),ConvertToCPP_ImVec2(uv1),ConvertToCPP_ImVec2(uv2),ConvertToCPP_ImVec2(uv3),ConvertToCPP_ImVec4(tint_col),ConvertToCPP_ImPlot3DSpec(spec))",
+      "call_args_old": "(label_id,tex_ref,p0,p1,p2,p3,uv0,uv1,uv2,uv3,tint_col,spec)",
       "cimguiname": "ImPlot3D_PlotImage",
       "defaults": {
-        "flags": "0",
+        "spec": "ImPlot3DSpec()",
         "tint_col": "ImVec4(1,1,1,1)",
         "uv0": "ImVec2(0,0)",
         "uv1": "ImVec2(1,0)",
@@ -1684,17 +2049,17 @@
         "uv3": "ImVec2(0,1)"
       },
       "funcname": "PlotImage",
-      "location": "implot3d:544",
+      "location": "implot3d:639",
       "namespace": "ImPlot3D",
       "ov_cimguiname": "ImPlot3D_PlotImage_Plot3DPoint",
       "ret": "void",
-      "signature": "(const char*,ImTextureRef,const ImPlot3DPoint,const ImPlot3DPoint,const ImPlot3DPoint,const ImPlot3DPoint,const ImVec2,const ImVec2,const ImVec2,const ImVec2,const ImVec4,ImPlot3DImageFlags)",
+      "signature": "(const char*,ImTextureRef,const ImPlot3DPoint,const ImPlot3DPoint,const ImPlot3DPoint,const ImPlot3DPoint,const ImVec2,const ImVec2,const ImVec2,const ImVec2,const ImVec4,const ImPlot3DSpec)",
       "stname": ""
     }
   ],
   "ImPlot3D_PlotLine": [
     {
-      "args": "(const char* label_id,const float* xs,const float* ys,const float* zs,int count,ImPlot3DLineFlags flags,int offset,int stride)",
+      "args": "(const char* label_id,const float* xs,const float* ys,const float* zs,int count,const ImPlot3DSpec_c spec)",
       "argsT": [
         {
           "name": "label_id",
@@ -1717,37 +2082,27 @@
           "type": "int"
         },
         {
-          "name": "flags",
-          "type": "ImPlot3DLineFlags"
-        },
-        {
-          "name": "offset",
-          "type": "int"
-        },
-        {
-          "name": "stride",
-          "type": "int"
+          "name": "spec",
+          "type": "const ImPlot3DSpec"
         }
       ],
-      "argsoriginal": "(const char* label_id,const float* xs,const float* ys,const float* zs,int count,ImPlot3DLineFlags flags=0,int offset=0,int stride=sizeof(float))",
-      "call_args": "(label_id,xs,ys,zs,count,flags,offset,stride)",
-      "call_args_old": "(label_id,xs,ys,zs,count,flags,offset,stride)",
+      "argsoriginal": "(const char* label_id,const float* xs,const float* ys,const float* zs,int count,const ImPlot3DSpec& spec=ImPlot3DSpec())",
+      "call_args": "(label_id,xs,ys,zs,count,ConvertToCPP_ImPlot3DSpec(spec))",
+      "call_args_old": "(label_id,xs,ys,zs,count,spec)",
       "cimguiname": "ImPlot3D_PlotLine",
       "defaults": {
-        "flags": "0",
-        "offset": "0",
-        "stride": "sizeof(float)"
+        "spec": "ImPlot3DSpec()"
       },
       "funcname": "PlotLine",
-      "location": "implot3d:508",
+      "location": "implot3d:606",
       "namespace": "ImPlot3D",
       "ov_cimguiname": "ImPlot3D_PlotLine_FloatPtr",
       "ret": "void",
-      "signature": "(const char*,const float*,const float*,const float*,int,ImPlot3DLineFlags,int,int)",
+      "signature": "(const char*,const float*,const float*,const float*,int,const ImPlot3DSpec)",
       "stname": ""
     },
     {
-      "args": "(const char* label_id,const double* xs,const double* ys,const double* zs,int count,ImPlot3DLineFlags flags,int offset,int stride)",
+      "args": "(const char* label_id,const double* xs,const double* ys,const double* zs,int count,const ImPlot3DSpec_c spec)",
       "argsT": [
         {
           "name": "label_id",
@@ -1770,37 +2125,27 @@
           "type": "int"
         },
         {
-          "name": "flags",
-          "type": "ImPlot3DLineFlags"
-        },
-        {
-          "name": "offset",
-          "type": "int"
-        },
-        {
-          "name": "stride",
-          "type": "int"
+          "name": "spec",
+          "type": "const ImPlot3DSpec"
         }
       ],
-      "argsoriginal": "(const char* label_id,const double* xs,const double* ys,const double* zs,int count,ImPlot3DLineFlags flags=0,int offset=0,int stride=sizeof(double))",
-      "call_args": "(label_id,xs,ys,zs,count,flags,offset,stride)",
-      "call_args_old": "(label_id,xs,ys,zs,count,flags,offset,stride)",
+      "argsoriginal": "(const char* label_id,const double* xs,const double* ys,const double* zs,int count,const ImPlot3DSpec& spec=ImPlot3DSpec())",
+      "call_args": "(label_id,xs,ys,zs,count,ConvertToCPP_ImPlot3DSpec(spec))",
+      "call_args_old": "(label_id,xs,ys,zs,count,spec)",
       "cimguiname": "ImPlot3D_PlotLine",
       "defaults": {
-        "flags": "0",
-        "offset": "0",
-        "stride": "sizeof(double)"
+        "spec": "ImPlot3DSpec()"
       },
       "funcname": "PlotLine",
-      "location": "implot3d:508",
+      "location": "implot3d:606",
       "namespace": "ImPlot3D",
       "ov_cimguiname": "ImPlot3D_PlotLine_doublePtr",
       "ret": "void",
-      "signature": "(const char*,const double*,const double*,const double*,int,ImPlot3DLineFlags,int,int)",
+      "signature": "(const char*,const double*,const double*,const double*,int,const ImPlot3DSpec)",
       "stname": ""
     },
     {
-      "args": "(const char* label_id,const ImS8* xs,const ImS8* ys,const ImS8* zs,int count,ImPlot3DLineFlags flags,int offset,int stride)",
+      "args": "(const char* label_id,const ImS8* xs,const ImS8* ys,const ImS8* zs,int count,const ImPlot3DSpec_c spec)",
       "argsT": [
         {
           "name": "label_id",
@@ -1823,37 +2168,27 @@
           "type": "int"
         },
         {
-          "name": "flags",
-          "type": "ImPlot3DLineFlags"
-        },
-        {
-          "name": "offset",
-          "type": "int"
-        },
-        {
-          "name": "stride",
-          "type": "int"
+          "name": "spec",
+          "type": "const ImPlot3DSpec"
         }
       ],
-      "argsoriginal": "(const char* label_id,const ImS8* xs,const ImS8* ys,const ImS8* zs,int count,ImPlot3DLineFlags flags=0,int offset=0,int stride=sizeof(ImS8))",
-      "call_args": "(label_id,xs,ys,zs,count,flags,offset,stride)",
-      "call_args_old": "(label_id,xs,ys,zs,count,flags,offset,stride)",
+      "argsoriginal": "(const char* label_id,const ImS8* xs,const ImS8* ys,const ImS8* zs,int count,const ImPlot3DSpec& spec=ImPlot3DSpec())",
+      "call_args": "(label_id,xs,ys,zs,count,ConvertToCPP_ImPlot3DSpec(spec))",
+      "call_args_old": "(label_id,xs,ys,zs,count,spec)",
       "cimguiname": "ImPlot3D_PlotLine",
       "defaults": {
-        "flags": "0",
-        "offset": "0",
-        "stride": "sizeof(ImS8)"
+        "spec": "ImPlot3DSpec()"
       },
       "funcname": "PlotLine",
-      "location": "implot3d:508",
+      "location": "implot3d:606",
       "namespace": "ImPlot3D",
       "ov_cimguiname": "ImPlot3D_PlotLine_S8Ptr",
       "ret": "void",
-      "signature": "(const char*,const ImS8*,const ImS8*,const ImS8*,int,ImPlot3DLineFlags,int,int)",
+      "signature": "(const char*,const ImS8*,const ImS8*,const ImS8*,int,const ImPlot3DSpec)",
       "stname": ""
     },
     {
-      "args": "(const char* label_id,const ImU8* xs,const ImU8* ys,const ImU8* zs,int count,ImPlot3DLineFlags flags,int offset,int stride)",
+      "args": "(const char* label_id,const ImU8* xs,const ImU8* ys,const ImU8* zs,int count,const ImPlot3DSpec_c spec)",
       "argsT": [
         {
           "name": "label_id",
@@ -1876,37 +2211,27 @@
           "type": "int"
         },
         {
-          "name": "flags",
-          "type": "ImPlot3DLineFlags"
-        },
-        {
-          "name": "offset",
-          "type": "int"
-        },
-        {
-          "name": "stride",
-          "type": "int"
+          "name": "spec",
+          "type": "const ImPlot3DSpec"
         }
       ],
-      "argsoriginal": "(const char* label_id,const ImU8* xs,const ImU8* ys,const ImU8* zs,int count,ImPlot3DLineFlags flags=0,int offset=0,int stride=sizeof(ImU8))",
-      "call_args": "(label_id,xs,ys,zs,count,flags,offset,stride)",
-      "call_args_old": "(label_id,xs,ys,zs,count,flags,offset,stride)",
+      "argsoriginal": "(const char* label_id,const ImU8* xs,const ImU8* ys,const ImU8* zs,int count,const ImPlot3DSpec& spec=ImPlot3DSpec())",
+      "call_args": "(label_id,xs,ys,zs,count,ConvertToCPP_ImPlot3DSpec(spec))",
+      "call_args_old": "(label_id,xs,ys,zs,count,spec)",
       "cimguiname": "ImPlot3D_PlotLine",
       "defaults": {
-        "flags": "0",
-        "offset": "0",
-        "stride": "sizeof(ImU8)"
+        "spec": "ImPlot3DSpec()"
       },
       "funcname": "PlotLine",
-      "location": "implot3d:508",
+      "location": "implot3d:606",
       "namespace": "ImPlot3D",
       "ov_cimguiname": "ImPlot3D_PlotLine_U8Ptr",
       "ret": "void",
-      "signature": "(const char*,const ImU8*,const ImU8*,const ImU8*,int,ImPlot3DLineFlags,int,int)",
+      "signature": "(const char*,const ImU8*,const ImU8*,const ImU8*,int,const ImPlot3DSpec)",
       "stname": ""
     },
     {
-      "args": "(const char* label_id,const ImS16* xs,const ImS16* ys,const ImS16* zs,int count,ImPlot3DLineFlags flags,int offset,int stride)",
+      "args": "(const char* label_id,const ImS16* xs,const ImS16* ys,const ImS16* zs,int count,const ImPlot3DSpec_c spec)",
       "argsT": [
         {
           "name": "label_id",
@@ -1929,37 +2254,27 @@
           "type": "int"
         },
         {
-          "name": "flags",
-          "type": "ImPlot3DLineFlags"
-        },
-        {
-          "name": "offset",
-          "type": "int"
-        },
-        {
-          "name": "stride",
-          "type": "int"
+          "name": "spec",
+          "type": "const ImPlot3DSpec"
         }
       ],
-      "argsoriginal": "(const char* label_id,const ImS16* xs,const ImS16* ys,const ImS16* zs,int count,ImPlot3DLineFlags flags=0,int offset=0,int stride=sizeof(ImS16))",
-      "call_args": "(label_id,xs,ys,zs,count,flags,offset,stride)",
-      "call_args_old": "(label_id,xs,ys,zs,count,flags,offset,stride)",
+      "argsoriginal": "(const char* label_id,const ImS16* xs,const ImS16* ys,const ImS16* zs,int count,const ImPlot3DSpec& spec=ImPlot3DSpec())",
+      "call_args": "(label_id,xs,ys,zs,count,ConvertToCPP_ImPlot3DSpec(spec))",
+      "call_args_old": "(label_id,xs,ys,zs,count,spec)",
       "cimguiname": "ImPlot3D_PlotLine",
       "defaults": {
-        "flags": "0",
-        "offset": "0",
-        "stride": "sizeof(ImS16)"
+        "spec": "ImPlot3DSpec()"
       },
       "funcname": "PlotLine",
-      "location": "implot3d:508",
+      "location": "implot3d:606",
       "namespace": "ImPlot3D",
       "ov_cimguiname": "ImPlot3D_PlotLine_S16Ptr",
       "ret": "void",
-      "signature": "(const char*,const ImS16*,const ImS16*,const ImS16*,int,ImPlot3DLineFlags,int,int)",
+      "signature": "(const char*,const ImS16*,const ImS16*,const ImS16*,int,const ImPlot3DSpec)",
       "stname": ""
     },
     {
-      "args": "(const char* label_id,const ImU16* xs,const ImU16* ys,const ImU16* zs,int count,ImPlot3DLineFlags flags,int offset,int stride)",
+      "args": "(const char* label_id,const ImU16* xs,const ImU16* ys,const ImU16* zs,int count,const ImPlot3DSpec_c spec)",
       "argsT": [
         {
           "name": "label_id",
@@ -1982,37 +2297,27 @@
           "type": "int"
         },
         {
-          "name": "flags",
-          "type": "ImPlot3DLineFlags"
-        },
-        {
-          "name": "offset",
-          "type": "int"
-        },
-        {
-          "name": "stride",
-          "type": "int"
+          "name": "spec",
+          "type": "const ImPlot3DSpec"
         }
       ],
-      "argsoriginal": "(const char* label_id,const ImU16* xs,const ImU16* ys,const ImU16* zs,int count,ImPlot3DLineFlags flags=0,int offset=0,int stride=sizeof(ImU16))",
-      "call_args": "(label_id,xs,ys,zs,count,flags,offset,stride)",
-      "call_args_old": "(label_id,xs,ys,zs,count,flags,offset,stride)",
+      "argsoriginal": "(const char* label_id,const ImU16* xs,const ImU16* ys,const ImU16* zs,int count,const ImPlot3DSpec& spec=ImPlot3DSpec())",
+      "call_args": "(label_id,xs,ys,zs,count,ConvertToCPP_ImPlot3DSpec(spec))",
+      "call_args_old": "(label_id,xs,ys,zs,count,spec)",
       "cimguiname": "ImPlot3D_PlotLine",
       "defaults": {
-        "flags": "0",
-        "offset": "0",
-        "stride": "sizeof(ImU16)"
+        "spec": "ImPlot3DSpec()"
       },
       "funcname": "PlotLine",
-      "location": "implot3d:508",
+      "location": "implot3d:606",
       "namespace": "ImPlot3D",
       "ov_cimguiname": "ImPlot3D_PlotLine_U16Ptr",
       "ret": "void",
-      "signature": "(const char*,const ImU16*,const ImU16*,const ImU16*,int,ImPlot3DLineFlags,int,int)",
+      "signature": "(const char*,const ImU16*,const ImU16*,const ImU16*,int,const ImPlot3DSpec)",
       "stname": ""
     },
     {
-      "args": "(const char* label_id,const ImS32* xs,const ImS32* ys,const ImS32* zs,int count,ImPlot3DLineFlags flags,int offset,int stride)",
+      "args": "(const char* label_id,const ImS32* xs,const ImS32* ys,const ImS32* zs,int count,const ImPlot3DSpec_c spec)",
       "argsT": [
         {
           "name": "label_id",
@@ -2035,37 +2340,27 @@
           "type": "int"
         },
         {
-          "name": "flags",
-          "type": "ImPlot3DLineFlags"
-        },
-        {
-          "name": "offset",
-          "type": "int"
-        },
-        {
-          "name": "stride",
-          "type": "int"
+          "name": "spec",
+          "type": "const ImPlot3DSpec"
         }
       ],
-      "argsoriginal": "(const char* label_id,const ImS32* xs,const ImS32* ys,const ImS32* zs,int count,ImPlot3DLineFlags flags=0,int offset=0,int stride=sizeof(ImS32))",
-      "call_args": "(label_id,xs,ys,zs,count,flags,offset,stride)",
-      "call_args_old": "(label_id,xs,ys,zs,count,flags,offset,stride)",
+      "argsoriginal": "(const char* label_id,const ImS32* xs,const ImS32* ys,const ImS32* zs,int count,const ImPlot3DSpec& spec=ImPlot3DSpec())",
+      "call_args": "(label_id,xs,ys,zs,count,ConvertToCPP_ImPlot3DSpec(spec))",
+      "call_args_old": "(label_id,xs,ys,zs,count,spec)",
       "cimguiname": "ImPlot3D_PlotLine",
       "defaults": {
-        "flags": "0",
-        "offset": "0",
-        "stride": "sizeof(ImS32)"
+        "spec": "ImPlot3DSpec()"
       },
       "funcname": "PlotLine",
-      "location": "implot3d:508",
+      "location": "implot3d:606",
       "namespace": "ImPlot3D",
       "ov_cimguiname": "ImPlot3D_PlotLine_S32Ptr",
       "ret": "void",
-      "signature": "(const char*,const ImS32*,const ImS32*,const ImS32*,int,ImPlot3DLineFlags,int,int)",
+      "signature": "(const char*,const ImS32*,const ImS32*,const ImS32*,int,const ImPlot3DSpec)",
       "stname": ""
     },
     {
-      "args": "(const char* label_id,const ImU32* xs,const ImU32* ys,const ImU32* zs,int count,ImPlot3DLineFlags flags,int offset,int stride)",
+      "args": "(const char* label_id,const ImU32* xs,const ImU32* ys,const ImU32* zs,int count,const ImPlot3DSpec_c spec)",
       "argsT": [
         {
           "name": "label_id",
@@ -2088,37 +2383,27 @@
           "type": "int"
         },
         {
-          "name": "flags",
-          "type": "ImPlot3DLineFlags"
-        },
-        {
-          "name": "offset",
-          "type": "int"
-        },
-        {
-          "name": "stride",
-          "type": "int"
+          "name": "spec",
+          "type": "const ImPlot3DSpec"
         }
       ],
-      "argsoriginal": "(const char* label_id,const ImU32* xs,const ImU32* ys,const ImU32* zs,int count,ImPlot3DLineFlags flags=0,int offset=0,int stride=sizeof(ImU32))",
-      "call_args": "(label_id,xs,ys,zs,count,flags,offset,stride)",
-      "call_args_old": "(label_id,xs,ys,zs,count,flags,offset,stride)",
+      "argsoriginal": "(const char* label_id,const ImU32* xs,const ImU32* ys,const ImU32* zs,int count,const ImPlot3DSpec& spec=ImPlot3DSpec())",
+      "call_args": "(label_id,xs,ys,zs,count,ConvertToCPP_ImPlot3DSpec(spec))",
+      "call_args_old": "(label_id,xs,ys,zs,count,spec)",
       "cimguiname": "ImPlot3D_PlotLine",
       "defaults": {
-        "flags": "0",
-        "offset": "0",
-        "stride": "sizeof(ImU32)"
+        "spec": "ImPlot3DSpec()"
       },
       "funcname": "PlotLine",
-      "location": "implot3d:508",
+      "location": "implot3d:606",
       "namespace": "ImPlot3D",
       "ov_cimguiname": "ImPlot3D_PlotLine_U32Ptr",
       "ret": "void",
-      "signature": "(const char*,const ImU32*,const ImU32*,const ImU32*,int,ImPlot3DLineFlags,int,int)",
+      "signature": "(const char*,const ImU32*,const ImU32*,const ImU32*,int,const ImPlot3DSpec)",
       "stname": ""
     },
     {
-      "args": "(const char* label_id,const ImS64* xs,const ImS64* ys,const ImS64* zs,int count,ImPlot3DLineFlags flags,int offset,int stride)",
+      "args": "(const char* label_id,const ImS64* xs,const ImS64* ys,const ImS64* zs,int count,const ImPlot3DSpec_c spec)",
       "argsT": [
         {
           "name": "label_id",
@@ -2141,37 +2426,27 @@
           "type": "int"
         },
         {
-          "name": "flags",
-          "type": "ImPlot3DLineFlags"
-        },
-        {
-          "name": "offset",
-          "type": "int"
-        },
-        {
-          "name": "stride",
-          "type": "int"
+          "name": "spec",
+          "type": "const ImPlot3DSpec"
         }
       ],
-      "argsoriginal": "(const char* label_id,const ImS64* xs,const ImS64* ys,const ImS64* zs,int count,ImPlot3DLineFlags flags=0,int offset=0,int stride=sizeof(ImS64))",
-      "call_args": "(label_id,xs,ys,zs,count,flags,offset,stride)",
-      "call_args_old": "(label_id,xs,ys,zs,count,flags,offset,stride)",
+      "argsoriginal": "(const char* label_id,const ImS64* xs,const ImS64* ys,const ImS64* zs,int count,const ImPlot3DSpec& spec=ImPlot3DSpec())",
+      "call_args": "(label_id,xs,ys,zs,count,ConvertToCPP_ImPlot3DSpec(spec))",
+      "call_args_old": "(label_id,xs,ys,zs,count,spec)",
       "cimguiname": "ImPlot3D_PlotLine",
       "defaults": {
-        "flags": "0",
-        "offset": "0",
-        "stride": "sizeof(ImS64)"
+        "spec": "ImPlot3DSpec()"
       },
       "funcname": "PlotLine",
-      "location": "implot3d:508",
+      "location": "implot3d:606",
       "namespace": "ImPlot3D",
       "ov_cimguiname": "ImPlot3D_PlotLine_S64Ptr",
       "ret": "void",
-      "signature": "(const char*,const ImS64*,const ImS64*,const ImS64*,int,ImPlot3DLineFlags,int,int)",
+      "signature": "(const char*,const ImS64*,const ImS64*,const ImS64*,int,const ImPlot3DSpec)",
       "stname": ""
     },
     {
-      "args": "(const char* label_id,const ImU64* xs,const ImU64* ys,const ImU64* zs,int count,ImPlot3DLineFlags flags,int offset,int stride)",
+      "args": "(const char* label_id,const ImU64* xs,const ImU64* ys,const ImU64* zs,int count,const ImPlot3DSpec_c spec)",
       "argsT": [
         {
           "name": "label_id",
@@ -2194,39 +2469,29 @@
           "type": "int"
         },
         {
-          "name": "flags",
-          "type": "ImPlot3DLineFlags"
-        },
-        {
-          "name": "offset",
-          "type": "int"
-        },
-        {
-          "name": "stride",
-          "type": "int"
+          "name": "spec",
+          "type": "const ImPlot3DSpec"
         }
       ],
-      "argsoriginal": "(const char* label_id,const ImU64* xs,const ImU64* ys,const ImU64* zs,int count,ImPlot3DLineFlags flags=0,int offset=0,int stride=sizeof(ImU64))",
-      "call_args": "(label_id,xs,ys,zs,count,flags,offset,stride)",
-      "call_args_old": "(label_id,xs,ys,zs,count,flags,offset,stride)",
+      "argsoriginal": "(const char* label_id,const ImU64* xs,const ImU64* ys,const ImU64* zs,int count,const ImPlot3DSpec& spec=ImPlot3DSpec())",
+      "call_args": "(label_id,xs,ys,zs,count,ConvertToCPP_ImPlot3DSpec(spec))",
+      "call_args_old": "(label_id,xs,ys,zs,count,spec)",
       "cimguiname": "ImPlot3D_PlotLine",
       "defaults": {
-        "flags": "0",
-        "offset": "0",
-        "stride": "sizeof(ImU64)"
+        "spec": "ImPlot3DSpec()"
       },
       "funcname": "PlotLine",
-      "location": "implot3d:508",
+      "location": "implot3d:606",
       "namespace": "ImPlot3D",
       "ov_cimguiname": "ImPlot3D_PlotLine_U64Ptr",
       "ret": "void",
-      "signature": "(const char*,const ImU64*,const ImU64*,const ImU64*,int,ImPlot3DLineFlags,int,int)",
+      "signature": "(const char*,const ImU64*,const ImU64*,const ImU64*,int,const ImPlot3DSpec)",
       "stname": ""
     }
   ],
   "ImPlot3D_PlotMesh": [
     {
-      "args": "(const char* label_id,const ImPlot3DPoint* vtx,const unsigned int* idx,int vtx_count,int idx_count,ImPlot3DMeshFlags flags)",
+      "args": "(const char* label_id,const ImPlot3DPoint* vtx,const unsigned int* idx,int vtx_count,int idx_count,const ImPlot3DSpec_c spec)",
       "argsT": [
         {
           "name": "label_id",
@@ -2249,29 +2514,29 @@
           "type": "int"
         },
         {
-          "name": "flags",
-          "type": "ImPlot3DMeshFlags"
+          "name": "spec",
+          "type": "const ImPlot3DSpec"
         }
       ],
-      "argsoriginal": "(const char* label_id,const ImPlot3DPoint* vtx,const unsigned int* idx,int vtx_count,int idx_count,ImPlot3DMeshFlags flags=0)",
-      "call_args": "(label_id,vtx,idx,vtx_count,idx_count,flags)",
-      "call_args_old": "(label_id,vtx,idx,vtx_count,idx_count,flags)",
+      "argsoriginal": "(const char* label_id,const ImPlot3DPoint* vtx,const unsigned int* idx,int vtx_count,int idx_count,const ImPlot3DSpec& spec=ImPlot3DSpec())",
+      "call_args": "(label_id,vtx,idx,vtx_count,idx_count,ConvertToCPP_ImPlot3DSpec(spec))",
+      "call_args_old": "(label_id,vtx,idx,vtx_count,idx_count,spec)",
       "cimguiname": "ImPlot3D_PlotMesh",
       "defaults": {
-        "flags": "0"
+        "spec": "ImPlot3DSpec()"
       },
       "funcname": "PlotMesh",
-      "location": "implot3d:526",
+      "location": "implot3d:621",
       "namespace": "ImPlot3D",
       "ov_cimguiname": "ImPlot3D_PlotMesh",
       "ret": "void",
-      "signature": "(const char*,const ImPlot3DPoint*,const unsigned int*,int,int,ImPlot3DMeshFlags)",
+      "signature": "(const char*,const ImPlot3DPoint*,const unsigned int*,int,int,const ImPlot3DSpec)",
       "stname": ""
     }
   ],
   "ImPlot3D_PlotQuad": [
     {
-      "args": "(const char* label_id,const float* xs,const float* ys,const float* zs,int count,ImPlot3DQuadFlags flags,int offset,int stride)",
+      "args": "(const char* label_id,const float* xs,const float* ys,const float* zs,int count,const ImPlot3DSpec_c spec)",
       "argsT": [
         {
           "name": "label_id",
@@ -2294,37 +2559,27 @@
           "type": "int"
         },
         {
-          "name": "flags",
-          "type": "ImPlot3DQuadFlags"
-        },
-        {
-          "name": "offset",
-          "type": "int"
-        },
-        {
-          "name": "stride",
-          "type": "int"
+          "name": "spec",
+          "type": "const ImPlot3DSpec"
         }
       ],
-      "argsoriginal": "(const char* label_id,const float* xs,const float* ys,const float* zs,int count,ImPlot3DQuadFlags flags=0,int offset=0,int stride=sizeof(float))",
-      "call_args": "(label_id,xs,ys,zs,count,flags,offset,stride)",
-      "call_args_old": "(label_id,xs,ys,zs,count,flags,offset,stride)",
+      "argsoriginal": "(const char* label_id,const float* xs,const float* ys,const float* zs,int count,const ImPlot3DSpec& spec=ImPlot3DSpec())",
+      "call_args": "(label_id,xs,ys,zs,count,ConvertToCPP_ImPlot3DSpec(spec))",
+      "call_args_old": "(label_id,xs,ys,zs,count,spec)",
       "cimguiname": "ImPlot3D_PlotQuad",
       "defaults": {
-        "flags": "0",
-        "offset": "0",
-        "stride": "sizeof(float)"
+        "spec": "ImPlot3DSpec()"
       },
       "funcname": "PlotQuad",
-      "location": "implot3d:516",
+      "location": "implot3d:612",
       "namespace": "ImPlot3D",
       "ov_cimguiname": "ImPlot3D_PlotQuad_FloatPtr",
       "ret": "void",
-      "signature": "(const char*,const float*,const float*,const float*,int,ImPlot3DQuadFlags,int,int)",
+      "signature": "(const char*,const float*,const float*,const float*,int,const ImPlot3DSpec)",
       "stname": ""
     },
     {
-      "args": "(const char* label_id,const double* xs,const double* ys,const double* zs,int count,ImPlot3DQuadFlags flags,int offset,int stride)",
+      "args": "(const char* label_id,const double* xs,const double* ys,const double* zs,int count,const ImPlot3DSpec_c spec)",
       "argsT": [
         {
           "name": "label_id",
@@ -2347,37 +2602,27 @@
           "type": "int"
         },
         {
-          "name": "flags",
-          "type": "ImPlot3DQuadFlags"
-        },
-        {
-          "name": "offset",
-          "type": "int"
-        },
-        {
-          "name": "stride",
-          "type": "int"
+          "name": "spec",
+          "type": "const ImPlot3DSpec"
         }
       ],
-      "argsoriginal": "(const char* label_id,const double* xs,const double* ys,const double* zs,int count,ImPlot3DQuadFlags flags=0,int offset=0,int stride=sizeof(double))",
-      "call_args": "(label_id,xs,ys,zs,count,flags,offset,stride)",
-      "call_args_old": "(label_id,xs,ys,zs,count,flags,offset,stride)",
+      "argsoriginal": "(const char* label_id,const double* xs,const double* ys,const double* zs,int count,const ImPlot3DSpec& spec=ImPlot3DSpec())",
+      "call_args": "(label_id,xs,ys,zs,count,ConvertToCPP_ImPlot3DSpec(spec))",
+      "call_args_old": "(label_id,xs,ys,zs,count,spec)",
       "cimguiname": "ImPlot3D_PlotQuad",
       "defaults": {
-        "flags": "0",
-        "offset": "0",
-        "stride": "sizeof(double)"
+        "spec": "ImPlot3DSpec()"
       },
       "funcname": "PlotQuad",
-      "location": "implot3d:516",
+      "location": "implot3d:612",
       "namespace": "ImPlot3D",
       "ov_cimguiname": "ImPlot3D_PlotQuad_doublePtr",
       "ret": "void",
-      "signature": "(const char*,const double*,const double*,const double*,int,ImPlot3DQuadFlags,int,int)",
+      "signature": "(const char*,const double*,const double*,const double*,int,const ImPlot3DSpec)",
       "stname": ""
     },
     {
-      "args": "(const char* label_id,const ImS8* xs,const ImS8* ys,const ImS8* zs,int count,ImPlot3DQuadFlags flags,int offset,int stride)",
+      "args": "(const char* label_id,const ImS8* xs,const ImS8* ys,const ImS8* zs,int count,const ImPlot3DSpec_c spec)",
       "argsT": [
         {
           "name": "label_id",
@@ -2400,37 +2645,27 @@
           "type": "int"
         },
         {
-          "name": "flags",
-          "type": "ImPlot3DQuadFlags"
-        },
-        {
-          "name": "offset",
-          "type": "int"
-        },
-        {
-          "name": "stride",
-          "type": "int"
+          "name": "spec",
+          "type": "const ImPlot3DSpec"
         }
       ],
-      "argsoriginal": "(const char* label_id,const ImS8* xs,const ImS8* ys,const ImS8* zs,int count,ImPlot3DQuadFlags flags=0,int offset=0,int stride=sizeof(ImS8))",
-      "call_args": "(label_id,xs,ys,zs,count,flags,offset,stride)",
-      "call_args_old": "(label_id,xs,ys,zs,count,flags,offset,stride)",
+      "argsoriginal": "(const char* label_id,const ImS8* xs,const ImS8* ys,const ImS8* zs,int count,const ImPlot3DSpec& spec=ImPlot3DSpec())",
+      "call_args": "(label_id,xs,ys,zs,count,ConvertToCPP_ImPlot3DSpec(spec))",
+      "call_args_old": "(label_id,xs,ys,zs,count,spec)",
       "cimguiname": "ImPlot3D_PlotQuad",
       "defaults": {
-        "flags": "0",
-        "offset": "0",
-        "stride": "sizeof(ImS8)"
+        "spec": "ImPlot3DSpec()"
       },
       "funcname": "PlotQuad",
-      "location": "implot3d:516",
+      "location": "implot3d:612",
       "namespace": "ImPlot3D",
       "ov_cimguiname": "ImPlot3D_PlotQuad_S8Ptr",
       "ret": "void",
-      "signature": "(const char*,const ImS8*,const ImS8*,const ImS8*,int,ImPlot3DQuadFlags,int,int)",
+      "signature": "(const char*,const ImS8*,const ImS8*,const ImS8*,int,const ImPlot3DSpec)",
       "stname": ""
     },
     {
-      "args": "(const char* label_id,const ImU8* xs,const ImU8* ys,const ImU8* zs,int count,ImPlot3DQuadFlags flags,int offset,int stride)",
+      "args": "(const char* label_id,const ImU8* xs,const ImU8* ys,const ImU8* zs,int count,const ImPlot3DSpec_c spec)",
       "argsT": [
         {
           "name": "label_id",
@@ -2453,37 +2688,27 @@
           "type": "int"
         },
         {
-          "name": "flags",
-          "type": "ImPlot3DQuadFlags"
-        },
-        {
-          "name": "offset",
-          "type": "int"
-        },
-        {
-          "name": "stride",
-          "type": "int"
+          "name": "spec",
+          "type": "const ImPlot3DSpec"
         }
       ],
-      "argsoriginal": "(const char* label_id,const ImU8* xs,const ImU8* ys,const ImU8* zs,int count,ImPlot3DQuadFlags flags=0,int offset=0,int stride=sizeof(ImU8))",
-      "call_args": "(label_id,xs,ys,zs,count,flags,offset,stride)",
-      "call_args_old": "(label_id,xs,ys,zs,count,flags,offset,stride)",
+      "argsoriginal": "(const char* label_id,const ImU8* xs,const ImU8* ys,const ImU8* zs,int count,const ImPlot3DSpec& spec=ImPlot3DSpec())",
+      "call_args": "(label_id,xs,ys,zs,count,ConvertToCPP_ImPlot3DSpec(spec))",
+      "call_args_old": "(label_id,xs,ys,zs,count,spec)",
       "cimguiname": "ImPlot3D_PlotQuad",
       "defaults": {
-        "flags": "0",
-        "offset": "0",
-        "stride": "sizeof(ImU8)"
+        "spec": "ImPlot3DSpec()"
       },
       "funcname": "PlotQuad",
-      "location": "implot3d:516",
+      "location": "implot3d:612",
       "namespace": "ImPlot3D",
       "ov_cimguiname": "ImPlot3D_PlotQuad_U8Ptr",
       "ret": "void",
-      "signature": "(const char*,const ImU8*,const ImU8*,const ImU8*,int,ImPlot3DQuadFlags,int,int)",
+      "signature": "(const char*,const ImU8*,const ImU8*,const ImU8*,int,const ImPlot3DSpec)",
       "stname": ""
     },
     {
-      "args": "(const char* label_id,const ImS16* xs,const ImS16* ys,const ImS16* zs,int count,ImPlot3DQuadFlags flags,int offset,int stride)",
+      "args": "(const char* label_id,const ImS16* xs,const ImS16* ys,const ImS16* zs,int count,const ImPlot3DSpec_c spec)",
       "argsT": [
         {
           "name": "label_id",
@@ -2506,37 +2731,27 @@
           "type": "int"
         },
         {
-          "name": "flags",
-          "type": "ImPlot3DQuadFlags"
-        },
-        {
-          "name": "offset",
-          "type": "int"
-        },
-        {
-          "name": "stride",
-          "type": "int"
+          "name": "spec",
+          "type": "const ImPlot3DSpec"
         }
       ],
-      "argsoriginal": "(const char* label_id,const ImS16* xs,const ImS16* ys,const ImS16* zs,int count,ImPlot3DQuadFlags flags=0,int offset=0,int stride=sizeof(ImS16))",
-      "call_args": "(label_id,xs,ys,zs,count,flags,offset,stride)",
-      "call_args_old": "(label_id,xs,ys,zs,count,flags,offset,stride)",
+      "argsoriginal": "(const char* label_id,const ImS16* xs,const ImS16* ys,const ImS16* zs,int count,const ImPlot3DSpec& spec=ImPlot3DSpec())",
+      "call_args": "(label_id,xs,ys,zs,count,ConvertToCPP_ImPlot3DSpec(spec))",
+      "call_args_old": "(label_id,xs,ys,zs,count,spec)",
       "cimguiname": "ImPlot3D_PlotQuad",
       "defaults": {
-        "flags": "0",
-        "offset": "0",
-        "stride": "sizeof(ImS16)"
+        "spec": "ImPlot3DSpec()"
       },
       "funcname": "PlotQuad",
-      "location": "implot3d:516",
+      "location": "implot3d:612",
       "namespace": "ImPlot3D",
       "ov_cimguiname": "ImPlot3D_PlotQuad_S16Ptr",
       "ret": "void",
-      "signature": "(const char*,const ImS16*,const ImS16*,const ImS16*,int,ImPlot3DQuadFlags,int,int)",
+      "signature": "(const char*,const ImS16*,const ImS16*,const ImS16*,int,const ImPlot3DSpec)",
       "stname": ""
     },
     {
-      "args": "(const char* label_id,const ImU16* xs,const ImU16* ys,const ImU16* zs,int count,ImPlot3DQuadFlags flags,int offset,int stride)",
+      "args": "(const char* label_id,const ImU16* xs,const ImU16* ys,const ImU16* zs,int count,const ImPlot3DSpec_c spec)",
       "argsT": [
         {
           "name": "label_id",
@@ -2559,37 +2774,27 @@
           "type": "int"
         },
         {
-          "name": "flags",
-          "type": "ImPlot3DQuadFlags"
-        },
-        {
-          "name": "offset",
-          "type": "int"
-        },
-        {
-          "name": "stride",
-          "type": "int"
+          "name": "spec",
+          "type": "const ImPlot3DSpec"
         }
       ],
-      "argsoriginal": "(const char* label_id,const ImU16* xs,const ImU16* ys,const ImU16* zs,int count,ImPlot3DQuadFlags flags=0,int offset=0,int stride=sizeof(ImU16))",
-      "call_args": "(label_id,xs,ys,zs,count,flags,offset,stride)",
-      "call_args_old": "(label_id,xs,ys,zs,count,flags,offset,stride)",
+      "argsoriginal": "(const char* label_id,const ImU16* xs,const ImU16* ys,const ImU16* zs,int count,const ImPlot3DSpec& spec=ImPlot3DSpec())",
+      "call_args": "(label_id,xs,ys,zs,count,ConvertToCPP_ImPlot3DSpec(spec))",
+      "call_args_old": "(label_id,xs,ys,zs,count,spec)",
       "cimguiname": "ImPlot3D_PlotQuad",
       "defaults": {
-        "flags": "0",
-        "offset": "0",
-        "stride": "sizeof(ImU16)"
+        "spec": "ImPlot3DSpec()"
       },
       "funcname": "PlotQuad",
-      "location": "implot3d:516",
+      "location": "implot3d:612",
       "namespace": "ImPlot3D",
       "ov_cimguiname": "ImPlot3D_PlotQuad_U16Ptr",
       "ret": "void",
-      "signature": "(const char*,const ImU16*,const ImU16*,const ImU16*,int,ImPlot3DQuadFlags,int,int)",
+      "signature": "(const char*,const ImU16*,const ImU16*,const ImU16*,int,const ImPlot3DSpec)",
       "stname": ""
     },
     {
-      "args": "(const char* label_id,const ImS32* xs,const ImS32* ys,const ImS32* zs,int count,ImPlot3DQuadFlags flags,int offset,int stride)",
+      "args": "(const char* label_id,const ImS32* xs,const ImS32* ys,const ImS32* zs,int count,const ImPlot3DSpec_c spec)",
       "argsT": [
         {
           "name": "label_id",
@@ -2612,37 +2817,27 @@
           "type": "int"
         },
         {
-          "name": "flags",
-          "type": "ImPlot3DQuadFlags"
-        },
-        {
-          "name": "offset",
-          "type": "int"
-        },
-        {
-          "name": "stride",
-          "type": "int"
+          "name": "spec",
+          "type": "const ImPlot3DSpec"
         }
       ],
-      "argsoriginal": "(const char* label_id,const ImS32* xs,const ImS32* ys,const ImS32* zs,int count,ImPlot3DQuadFlags flags=0,int offset=0,int stride=sizeof(ImS32))",
-      "call_args": "(label_id,xs,ys,zs,count,flags,offset,stride)",
-      "call_args_old": "(label_id,xs,ys,zs,count,flags,offset,stride)",
+      "argsoriginal": "(const char* label_id,const ImS32* xs,const ImS32* ys,const ImS32* zs,int count,const ImPlot3DSpec& spec=ImPlot3DSpec())",
+      "call_args": "(label_id,xs,ys,zs,count,ConvertToCPP_ImPlot3DSpec(spec))",
+      "call_args_old": "(label_id,xs,ys,zs,count,spec)",
       "cimguiname": "ImPlot3D_PlotQuad",
       "defaults": {
-        "flags": "0",
-        "offset": "0",
-        "stride": "sizeof(ImS32)"
+        "spec": "ImPlot3DSpec()"
       },
       "funcname": "PlotQuad",
-      "location": "implot3d:516",
+      "location": "implot3d:612",
       "namespace": "ImPlot3D",
       "ov_cimguiname": "ImPlot3D_PlotQuad_S32Ptr",
       "ret": "void",
-      "signature": "(const char*,const ImS32*,const ImS32*,const ImS32*,int,ImPlot3DQuadFlags,int,int)",
+      "signature": "(const char*,const ImS32*,const ImS32*,const ImS32*,int,const ImPlot3DSpec)",
       "stname": ""
     },
     {
-      "args": "(const char* label_id,const ImU32* xs,const ImU32* ys,const ImU32* zs,int count,ImPlot3DQuadFlags flags,int offset,int stride)",
+      "args": "(const char* label_id,const ImU32* xs,const ImU32* ys,const ImU32* zs,int count,const ImPlot3DSpec_c spec)",
       "argsT": [
         {
           "name": "label_id",
@@ -2665,37 +2860,27 @@
           "type": "int"
         },
         {
-          "name": "flags",
-          "type": "ImPlot3DQuadFlags"
-        },
-        {
-          "name": "offset",
-          "type": "int"
-        },
-        {
-          "name": "stride",
-          "type": "int"
+          "name": "spec",
+          "type": "const ImPlot3DSpec"
         }
       ],
-      "argsoriginal": "(const char* label_id,const ImU32* xs,const ImU32* ys,const ImU32* zs,int count,ImPlot3DQuadFlags flags=0,int offset=0,int stride=sizeof(ImU32))",
-      "call_args": "(label_id,xs,ys,zs,count,flags,offset,stride)",
-      "call_args_old": "(label_id,xs,ys,zs,count,flags,offset,stride)",
+      "argsoriginal": "(const char* label_id,const ImU32* xs,const ImU32* ys,const ImU32* zs,int count,const ImPlot3DSpec& spec=ImPlot3DSpec())",
+      "call_args": "(label_id,xs,ys,zs,count,ConvertToCPP_ImPlot3DSpec(spec))",
+      "call_args_old": "(label_id,xs,ys,zs,count,spec)",
       "cimguiname": "ImPlot3D_PlotQuad",
       "defaults": {
-        "flags": "0",
-        "offset": "0",
-        "stride": "sizeof(ImU32)"
+        "spec": "ImPlot3DSpec()"
       },
       "funcname": "PlotQuad",
-      "location": "implot3d:516",
+      "location": "implot3d:612",
       "namespace": "ImPlot3D",
       "ov_cimguiname": "ImPlot3D_PlotQuad_U32Ptr",
       "ret": "void",
-      "signature": "(const char*,const ImU32*,const ImU32*,const ImU32*,int,ImPlot3DQuadFlags,int,int)",
+      "signature": "(const char*,const ImU32*,const ImU32*,const ImU32*,int,const ImPlot3DSpec)",
       "stname": ""
     },
     {
-      "args": "(const char* label_id,const ImS64* xs,const ImS64* ys,const ImS64* zs,int count,ImPlot3DQuadFlags flags,int offset,int stride)",
+      "args": "(const char* label_id,const ImS64* xs,const ImS64* ys,const ImS64* zs,int count,const ImPlot3DSpec_c spec)",
       "argsT": [
         {
           "name": "label_id",
@@ -2718,37 +2903,27 @@
           "type": "int"
         },
         {
-          "name": "flags",
-          "type": "ImPlot3DQuadFlags"
-        },
-        {
-          "name": "offset",
-          "type": "int"
-        },
-        {
-          "name": "stride",
-          "type": "int"
+          "name": "spec",
+          "type": "const ImPlot3DSpec"
         }
       ],
-      "argsoriginal": "(const char* label_id,const ImS64* xs,const ImS64* ys,const ImS64* zs,int count,ImPlot3DQuadFlags flags=0,int offset=0,int stride=sizeof(ImS64))",
-      "call_args": "(label_id,xs,ys,zs,count,flags,offset,stride)",
-      "call_args_old": "(label_id,xs,ys,zs,count,flags,offset,stride)",
+      "argsoriginal": "(const char* label_id,const ImS64* xs,const ImS64* ys,const ImS64* zs,int count,const ImPlot3DSpec& spec=ImPlot3DSpec())",
+      "call_args": "(label_id,xs,ys,zs,count,ConvertToCPP_ImPlot3DSpec(spec))",
+      "call_args_old": "(label_id,xs,ys,zs,count,spec)",
       "cimguiname": "ImPlot3D_PlotQuad",
       "defaults": {
-        "flags": "0",
-        "offset": "0",
-        "stride": "sizeof(ImS64)"
+        "spec": "ImPlot3DSpec()"
       },
       "funcname": "PlotQuad",
-      "location": "implot3d:516",
+      "location": "implot3d:612",
       "namespace": "ImPlot3D",
       "ov_cimguiname": "ImPlot3D_PlotQuad_S64Ptr",
       "ret": "void",
-      "signature": "(const char*,const ImS64*,const ImS64*,const ImS64*,int,ImPlot3DQuadFlags,int,int)",
+      "signature": "(const char*,const ImS64*,const ImS64*,const ImS64*,int,const ImPlot3DSpec)",
       "stname": ""
     },
     {
-      "args": "(const char* label_id,const ImU64* xs,const ImU64* ys,const ImU64* zs,int count,ImPlot3DQuadFlags flags,int offset,int stride)",
+      "args": "(const char* label_id,const ImU64* xs,const ImU64* ys,const ImU64* zs,int count,const ImPlot3DSpec_c spec)",
       "argsT": [
         {
           "name": "label_id",
@@ -2771,39 +2946,29 @@
           "type": "int"
         },
         {
-          "name": "flags",
-          "type": "ImPlot3DQuadFlags"
-        },
-        {
-          "name": "offset",
-          "type": "int"
-        },
-        {
-          "name": "stride",
-          "type": "int"
+          "name": "spec",
+          "type": "const ImPlot3DSpec"
         }
       ],
-      "argsoriginal": "(const char* label_id,const ImU64* xs,const ImU64* ys,const ImU64* zs,int count,ImPlot3DQuadFlags flags=0,int offset=0,int stride=sizeof(ImU64))",
-      "call_args": "(label_id,xs,ys,zs,count,flags,offset,stride)",
-      "call_args_old": "(label_id,xs,ys,zs,count,flags,offset,stride)",
+      "argsoriginal": "(const char* label_id,const ImU64* xs,const ImU64* ys,const ImU64* zs,int count,const ImPlot3DSpec& spec=ImPlot3DSpec())",
+      "call_args": "(label_id,xs,ys,zs,count,ConvertToCPP_ImPlot3DSpec(spec))",
+      "call_args_old": "(label_id,xs,ys,zs,count,spec)",
       "cimguiname": "ImPlot3D_PlotQuad",
       "defaults": {
-        "flags": "0",
-        "offset": "0",
-        "stride": "sizeof(ImU64)"
+        "spec": "ImPlot3DSpec()"
       },
       "funcname": "PlotQuad",
-      "location": "implot3d:516",
+      "location": "implot3d:612",
       "namespace": "ImPlot3D",
       "ov_cimguiname": "ImPlot3D_PlotQuad_U64Ptr",
       "ret": "void",
-      "signature": "(const char*,const ImU64*,const ImU64*,const ImU64*,int,ImPlot3DQuadFlags,int,int)",
+      "signature": "(const char*,const ImU64*,const ImU64*,const ImU64*,int,const ImPlot3DSpec)",
       "stname": ""
     }
   ],
   "ImPlot3D_PlotScatter": [
     {
-      "args": "(const char* label_id,const float* xs,const float* ys,const float* zs,int count,ImPlot3DScatterFlags flags,int offset,int stride)",
+      "args": "(const char* label_id,const float* xs,const float* ys,const float* zs,int count,const ImPlot3DSpec_c spec)",
       "argsT": [
         {
           "name": "label_id",
@@ -2826,37 +2991,27 @@
           "type": "int"
         },
         {
-          "name": "flags",
-          "type": "ImPlot3DScatterFlags"
-        },
-        {
-          "name": "offset",
-          "type": "int"
-        },
-        {
-          "name": "stride",
-          "type": "int"
+          "name": "spec",
+          "type": "const ImPlot3DSpec"
         }
       ],
-      "argsoriginal": "(const char* label_id,const float* xs,const float* ys,const float* zs,int count,ImPlot3DScatterFlags flags=0,int offset=0,int stride=sizeof(float))",
-      "call_args": "(label_id,xs,ys,zs,count,flags,offset,stride)",
-      "call_args_old": "(label_id,xs,ys,zs,count,flags,offset,stride)",
+      "argsoriginal": "(const char* label_id,const float* xs,const float* ys,const float* zs,int count,const ImPlot3DSpec& spec=ImPlot3DSpec())",
+      "call_args": "(label_id,xs,ys,zs,count,ConvertToCPP_ImPlot3DSpec(spec))",
+      "call_args_old": "(label_id,xs,ys,zs,count,spec)",
       "cimguiname": "ImPlot3D_PlotScatter",
       "defaults": {
-        "flags": "0",
-        "offset": "0",
-        "stride": "sizeof(float)"
+        "spec": "ImPlot3DSpec()"
       },
       "funcname": "PlotScatter",
-      "location": "implot3d:504",
+      "location": "implot3d:603",
       "namespace": "ImPlot3D",
       "ov_cimguiname": "ImPlot3D_PlotScatter_FloatPtr",
       "ret": "void",
-      "signature": "(const char*,const float*,const float*,const float*,int,ImPlot3DScatterFlags,int,int)",
+      "signature": "(const char*,const float*,const float*,const float*,int,const ImPlot3DSpec)",
       "stname": ""
     },
     {
-      "args": "(const char* label_id,const double* xs,const double* ys,const double* zs,int count,ImPlot3DScatterFlags flags,int offset,int stride)",
+      "args": "(const char* label_id,const double* xs,const double* ys,const double* zs,int count,const ImPlot3DSpec_c spec)",
       "argsT": [
         {
           "name": "label_id",
@@ -2879,37 +3034,27 @@
           "type": "int"
         },
         {
-          "name": "flags",
-          "type": "ImPlot3DScatterFlags"
-        },
-        {
-          "name": "offset",
-          "type": "int"
-        },
-        {
-          "name": "stride",
-          "type": "int"
+          "name": "spec",
+          "type": "const ImPlot3DSpec"
         }
       ],
-      "argsoriginal": "(const char* label_id,const double* xs,const double* ys,const double* zs,int count,ImPlot3DScatterFlags flags=0,int offset=0,int stride=sizeof(double))",
-      "call_args": "(label_id,xs,ys,zs,count,flags,offset,stride)",
-      "call_args_old": "(label_id,xs,ys,zs,count,flags,offset,stride)",
+      "argsoriginal": "(const char* label_id,const double* xs,const double* ys,const double* zs,int count,const ImPlot3DSpec& spec=ImPlot3DSpec())",
+      "call_args": "(label_id,xs,ys,zs,count,ConvertToCPP_ImPlot3DSpec(spec))",
+      "call_args_old": "(label_id,xs,ys,zs,count,spec)",
       "cimguiname": "ImPlot3D_PlotScatter",
       "defaults": {
-        "flags": "0",
-        "offset": "0",
-        "stride": "sizeof(double)"
+        "spec": "ImPlot3DSpec()"
       },
       "funcname": "PlotScatter",
-      "location": "implot3d:504",
+      "location": "implot3d:603",
       "namespace": "ImPlot3D",
       "ov_cimguiname": "ImPlot3D_PlotScatter_doublePtr",
       "ret": "void",
-      "signature": "(const char*,const double*,const double*,const double*,int,ImPlot3DScatterFlags,int,int)",
+      "signature": "(const char*,const double*,const double*,const double*,int,const ImPlot3DSpec)",
       "stname": ""
     },
     {
-      "args": "(const char* label_id,const ImS8* xs,const ImS8* ys,const ImS8* zs,int count,ImPlot3DScatterFlags flags,int offset,int stride)",
+      "args": "(const char* label_id,const ImS8* xs,const ImS8* ys,const ImS8* zs,int count,const ImPlot3DSpec_c spec)",
       "argsT": [
         {
           "name": "label_id",
@@ -2932,37 +3077,27 @@
           "type": "int"
         },
         {
-          "name": "flags",
-          "type": "ImPlot3DScatterFlags"
-        },
-        {
-          "name": "offset",
-          "type": "int"
-        },
-        {
-          "name": "stride",
-          "type": "int"
+          "name": "spec",
+          "type": "const ImPlot3DSpec"
         }
       ],
-      "argsoriginal": "(const char* label_id,const ImS8* xs,const ImS8* ys,const ImS8* zs,int count,ImPlot3DScatterFlags flags=0,int offset=0,int stride=sizeof(ImS8))",
-      "call_args": "(label_id,xs,ys,zs,count,flags,offset,stride)",
-      "call_args_old": "(label_id,xs,ys,zs,count,flags,offset,stride)",
+      "argsoriginal": "(const char* label_id,const ImS8* xs,const ImS8* ys,const ImS8* zs,int count,const ImPlot3DSpec& spec=ImPlot3DSpec())",
+      "call_args": "(label_id,xs,ys,zs,count,ConvertToCPP_ImPlot3DSpec(spec))",
+      "call_args_old": "(label_id,xs,ys,zs,count,spec)",
       "cimguiname": "ImPlot3D_PlotScatter",
       "defaults": {
-        "flags": "0",
-        "offset": "0",
-        "stride": "sizeof(ImS8)"
+        "spec": "ImPlot3DSpec()"
       },
       "funcname": "PlotScatter",
-      "location": "implot3d:504",
+      "location": "implot3d:603",
       "namespace": "ImPlot3D",
       "ov_cimguiname": "ImPlot3D_PlotScatter_S8Ptr",
       "ret": "void",
-      "signature": "(const char*,const ImS8*,const ImS8*,const ImS8*,int,ImPlot3DScatterFlags,int,int)",
+      "signature": "(const char*,const ImS8*,const ImS8*,const ImS8*,int,const ImPlot3DSpec)",
       "stname": ""
     },
     {
-      "args": "(const char* label_id,const ImU8* xs,const ImU8* ys,const ImU8* zs,int count,ImPlot3DScatterFlags flags,int offset,int stride)",
+      "args": "(const char* label_id,const ImU8* xs,const ImU8* ys,const ImU8* zs,int count,const ImPlot3DSpec_c spec)",
       "argsT": [
         {
           "name": "label_id",
@@ -2985,37 +3120,27 @@
           "type": "int"
         },
         {
-          "name": "flags",
-          "type": "ImPlot3DScatterFlags"
-        },
-        {
-          "name": "offset",
-          "type": "int"
-        },
-        {
-          "name": "stride",
-          "type": "int"
+          "name": "spec",
+          "type": "const ImPlot3DSpec"
         }
       ],
-      "argsoriginal": "(const char* label_id,const ImU8* xs,const ImU8* ys,const ImU8* zs,int count,ImPlot3DScatterFlags flags=0,int offset=0,int stride=sizeof(ImU8))",
-      "call_args": "(label_id,xs,ys,zs,count,flags,offset,stride)",
-      "call_args_old": "(label_id,xs,ys,zs,count,flags,offset,stride)",
+      "argsoriginal": "(const char* label_id,const ImU8* xs,const ImU8* ys,const ImU8* zs,int count,const ImPlot3DSpec& spec=ImPlot3DSpec())",
+      "call_args": "(label_id,xs,ys,zs,count,ConvertToCPP_ImPlot3DSpec(spec))",
+      "call_args_old": "(label_id,xs,ys,zs,count,spec)",
       "cimguiname": "ImPlot3D_PlotScatter",
       "defaults": {
-        "flags": "0",
-        "offset": "0",
-        "stride": "sizeof(ImU8)"
+        "spec": "ImPlot3DSpec()"
       },
       "funcname": "PlotScatter",
-      "location": "implot3d:504",
+      "location": "implot3d:603",
       "namespace": "ImPlot3D",
       "ov_cimguiname": "ImPlot3D_PlotScatter_U8Ptr",
       "ret": "void",
-      "signature": "(const char*,const ImU8*,const ImU8*,const ImU8*,int,ImPlot3DScatterFlags,int,int)",
+      "signature": "(const char*,const ImU8*,const ImU8*,const ImU8*,int,const ImPlot3DSpec)",
       "stname": ""
     },
     {
-      "args": "(const char* label_id,const ImS16* xs,const ImS16* ys,const ImS16* zs,int count,ImPlot3DScatterFlags flags,int offset,int stride)",
+      "args": "(const char* label_id,const ImS16* xs,const ImS16* ys,const ImS16* zs,int count,const ImPlot3DSpec_c spec)",
       "argsT": [
         {
           "name": "label_id",
@@ -3038,37 +3163,27 @@
           "type": "int"
         },
         {
-          "name": "flags",
-          "type": "ImPlot3DScatterFlags"
-        },
-        {
-          "name": "offset",
-          "type": "int"
-        },
-        {
-          "name": "stride",
-          "type": "int"
+          "name": "spec",
+          "type": "const ImPlot3DSpec"
         }
       ],
-      "argsoriginal": "(const char* label_id,const ImS16* xs,const ImS16* ys,const ImS16* zs,int count,ImPlot3DScatterFlags flags=0,int offset=0,int stride=sizeof(ImS16))",
-      "call_args": "(label_id,xs,ys,zs,count,flags,offset,stride)",
-      "call_args_old": "(label_id,xs,ys,zs,count,flags,offset,stride)",
+      "argsoriginal": "(const char* label_id,const ImS16* xs,const ImS16* ys,const ImS16* zs,int count,const ImPlot3DSpec& spec=ImPlot3DSpec())",
+      "call_args": "(label_id,xs,ys,zs,count,ConvertToCPP_ImPlot3DSpec(spec))",
+      "call_args_old": "(label_id,xs,ys,zs,count,spec)",
       "cimguiname": "ImPlot3D_PlotScatter",
       "defaults": {
-        "flags": "0",
-        "offset": "0",
-        "stride": "sizeof(ImS16)"
+        "spec": "ImPlot3DSpec()"
       },
       "funcname": "PlotScatter",
-      "location": "implot3d:504",
+      "location": "implot3d:603",
       "namespace": "ImPlot3D",
       "ov_cimguiname": "ImPlot3D_PlotScatter_S16Ptr",
       "ret": "void",
-      "signature": "(const char*,const ImS16*,const ImS16*,const ImS16*,int,ImPlot3DScatterFlags,int,int)",
+      "signature": "(const char*,const ImS16*,const ImS16*,const ImS16*,int,const ImPlot3DSpec)",
       "stname": ""
     },
     {
-      "args": "(const char* label_id,const ImU16* xs,const ImU16* ys,const ImU16* zs,int count,ImPlot3DScatterFlags flags,int offset,int stride)",
+      "args": "(const char* label_id,const ImU16* xs,const ImU16* ys,const ImU16* zs,int count,const ImPlot3DSpec_c spec)",
       "argsT": [
         {
           "name": "label_id",
@@ -3091,37 +3206,27 @@
           "type": "int"
         },
         {
-          "name": "flags",
-          "type": "ImPlot3DScatterFlags"
-        },
-        {
-          "name": "offset",
-          "type": "int"
-        },
-        {
-          "name": "stride",
-          "type": "int"
+          "name": "spec",
+          "type": "const ImPlot3DSpec"
         }
       ],
-      "argsoriginal": "(const char* label_id,const ImU16* xs,const ImU16* ys,const ImU16* zs,int count,ImPlot3DScatterFlags flags=0,int offset=0,int stride=sizeof(ImU16))",
-      "call_args": "(label_id,xs,ys,zs,count,flags,offset,stride)",
-      "call_args_old": "(label_id,xs,ys,zs,count,flags,offset,stride)",
+      "argsoriginal": "(const char* label_id,const ImU16* xs,const ImU16* ys,const ImU16* zs,int count,const ImPlot3DSpec& spec=ImPlot3DSpec())",
+      "call_args": "(label_id,xs,ys,zs,count,ConvertToCPP_ImPlot3DSpec(spec))",
+      "call_args_old": "(label_id,xs,ys,zs,count,spec)",
       "cimguiname": "ImPlot3D_PlotScatter",
       "defaults": {
-        "flags": "0",
-        "offset": "0",
-        "stride": "sizeof(ImU16)"
+        "spec": "ImPlot3DSpec()"
       },
       "funcname": "PlotScatter",
-      "location": "implot3d:504",
+      "location": "implot3d:603",
       "namespace": "ImPlot3D",
       "ov_cimguiname": "ImPlot3D_PlotScatter_U16Ptr",
       "ret": "void",
-      "signature": "(const char*,const ImU16*,const ImU16*,const ImU16*,int,ImPlot3DScatterFlags,int,int)",
+      "signature": "(const char*,const ImU16*,const ImU16*,const ImU16*,int,const ImPlot3DSpec)",
       "stname": ""
     },
     {
-      "args": "(const char* label_id,const ImS32* xs,const ImS32* ys,const ImS32* zs,int count,ImPlot3DScatterFlags flags,int offset,int stride)",
+      "args": "(const char* label_id,const ImS32* xs,const ImS32* ys,const ImS32* zs,int count,const ImPlot3DSpec_c spec)",
       "argsT": [
         {
           "name": "label_id",
@@ -3144,37 +3249,27 @@
           "type": "int"
         },
         {
-          "name": "flags",
-          "type": "ImPlot3DScatterFlags"
-        },
-        {
-          "name": "offset",
-          "type": "int"
-        },
-        {
-          "name": "stride",
-          "type": "int"
+          "name": "spec",
+          "type": "const ImPlot3DSpec"
         }
       ],
-      "argsoriginal": "(const char* label_id,const ImS32* xs,const ImS32* ys,const ImS32* zs,int count,ImPlot3DScatterFlags flags=0,int offset=0,int stride=sizeof(ImS32))",
-      "call_args": "(label_id,xs,ys,zs,count,flags,offset,stride)",
-      "call_args_old": "(label_id,xs,ys,zs,count,flags,offset,stride)",
+      "argsoriginal": "(const char* label_id,const ImS32* xs,const ImS32* ys,const ImS32* zs,int count,const ImPlot3DSpec& spec=ImPlot3DSpec())",
+      "call_args": "(label_id,xs,ys,zs,count,ConvertToCPP_ImPlot3DSpec(spec))",
+      "call_args_old": "(label_id,xs,ys,zs,count,spec)",
       "cimguiname": "ImPlot3D_PlotScatter",
       "defaults": {
-        "flags": "0",
-        "offset": "0",
-        "stride": "sizeof(ImS32)"
+        "spec": "ImPlot3DSpec()"
       },
       "funcname": "PlotScatter",
-      "location": "implot3d:504",
+      "location": "implot3d:603",
       "namespace": "ImPlot3D",
       "ov_cimguiname": "ImPlot3D_PlotScatter_S32Ptr",
       "ret": "void",
-      "signature": "(const char*,const ImS32*,const ImS32*,const ImS32*,int,ImPlot3DScatterFlags,int,int)",
+      "signature": "(const char*,const ImS32*,const ImS32*,const ImS32*,int,const ImPlot3DSpec)",
       "stname": ""
     },
     {
-      "args": "(const char* label_id,const ImU32* xs,const ImU32* ys,const ImU32* zs,int count,ImPlot3DScatterFlags flags,int offset,int stride)",
+      "args": "(const char* label_id,const ImU32* xs,const ImU32* ys,const ImU32* zs,int count,const ImPlot3DSpec_c spec)",
       "argsT": [
         {
           "name": "label_id",
@@ -3197,37 +3292,27 @@
           "type": "int"
         },
         {
-          "name": "flags",
-          "type": "ImPlot3DScatterFlags"
-        },
-        {
-          "name": "offset",
-          "type": "int"
-        },
-        {
-          "name": "stride",
-          "type": "int"
+          "name": "spec",
+          "type": "const ImPlot3DSpec"
         }
       ],
-      "argsoriginal": "(const char* label_id,const ImU32* xs,const ImU32* ys,const ImU32* zs,int count,ImPlot3DScatterFlags flags=0,int offset=0,int stride=sizeof(ImU32))",
-      "call_args": "(label_id,xs,ys,zs,count,flags,offset,stride)",
-      "call_args_old": "(label_id,xs,ys,zs,count,flags,offset,stride)",
+      "argsoriginal": "(const char* label_id,const ImU32* xs,const ImU32* ys,const ImU32* zs,int count,const ImPlot3DSpec& spec=ImPlot3DSpec())",
+      "call_args": "(label_id,xs,ys,zs,count,ConvertToCPP_ImPlot3DSpec(spec))",
+      "call_args_old": "(label_id,xs,ys,zs,count,spec)",
       "cimguiname": "ImPlot3D_PlotScatter",
       "defaults": {
-        "flags": "0",
-        "offset": "0",
-        "stride": "sizeof(ImU32)"
+        "spec": "ImPlot3DSpec()"
       },
       "funcname": "PlotScatter",
-      "location": "implot3d:504",
+      "location": "implot3d:603",
       "namespace": "ImPlot3D",
       "ov_cimguiname": "ImPlot3D_PlotScatter_U32Ptr",
       "ret": "void",
-      "signature": "(const char*,const ImU32*,const ImU32*,const ImU32*,int,ImPlot3DScatterFlags,int,int)",
+      "signature": "(const char*,const ImU32*,const ImU32*,const ImU32*,int,const ImPlot3DSpec)",
       "stname": ""
     },
     {
-      "args": "(const char* label_id,const ImS64* xs,const ImS64* ys,const ImS64* zs,int count,ImPlot3DScatterFlags flags,int offset,int stride)",
+      "args": "(const char* label_id,const ImS64* xs,const ImS64* ys,const ImS64* zs,int count,const ImPlot3DSpec_c spec)",
       "argsT": [
         {
           "name": "label_id",
@@ -3250,37 +3335,27 @@
           "type": "int"
         },
         {
-          "name": "flags",
-          "type": "ImPlot3DScatterFlags"
-        },
-        {
-          "name": "offset",
-          "type": "int"
-        },
-        {
-          "name": "stride",
-          "type": "int"
+          "name": "spec",
+          "type": "const ImPlot3DSpec"
         }
       ],
-      "argsoriginal": "(const char* label_id,const ImS64* xs,const ImS64* ys,const ImS64* zs,int count,ImPlot3DScatterFlags flags=0,int offset=0,int stride=sizeof(ImS64))",
-      "call_args": "(label_id,xs,ys,zs,count,flags,offset,stride)",
-      "call_args_old": "(label_id,xs,ys,zs,count,flags,offset,stride)",
+      "argsoriginal": "(const char* label_id,const ImS64* xs,const ImS64* ys,const ImS64* zs,int count,const ImPlot3DSpec& spec=ImPlot3DSpec())",
+      "call_args": "(label_id,xs,ys,zs,count,ConvertToCPP_ImPlot3DSpec(spec))",
+      "call_args_old": "(label_id,xs,ys,zs,count,spec)",
       "cimguiname": "ImPlot3D_PlotScatter",
       "defaults": {
-        "flags": "0",
-        "offset": "0",
-        "stride": "sizeof(ImS64)"
+        "spec": "ImPlot3DSpec()"
       },
       "funcname": "PlotScatter",
-      "location": "implot3d:504",
+      "location": "implot3d:603",
       "namespace": "ImPlot3D",
       "ov_cimguiname": "ImPlot3D_PlotScatter_S64Ptr",
       "ret": "void",
-      "signature": "(const char*,const ImS64*,const ImS64*,const ImS64*,int,ImPlot3DScatterFlags,int,int)",
+      "signature": "(const char*,const ImS64*,const ImS64*,const ImS64*,int,const ImPlot3DSpec)",
       "stname": ""
     },
     {
-      "args": "(const char* label_id,const ImU64* xs,const ImU64* ys,const ImU64* zs,int count,ImPlot3DScatterFlags flags,int offset,int stride)",
+      "args": "(const char* label_id,const ImU64* xs,const ImU64* ys,const ImU64* zs,int count,const ImPlot3DSpec_c spec)",
       "argsT": [
         {
           "name": "label_id",
@@ -3303,39 +3378,29 @@
           "type": "int"
         },
         {
-          "name": "flags",
-          "type": "ImPlot3DScatterFlags"
-        },
-        {
-          "name": "offset",
-          "type": "int"
-        },
-        {
-          "name": "stride",
-          "type": "int"
+          "name": "spec",
+          "type": "const ImPlot3DSpec"
         }
       ],
-      "argsoriginal": "(const char* label_id,const ImU64* xs,const ImU64* ys,const ImU64* zs,int count,ImPlot3DScatterFlags flags=0,int offset=0,int stride=sizeof(ImU64))",
-      "call_args": "(label_id,xs,ys,zs,count,flags,offset,stride)",
-      "call_args_old": "(label_id,xs,ys,zs,count,flags,offset,stride)",
+      "argsoriginal": "(const char* label_id,const ImU64* xs,const ImU64* ys,const ImU64* zs,int count,const ImPlot3DSpec& spec=ImPlot3DSpec())",
+      "call_args": "(label_id,xs,ys,zs,count,ConvertToCPP_ImPlot3DSpec(spec))",
+      "call_args_old": "(label_id,xs,ys,zs,count,spec)",
       "cimguiname": "ImPlot3D_PlotScatter",
       "defaults": {
-        "flags": "0",
-        "offset": "0",
-        "stride": "sizeof(ImU64)"
+        "spec": "ImPlot3DSpec()"
       },
       "funcname": "PlotScatter",
-      "location": "implot3d:504",
+      "location": "implot3d:603",
       "namespace": "ImPlot3D",
       "ov_cimguiname": "ImPlot3D_PlotScatter_U64Ptr",
       "ret": "void",
-      "signature": "(const char*,const ImU64*,const ImU64*,const ImU64*,int,ImPlot3DScatterFlags,int,int)",
+      "signature": "(const char*,const ImU64*,const ImU64*,const ImU64*,int,const ImPlot3DSpec)",
       "stname": ""
     }
   ],
   "ImPlot3D_PlotSurface": [
     {
-      "args": "(const char* label_id,const float* xs,const float* ys,const float* zs,int x_count,int y_count,double scale_min,double scale_max,ImPlot3DSurfaceFlags flags,int offset,int stride)",
+      "args": "(const char* label_id,const float* xs,const float* ys,const float* zs,int x_count,int y_count,double scale_min,double scale_max,const ImPlot3DSpec_c spec)",
       "argsT": [
         {
           "name": "label_id",
@@ -3370,39 +3435,29 @@
           "type": "double"
         },
         {
-          "name": "flags",
-          "type": "ImPlot3DSurfaceFlags"
-        },
-        {
-          "name": "offset",
-          "type": "int"
-        },
-        {
-          "name": "stride",
-          "type": "int"
+          "name": "spec",
+          "type": "const ImPlot3DSpec"
         }
       ],
-      "argsoriginal": "(const char* label_id,const float* xs,const float* ys,const float* zs,int x_count,int y_count,double scale_min=0.0,double scale_max=0.0,ImPlot3DSurfaceFlags flags=0,int offset=0,int stride=sizeof(float))",
-      "call_args": "(label_id,xs,ys,zs,x_count,y_count,scale_min,scale_max,flags,offset,stride)",
-      "call_args_old": "(label_id,xs,ys,zs,x_count,y_count,scale_min,scale_max,flags,offset,stride)",
+      "argsoriginal": "(const char* label_id,const float* xs,const float* ys,const float* zs,int x_count,int y_count,double scale_min=0.0,double scale_max=0.0,const ImPlot3DSpec& spec=ImPlot3DSpec())",
+      "call_args": "(label_id,xs,ys,zs,x_count,y_count,scale_min,scale_max,ConvertToCPP_ImPlot3DSpec(spec))",
+      "call_args_old": "(label_id,xs,ys,zs,x_count,y_count,scale_min,scale_max,spec)",
       "cimguiname": "ImPlot3D_PlotSurface",
       "defaults": {
-        "flags": "0",
-        "offset": "0",
         "scale_max": "0.0",
         "scale_min": "0.0",
-        "stride": "sizeof(float)"
+        "spec": "ImPlot3DSpec()"
       },
       "funcname": "PlotSurface",
-      "location": "implot3d:522",
+      "location": "implot3d:617",
       "namespace": "ImPlot3D",
       "ov_cimguiname": "ImPlot3D_PlotSurface_FloatPtr",
       "ret": "void",
-      "signature": "(const char*,const float*,const float*,const float*,int,int,double,double,ImPlot3DSurfaceFlags,int,int)",
+      "signature": "(const char*,const float*,const float*,const float*,int,int,double,double,const ImPlot3DSpec)",
       "stname": ""
     },
     {
-      "args": "(const char* label_id,const double* xs,const double* ys,const double* zs,int x_count,int y_count,double scale_min,double scale_max,ImPlot3DSurfaceFlags flags,int offset,int stride)",
+      "args": "(const char* label_id,const double* xs,const double* ys,const double* zs,int x_count,int y_count,double scale_min,double scale_max,const ImPlot3DSpec_c spec)",
       "argsT": [
         {
           "name": "label_id",
@@ -3437,39 +3492,29 @@
           "type": "double"
         },
         {
-          "name": "flags",
-          "type": "ImPlot3DSurfaceFlags"
-        },
-        {
-          "name": "offset",
-          "type": "int"
-        },
-        {
-          "name": "stride",
-          "type": "int"
+          "name": "spec",
+          "type": "const ImPlot3DSpec"
         }
       ],
-      "argsoriginal": "(const char* label_id,const double* xs,const double* ys,const double* zs,int x_count,int y_count,double scale_min=0.0,double scale_max=0.0,ImPlot3DSurfaceFlags flags=0,int offset=0,int stride=sizeof(double))",
-      "call_args": "(label_id,xs,ys,zs,x_count,y_count,scale_min,scale_max,flags,offset,stride)",
-      "call_args_old": "(label_id,xs,ys,zs,x_count,y_count,scale_min,scale_max,flags,offset,stride)",
+      "argsoriginal": "(const char* label_id,const double* xs,const double* ys,const double* zs,int x_count,int y_count,double scale_min=0.0,double scale_max=0.0,const ImPlot3DSpec& spec=ImPlot3DSpec())",
+      "call_args": "(label_id,xs,ys,zs,x_count,y_count,scale_min,scale_max,ConvertToCPP_ImPlot3DSpec(spec))",
+      "call_args_old": "(label_id,xs,ys,zs,x_count,y_count,scale_min,scale_max,spec)",
       "cimguiname": "ImPlot3D_PlotSurface",
       "defaults": {
-        "flags": "0",
-        "offset": "0",
         "scale_max": "0.0",
         "scale_min": "0.0",
-        "stride": "sizeof(double)"
+        "spec": "ImPlot3DSpec()"
       },
       "funcname": "PlotSurface",
-      "location": "implot3d:522",
+      "location": "implot3d:617",
       "namespace": "ImPlot3D",
       "ov_cimguiname": "ImPlot3D_PlotSurface_doublePtr",
       "ret": "void",
-      "signature": "(const char*,const double*,const double*,const double*,int,int,double,double,ImPlot3DSurfaceFlags,int,int)",
+      "signature": "(const char*,const double*,const double*,const double*,int,int,double,double,const ImPlot3DSpec)",
       "stname": ""
     },
     {
-      "args": "(const char* label_id,const ImS8* xs,const ImS8* ys,const ImS8* zs,int x_count,int y_count,double scale_min,double scale_max,ImPlot3DSurfaceFlags flags,int offset,int stride)",
+      "args": "(const char* label_id,const ImS8* xs,const ImS8* ys,const ImS8* zs,int x_count,int y_count,double scale_min,double scale_max,const ImPlot3DSpec_c spec)",
       "argsT": [
         {
           "name": "label_id",
@@ -3504,39 +3549,29 @@
           "type": "double"
         },
         {
-          "name": "flags",
-          "type": "ImPlot3DSurfaceFlags"
-        },
-        {
-          "name": "offset",
-          "type": "int"
-        },
-        {
-          "name": "stride",
-          "type": "int"
+          "name": "spec",
+          "type": "const ImPlot3DSpec"
         }
       ],
-      "argsoriginal": "(const char* label_id,const ImS8* xs,const ImS8* ys,const ImS8* zs,int x_count,int y_count,double scale_min=0.0,double scale_max=0.0,ImPlot3DSurfaceFlags flags=0,int offset=0,int stride=sizeof(ImS8))",
-      "call_args": "(label_id,xs,ys,zs,x_count,y_count,scale_min,scale_max,flags,offset,stride)",
-      "call_args_old": "(label_id,xs,ys,zs,x_count,y_count,scale_min,scale_max,flags,offset,stride)",
+      "argsoriginal": "(const char* label_id,const ImS8* xs,const ImS8* ys,const ImS8* zs,int x_count,int y_count,double scale_min=0.0,double scale_max=0.0,const ImPlot3DSpec& spec=ImPlot3DSpec())",
+      "call_args": "(label_id,xs,ys,zs,x_count,y_count,scale_min,scale_max,ConvertToCPP_ImPlot3DSpec(spec))",
+      "call_args_old": "(label_id,xs,ys,zs,x_count,y_count,scale_min,scale_max,spec)",
       "cimguiname": "ImPlot3D_PlotSurface",
       "defaults": {
-        "flags": "0",
-        "offset": "0",
         "scale_max": "0.0",
         "scale_min": "0.0",
-        "stride": "sizeof(ImS8)"
+        "spec": "ImPlot3DSpec()"
       },
       "funcname": "PlotSurface",
-      "location": "implot3d:522",
+      "location": "implot3d:617",
       "namespace": "ImPlot3D",
       "ov_cimguiname": "ImPlot3D_PlotSurface_S8Ptr",
       "ret": "void",
-      "signature": "(const char*,const ImS8*,const ImS8*,const ImS8*,int,int,double,double,ImPlot3DSurfaceFlags,int,int)",
+      "signature": "(const char*,const ImS8*,const ImS8*,const ImS8*,int,int,double,double,const ImPlot3DSpec)",
       "stname": ""
     },
     {
-      "args": "(const char* label_id,const ImU8* xs,const ImU8* ys,const ImU8* zs,int x_count,int y_count,double scale_min,double scale_max,ImPlot3DSurfaceFlags flags,int offset,int stride)",
+      "args": "(const char* label_id,const ImU8* xs,const ImU8* ys,const ImU8* zs,int x_count,int y_count,double scale_min,double scale_max,const ImPlot3DSpec_c spec)",
       "argsT": [
         {
           "name": "label_id",
@@ -3571,39 +3606,29 @@
           "type": "double"
         },
         {
-          "name": "flags",
-          "type": "ImPlot3DSurfaceFlags"
-        },
-        {
-          "name": "offset",
-          "type": "int"
-        },
-        {
-          "name": "stride",
-          "type": "int"
+          "name": "spec",
+          "type": "const ImPlot3DSpec"
         }
       ],
-      "argsoriginal": "(const char* label_id,const ImU8* xs,const ImU8* ys,const ImU8* zs,int x_count,int y_count,double scale_min=0.0,double scale_max=0.0,ImPlot3DSurfaceFlags flags=0,int offset=0,int stride=sizeof(ImU8))",
-      "call_args": "(label_id,xs,ys,zs,x_count,y_count,scale_min,scale_max,flags,offset,stride)",
-      "call_args_old": "(label_id,xs,ys,zs,x_count,y_count,scale_min,scale_max,flags,offset,stride)",
+      "argsoriginal": "(const char* label_id,const ImU8* xs,const ImU8* ys,const ImU8* zs,int x_count,int y_count,double scale_min=0.0,double scale_max=0.0,const ImPlot3DSpec& spec=ImPlot3DSpec())",
+      "call_args": "(label_id,xs,ys,zs,x_count,y_count,scale_min,scale_max,ConvertToCPP_ImPlot3DSpec(spec))",
+      "call_args_old": "(label_id,xs,ys,zs,x_count,y_count,scale_min,scale_max,spec)",
       "cimguiname": "ImPlot3D_PlotSurface",
       "defaults": {
-        "flags": "0",
-        "offset": "0",
         "scale_max": "0.0",
         "scale_min": "0.0",
-        "stride": "sizeof(ImU8)"
+        "spec": "ImPlot3DSpec()"
       },
       "funcname": "PlotSurface",
-      "location": "implot3d:522",
+      "location": "implot3d:617",
       "namespace": "ImPlot3D",
       "ov_cimguiname": "ImPlot3D_PlotSurface_U8Ptr",
       "ret": "void",
-      "signature": "(const char*,const ImU8*,const ImU8*,const ImU8*,int,int,double,double,ImPlot3DSurfaceFlags,int,int)",
+      "signature": "(const char*,const ImU8*,const ImU8*,const ImU8*,int,int,double,double,const ImPlot3DSpec)",
       "stname": ""
     },
     {
-      "args": "(const char* label_id,const ImS16* xs,const ImS16* ys,const ImS16* zs,int x_count,int y_count,double scale_min,double scale_max,ImPlot3DSurfaceFlags flags,int offset,int stride)",
+      "args": "(const char* label_id,const ImS16* xs,const ImS16* ys,const ImS16* zs,int x_count,int y_count,double scale_min,double scale_max,const ImPlot3DSpec_c spec)",
       "argsT": [
         {
           "name": "label_id",
@@ -3638,39 +3663,29 @@
           "type": "double"
         },
         {
-          "name": "flags",
-          "type": "ImPlot3DSurfaceFlags"
-        },
-        {
-          "name": "offset",
-          "type": "int"
-        },
-        {
-          "name": "stride",
-          "type": "int"
+          "name": "spec",
+          "type": "const ImPlot3DSpec"
         }
       ],
-      "argsoriginal": "(const char* label_id,const ImS16* xs,const ImS16* ys,const ImS16* zs,int x_count,int y_count,double scale_min=0.0,double scale_max=0.0,ImPlot3DSurfaceFlags flags=0,int offset=0,int stride=sizeof(ImS16))",
-      "call_args": "(label_id,xs,ys,zs,x_count,y_count,scale_min,scale_max,flags,offset,stride)",
-      "call_args_old": "(label_id,xs,ys,zs,x_count,y_count,scale_min,scale_max,flags,offset,stride)",
+      "argsoriginal": "(const char* label_id,const ImS16* xs,const ImS16* ys,const ImS16* zs,int x_count,int y_count,double scale_min=0.0,double scale_max=0.0,const ImPlot3DSpec& spec=ImPlot3DSpec())",
+      "call_args": "(label_id,xs,ys,zs,x_count,y_count,scale_min,scale_max,ConvertToCPP_ImPlot3DSpec(spec))",
+      "call_args_old": "(label_id,xs,ys,zs,x_count,y_count,scale_min,scale_max,spec)",
       "cimguiname": "ImPlot3D_PlotSurface",
       "defaults": {
-        "flags": "0",
-        "offset": "0",
         "scale_max": "0.0",
         "scale_min": "0.0",
-        "stride": "sizeof(ImS16)"
+        "spec": "ImPlot3DSpec()"
       },
       "funcname": "PlotSurface",
-      "location": "implot3d:522",
+      "location": "implot3d:617",
       "namespace": "ImPlot3D",
       "ov_cimguiname": "ImPlot3D_PlotSurface_S16Ptr",
       "ret": "void",
-      "signature": "(const char*,const ImS16*,const ImS16*,const ImS16*,int,int,double,double,ImPlot3DSurfaceFlags,int,int)",
+      "signature": "(const char*,const ImS16*,const ImS16*,const ImS16*,int,int,double,double,const ImPlot3DSpec)",
       "stname": ""
     },
     {
-      "args": "(const char* label_id,const ImU16* xs,const ImU16* ys,const ImU16* zs,int x_count,int y_count,double scale_min,double scale_max,ImPlot3DSurfaceFlags flags,int offset,int stride)",
+      "args": "(const char* label_id,const ImU16* xs,const ImU16* ys,const ImU16* zs,int x_count,int y_count,double scale_min,double scale_max,const ImPlot3DSpec_c spec)",
       "argsT": [
         {
           "name": "label_id",
@@ -3705,39 +3720,29 @@
           "type": "double"
         },
         {
-          "name": "flags",
-          "type": "ImPlot3DSurfaceFlags"
-        },
-        {
-          "name": "offset",
-          "type": "int"
-        },
-        {
-          "name": "stride",
-          "type": "int"
+          "name": "spec",
+          "type": "const ImPlot3DSpec"
         }
       ],
-      "argsoriginal": "(const char* label_id,const ImU16* xs,const ImU16* ys,const ImU16* zs,int x_count,int y_count,double scale_min=0.0,double scale_max=0.0,ImPlot3DSurfaceFlags flags=0,int offset=0,int stride=sizeof(ImU16))",
-      "call_args": "(label_id,xs,ys,zs,x_count,y_count,scale_min,scale_max,flags,offset,stride)",
-      "call_args_old": "(label_id,xs,ys,zs,x_count,y_count,scale_min,scale_max,flags,offset,stride)",
+      "argsoriginal": "(const char* label_id,const ImU16* xs,const ImU16* ys,const ImU16* zs,int x_count,int y_count,double scale_min=0.0,double scale_max=0.0,const ImPlot3DSpec& spec=ImPlot3DSpec())",
+      "call_args": "(label_id,xs,ys,zs,x_count,y_count,scale_min,scale_max,ConvertToCPP_ImPlot3DSpec(spec))",
+      "call_args_old": "(label_id,xs,ys,zs,x_count,y_count,scale_min,scale_max,spec)",
       "cimguiname": "ImPlot3D_PlotSurface",
       "defaults": {
-        "flags": "0",
-        "offset": "0",
         "scale_max": "0.0",
         "scale_min": "0.0",
-        "stride": "sizeof(ImU16)"
+        "spec": "ImPlot3DSpec()"
       },
       "funcname": "PlotSurface",
-      "location": "implot3d:522",
+      "location": "implot3d:617",
       "namespace": "ImPlot3D",
       "ov_cimguiname": "ImPlot3D_PlotSurface_U16Ptr",
       "ret": "void",
-      "signature": "(const char*,const ImU16*,const ImU16*,const ImU16*,int,int,double,double,ImPlot3DSurfaceFlags,int,int)",
+      "signature": "(const char*,const ImU16*,const ImU16*,const ImU16*,int,int,double,double,const ImPlot3DSpec)",
       "stname": ""
     },
     {
-      "args": "(const char* label_id,const ImS32* xs,const ImS32* ys,const ImS32* zs,int x_count,int y_count,double scale_min,double scale_max,ImPlot3DSurfaceFlags flags,int offset,int stride)",
+      "args": "(const char* label_id,const ImS32* xs,const ImS32* ys,const ImS32* zs,int x_count,int y_count,double scale_min,double scale_max,const ImPlot3DSpec_c spec)",
       "argsT": [
         {
           "name": "label_id",
@@ -3772,39 +3777,29 @@
           "type": "double"
         },
         {
-          "name": "flags",
-          "type": "ImPlot3DSurfaceFlags"
-        },
-        {
-          "name": "offset",
-          "type": "int"
-        },
-        {
-          "name": "stride",
-          "type": "int"
+          "name": "spec",
+          "type": "const ImPlot3DSpec"
         }
       ],
-      "argsoriginal": "(const char* label_id,const ImS32* xs,const ImS32* ys,const ImS32* zs,int x_count,int y_count,double scale_min=0.0,double scale_max=0.0,ImPlot3DSurfaceFlags flags=0,int offset=0,int stride=sizeof(ImS32))",
-      "call_args": "(label_id,xs,ys,zs,x_count,y_count,scale_min,scale_max,flags,offset,stride)",
-      "call_args_old": "(label_id,xs,ys,zs,x_count,y_count,scale_min,scale_max,flags,offset,stride)",
+      "argsoriginal": "(const char* label_id,const ImS32* xs,const ImS32* ys,const ImS32* zs,int x_count,int y_count,double scale_min=0.0,double scale_max=0.0,const ImPlot3DSpec& spec=ImPlot3DSpec())",
+      "call_args": "(label_id,xs,ys,zs,x_count,y_count,scale_min,scale_max,ConvertToCPP_ImPlot3DSpec(spec))",
+      "call_args_old": "(label_id,xs,ys,zs,x_count,y_count,scale_min,scale_max,spec)",
       "cimguiname": "ImPlot3D_PlotSurface",
       "defaults": {
-        "flags": "0",
-        "offset": "0",
         "scale_max": "0.0",
         "scale_min": "0.0",
-        "stride": "sizeof(ImS32)"
+        "spec": "ImPlot3DSpec()"
       },
       "funcname": "PlotSurface",
-      "location": "implot3d:522",
+      "location": "implot3d:617",
       "namespace": "ImPlot3D",
       "ov_cimguiname": "ImPlot3D_PlotSurface_S32Ptr",
       "ret": "void",
-      "signature": "(const char*,const ImS32*,const ImS32*,const ImS32*,int,int,double,double,ImPlot3DSurfaceFlags,int,int)",
+      "signature": "(const char*,const ImS32*,const ImS32*,const ImS32*,int,int,double,double,const ImPlot3DSpec)",
       "stname": ""
     },
     {
-      "args": "(const char* label_id,const ImU32* xs,const ImU32* ys,const ImU32* zs,int x_count,int y_count,double scale_min,double scale_max,ImPlot3DSurfaceFlags flags,int offset,int stride)",
+      "args": "(const char* label_id,const ImU32* xs,const ImU32* ys,const ImU32* zs,int x_count,int y_count,double scale_min,double scale_max,const ImPlot3DSpec_c spec)",
       "argsT": [
         {
           "name": "label_id",
@@ -3839,39 +3834,29 @@
           "type": "double"
         },
         {
-          "name": "flags",
-          "type": "ImPlot3DSurfaceFlags"
-        },
-        {
-          "name": "offset",
-          "type": "int"
-        },
-        {
-          "name": "stride",
-          "type": "int"
+          "name": "spec",
+          "type": "const ImPlot3DSpec"
         }
       ],
-      "argsoriginal": "(const char* label_id,const ImU32* xs,const ImU32* ys,const ImU32* zs,int x_count,int y_count,double scale_min=0.0,double scale_max=0.0,ImPlot3DSurfaceFlags flags=0,int offset=0,int stride=sizeof(ImU32))",
-      "call_args": "(label_id,xs,ys,zs,x_count,y_count,scale_min,scale_max,flags,offset,stride)",
-      "call_args_old": "(label_id,xs,ys,zs,x_count,y_count,scale_min,scale_max,flags,offset,stride)",
+      "argsoriginal": "(const char* label_id,const ImU32* xs,const ImU32* ys,const ImU32* zs,int x_count,int y_count,double scale_min=0.0,double scale_max=0.0,const ImPlot3DSpec& spec=ImPlot3DSpec())",
+      "call_args": "(label_id,xs,ys,zs,x_count,y_count,scale_min,scale_max,ConvertToCPP_ImPlot3DSpec(spec))",
+      "call_args_old": "(label_id,xs,ys,zs,x_count,y_count,scale_min,scale_max,spec)",
       "cimguiname": "ImPlot3D_PlotSurface",
       "defaults": {
-        "flags": "0",
-        "offset": "0",
         "scale_max": "0.0",
         "scale_min": "0.0",
-        "stride": "sizeof(ImU32)"
+        "spec": "ImPlot3DSpec()"
       },
       "funcname": "PlotSurface",
-      "location": "implot3d:522",
+      "location": "implot3d:617",
       "namespace": "ImPlot3D",
       "ov_cimguiname": "ImPlot3D_PlotSurface_U32Ptr",
       "ret": "void",
-      "signature": "(const char*,const ImU32*,const ImU32*,const ImU32*,int,int,double,double,ImPlot3DSurfaceFlags,int,int)",
+      "signature": "(const char*,const ImU32*,const ImU32*,const ImU32*,int,int,double,double,const ImPlot3DSpec)",
       "stname": ""
     },
     {
-      "args": "(const char* label_id,const ImS64* xs,const ImS64* ys,const ImS64* zs,int x_count,int y_count,double scale_min,double scale_max,ImPlot3DSurfaceFlags flags,int offset,int stride)",
+      "args": "(const char* label_id,const ImS64* xs,const ImS64* ys,const ImS64* zs,int x_count,int y_count,double scale_min,double scale_max,const ImPlot3DSpec_c spec)",
       "argsT": [
         {
           "name": "label_id",
@@ -3906,39 +3891,29 @@
           "type": "double"
         },
         {
-          "name": "flags",
-          "type": "ImPlot3DSurfaceFlags"
-        },
-        {
-          "name": "offset",
-          "type": "int"
-        },
-        {
-          "name": "stride",
-          "type": "int"
+          "name": "spec",
+          "type": "const ImPlot3DSpec"
         }
       ],
-      "argsoriginal": "(const char* label_id,const ImS64* xs,const ImS64* ys,const ImS64* zs,int x_count,int y_count,double scale_min=0.0,double scale_max=0.0,ImPlot3DSurfaceFlags flags=0,int offset=0,int stride=sizeof(ImS64))",
-      "call_args": "(label_id,xs,ys,zs,x_count,y_count,scale_min,scale_max,flags,offset,stride)",
-      "call_args_old": "(label_id,xs,ys,zs,x_count,y_count,scale_min,scale_max,flags,offset,stride)",
+      "argsoriginal": "(const char* label_id,const ImS64* xs,const ImS64* ys,const ImS64* zs,int x_count,int y_count,double scale_min=0.0,double scale_max=0.0,const ImPlot3DSpec& spec=ImPlot3DSpec())",
+      "call_args": "(label_id,xs,ys,zs,x_count,y_count,scale_min,scale_max,ConvertToCPP_ImPlot3DSpec(spec))",
+      "call_args_old": "(label_id,xs,ys,zs,x_count,y_count,scale_min,scale_max,spec)",
       "cimguiname": "ImPlot3D_PlotSurface",
       "defaults": {
-        "flags": "0",
-        "offset": "0",
         "scale_max": "0.0",
         "scale_min": "0.0",
-        "stride": "sizeof(ImS64)"
+        "spec": "ImPlot3DSpec()"
       },
       "funcname": "PlotSurface",
-      "location": "implot3d:522",
+      "location": "implot3d:617",
       "namespace": "ImPlot3D",
       "ov_cimguiname": "ImPlot3D_PlotSurface_S64Ptr",
       "ret": "void",
-      "signature": "(const char*,const ImS64*,const ImS64*,const ImS64*,int,int,double,double,ImPlot3DSurfaceFlags,int,int)",
+      "signature": "(const char*,const ImS64*,const ImS64*,const ImS64*,int,int,double,double,const ImPlot3DSpec)",
       "stname": ""
     },
     {
-      "args": "(const char* label_id,const ImU64* xs,const ImU64* ys,const ImU64* zs,int x_count,int y_count,double scale_min,double scale_max,ImPlot3DSurfaceFlags flags,int offset,int stride)",
+      "args": "(const char* label_id,const ImU64* xs,const ImU64* ys,const ImU64* zs,int x_count,int y_count,double scale_min,double scale_max,const ImPlot3DSpec_c spec)",
       "argsT": [
         {
           "name": "label_id",
@@ -3973,35 +3948,25 @@
           "type": "double"
         },
         {
-          "name": "flags",
-          "type": "ImPlot3DSurfaceFlags"
-        },
-        {
-          "name": "offset",
-          "type": "int"
-        },
-        {
-          "name": "stride",
-          "type": "int"
+          "name": "spec",
+          "type": "const ImPlot3DSpec"
         }
       ],
-      "argsoriginal": "(const char* label_id,const ImU64* xs,const ImU64* ys,const ImU64* zs,int x_count,int y_count,double scale_min=0.0,double scale_max=0.0,ImPlot3DSurfaceFlags flags=0,int offset=0,int stride=sizeof(ImU64))",
-      "call_args": "(label_id,xs,ys,zs,x_count,y_count,scale_min,scale_max,flags,offset,stride)",
-      "call_args_old": "(label_id,xs,ys,zs,x_count,y_count,scale_min,scale_max,flags,offset,stride)",
+      "argsoriginal": "(const char* label_id,const ImU64* xs,const ImU64* ys,const ImU64* zs,int x_count,int y_count,double scale_min=0.0,double scale_max=0.0,const ImPlot3DSpec& spec=ImPlot3DSpec())",
+      "call_args": "(label_id,xs,ys,zs,x_count,y_count,scale_min,scale_max,ConvertToCPP_ImPlot3DSpec(spec))",
+      "call_args_old": "(label_id,xs,ys,zs,x_count,y_count,scale_min,scale_max,spec)",
       "cimguiname": "ImPlot3D_PlotSurface",
       "defaults": {
-        "flags": "0",
-        "offset": "0",
         "scale_max": "0.0",
         "scale_min": "0.0",
-        "stride": "sizeof(ImU64)"
+        "spec": "ImPlot3DSpec()"
       },
       "funcname": "PlotSurface",
-      "location": "implot3d:522",
+      "location": "implot3d:617",
       "namespace": "ImPlot3D",
       "ov_cimguiname": "ImPlot3D_PlotSurface_U64Ptr",
       "ret": "void",
-      "signature": "(const char*,const ImU64*,const ImU64*,const ImU64*,int,int,double,double,ImPlot3DSurfaceFlags,int,int)",
+      "signature": "(const char*,const ImU64*,const ImU64*,const ImU64*,int,int,double,double,const ImPlot3DSpec)",
       "stname": ""
     }
   ],
@@ -4043,7 +4008,7 @@
         "pix_offset": "ImVec2(0,0)"
       },
       "funcname": "PlotText",
-      "location": "implot3d:550",
+      "location": "implot3d:645",
       "namespace": "ImPlot3D",
       "ov_cimguiname": "ImPlot3D_PlotText",
       "ret": "void",
@@ -4067,7 +4032,7 @@
       "conv": "ImVec2",
       "defaults": {},
       "funcname": "PlotToPixels",
-      "location": "implot3d:560",
+      "location": "implot3d:655",
       "namespace": "ImPlot3D",
       "nonUDT": 1,
       "ov_cimguiname": "ImPlot3D_PlotToPixels_Plot3DPoint",
@@ -4098,7 +4063,7 @@
       "conv": "ImVec2",
       "defaults": {},
       "funcname": "PlotToPixels",
-      "location": "implot3d:561",
+      "location": "implot3d:656",
       "namespace": "ImPlot3D",
       "nonUDT": 1,
       "ov_cimguiname": "ImPlot3D_PlotToPixels_double",
@@ -4109,7 +4074,7 @@
   ],
   "ImPlot3D_PlotTriangle": [
     {
-      "args": "(const char* label_id,const float* xs,const float* ys,const float* zs,int count,ImPlot3DTriangleFlags flags,int offset,int stride)",
+      "args": "(const char* label_id,const float* xs,const float* ys,const float* zs,int count,const ImPlot3DSpec_c spec)",
       "argsT": [
         {
           "name": "label_id",
@@ -4132,37 +4097,27 @@
           "type": "int"
         },
         {
-          "name": "flags",
-          "type": "ImPlot3DTriangleFlags"
-        },
-        {
-          "name": "offset",
-          "type": "int"
-        },
-        {
-          "name": "stride",
-          "type": "int"
+          "name": "spec",
+          "type": "const ImPlot3DSpec"
         }
       ],
-      "argsoriginal": "(const char* label_id,const float* xs,const float* ys,const float* zs,int count,ImPlot3DTriangleFlags flags=0,int offset=0,int stride=sizeof(float))",
-      "call_args": "(label_id,xs,ys,zs,count,flags,offset,stride)",
-      "call_args_old": "(label_id,xs,ys,zs,count,flags,offset,stride)",
+      "argsoriginal": "(const char* label_id,const float* xs,const float* ys,const float* zs,int count,const ImPlot3DSpec& spec=ImPlot3DSpec())",
+      "call_args": "(label_id,xs,ys,zs,count,ConvertToCPP_ImPlot3DSpec(spec))",
+      "call_args_old": "(label_id,xs,ys,zs,count,spec)",
       "cimguiname": "ImPlot3D_PlotTriangle",
       "defaults": {
-        "flags": "0",
-        "offset": "0",
-        "stride": "sizeof(float)"
+        "spec": "ImPlot3DSpec()"
       },
       "funcname": "PlotTriangle",
-      "location": "implot3d:512",
+      "location": "implot3d:609",
       "namespace": "ImPlot3D",
       "ov_cimguiname": "ImPlot3D_PlotTriangle_FloatPtr",
       "ret": "void",
-      "signature": "(const char*,const float*,const float*,const float*,int,ImPlot3DTriangleFlags,int,int)",
+      "signature": "(const char*,const float*,const float*,const float*,int,const ImPlot3DSpec)",
       "stname": ""
     },
     {
-      "args": "(const char* label_id,const double* xs,const double* ys,const double* zs,int count,ImPlot3DTriangleFlags flags,int offset,int stride)",
+      "args": "(const char* label_id,const double* xs,const double* ys,const double* zs,int count,const ImPlot3DSpec_c spec)",
       "argsT": [
         {
           "name": "label_id",
@@ -4185,37 +4140,27 @@
           "type": "int"
         },
         {
-          "name": "flags",
-          "type": "ImPlot3DTriangleFlags"
-        },
-        {
-          "name": "offset",
-          "type": "int"
-        },
-        {
-          "name": "stride",
-          "type": "int"
+          "name": "spec",
+          "type": "const ImPlot3DSpec"
         }
       ],
-      "argsoriginal": "(const char* label_id,const double* xs,const double* ys,const double* zs,int count,ImPlot3DTriangleFlags flags=0,int offset=0,int stride=sizeof(double))",
-      "call_args": "(label_id,xs,ys,zs,count,flags,offset,stride)",
-      "call_args_old": "(label_id,xs,ys,zs,count,flags,offset,stride)",
+      "argsoriginal": "(const char* label_id,const double* xs,const double* ys,const double* zs,int count,const ImPlot3DSpec& spec=ImPlot3DSpec())",
+      "call_args": "(label_id,xs,ys,zs,count,ConvertToCPP_ImPlot3DSpec(spec))",
+      "call_args_old": "(label_id,xs,ys,zs,count,spec)",
       "cimguiname": "ImPlot3D_PlotTriangle",
       "defaults": {
-        "flags": "0",
-        "offset": "0",
-        "stride": "sizeof(double)"
+        "spec": "ImPlot3DSpec()"
       },
       "funcname": "PlotTriangle",
-      "location": "implot3d:512",
+      "location": "implot3d:609",
       "namespace": "ImPlot3D",
       "ov_cimguiname": "ImPlot3D_PlotTriangle_doublePtr",
       "ret": "void",
-      "signature": "(const char*,const double*,const double*,const double*,int,ImPlot3DTriangleFlags,int,int)",
+      "signature": "(const char*,const double*,const double*,const double*,int,const ImPlot3DSpec)",
       "stname": ""
     },
     {
-      "args": "(const char* label_id,const ImS8* xs,const ImS8* ys,const ImS8* zs,int count,ImPlot3DTriangleFlags flags,int offset,int stride)",
+      "args": "(const char* label_id,const ImS8* xs,const ImS8* ys,const ImS8* zs,int count,const ImPlot3DSpec_c spec)",
       "argsT": [
         {
           "name": "label_id",
@@ -4238,37 +4183,27 @@
           "type": "int"
         },
         {
-          "name": "flags",
-          "type": "ImPlot3DTriangleFlags"
-        },
-        {
-          "name": "offset",
-          "type": "int"
-        },
-        {
-          "name": "stride",
-          "type": "int"
+          "name": "spec",
+          "type": "const ImPlot3DSpec"
         }
       ],
-      "argsoriginal": "(const char* label_id,const ImS8* xs,const ImS8* ys,const ImS8* zs,int count,ImPlot3DTriangleFlags flags=0,int offset=0,int stride=sizeof(ImS8))",
-      "call_args": "(label_id,xs,ys,zs,count,flags,offset,stride)",
-      "call_args_old": "(label_id,xs,ys,zs,count,flags,offset,stride)",
+      "argsoriginal": "(const char* label_id,const ImS8* xs,const ImS8* ys,const ImS8* zs,int count,const ImPlot3DSpec& spec=ImPlot3DSpec())",
+      "call_args": "(label_id,xs,ys,zs,count,ConvertToCPP_ImPlot3DSpec(spec))",
+      "call_args_old": "(label_id,xs,ys,zs,count,spec)",
       "cimguiname": "ImPlot3D_PlotTriangle",
       "defaults": {
-        "flags": "0",
-        "offset": "0",
-        "stride": "sizeof(ImS8)"
+        "spec": "ImPlot3DSpec()"
       },
       "funcname": "PlotTriangle",
-      "location": "implot3d:512",
+      "location": "implot3d:609",
       "namespace": "ImPlot3D",
       "ov_cimguiname": "ImPlot3D_PlotTriangle_S8Ptr",
       "ret": "void",
-      "signature": "(const char*,const ImS8*,const ImS8*,const ImS8*,int,ImPlot3DTriangleFlags,int,int)",
+      "signature": "(const char*,const ImS8*,const ImS8*,const ImS8*,int,const ImPlot3DSpec)",
       "stname": ""
     },
     {
-      "args": "(const char* label_id,const ImU8* xs,const ImU8* ys,const ImU8* zs,int count,ImPlot3DTriangleFlags flags,int offset,int stride)",
+      "args": "(const char* label_id,const ImU8* xs,const ImU8* ys,const ImU8* zs,int count,const ImPlot3DSpec_c spec)",
       "argsT": [
         {
           "name": "label_id",
@@ -4291,37 +4226,27 @@
           "type": "int"
         },
         {
-          "name": "flags",
-          "type": "ImPlot3DTriangleFlags"
-        },
-        {
-          "name": "offset",
-          "type": "int"
-        },
-        {
-          "name": "stride",
-          "type": "int"
+          "name": "spec",
+          "type": "const ImPlot3DSpec"
         }
       ],
-      "argsoriginal": "(const char* label_id,const ImU8* xs,const ImU8* ys,const ImU8* zs,int count,ImPlot3DTriangleFlags flags=0,int offset=0,int stride=sizeof(ImU8))",
-      "call_args": "(label_id,xs,ys,zs,count,flags,offset,stride)",
-      "call_args_old": "(label_id,xs,ys,zs,count,flags,offset,stride)",
+      "argsoriginal": "(const char* label_id,const ImU8* xs,const ImU8* ys,const ImU8* zs,int count,const ImPlot3DSpec& spec=ImPlot3DSpec())",
+      "call_args": "(label_id,xs,ys,zs,count,ConvertToCPP_ImPlot3DSpec(spec))",
+      "call_args_old": "(label_id,xs,ys,zs,count,spec)",
       "cimguiname": "ImPlot3D_PlotTriangle",
       "defaults": {
-        "flags": "0",
-        "offset": "0",
-        "stride": "sizeof(ImU8)"
+        "spec": "ImPlot3DSpec()"
       },
       "funcname": "PlotTriangle",
-      "location": "implot3d:512",
+      "location": "implot3d:609",
       "namespace": "ImPlot3D",
       "ov_cimguiname": "ImPlot3D_PlotTriangle_U8Ptr",
       "ret": "void",
-      "signature": "(const char*,const ImU8*,const ImU8*,const ImU8*,int,ImPlot3DTriangleFlags,int,int)",
+      "signature": "(const char*,const ImU8*,const ImU8*,const ImU8*,int,const ImPlot3DSpec)",
       "stname": ""
     },
     {
-      "args": "(const char* label_id,const ImS16* xs,const ImS16* ys,const ImS16* zs,int count,ImPlot3DTriangleFlags flags,int offset,int stride)",
+      "args": "(const char* label_id,const ImS16* xs,const ImS16* ys,const ImS16* zs,int count,const ImPlot3DSpec_c spec)",
       "argsT": [
         {
           "name": "label_id",
@@ -4344,37 +4269,27 @@
           "type": "int"
         },
         {
-          "name": "flags",
-          "type": "ImPlot3DTriangleFlags"
-        },
-        {
-          "name": "offset",
-          "type": "int"
-        },
-        {
-          "name": "stride",
-          "type": "int"
+          "name": "spec",
+          "type": "const ImPlot3DSpec"
         }
       ],
-      "argsoriginal": "(const char* label_id,const ImS16* xs,const ImS16* ys,const ImS16* zs,int count,ImPlot3DTriangleFlags flags=0,int offset=0,int stride=sizeof(ImS16))",
-      "call_args": "(label_id,xs,ys,zs,count,flags,offset,stride)",
-      "call_args_old": "(label_id,xs,ys,zs,count,flags,offset,stride)",
+      "argsoriginal": "(const char* label_id,const ImS16* xs,const ImS16* ys,const ImS16* zs,int count,const ImPlot3DSpec& spec=ImPlot3DSpec())",
+      "call_args": "(label_id,xs,ys,zs,count,ConvertToCPP_ImPlot3DSpec(spec))",
+      "call_args_old": "(label_id,xs,ys,zs,count,spec)",
       "cimguiname": "ImPlot3D_PlotTriangle",
       "defaults": {
-        "flags": "0",
-        "offset": "0",
-        "stride": "sizeof(ImS16)"
+        "spec": "ImPlot3DSpec()"
       },
       "funcname": "PlotTriangle",
-      "location": "implot3d:512",
+      "location": "implot3d:609",
       "namespace": "ImPlot3D",
       "ov_cimguiname": "ImPlot3D_PlotTriangle_S16Ptr",
       "ret": "void",
-      "signature": "(const char*,const ImS16*,const ImS16*,const ImS16*,int,ImPlot3DTriangleFlags,int,int)",
+      "signature": "(const char*,const ImS16*,const ImS16*,const ImS16*,int,const ImPlot3DSpec)",
       "stname": ""
     },
     {
-      "args": "(const char* label_id,const ImU16* xs,const ImU16* ys,const ImU16* zs,int count,ImPlot3DTriangleFlags flags,int offset,int stride)",
+      "args": "(const char* label_id,const ImU16* xs,const ImU16* ys,const ImU16* zs,int count,const ImPlot3DSpec_c spec)",
       "argsT": [
         {
           "name": "label_id",
@@ -4397,37 +4312,27 @@
           "type": "int"
         },
         {
-          "name": "flags",
-          "type": "ImPlot3DTriangleFlags"
-        },
-        {
-          "name": "offset",
-          "type": "int"
-        },
-        {
-          "name": "stride",
-          "type": "int"
+          "name": "spec",
+          "type": "const ImPlot3DSpec"
         }
       ],
-      "argsoriginal": "(const char* label_id,const ImU16* xs,const ImU16* ys,const ImU16* zs,int count,ImPlot3DTriangleFlags flags=0,int offset=0,int stride=sizeof(ImU16))",
-      "call_args": "(label_id,xs,ys,zs,count,flags,offset,stride)",
-      "call_args_old": "(label_id,xs,ys,zs,count,flags,offset,stride)",
+      "argsoriginal": "(const char* label_id,const ImU16* xs,const ImU16* ys,const ImU16* zs,int count,const ImPlot3DSpec& spec=ImPlot3DSpec())",
+      "call_args": "(label_id,xs,ys,zs,count,ConvertToCPP_ImPlot3DSpec(spec))",
+      "call_args_old": "(label_id,xs,ys,zs,count,spec)",
       "cimguiname": "ImPlot3D_PlotTriangle",
       "defaults": {
-        "flags": "0",
-        "offset": "0",
-        "stride": "sizeof(ImU16)"
+        "spec": "ImPlot3DSpec()"
       },
       "funcname": "PlotTriangle",
-      "location": "implot3d:512",
+      "location": "implot3d:609",
       "namespace": "ImPlot3D",
       "ov_cimguiname": "ImPlot3D_PlotTriangle_U16Ptr",
       "ret": "void",
-      "signature": "(const char*,const ImU16*,const ImU16*,const ImU16*,int,ImPlot3DTriangleFlags,int,int)",
+      "signature": "(const char*,const ImU16*,const ImU16*,const ImU16*,int,const ImPlot3DSpec)",
       "stname": ""
     },
     {
-      "args": "(const char* label_id,const ImS32* xs,const ImS32* ys,const ImS32* zs,int count,ImPlot3DTriangleFlags flags,int offset,int stride)",
+      "args": "(const char* label_id,const ImS32* xs,const ImS32* ys,const ImS32* zs,int count,const ImPlot3DSpec_c spec)",
       "argsT": [
         {
           "name": "label_id",
@@ -4450,37 +4355,27 @@
           "type": "int"
         },
         {
-          "name": "flags",
-          "type": "ImPlot3DTriangleFlags"
-        },
-        {
-          "name": "offset",
-          "type": "int"
-        },
-        {
-          "name": "stride",
-          "type": "int"
+          "name": "spec",
+          "type": "const ImPlot3DSpec"
         }
       ],
-      "argsoriginal": "(const char* label_id,const ImS32* xs,const ImS32* ys,const ImS32* zs,int count,ImPlot3DTriangleFlags flags=0,int offset=0,int stride=sizeof(ImS32))",
-      "call_args": "(label_id,xs,ys,zs,count,flags,offset,stride)",
-      "call_args_old": "(label_id,xs,ys,zs,count,flags,offset,stride)",
+      "argsoriginal": "(const char* label_id,const ImS32* xs,const ImS32* ys,const ImS32* zs,int count,const ImPlot3DSpec& spec=ImPlot3DSpec())",
+      "call_args": "(label_id,xs,ys,zs,count,ConvertToCPP_ImPlot3DSpec(spec))",
+      "call_args_old": "(label_id,xs,ys,zs,count,spec)",
       "cimguiname": "ImPlot3D_PlotTriangle",
       "defaults": {
-        "flags": "0",
-        "offset": "0",
-        "stride": "sizeof(ImS32)"
+        "spec": "ImPlot3DSpec()"
       },
       "funcname": "PlotTriangle",
-      "location": "implot3d:512",
+      "location": "implot3d:609",
       "namespace": "ImPlot3D",
       "ov_cimguiname": "ImPlot3D_PlotTriangle_S32Ptr",
       "ret": "void",
-      "signature": "(const char*,const ImS32*,const ImS32*,const ImS32*,int,ImPlot3DTriangleFlags,int,int)",
+      "signature": "(const char*,const ImS32*,const ImS32*,const ImS32*,int,const ImPlot3DSpec)",
       "stname": ""
     },
     {
-      "args": "(const char* label_id,const ImU32* xs,const ImU32* ys,const ImU32* zs,int count,ImPlot3DTriangleFlags flags,int offset,int stride)",
+      "args": "(const char* label_id,const ImU32* xs,const ImU32* ys,const ImU32* zs,int count,const ImPlot3DSpec_c spec)",
       "argsT": [
         {
           "name": "label_id",
@@ -4503,37 +4398,27 @@
           "type": "int"
         },
         {
-          "name": "flags",
-          "type": "ImPlot3DTriangleFlags"
-        },
-        {
-          "name": "offset",
-          "type": "int"
-        },
-        {
-          "name": "stride",
-          "type": "int"
+          "name": "spec",
+          "type": "const ImPlot3DSpec"
         }
       ],
-      "argsoriginal": "(const char* label_id,const ImU32* xs,const ImU32* ys,const ImU32* zs,int count,ImPlot3DTriangleFlags flags=0,int offset=0,int stride=sizeof(ImU32))",
-      "call_args": "(label_id,xs,ys,zs,count,flags,offset,stride)",
-      "call_args_old": "(label_id,xs,ys,zs,count,flags,offset,stride)",
+      "argsoriginal": "(const char* label_id,const ImU32* xs,const ImU32* ys,const ImU32* zs,int count,const ImPlot3DSpec& spec=ImPlot3DSpec())",
+      "call_args": "(label_id,xs,ys,zs,count,ConvertToCPP_ImPlot3DSpec(spec))",
+      "call_args_old": "(label_id,xs,ys,zs,count,spec)",
       "cimguiname": "ImPlot3D_PlotTriangle",
       "defaults": {
-        "flags": "0",
-        "offset": "0",
-        "stride": "sizeof(ImU32)"
+        "spec": "ImPlot3DSpec()"
       },
       "funcname": "PlotTriangle",
-      "location": "implot3d:512",
+      "location": "implot3d:609",
       "namespace": "ImPlot3D",
       "ov_cimguiname": "ImPlot3D_PlotTriangle_U32Ptr",
       "ret": "void",
-      "signature": "(const char*,const ImU32*,const ImU32*,const ImU32*,int,ImPlot3DTriangleFlags,int,int)",
+      "signature": "(const char*,const ImU32*,const ImU32*,const ImU32*,int,const ImPlot3DSpec)",
       "stname": ""
     },
     {
-      "args": "(const char* label_id,const ImS64* xs,const ImS64* ys,const ImS64* zs,int count,ImPlot3DTriangleFlags flags,int offset,int stride)",
+      "args": "(const char* label_id,const ImS64* xs,const ImS64* ys,const ImS64* zs,int count,const ImPlot3DSpec_c spec)",
       "argsT": [
         {
           "name": "label_id",
@@ -4556,37 +4441,27 @@
           "type": "int"
         },
         {
-          "name": "flags",
-          "type": "ImPlot3DTriangleFlags"
-        },
-        {
-          "name": "offset",
-          "type": "int"
-        },
-        {
-          "name": "stride",
-          "type": "int"
+          "name": "spec",
+          "type": "const ImPlot3DSpec"
         }
       ],
-      "argsoriginal": "(const char* label_id,const ImS64* xs,const ImS64* ys,const ImS64* zs,int count,ImPlot3DTriangleFlags flags=0,int offset=0,int stride=sizeof(ImS64))",
-      "call_args": "(label_id,xs,ys,zs,count,flags,offset,stride)",
-      "call_args_old": "(label_id,xs,ys,zs,count,flags,offset,stride)",
+      "argsoriginal": "(const char* label_id,const ImS64* xs,const ImS64* ys,const ImS64* zs,int count,const ImPlot3DSpec& spec=ImPlot3DSpec())",
+      "call_args": "(label_id,xs,ys,zs,count,ConvertToCPP_ImPlot3DSpec(spec))",
+      "call_args_old": "(label_id,xs,ys,zs,count,spec)",
       "cimguiname": "ImPlot3D_PlotTriangle",
       "defaults": {
-        "flags": "0",
-        "offset": "0",
-        "stride": "sizeof(ImS64)"
+        "spec": "ImPlot3DSpec()"
       },
       "funcname": "PlotTriangle",
-      "location": "implot3d:512",
+      "location": "implot3d:609",
       "namespace": "ImPlot3D",
       "ov_cimguiname": "ImPlot3D_PlotTriangle_S64Ptr",
       "ret": "void",
-      "signature": "(const char*,const ImS64*,const ImS64*,const ImS64*,int,ImPlot3DTriangleFlags,int,int)",
+      "signature": "(const char*,const ImS64*,const ImS64*,const ImS64*,int,const ImPlot3DSpec)",
       "stname": ""
     },
     {
-      "args": "(const char* label_id,const ImU64* xs,const ImU64* ys,const ImU64* zs,int count,ImPlot3DTriangleFlags flags,int offset,int stride)",
+      "args": "(const char* label_id,const ImU64* xs,const ImU64* ys,const ImU64* zs,int count,const ImPlot3DSpec_c spec)",
       "argsT": [
         {
           "name": "label_id",
@@ -4609,33 +4484,23 @@
           "type": "int"
         },
         {
-          "name": "flags",
-          "type": "ImPlot3DTriangleFlags"
-        },
-        {
-          "name": "offset",
-          "type": "int"
-        },
-        {
-          "name": "stride",
-          "type": "int"
+          "name": "spec",
+          "type": "const ImPlot3DSpec"
         }
       ],
-      "argsoriginal": "(const char* label_id,const ImU64* xs,const ImU64* ys,const ImU64* zs,int count,ImPlot3DTriangleFlags flags=0,int offset=0,int stride=sizeof(ImU64))",
-      "call_args": "(label_id,xs,ys,zs,count,flags,offset,stride)",
-      "call_args_old": "(label_id,xs,ys,zs,count,flags,offset,stride)",
+      "argsoriginal": "(const char* label_id,const ImU64* xs,const ImU64* ys,const ImU64* zs,int count,const ImPlot3DSpec& spec=ImPlot3DSpec())",
+      "call_args": "(label_id,xs,ys,zs,count,ConvertToCPP_ImPlot3DSpec(spec))",
+      "call_args_old": "(label_id,xs,ys,zs,count,spec)",
       "cimguiname": "ImPlot3D_PlotTriangle",
       "defaults": {
-        "flags": "0",
-        "offset": "0",
-        "stride": "sizeof(ImU64)"
+        "spec": "ImPlot3DSpec()"
       },
       "funcname": "PlotTriangle",
-      "location": "implot3d:512",
+      "location": "implot3d:609",
       "namespace": "ImPlot3D",
       "ov_cimguiname": "ImPlot3D_PlotTriangle_U64Ptr",
       "ret": "void",
-      "signature": "(const char*,const ImU64*,const ImU64*,const ImU64*,int,ImPlot3DTriangleFlags,int,int)",
+      "signature": "(const char*,const ImU64*,const ImU64*,const ImU64*,int,const ImPlot3DSpec)",
       "stname": ""
     }
   ],
@@ -4656,7 +4521,7 @@
         "count": "1"
       },
       "funcname": "PopColormap",
-      "location": "implot3d:662",
+      "location": "implot3d:751",
       "namespace": "ImPlot3D",
       "ov_cimguiname": "ImPlot3D_PopColormap",
       "ret": "void",
@@ -4681,7 +4546,7 @@
         "count": "1"
       },
       "funcname": "PopStyleColor",
-      "location": "implot3d:603",
+      "location": "implot3d:698",
       "namespace": "ImPlot3D",
       "ov_cimguiname": "ImPlot3D_PopStyleColor",
       "ret": "void",
@@ -4706,7 +4571,7 @@
         "count": "1"
       },
       "funcname": "PopStyleVar",
-      "location": "implot3d:612",
+      "location": "implot3d:707",
       "namespace": "ImPlot3D",
       "ov_cimguiname": "ImPlot3D_PopStyleVar",
       "ret": "void",
@@ -4729,7 +4594,7 @@
       "cimguiname": "ImPlot3D_PushColormap",
       "defaults": {},
       "funcname": "PushColormap",
-      "location": "implot3d:657",
+      "location": "implot3d:746",
       "namespace": "ImPlot3D",
       "ov_cimguiname": "ImPlot3D_PushColormap_Plot3DColormap",
       "ret": "void",
@@ -4750,7 +4615,7 @@
       "cimguiname": "ImPlot3D_PushColormap",
       "defaults": {},
       "funcname": "PushColormap",
-      "location": "implot3d:660",
+      "location": "implot3d:749",
       "namespace": "ImPlot3D",
       "ov_cimguiname": "ImPlot3D_PushColormap_Str",
       "ret": "void",
@@ -4777,7 +4642,7 @@
       "cimguiname": "ImPlot3D_PushStyleColor",
       "defaults": {},
       "funcname": "PushStyleColor",
-      "location": "implot3d:600",
+      "location": "implot3d:695",
       "namespace": "ImPlot3D",
       "ov_cimguiname": "ImPlot3D_PushStyleColor_U32",
       "ret": "void",
@@ -4802,7 +4667,7 @@
       "cimguiname": "ImPlot3D_PushStyleColor",
       "defaults": {},
       "funcname": "PushStyleColor",
-      "location": "implot3d:601",
+      "location": "implot3d:696",
       "namespace": "ImPlot3D",
       "ov_cimguiname": "ImPlot3D_PushStyleColor_Vec4",
       "ret": "void",
@@ -4829,7 +4694,7 @@
       "cimguiname": "ImPlot3D_PushStyleVar",
       "defaults": {},
       "funcname": "PushStyleVar",
-      "location": "implot3d:606",
+      "location": "implot3d:701",
       "namespace": "ImPlot3D",
       "ov_cimguiname": "ImPlot3D_PushStyleVar_Float",
       "ret": "void",
@@ -4854,7 +4719,7 @@
       "cimguiname": "ImPlot3D_PushStyleVar",
       "defaults": {},
       "funcname": "PushStyleVar",
-      "location": "implot3d:608",
+      "location": "implot3d:703",
       "namespace": "ImPlot3D",
       "ov_cimguiname": "ImPlot3D_PushStyleVar_Int",
       "ret": "void",
@@ -4879,7 +4744,7 @@
       "cimguiname": "ImPlot3D_PushStyleVar",
       "defaults": {},
       "funcname": "PushStyleVar",
-      "location": "implot3d:610",
+      "location": "implot3d:705",
       "namespace": "ImPlot3D",
       "ov_cimguiname": "ImPlot3D_PushStyleVar_Vec2",
       "ret": "void",
@@ -4909,7 +4774,7 @@
         "cmap": "-1"
       },
       "funcname": "SampleColormap",
-      "location": "implot3d:673",
+      "location": "implot3d:762",
       "namespace": "ImPlot3D",
       "nonUDT": 1,
       "ov_cimguiname": "ImPlot3D_SampleColormap",
@@ -4933,116 +4798,11 @@
       "cimguiname": "ImPlot3D_SetCurrentContext",
       "defaults": {},
       "funcname": "SetCurrentContext",
-      "location": "implot3d:365",
+      "location": "implot3d:464",
       "namespace": "ImPlot3D",
       "ov_cimguiname": "ImPlot3D_SetCurrentContext",
       "ret": "void",
       "signature": "(ImPlot3DContext*)",
-      "stname": ""
-    }
-  ],
-  "ImPlot3D_SetNextFillStyle": [
-    {
-      "args": "(const ImVec4_c col,float alpha_mod)",
-      "argsT": [
-        {
-          "name": "col",
-          "type": "const ImVec4"
-        },
-        {
-          "name": "alpha_mod",
-          "type": "float"
-        }
-      ],
-      "argsoriginal": "(const ImVec4& col=ImVec4(0,0,0,-1),float alpha_mod=-1)",
-      "call_args": "(ConvertToCPP_ImVec4(col),alpha_mod)",
-      "call_args_old": "(col,alpha_mod)",
-      "cimguiname": "ImPlot3D_SetNextFillStyle",
-      "defaults": {
-        "alpha_mod": "-1",
-        "col": "ImVec4(0,0,0,-1)"
-      },
-      "funcname": "SetNextFillStyle",
-      "location": "implot3d:617",
-      "namespace": "ImPlot3D",
-      "ov_cimguiname": "ImPlot3D_SetNextFillStyle",
-      "ret": "void",
-      "signature": "(const ImVec4,float)",
-      "stname": ""
-    }
-  ],
-  "ImPlot3D_SetNextLineStyle": [
-    {
-      "args": "(const ImVec4_c col,float weight)",
-      "argsT": [
-        {
-          "name": "col",
-          "type": "const ImVec4"
-        },
-        {
-          "name": "weight",
-          "type": "float"
-        }
-      ],
-      "argsoriginal": "(const ImVec4& col=ImVec4(0,0,0,-1),float weight=-1)",
-      "call_args": "(ConvertToCPP_ImVec4(col),weight)",
-      "call_args_old": "(col,weight)",
-      "cimguiname": "ImPlot3D_SetNextLineStyle",
-      "defaults": {
-        "col": "ImVec4(0,0,0,-1)",
-        "weight": "-1"
-      },
-      "funcname": "SetNextLineStyle",
-      "location": "implot3d:615",
-      "namespace": "ImPlot3D",
-      "ov_cimguiname": "ImPlot3D_SetNextLineStyle",
-      "ret": "void",
-      "signature": "(const ImVec4,float)",
-      "stname": ""
-    }
-  ],
-  "ImPlot3D_SetNextMarkerStyle": [
-    {
-      "args": "(ImPlot3DMarker marker,float size,const ImVec4_c fill,float weight,const ImVec4_c outline)",
-      "argsT": [
-        {
-          "name": "marker",
-          "type": "ImPlot3DMarker"
-        },
-        {
-          "name": "size",
-          "type": "float"
-        },
-        {
-          "name": "fill",
-          "type": "const ImVec4"
-        },
-        {
-          "name": "weight",
-          "type": "float"
-        },
-        {
-          "name": "outline",
-          "type": "const ImVec4"
-        }
-      ],
-      "argsoriginal": "(ImPlot3DMarker marker=-1,float size=-1,const ImVec4& fill=ImVec4(0,0,0,-1),float weight=-1,const ImVec4& outline=ImVec4(0,0,0,-1))",
-      "call_args": "(marker,size,ConvertToCPP_ImVec4(fill),weight,ConvertToCPP_ImVec4(outline))",
-      "call_args_old": "(marker,size,fill,weight,outline)",
-      "cimguiname": "ImPlot3D_SetNextMarkerStyle",
-      "defaults": {
-        "fill": "ImVec4(0,0,0,-1)",
-        "marker": "-1",
-        "outline": "ImVec4(0,0,0,-1)",
-        "size": "-1",
-        "weight": "-1"
-      },
-      "funcname": "SetNextMarkerStyle",
-      "location": "implot3d:619",
-      "namespace": "ImPlot3D",
-      "ov_cimguiname": "ImPlot3D_SetNextMarkerStyle",
-      "ret": "void",
-      "signature": "(ImPlot3DMarker,float,const ImVec4,float,const ImVec4)",
       "stname": ""
     }
   ],
@@ -5061,7 +4821,7 @@
       "cimguiname": "ImPlot3D_SetStyle",
       "defaults": {},
       "funcname": "SetStyle",
-      "location": "implot3d:591",
+      "location": "implot3d:686",
       "namespace": "ImPlot3D",
       "ov_cimguiname": "ImPlot3D_SetStyle",
       "ret": "void",
@@ -5108,7 +4868,7 @@
         "z_flags": "0"
       },
       "funcname": "SetupAxes",
-      "location": "implot3d:447",
+      "location": "implot3d:546",
       "namespace": "ImPlot3D",
       "ov_cimguiname": "ImPlot3D_SetupAxes",
       "ret": "void",
@@ -5157,7 +4917,7 @@
         "cond": "ImPlot3DCond_Once"
       },
       "funcname": "SetupAxesLimits",
-      "location": "implot3d:451",
+      "location": "implot3d:550",
       "namespace": "ImPlot3D",
       "ov_cimguiname": "ImPlot3D_SetupAxesLimits",
       "ret": "void",
@@ -5191,7 +4951,7 @@
         "label": "nullptr"
       },
       "funcname": "SetupAxis",
-      "location": "implot3d:418",
+      "location": "implot3d:517",
       "namespace": "ImPlot3D",
       "ov_cimguiname": "ImPlot3D_SetupAxis",
       "ret": "void",
@@ -5224,7 +4984,7 @@
         "data": "nullptr"
       },
       "funcname": "SetupAxisFormat",
-      "location": "implot3d:425",
+      "location": "implot3d:524",
       "namespace": "ImPlot3D",
       "ov_cimguiname": "ImPlot3D_SetupAxisFormat",
       "ret": "void",
@@ -5261,7 +5021,7 @@
         "cond": "ImPlot3DCond_Once"
       },
       "funcname": "SetupAxisLimits",
-      "location": "implot3d:422",
+      "location": "implot3d:521",
       "namespace": "ImPlot3D",
       "ov_cimguiname": "ImPlot3D_SetupAxisLimits",
       "ret": "void",
@@ -5292,7 +5052,7 @@
       "cimguiname": "ImPlot3D_SetupAxisLimitsConstraints",
       "defaults": {},
       "funcname": "SetupAxisLimitsConstraints",
-      "location": "implot3d:441",
+      "location": "implot3d:540",
       "namespace": "ImPlot3D",
       "ov_cimguiname": "ImPlot3D_SetupAxisLimitsConstraints",
       "ret": "void",
@@ -5319,7 +5079,7 @@
       "cimguiname": "ImPlot3D_SetupAxisScale",
       "defaults": {},
       "funcname": "SetupAxisScale",
-      "location": "implot3d:435",
+      "location": "implot3d:534",
       "namespace": "ImPlot3D",
       "ov_cimguiname": "ImPlot3D_SetupAxisScale_Plot3DScale",
       "ret": "void",
@@ -5354,7 +5114,7 @@
         "data": "nullptr"
       },
       "funcname": "SetupAxisScale",
-      "location": "implot3d:438",
+      "location": "implot3d:537",
       "namespace": "ImPlot3D",
       "ov_cimguiname": "ImPlot3D_SetupAxisScale_Plot3DTransform",
       "ret": "void",
@@ -5396,7 +5156,7 @@
         "labels": "nullptr"
       },
       "funcname": "SetupAxisTicks",
-      "location": "implot3d:428",
+      "location": "implot3d:527",
       "namespace": "ImPlot3D",
       "ov_cimguiname": "ImPlot3D_SetupAxisTicks_doublePtr",
       "ret": "void",
@@ -5440,7 +5200,7 @@
         "labels": "nullptr"
       },
       "funcname": "SetupAxisTicks",
-      "location": "implot3d:431",
+      "location": "implot3d:530",
       "namespace": "ImPlot3D",
       "ov_cimguiname": "ImPlot3D_SetupAxisTicks_double",
       "ret": "void",
@@ -5471,7 +5231,7 @@
       "cimguiname": "ImPlot3D_SetupAxisZoomConstraints",
       "defaults": {},
       "funcname": "SetupAxisZoomConstraints",
-      "location": "implot3d:444",
+      "location": "implot3d:543",
       "namespace": "ImPlot3D",
       "ov_cimguiname": "ImPlot3D_SetupAxisZoomConstraints",
       "ret": "void",
@@ -5498,7 +5258,7 @@
       "cimguiname": "ImPlot3D_SetupBoxInitialRotation",
       "defaults": {},
       "funcname": "SetupBoxInitialRotation",
-      "location": "implot3d:462",
+      "location": "implot3d:561",
       "namespace": "ImPlot3D",
       "ov_cimguiname": "ImPlot3D_SetupBoxInitialRotation_double",
       "ret": "void",
@@ -5519,7 +5279,7 @@
       "cimguiname": "ImPlot3D_SetupBoxInitialRotation",
       "defaults": {},
       "funcname": "SetupBoxInitialRotation",
-      "location": "implot3d:466",
+      "location": "implot3d:565",
       "namespace": "ImPlot3D",
       "ov_cimguiname": "ImPlot3D_SetupBoxInitialRotation_Plot3DQuat",
       "ret": "void",
@@ -5557,7 +5317,7 @@
         "cond": "ImPlot3DCond_Once"
       },
       "funcname": "SetupBoxRotation",
-      "location": "implot3d:455",
+      "location": "implot3d:554",
       "namespace": "ImPlot3D",
       "ov_cimguiname": "ImPlot3D_SetupBoxRotation_double",
       "ret": "void",
@@ -5589,7 +5349,7 @@
         "cond": "ImPlot3DCond_Once"
       },
       "funcname": "SetupBoxRotation",
-      "location": "implot3d:458",
+      "location": "implot3d:557",
       "namespace": "ImPlot3D",
       "ov_cimguiname": "ImPlot3D_SetupBoxRotation_Plot3DQuat",
       "ret": "void",
@@ -5620,7 +5380,7 @@
       "cimguiname": "ImPlot3D_SetupBoxScale",
       "defaults": {},
       "funcname": "SetupBoxScale",
-      "location": "implot3d:469",
+      "location": "implot3d:568",
       "namespace": "ImPlot3D",
       "ov_cimguiname": "ImPlot3D_SetupBoxScale",
       "ret": "void",
@@ -5649,7 +5409,7 @@
         "flags": "0"
       },
       "funcname": "SetupLegend",
-      "location": "implot3d:472",
+      "location": "implot3d:571",
       "namespace": "ImPlot3D",
       "ov_cimguiname": "ImPlot3D_SetupLegend",
       "ret": "void",
@@ -5674,7 +5434,7 @@
         "p_open": "nullptr"
       },
       "funcname": "ShowAboutWindow",
-      "location": "implot3d:696",
+      "location": "implot3d:785",
       "namespace": "ImPlot3D",
       "ov_cimguiname": "ImPlot3D_ShowAboutWindow",
       "ret": "void",
@@ -5692,7 +5452,7 @@
       "cimguiname": "ImPlot3D_ShowAllDemos",
       "defaults": {},
       "funcname": "ShowAllDemos",
-      "location": "implot3d:683",
+      "location": "implot3d:772",
       "namespace": "ImPlot3D",
       "ov_cimguiname": "ImPlot3D_ShowAllDemos",
       "ret": "void",
@@ -5715,7 +5475,7 @@
       "cimguiname": "ImPlot3D_ShowColormapSelector",
       "defaults": {},
       "funcname": "ShowColormapSelector",
-      "location": "implot3d:690",
+      "location": "implot3d:779",
       "namespace": "ImPlot3D",
       "ov_cimguiname": "ImPlot3D_ShowColormapSelector",
       "ret": "bool",
@@ -5740,7 +5500,7 @@
         "p_open": "nullptr"
       },
       "funcname": "ShowDemoWindow",
-      "location": "implot3d:681",
+      "location": "implot3d:770",
       "namespace": "ImPlot3D",
       "ov_cimguiname": "ImPlot3D_ShowDemoWindow",
       "ret": "void",
@@ -5765,7 +5525,7 @@
         "p_popen": "nullptr"
       },
       "funcname": "ShowMetricsWindow",
-      "location": "implot3d:693",
+      "location": "implot3d:782",
       "namespace": "ImPlot3D",
       "ov_cimguiname": "ImPlot3D_ShowMetricsWindow",
       "ret": "void",
@@ -5790,7 +5550,7 @@
         "ref": "nullptr"
       },
       "funcname": "ShowStyleEditor",
-      "location": "implot3d:686",
+      "location": "implot3d:775",
       "namespace": "ImPlot3D",
       "ov_cimguiname": "ImPlot3D_ShowStyleEditor",
       "ret": "void",
@@ -5813,7 +5573,7 @@
       "cimguiname": "ImPlot3D_ShowStyleSelector",
       "defaults": {},
       "funcname": "ShowStyleSelector",
-      "location": "implot3d:688",
+      "location": "implot3d:777",
       "namespace": "ImPlot3D",
       "ov_cimguiname": "ImPlot3D_ShowStyleSelector",
       "ret": "bool",
@@ -5838,7 +5598,7 @@
         "dst": "nullptr"
       },
       "funcname": "StyleColorsAuto",
-      "location": "implot3d:594",
+      "location": "implot3d:689",
       "namespace": "ImPlot3D",
       "ov_cimguiname": "ImPlot3D_StyleColorsAuto",
       "ret": "void",
@@ -5863,7 +5623,7 @@
         "dst": "nullptr"
       },
       "funcname": "StyleColorsClassic",
-      "location": "implot3d:597",
+      "location": "implot3d:692",
       "namespace": "ImPlot3D",
       "ov_cimguiname": "ImPlot3D_StyleColorsClassic",
       "ret": "void",
@@ -5888,7 +5648,7 @@
         "dst": "nullptr"
       },
       "funcname": "StyleColorsDark",
-      "location": "implot3d:595",
+      "location": "implot3d:690",
       "namespace": "ImPlot3D",
       "ov_cimguiname": "ImPlot3D_StyleColorsDark",
       "ret": "void",
@@ -5913,7 +5673,7 @@
         "dst": "nullptr"
       },
       "funcname": "StyleColorsLight",
-      "location": "implot3d:596",
+      "location": "implot3d:691",
       "namespace": "ImPlot3D",
       "ov_cimguiname": "ImPlot3D_StyleColorsLight",
       "ret": "void",
