@@ -9,10 +9,10 @@ local COMPILER = script_args[1]
 local COMMENTS_GENERATION = script_args[2]:match("comments") and true or false
 local CPRE,CTEST
 if COMPILER == "gcc" or COMPILER == "g++" or COMPILER == "clang" then
-    CPRE = COMPILER..[[ -E -DIMGUI_DISABLE_OBSOLETE_FUNCTIONS -DIMGUI_API="" -DIMGUI_IMPL_API="" -DIMPLOT3D_DISABLE_OBSOLETE_FUNCTIONS ]]
+    CPRE = COMPILER..[[ -E -dD -DIMGUI_DISABLE_OBSOLETE_FUNCTIONS -DIMGUI_API="" -DIMGUI_IMPL_API="" -DIMPLOT3D_DISABLE_OBSOLETE_FUNCTIONS ]]
     CTEST = COMPILER.." --version"
 elseif COMPILER == "cl" then
-    CPRE = COMPILER..[[ /E /DIMGUI_DISABLE_OBSOLETE_FUNCTIONS /DIMGUI_API="" /DIMGUI_IMPL_API="" /DIMPLOT3D_DISABLE_OBSOLETE_FUNCTIONS ]]
+    CPRE = COMPILER..[[ /E /d1PP /DIMGUI_DISABLE_OBSOLETE_FUNCTIONS /DIMGUI_API="" /DIMGUI_IMPL_API="" /DIMPLOT3D_DISABLE_OBSOLETE_FUNCTIONS ]]
     CTEST = COMPILER
 else
     print("Working without compiler ")
@@ -169,7 +169,7 @@ save_data("./output/definitions.lua",serializeTableF(parser1.defsT))
 local structs_and_enums_table = parser1.structs_and_enums_table
 save_data("./output/structs_and_enums.lua",serializeTableF(structs_and_enums_table))
 save_data("./output/typedefs_dict.lua",serializeTableF(parser1.typedefs_dict))
-
+save_data("./output/constants.lua",serializeTableF(parser1.constants))
 -------------------------------json saving
 --avoid mixed tables (with string and integer keys)
 local function json_prepare(defs)
@@ -189,6 +189,7 @@ local json_opts = {dict_on_empty={defaults=true}}
 save_data("./output/definitions.json",json.encode(json_prepare(parser1.defsT),json_opts))
 save_data("./output/structs_and_enums.json",json.encode(structs_and_enums_table))
 save_data("./output/typedefs_dict.json",json.encode(parser1.typedefs_dict))
+save_data("./output/constants.json",json.encode(parser1.constants))
 --]]
 -------------------copy C files to repo root
 copyfile("./output/"..modulename..".h", "../"..modulename..".h")
