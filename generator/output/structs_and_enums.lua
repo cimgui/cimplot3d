@@ -817,6 +817,7 @@ local t={
     ImTextureRef="inherited",
     ImVec2="inherited",
     ImVec4="inherited"},
+  opaque_structs={},
   structs={
     ImPlot3DBox={
       [1]={
