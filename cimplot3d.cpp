@@ -6,6 +6,11 @@
 #include "cimplot3d.h"
 
 
+CIMGUI_API void ImPlot3D_SetImGuiContext(ImGuiContext* ctx)
+{
+    return ImGui::SetCurrentContext(ctx);
+}
+
 
 static inline ImPlot3DPoint ConvertToCPP_ImPlot3DPoint(const ImPlot3DPoint_c& src)
 {
@@ -954,6 +959,5 @@ CIMGUI_API ImPlot3DStyle* ImPlot3DStyle_ImPlot3DStyle_Plot3DStyle(const ImPlot3D
 {
     return IM_NEW(ImPlot3DStyle)(ConvertToCPP_ImPlot3DStyle(other));
 }
-
 
 
