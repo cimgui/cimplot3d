@@ -758,6 +758,7 @@ local t={
     ImGuiOldColumnData="inherited",
     ImGuiOldColumns="inherited",
     ImGuiOnceUponAFrame="inherited",
+    ImGuiPackedDate="inherited",
     ImGuiPayload="inherited",
     ImGuiPlatformIO="inherited",
     ImGuiPlatformImeData="inherited",
