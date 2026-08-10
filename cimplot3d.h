@@ -6,6 +6,10 @@
 #include "cimgui.h"
 
 #ifdef CIMGUI_DEFINE_ENUMS_AND_STRUCTS
+typedef struct ImPlot3DPoint_c ImPlot3DPoint;
+typedef struct ImPlot3DQuat_c ImPlot3DQuat;
+typedef struct ImPlot3DSpec_c ImPlot3DSpec;
+typedef struct ImPlot3DStyle_c ImPlot3DStyle;
 
 typedef struct ImPlot3DContext ImPlot3DContext;
 typedef struct ImPlot3DStyle_c ImPlot3DStyle_c;
