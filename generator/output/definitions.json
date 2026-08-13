@@ -27,8 +27,8 @@
         }
       ],
       "argsoriginal": "(const ImPlot3DPoint& p0,const ImPlot3DPoint& p1,ImPlot3DPoint& p0_clipped,ImPlot3DPoint& p1_clipped)",
-      "call_args": "(ConvertToCPP_ImPlot3DPoint(p0),ConvertToCPP_ImPlot3DPoint(p1),*p0_clipped,*p1_clipped)",
-      "call_args_old": "(p0,p1,*p0_clipped,*p1_clipped)",
+      "call_args": "(p0,p1,*p0_clipped,*p1_clipped)",
+      "call_args_conv": "(ConvertToCPP_ImPlot3DPoint(p0),ConvertToCPP_ImPlot3DPoint(p1),*p0_clipped,*p1_clipped)",
       "cimguiname": "ImPlot3DBox_ClipLineSegment",
       "defaults": {},
       "funcname": "ClipLineSegment",
@@ -54,8 +54,8 @@
         }
       ],
       "argsoriginal": "(const ImPlot3DPoint& point)",
-      "call_args": "(ConvertToCPP_ImPlot3DPoint(point))",
-      "call_args_old": "(point)",
+      "call_args": "(point)",
+      "call_args_conv": "(ConvertToCPP_ImPlot3DPoint(point))",
       "cimguiname": "ImPlot3DBox_Contains",
       "defaults": {},
       "funcname": "Contains",
@@ -81,8 +81,8 @@
         }
       ],
       "argsoriginal": "(const ImPlot3DPoint& point)",
-      "call_args": "(ConvertToCPP_ImPlot3DPoint(point))",
-      "call_args_old": "(point)",
+      "call_args": "(point)",
+      "call_args_conv": "(ConvertToCPP_ImPlot3DPoint(point))",
       "cimguiname": "ImPlot3DBox_Expand",
       "defaults": {},
       "funcname": "Expand",
@@ -100,7 +100,6 @@
       "argsT": [],
       "argsoriginal": "()",
       "call_args": "()",
-      "call_args_old": "()",
       "cimguiname": "ImPlot3DBox_ImPlot3DBox",
       "constructor": true,
       "defaults": {},
@@ -124,8 +123,8 @@
         }
       ],
       "argsoriginal": "(const ImPlot3DPoint& min,const ImPlot3DPoint& max)",
-      "call_args": "(ConvertToCPP_ImPlot3DPoint(min),ConvertToCPP_ImPlot3DPoint(max))",
-      "call_args_old": "(min,max)",
+      "call_args": "(min,max)",
+      "call_args_conv": "(ConvertToCPP_ImPlot3DPoint(min),ConvertToCPP_ImPlot3DPoint(max))",
       "cimguiname": "ImPlot3DBox_ImPlot3DBox",
       "constructor": true,
       "defaults": {},
@@ -171,8 +170,8 @@
         }
       ],
       "argsoriginal": "(const ImPlot3DPoint& rhs)",
-      "call_args": "(ConvertToCPP_ImPlot3DPoint(rhs))",
-      "call_args_old": "(rhs)",
+      "call_args": "(rhs)",
+      "call_args_conv": "(ConvertToCPP_ImPlot3DPoint(rhs))",
       "cimguiname": "ImPlot3DPoint_Cross",
       "conv": "ImPlot3DPoint",
       "defaults": {},
@@ -200,8 +199,8 @@
         }
       ],
       "argsoriginal": "(const ImPlot3DPoint& rhs)",
-      "call_args": "(ConvertToCPP_ImPlot3DPoint(rhs))",
-      "call_args_old": "(rhs)",
+      "call_args": "(rhs)",
+      "call_args_conv": "(ConvertToCPP_ImPlot3DPoint(rhs))",
       "cimguiname": "ImPlot3DPoint_Dot",
       "defaults": {},
       "funcname": "Dot",
@@ -219,7 +218,6 @@
       "argsT": [],
       "argsoriginal": "()",
       "call_args": "()",
-      "call_args_old": "()",
       "cimguiname": "ImPlot3DPoint_ImPlot3DPoint",
       "constructor": true,
       "defaults": {},
@@ -248,7 +246,6 @@
       ],
       "argsoriginal": "(double _x,double _y,double _z)",
       "call_args": "(_x,_y,_z)",
-      "call_args_old": "(_x,_y,_z)",
       "cimguiname": "ImPlot3DPoint_ImPlot3DPoint",
       "constructor": true,
       "defaults": {},
@@ -271,7 +268,6 @@
       ],
       "argsoriginal": "()",
       "call_args": "()",
-      "call_args_old": "()",
       "cimguiname": "ImPlot3DPoint_IsNaN",
       "defaults": {},
       "funcname": "IsNaN",
@@ -294,7 +290,6 @@
       ],
       "argsoriginal": "()",
       "call_args": "()",
-      "call_args_old": "()",
       "cimguiname": "ImPlot3DPoint_Length",
       "defaults": {},
       "funcname": "Length",
@@ -317,7 +312,6 @@
       ],
       "argsoriginal": "()",
       "call_args": "()",
-      "call_args_old": "()",
       "cimguiname": "ImPlot3DPoint_LengthSquared",
       "defaults": {},
       "funcname": "LengthSquared",
@@ -340,7 +334,6 @@
       ],
       "argsoriginal": "()",
       "call_args": "()",
-      "call_args_old": "()",
       "cimguiname": "ImPlot3DPoint_Normalize",
       "defaults": {},
       "funcname": "Normalize",
@@ -363,7 +356,6 @@
       ],
       "argsoriginal": "()",
       "call_args": "()",
-      "call_args_old": "()",
       "cimguiname": "ImPlot3DPoint_Normalized",
       "conv": "ImPlot3DPoint",
       "defaults": {},
@@ -408,7 +400,6 @@
       ],
       "argsoriginal": "()",
       "call_args": "()",
-      "call_args_old": "()",
       "cimguiname": "ImPlot3DQuat_Conjugate",
       "conv": "ImPlot3DQuat",
       "defaults": {},
@@ -436,8 +427,8 @@
         }
       ],
       "argsoriginal": "(const ImPlot3DQuat& rhs)",
-      "call_args": "(ConvertToCPP_ImPlot3DQuat(rhs))",
-      "call_args_old": "(rhs)",
+      "call_args": "(rhs)",
+      "call_args_conv": "(ConvertToCPP_ImPlot3DQuat(rhs))",
       "cimguiname": "ImPlot3DQuat_Dot",
       "defaults": {},
       "funcname": "Dot",
@@ -464,7 +455,6 @@
       ],
       "argsoriginal": "(double elevation,double azimuth)",
       "call_args": "(elevation,azimuth)",
-      "call_args_old": "(elevation,azimuth)",
       "cimguiname": "ImPlot3DQuat_FromElAz",
       "conv": "ImPlot3DQuat",
       "defaults": {},
@@ -493,8 +483,8 @@
         }
       ],
       "argsoriginal": "(const ImPlot3DPoint& v0,const ImPlot3DPoint& v1)",
-      "call_args": "(ConvertToCPP_ImPlot3DPoint(v0),ConvertToCPP_ImPlot3DPoint(v1))",
-      "call_args_old": "(v0,v1)",
+      "call_args": "(v0,v1)",
+      "call_args_conv": "(ConvertToCPP_ImPlot3DPoint(v0),ConvertToCPP_ImPlot3DPoint(v1))",
       "cimguiname": "ImPlot3DQuat_FromTwoVectors",
       "conv": "ImPlot3DQuat",
       "defaults": {},
@@ -515,7 +505,6 @@
       "argsT": [],
       "argsoriginal": "()",
       "call_args": "()",
-      "call_args_old": "()",
       "cimguiname": "ImPlot3DQuat_ImPlot3DQuat",
       "constructor": true,
       "defaults": {},
@@ -548,7 +537,6 @@
       ],
       "argsoriginal": "(double _x,double _y,double _z,double _w)",
       "call_args": "(_x,_y,_z,_w)",
-      "call_args_old": "(_x,_y,_z,_w)",
       "cimguiname": "ImPlot3DQuat_ImPlot3DQuat",
       "constructor": true,
       "defaults": {},
@@ -572,8 +560,8 @@
         }
       ],
       "argsoriginal": "(double _angle,const ImPlot3DPoint& _axis)",
-      "call_args": "(_angle,ConvertToCPP_ImPlot3DPoint(_axis))",
-      "call_args_old": "(_angle,_axis)",
+      "call_args": "(_angle,_axis)",
+      "call_args_conv": "(_angle,ConvertToCPP_ImPlot3DPoint(_axis))",
       "cimguiname": "ImPlot3DQuat_ImPlot3DQuat",
       "constructor": true,
       "defaults": {},
@@ -596,7 +584,6 @@
       ],
       "argsoriginal": "()",
       "call_args": "()",
-      "call_args_old": "()",
       "cimguiname": "ImPlot3DQuat_Inverse",
       "conv": "ImPlot3DQuat",
       "defaults": {},
@@ -621,7 +608,6 @@
       ],
       "argsoriginal": "()",
       "call_args": "()",
-      "call_args_old": "()",
       "cimguiname": "ImPlot3DQuat_Length",
       "defaults": {},
       "funcname": "Length",
@@ -644,7 +630,6 @@
       ],
       "argsoriginal": "()",
       "call_args": "()",
-      "call_args_old": "()",
       "cimguiname": "ImPlot3DQuat_Normalize",
       "defaults": {},
       "funcname": "Normalize",
@@ -669,7 +654,6 @@
       ],
       "argsoriginal": "()",
       "call_args": "()",
-      "call_args_old": "()",
       "cimguiname": "ImPlot3DQuat_Normalized",
       "conv": "ImPlot3DQuat",
       "defaults": {},
@@ -701,8 +685,8 @@
         }
       ],
       "argsoriginal": "(const ImPlot3DQuat& q1,const ImPlot3DQuat& q2,double t)",
-      "call_args": "(ConvertToCPP_ImPlot3DQuat(q1),ConvertToCPP_ImPlot3DQuat(q2),t)",
-      "call_args_old": "(q1,q2,t)",
+      "call_args": "(q1,q2,t)",
+      "call_args_conv": "(ConvertToCPP_ImPlot3DQuat(q1),ConvertToCPP_ImPlot3DQuat(q2),t)",
       "cimguiname": "ImPlot3DQuat_Slerp",
       "conv": "ImPlot3DQuat",
       "defaults": {},
@@ -752,7 +736,6 @@
       ],
       "argsoriginal": "(double value)",
       "call_args": "(value)",
-      "call_args_old": "(value)",
       "cimguiname": "ImPlot3DRange_Contains",
       "defaults": {},
       "funcname": "Contains",
@@ -779,7 +762,6 @@
       ],
       "argsoriginal": "(double value)",
       "call_args": "(value)",
-      "call_args_old": "(value)",
       "cimguiname": "ImPlot3DRange_Expand",
       "defaults": {},
       "funcname": "Expand",
@@ -797,7 +779,6 @@
       "argsT": [],
       "argsoriginal": "()",
       "call_args": "()",
-      "call_args_old": "()",
       "cimguiname": "ImPlot3DRange_ImPlot3DRange",
       "constructor": true,
       "defaults": {},
@@ -822,7 +803,6 @@
       ],
       "argsoriginal": "(double min,double max)",
       "call_args": "(min,max)",
-      "call_args_old": "(min,max)",
       "cimguiname": "ImPlot3DRange_ImPlot3DRange",
       "constructor": true,
       "defaults": {},
@@ -845,7 +825,6 @@
       ],
       "argsoriginal": "()",
       "call_args": "()",
-      "call_args_old": "()",
       "cimguiname": "ImPlot3DRange_Size",
       "defaults": {},
       "funcname": "Size",
@@ -883,7 +862,6 @@
       "argsT": [],
       "argsoriginal": "()",
       "call_args": "()",
-      "call_args_old": "()",
       "cimguiname": "ImPlot3DSpec_ImPlot3DSpec",
       "constructor": true,
       "defaults": {},
@@ -914,7 +892,6 @@
       ],
       "argsoriginal": "(ImPlot3DProp prop,float v)",
       "call_args": "(prop,v)",
-      "call_args_old": "(prop,v)",
       "cimguiname": "ImPlot3DSpec_SetProp",
       "defaults": {},
       "funcname": "SetProp",
@@ -943,7 +920,6 @@
       ],
       "argsoriginal": "(ImPlot3DProp prop,double v)",
       "call_args": "(prop,v)",
-      "call_args_old": "(prop,v)",
       "cimguiname": "ImPlot3DSpec_SetProp",
       "defaults": {},
       "funcname": "SetProp",
@@ -972,7 +948,6 @@
       ],
       "argsoriginal": "(ImPlot3DProp prop,ImS8 v)",
       "call_args": "(prop,v)",
-      "call_args_old": "(prop,v)",
       "cimguiname": "ImPlot3DSpec_SetProp",
       "defaults": {},
       "funcname": "SetProp",
@@ -1001,7 +976,6 @@
       ],
       "argsoriginal": "(ImPlot3DProp prop,ImU8 v)",
       "call_args": "(prop,v)",
-      "call_args_old": "(prop,v)",
       "cimguiname": "ImPlot3DSpec_SetProp",
       "defaults": {},
       "funcname": "SetProp",
@@ -1030,7 +1004,6 @@
       ],
       "argsoriginal": "(ImPlot3DProp prop,ImS16 v)",
       "call_args": "(prop,v)",
-      "call_args_old": "(prop,v)",
       "cimguiname": "ImPlot3DSpec_SetProp",
       "defaults": {},
       "funcname": "SetProp",
@@ -1059,7 +1032,6 @@
       ],
       "argsoriginal": "(ImPlot3DProp prop,ImU16 v)",
       "call_args": "(prop,v)",
-      "call_args_old": "(prop,v)",
       "cimguiname": "ImPlot3DSpec_SetProp",
       "defaults": {},
       "funcname": "SetProp",
@@ -1088,7 +1060,6 @@
       ],
       "argsoriginal": "(ImPlot3DProp prop,ImS32 v)",
       "call_args": "(prop,v)",
-      "call_args_old": "(prop,v)",
       "cimguiname": "ImPlot3DSpec_SetProp",
       "defaults": {},
       "funcname": "SetProp",
@@ -1117,7 +1088,6 @@
       ],
       "argsoriginal": "(ImPlot3DProp prop,ImU32 v)",
       "call_args": "(prop,v)",
-      "call_args_old": "(prop,v)",
       "cimguiname": "ImPlot3DSpec_SetProp",
       "defaults": {},
       "funcname": "SetProp",
@@ -1146,7 +1116,6 @@
       ],
       "argsoriginal": "(ImPlot3DProp prop,ImS64 v)",
       "call_args": "(prop,v)",
-      "call_args_old": "(prop,v)",
       "cimguiname": "ImPlot3DSpec_SetProp",
       "defaults": {},
       "funcname": "SetProp",
@@ -1175,7 +1144,6 @@
       ],
       "argsoriginal": "(ImPlot3DProp prop,ImU64 v)",
       "call_args": "(prop,v)",
-      "call_args_old": "(prop,v)",
       "cimguiname": "ImPlot3DSpec_SetProp",
       "defaults": {},
       "funcname": "SetProp",
@@ -1204,7 +1172,6 @@
       ],
       "argsoriginal": "(ImPlot3DProp prop,ImU32* v)",
       "call_args": "(prop,v)",
-      "call_args_old": "(prop,v)",
       "cimguiname": "ImPlot3DSpec_SetProp",
       "defaults": {},
       "funcname": "SetProp",
@@ -1233,7 +1200,6 @@
       ],
       "argsoriginal": "(ImPlot3DProp prop,float* v)",
       "call_args": "(prop,v)",
-      "call_args_old": "(prop,v)",
       "cimguiname": "ImPlot3DSpec_SetProp",
       "defaults": {},
       "funcname": "SetProp",
@@ -1261,8 +1227,8 @@
         }
       ],
       "argsoriginal": "(ImPlot3DProp prop,const ImVec4& v)",
-      "call_args": "(prop,ConvertToCPP_ImVec4(v))",
-      "call_args_old": "(prop,v)",
+      "call_args": "(prop,v)",
+      "call_args_conv": "(prop,ConvertToCPP_ImVec4(v))",
       "cimguiname": "ImPlot3DSpec_SetProp",
       "defaults": {},
       "funcname": "SetProp",
@@ -1309,7 +1275,6 @@
       ],
       "argsoriginal": "(ImPlot3DCol idx)",
       "call_args": "(idx)",
-      "call_args_old": "(idx)",
       "cimguiname": "ImPlot3DStyle_GetColor",
       "conv": "ImVec4",
       "defaults": {},
@@ -1329,7 +1294,6 @@
       "argsT": [],
       "argsoriginal": "()",
       "call_args": "()",
-      "call_args_old": "()",
       "cimguiname": "ImPlot3DStyle_ImPlot3DStyle",
       "constructor": true,
       "defaults": {},
@@ -1349,8 +1313,8 @@
         }
       ],
       "argsoriginal": "(const ImPlot3DStyle& other)",
-      "call_args": "(ConvertToCPP_ImPlot3DStyle(other))",
-      "call_args_old": "(other)",
+      "call_args": "(other)",
+      "call_args_conv": "(ConvertToCPP_ImPlot3DStyle(other))",
       "cimguiname": "ImPlot3DStyle_ImPlot3DStyle",
       "constructor": true,
       "defaults": {},
@@ -1380,8 +1344,8 @@
         }
       ],
       "argsoriginal": "(ImPlot3DCol idx,const ImVec4& col)",
-      "call_args": "(idx,ConvertToCPP_ImVec4(col))",
-      "call_args_old": "(idx,col)",
+      "call_args": "(idx,col)",
+      "call_args_conv": "(idx,ConvertToCPP_ImVec4(col))",
       "cimguiname": "ImPlot3DStyle_SetColor",
       "defaults": {},
       "funcname": "SetColor",
@@ -1436,7 +1400,6 @@
       ],
       "argsoriginal": "(const char* name,const ImVec4* cols,int size,bool qual=true)",
       "call_args": "(name,cols,size,qual)",
-      "call_args_old": "(name,cols,size,qual)",
       "cimguiname": "ImPlot3D_AddColormap",
       "defaults": {
         "qual": "true"
@@ -1471,7 +1434,6 @@
       ],
       "argsoriginal": "(const char* name,const ImU32* cols,int size,bool qual=true)",
       "call_args": "(name,cols,size,qual)",
-      "call_args_old": "(name,cols,size,qual)",
       "cimguiname": "ImPlot3D_AddColormap",
       "defaults": {
         "qual": "true"
@@ -1503,8 +1465,8 @@
         }
       ],
       "argsoriginal": "(const char* title_id,const ImVec2& size=ImVec2(-1,0),ImPlot3DFlags flags=0)",
-      "call_args": "(title_id,ConvertToCPP_ImVec2(size),flags)",
-      "call_args_old": "(title_id,size,flags)",
+      "call_args": "(title_id,size,flags)",
+      "call_args_conv": "(title_id,ConvertToCPP_ImVec2(size),flags)",
       "cimguiname": "ImPlot3D_BeginPlot",
       "defaults": {
         "flags": "0",
@@ -1525,7 +1487,6 @@
       "argsT": [],
       "argsoriginal": "()",
       "call_args": "()",
-      "call_args_old": "()",
       "cimguiname": "ImPlot3D_CreateContext",
       "defaults": {},
       "funcname": "CreateContext",
@@ -1548,7 +1509,6 @@
       ],
       "argsoriginal": "(ImPlot3DContext* ctx=nullptr)",
       "call_args": "(ctx)",
-      "call_args_old": "(ctx)",
       "cimguiname": "ImPlot3D_DestroyContext",
       "defaults": {
         "ctx": "nullptr"
@@ -1568,7 +1528,6 @@
       "argsT": [],
       "argsoriginal": "()",
       "call_args": "()",
-      "call_args_old": "()",
       "cimguiname": "ImPlot3D_EndPlot",
       "defaults": {},
       "funcname": "EndPlot",
@@ -1595,7 +1554,6 @@
       ],
       "argsoriginal": "(int idx,ImPlot3DColormap cmap=-1)",
       "call_args": "(idx,cmap)",
-      "call_args_old": "(idx,cmap)",
       "cimguiname": "ImPlot3D_GetColormapColor",
       "conv": "ImVec4",
       "defaults": {
@@ -1617,7 +1575,6 @@
       "argsT": [],
       "argsoriginal": "()",
       "call_args": "()",
-      "call_args_old": "()",
       "cimguiname": "ImPlot3D_GetColormapCount",
       "defaults": {},
       "funcname": "GetColormapCount",
@@ -1640,7 +1597,6 @@
       ],
       "argsoriginal": "(const char* name)",
       "call_args": "(name)",
-      "call_args_old": "(name)",
       "cimguiname": "ImPlot3D_GetColormapIndex",
       "defaults": {},
       "funcname": "GetColormapIndex",
@@ -1663,7 +1619,6 @@
       ],
       "argsoriginal": "(ImPlot3DColormap cmap)",
       "call_args": "(cmap)",
-      "call_args_old": "(cmap)",
       "cimguiname": "ImPlot3D_GetColormapName",
       "defaults": {},
       "funcname": "GetColormapName",
@@ -1686,7 +1641,6 @@
       ],
       "argsoriginal": "(ImPlot3DColormap cmap=-1)",
       "call_args": "(cmap)",
-      "call_args_old": "(cmap)",
       "cimguiname": "ImPlot3D_GetColormapSize",
       "defaults": {
         "cmap": "-1"
@@ -1706,7 +1660,6 @@
       "argsT": [],
       "argsoriginal": "()",
       "call_args": "()",
-      "call_args_old": "()",
       "cimguiname": "ImPlot3D_GetCurrentContext",
       "defaults": {},
       "funcname": "GetCurrentContext",
@@ -1724,7 +1677,6 @@
       "argsT": [],
       "argsoriginal": "()",
       "call_args": "()",
-      "call_args_old": "()",
       "cimguiname": "ImPlot3D_GetPlotDrawList",
       "defaults": {},
       "funcname": "GetPlotDrawList",
@@ -1742,7 +1694,6 @@
       "argsT": [],
       "argsoriginal": "()",
       "call_args": "()",
-      "call_args_old": "()",
       "cimguiname": "ImPlot3D_GetPlotRectPos",
       "conv": "ImVec2",
       "defaults": {},
@@ -1762,7 +1713,6 @@
       "argsT": [],
       "argsoriginal": "()",
       "call_args": "()",
-      "call_args_old": "()",
       "cimguiname": "ImPlot3D_GetPlotRectSize",
       "conv": "ImVec2",
       "defaults": {},
@@ -1782,7 +1732,6 @@
       "argsT": [],
       "argsoriginal": "()",
       "call_args": "()",
-      "call_args_old": "()",
       "cimguiname": "ImPlot3D_GetStyle",
       "defaults": {},
       "funcname": "GetStyle",
@@ -1806,7 +1755,6 @@
       ],
       "argsoriginal": "(ImPlot3DCol idx)",
       "call_args": "(idx)",
-      "call_args_old": "(idx)",
       "cimguiname": "ImPlot3D_GetStyleColorU32",
       "defaults": {},
       "funcname": "GetStyleColorU32",
@@ -1829,7 +1777,6 @@
       ],
       "argsoriginal": "(ImPlot3DCol idx)",
       "call_args": "(idx)",
-      "call_args_old": "(idx)",
       "cimguiname": "ImPlot3D_GetStyleColorVec4",
       "conv": "ImVec4",
       "defaults": {},
@@ -1849,7 +1796,6 @@
       "argsT": [],
       "argsoriginal": "()",
       "call_args": "()",
-      "call_args_old": "()",
       "cimguiname": "ImPlot3D_NextColormapColor",
       "conv": "ImVec4",
       "defaults": {},
@@ -1869,7 +1815,6 @@
       "argsT": [],
       "argsoriginal": "()",
       "call_args": "()",
-      "call_args_old": "()",
       "cimguiname": "ImPlot3D_NextMarker",
       "defaults": {},
       "funcname": "NextMarker",
@@ -1899,8 +1844,8 @@
         }
       ],
       "argsoriginal": "(const ImVec2& pix,ImPlane3D plane,bool mask=true)",
-      "call_args": "(ConvertToCPP_ImVec2(pix),plane,mask)",
-      "call_args_old": "(pix,plane,mask)",
+      "call_args": "(pix,plane,mask)",
+      "call_args_conv": "(ConvertToCPP_ImVec2(pix),plane,mask)",
       "cimguiname": "ImPlot3D_PixelsToPlotPlane",
       "conv": "ImPlot3DPoint",
       "defaults": {
@@ -1937,7 +1882,6 @@
       ],
       "argsoriginal": "(double x,double y,ImPlane3D plane,bool mask=true)",
       "call_args": "(x,y,plane,mask)",
-      "call_args_old": "(x,y,plane,mask)",
       "cimguiname": "ImPlot3D_PixelsToPlotPlane",
       "conv": "ImPlot3DPoint",
       "defaults": {
@@ -1963,8 +1907,8 @@
         }
       ],
       "argsoriginal": "(const ImVec2& pix)",
-      "call_args": "(ConvertToCPP_ImVec2(pix))",
-      "call_args_old": "(pix)",
+      "call_args": "(pix)",
+      "call_args_conv": "(ConvertToCPP_ImVec2(pix))",
       "cimguiname": "ImPlot3D_PixelsToPlotRay",
       "defaults": {},
       "funcname": "PixelsToPlotRay",
@@ -1989,7 +1933,6 @@
       ],
       "argsoriginal": "(double x,double y)",
       "call_args": "(x,y)",
-      "call_args_old": "(x,y)",
       "cimguiname": "ImPlot3D_PixelsToPlotRay",
       "defaults": {},
       "funcname": "PixelsToPlotRay",
@@ -2015,8 +1958,8 @@
         }
       ],
       "argsoriginal": "(const char* label_id,const ImPlot3DSpec& spec=ImPlot3DSpec())",
-      "call_args": "(label_id,ConvertToCPP_ImPlot3DSpec(spec))",
-      "call_args_old": "(label_id,spec)",
+      "call_args": "(label_id,spec)",
+      "call_args_conv": "(label_id,ConvertToCPP_ImPlot3DSpec(spec))",
       "cimguiname": "ImPlot3D_PlotDummy",
       "defaults": {
         "spec": "ImPlot3DSpec()"
@@ -2072,8 +2015,8 @@
         }
       ],
       "argsoriginal": "(const char* label_id,ImTextureRef tex_ref,const ImPlot3DPoint& center,const ImPlot3DPoint& axis_u,const ImPlot3DPoint& axis_v,const ImVec2& uv0=ImVec2(0,0),const ImVec2& uv1=ImVec2(1,1),const ImVec4& tint_col=ImVec4(1,1,1,1),const ImPlot3DSpec& spec=ImPlot3DSpec())",
-      "call_args": "(label_id,ConvertToCPP_ImTextureRef(tex_ref),ConvertToCPP_ImPlot3DPoint(center),ConvertToCPP_ImPlot3DPoint(axis_u),ConvertToCPP_ImPlot3DPoint(axis_v),ConvertToCPP_ImVec2(uv0),ConvertToCPP_ImVec2(uv1),ConvertToCPP_ImVec4(tint_col),ConvertToCPP_ImPlot3DSpec(spec))",
-      "call_args_old": "(label_id,tex_ref,center,axis_u,axis_v,uv0,uv1,tint_col,spec)",
+      "call_args": "(label_id,tex_ref,center,axis_u,axis_v,uv0,uv1,tint_col,spec)",
+      "call_args_conv": "(label_id,ConvertToCPP_ImTextureRef(tex_ref),ConvertToCPP_ImPlot3DPoint(center),ConvertToCPP_ImPlot3DPoint(axis_u),ConvertToCPP_ImPlot3DPoint(axis_v),ConvertToCPP_ImVec2(uv0),ConvertToCPP_ImVec2(uv1),ConvertToCPP_ImVec4(tint_col),ConvertToCPP_ImPlot3DSpec(spec))",
       "cimguiname": "ImPlot3D_PlotImage",
       "defaults": {
         "spec": "ImPlot3DSpec()",
@@ -2142,8 +2085,8 @@
         }
       ],
       "argsoriginal": "(const char* label_id,ImTextureRef tex_ref,const ImPlot3DPoint& p0,const ImPlot3DPoint& p1,const ImPlot3DPoint& p2,const ImPlot3DPoint& p3,const ImVec2& uv0=ImVec2(0,0),const ImVec2& uv1=ImVec2(1,0),const ImVec2& uv2=ImVec2(1,1),const ImVec2& uv3=ImVec2(0,1),const ImVec4& tint_col=ImVec4(1,1,1,1),const ImPlot3DSpec& spec=ImPlot3DSpec())",
-      "call_args": "(label_id,ConvertToCPP_ImTextureRef(tex_ref),ConvertToCPP_ImPlot3DPoint(p0),ConvertToCPP_ImPlot3DPoint(p1),ConvertToCPP_ImPlot3DPoint(p2),ConvertToCPP_ImPlot3DPoint(p3),ConvertToCPP_ImVec2(uv0),ConvertToCPP_ImVec2(uv1),ConvertToCPP_ImVec2(uv2),ConvertToCPP_ImVec2(uv3),ConvertToCPP_ImVec4(tint_col),ConvertToCPP_ImPlot3DSpec(spec))",
-      "call_args_old": "(label_id,tex_ref,p0,p1,p2,p3,uv0,uv1,uv2,uv3,tint_col,spec)",
+      "call_args": "(label_id,tex_ref,p0,p1,p2,p3,uv0,uv1,uv2,uv3,tint_col,spec)",
+      "call_args_conv": "(label_id,ConvertToCPP_ImTextureRef(tex_ref),ConvertToCPP_ImPlot3DPoint(p0),ConvertToCPP_ImPlot3DPoint(p1),ConvertToCPP_ImPlot3DPoint(p2),ConvertToCPP_ImPlot3DPoint(p3),ConvertToCPP_ImVec2(uv0),ConvertToCPP_ImVec2(uv1),ConvertToCPP_ImVec2(uv2),ConvertToCPP_ImVec2(uv3),ConvertToCPP_ImVec4(tint_col),ConvertToCPP_ImPlot3DSpec(spec))",
       "cimguiname": "ImPlot3D_PlotImage",
       "defaults": {
         "spec": "ImPlot3DSpec()",
@@ -2192,8 +2135,8 @@
         }
       ],
       "argsoriginal": "(const char* label_id,const float* xs,const float* ys,const float* zs,int count,const ImPlot3DSpec& spec=ImPlot3DSpec())",
-      "call_args": "(label_id,xs,ys,zs,count,ConvertToCPP_ImPlot3DSpec(spec))",
-      "call_args_old": "(label_id,xs,ys,zs,count,spec)",
+      "call_args": "(label_id,xs,ys,zs,count,spec)",
+      "call_args_conv": "(label_id,xs,ys,zs,count,ConvertToCPP_ImPlot3DSpec(spec))",
       "cimguiname": "ImPlot3D_PlotLine",
       "defaults": {
         "spec": "ImPlot3DSpec()"
@@ -2235,8 +2178,8 @@
         }
       ],
       "argsoriginal": "(const char* label_id,const double* xs,const double* ys,const double* zs,int count,const ImPlot3DSpec& spec=ImPlot3DSpec())",
-      "call_args": "(label_id,xs,ys,zs,count,ConvertToCPP_ImPlot3DSpec(spec))",
-      "call_args_old": "(label_id,xs,ys,zs,count,spec)",
+      "call_args": "(label_id,xs,ys,zs,count,spec)",
+      "call_args_conv": "(label_id,xs,ys,zs,count,ConvertToCPP_ImPlot3DSpec(spec))",
       "cimguiname": "ImPlot3D_PlotLine",
       "defaults": {
         "spec": "ImPlot3DSpec()"
@@ -2278,8 +2221,8 @@
         }
       ],
       "argsoriginal": "(const char* label_id,const ImS8* xs,const ImS8* ys,const ImS8* zs,int count,const ImPlot3DSpec& spec=ImPlot3DSpec())",
-      "call_args": "(label_id,xs,ys,zs,count,ConvertToCPP_ImPlot3DSpec(spec))",
-      "call_args_old": "(label_id,xs,ys,zs,count,spec)",
+      "call_args": "(label_id,xs,ys,zs,count,spec)",
+      "call_args_conv": "(label_id,xs,ys,zs,count,ConvertToCPP_ImPlot3DSpec(spec))",
       "cimguiname": "ImPlot3D_PlotLine",
       "defaults": {
         "spec": "ImPlot3DSpec()"
@@ -2321,8 +2264,8 @@
         }
       ],
       "argsoriginal": "(const char* label_id,const ImU8* xs,const ImU8* ys,const ImU8* zs,int count,const ImPlot3DSpec& spec=ImPlot3DSpec())",
-      "call_args": "(label_id,xs,ys,zs,count,ConvertToCPP_ImPlot3DSpec(spec))",
-      "call_args_old": "(label_id,xs,ys,zs,count,spec)",
+      "call_args": "(label_id,xs,ys,zs,count,spec)",
+      "call_args_conv": "(label_id,xs,ys,zs,count,ConvertToCPP_ImPlot3DSpec(spec))",
       "cimguiname": "ImPlot3D_PlotLine",
       "defaults": {
         "spec": "ImPlot3DSpec()"
@@ -2364,8 +2307,8 @@
         }
       ],
       "argsoriginal": "(const char* label_id,const ImS16* xs,const ImS16* ys,const ImS16* zs,int count,const ImPlot3DSpec& spec=ImPlot3DSpec())",
-      "call_args": "(label_id,xs,ys,zs,count,ConvertToCPP_ImPlot3DSpec(spec))",
-      "call_args_old": "(label_id,xs,ys,zs,count,spec)",
+      "call_args": "(label_id,xs,ys,zs,count,spec)",
+      "call_args_conv": "(label_id,xs,ys,zs,count,ConvertToCPP_ImPlot3DSpec(spec))",
       "cimguiname": "ImPlot3D_PlotLine",
       "defaults": {
         "spec": "ImPlot3DSpec()"
@@ -2407,8 +2350,8 @@
         }
       ],
       "argsoriginal": "(const char* label_id,const ImU16* xs,const ImU16* ys,const ImU16* zs,int count,const ImPlot3DSpec& spec=ImPlot3DSpec())",
-      "call_args": "(label_id,xs,ys,zs,count,ConvertToCPP_ImPlot3DSpec(spec))",
-      "call_args_old": "(label_id,xs,ys,zs,count,spec)",
+      "call_args": "(label_id,xs,ys,zs,count,spec)",
+      "call_args_conv": "(label_id,xs,ys,zs,count,ConvertToCPP_ImPlot3DSpec(spec))",
       "cimguiname": "ImPlot3D_PlotLine",
       "defaults": {
         "spec": "ImPlot3DSpec()"
@@ -2450,8 +2393,8 @@
         }
       ],
       "argsoriginal": "(const char* label_id,const ImS32* xs,const ImS32* ys,const ImS32* zs,int count,const ImPlot3DSpec& spec=ImPlot3DSpec())",
-      "call_args": "(label_id,xs,ys,zs,count,ConvertToCPP_ImPlot3DSpec(spec))",
-      "call_args_old": "(label_id,xs,ys,zs,count,spec)",
+      "call_args": "(label_id,xs,ys,zs,count,spec)",
+      "call_args_conv": "(label_id,xs,ys,zs,count,ConvertToCPP_ImPlot3DSpec(spec))",
       "cimguiname": "ImPlot3D_PlotLine",
       "defaults": {
         "spec": "ImPlot3DSpec()"
@@ -2493,8 +2436,8 @@
         }
       ],
       "argsoriginal": "(const char* label_id,const ImU32* xs,const ImU32* ys,const ImU32* zs,int count,const ImPlot3DSpec& spec=ImPlot3DSpec())",
-      "call_args": "(label_id,xs,ys,zs,count,ConvertToCPP_ImPlot3DSpec(spec))",
-      "call_args_old": "(label_id,xs,ys,zs,count,spec)",
+      "call_args": "(label_id,xs,ys,zs,count,spec)",
+      "call_args_conv": "(label_id,xs,ys,zs,count,ConvertToCPP_ImPlot3DSpec(spec))",
       "cimguiname": "ImPlot3D_PlotLine",
       "defaults": {
         "spec": "ImPlot3DSpec()"
@@ -2536,8 +2479,8 @@
         }
       ],
       "argsoriginal": "(const char* label_id,const ImS64* xs,const ImS64* ys,const ImS64* zs,int count,const ImPlot3DSpec& spec=ImPlot3DSpec())",
-      "call_args": "(label_id,xs,ys,zs,count,ConvertToCPP_ImPlot3DSpec(spec))",
-      "call_args_old": "(label_id,xs,ys,zs,count,spec)",
+      "call_args": "(label_id,xs,ys,zs,count,spec)",
+      "call_args_conv": "(label_id,xs,ys,zs,count,ConvertToCPP_ImPlot3DSpec(spec))",
       "cimguiname": "ImPlot3D_PlotLine",
       "defaults": {
         "spec": "ImPlot3DSpec()"
@@ -2579,8 +2522,8 @@
         }
       ],
       "argsoriginal": "(const char* label_id,const ImU64* xs,const ImU64* ys,const ImU64* zs,int count,const ImPlot3DSpec& spec=ImPlot3DSpec())",
-      "call_args": "(label_id,xs,ys,zs,count,ConvertToCPP_ImPlot3DSpec(spec))",
-      "call_args_old": "(label_id,xs,ys,zs,count,spec)",
+      "call_args": "(label_id,xs,ys,zs,count,spec)",
+      "call_args_conv": "(label_id,xs,ys,zs,count,ConvertToCPP_ImPlot3DSpec(spec))",
       "cimguiname": "ImPlot3D_PlotLine",
       "defaults": {
         "spec": "ImPlot3DSpec()"
@@ -2632,8 +2575,8 @@
         }
       ],
       "argsoriginal": "(const char* label_id,const float* vtx_xs,const float* vtx_ys,const float* vtx_zs,const unsigned int* idxs,int vtx_count,int idx_count,const ImPlot3DSpec& spec=ImPlot3DSpec())",
-      "call_args": "(label_id,vtx_xs,vtx_ys,vtx_zs,idxs,vtx_count,idx_count,ConvertToCPP_ImPlot3DSpec(spec))",
-      "call_args_old": "(label_id,vtx_xs,vtx_ys,vtx_zs,idxs,vtx_count,idx_count,spec)",
+      "call_args": "(label_id,vtx_xs,vtx_ys,vtx_zs,idxs,vtx_count,idx_count,spec)",
+      "call_args_conv": "(label_id,vtx_xs,vtx_ys,vtx_zs,idxs,vtx_count,idx_count,ConvertToCPP_ImPlot3DSpec(spec))",
       "cimguiname": "ImPlot3D_PlotMesh",
       "defaults": {
         "spec": "ImPlot3DSpec()"
@@ -2683,8 +2626,8 @@
         }
       ],
       "argsoriginal": "(const char* label_id,const double* vtx_xs,const double* vtx_ys,const double* vtx_zs,const unsigned int* idxs,int vtx_count,int idx_count,const ImPlot3DSpec& spec=ImPlot3DSpec())",
-      "call_args": "(label_id,vtx_xs,vtx_ys,vtx_zs,idxs,vtx_count,idx_count,ConvertToCPP_ImPlot3DSpec(spec))",
-      "call_args_old": "(label_id,vtx_xs,vtx_ys,vtx_zs,idxs,vtx_count,idx_count,spec)",
+      "call_args": "(label_id,vtx_xs,vtx_ys,vtx_zs,idxs,vtx_count,idx_count,spec)",
+      "call_args_conv": "(label_id,vtx_xs,vtx_ys,vtx_zs,idxs,vtx_count,idx_count,ConvertToCPP_ImPlot3DSpec(spec))",
       "cimguiname": "ImPlot3D_PlotMesh",
       "defaults": {
         "spec": "ImPlot3DSpec()"
@@ -2734,8 +2677,8 @@
         }
       ],
       "argsoriginal": "(const char* label_id,const ImS8* vtx_xs,const ImS8* vtx_ys,const ImS8* vtx_zs,const unsigned int* idxs,int vtx_count,int idx_count,const ImPlot3DSpec& spec=ImPlot3DSpec())",
-      "call_args": "(label_id,vtx_xs,vtx_ys,vtx_zs,idxs,vtx_count,idx_count,ConvertToCPP_ImPlot3DSpec(spec))",
-      "call_args_old": "(label_id,vtx_xs,vtx_ys,vtx_zs,idxs,vtx_count,idx_count,spec)",
+      "call_args": "(label_id,vtx_xs,vtx_ys,vtx_zs,idxs,vtx_count,idx_count,spec)",
+      "call_args_conv": "(label_id,vtx_xs,vtx_ys,vtx_zs,idxs,vtx_count,idx_count,ConvertToCPP_ImPlot3DSpec(spec))",
       "cimguiname": "ImPlot3D_PlotMesh",
       "defaults": {
         "spec": "ImPlot3DSpec()"
@@ -2785,8 +2728,8 @@
         }
       ],
       "argsoriginal": "(const char* label_id,const ImU8* vtx_xs,const ImU8* vtx_ys,const ImU8* vtx_zs,const unsigned int* idxs,int vtx_count,int idx_count,const ImPlot3DSpec& spec=ImPlot3DSpec())",
-      "call_args": "(label_id,vtx_xs,vtx_ys,vtx_zs,idxs,vtx_count,idx_count,ConvertToCPP_ImPlot3DSpec(spec))",
-      "call_args_old": "(label_id,vtx_xs,vtx_ys,vtx_zs,idxs,vtx_count,idx_count,spec)",
+      "call_args": "(label_id,vtx_xs,vtx_ys,vtx_zs,idxs,vtx_count,idx_count,spec)",
+      "call_args_conv": "(label_id,vtx_xs,vtx_ys,vtx_zs,idxs,vtx_count,idx_count,ConvertToCPP_ImPlot3DSpec(spec))",
       "cimguiname": "ImPlot3D_PlotMesh",
       "defaults": {
         "spec": "ImPlot3DSpec()"
@@ -2836,8 +2779,8 @@
         }
       ],
       "argsoriginal": "(const char* label_id,const ImS16* vtx_xs,const ImS16* vtx_ys,const ImS16* vtx_zs,const unsigned int* idxs,int vtx_count,int idx_count,const ImPlot3DSpec& spec=ImPlot3DSpec())",
-      "call_args": "(label_id,vtx_xs,vtx_ys,vtx_zs,idxs,vtx_count,idx_count,ConvertToCPP_ImPlot3DSpec(spec))",
-      "call_args_old": "(label_id,vtx_xs,vtx_ys,vtx_zs,idxs,vtx_count,idx_count,spec)",
+      "call_args": "(label_id,vtx_xs,vtx_ys,vtx_zs,idxs,vtx_count,idx_count,spec)",
+      "call_args_conv": "(label_id,vtx_xs,vtx_ys,vtx_zs,idxs,vtx_count,idx_count,ConvertToCPP_ImPlot3DSpec(spec))",
       "cimguiname": "ImPlot3D_PlotMesh",
       "defaults": {
         "spec": "ImPlot3DSpec()"
@@ -2887,8 +2830,8 @@
         }
       ],
       "argsoriginal": "(const char* label_id,const ImU16* vtx_xs,const ImU16* vtx_ys,const ImU16* vtx_zs,const unsigned int* idxs,int vtx_count,int idx_count,const ImPlot3DSpec& spec=ImPlot3DSpec())",
-      "call_args": "(label_id,vtx_xs,vtx_ys,vtx_zs,idxs,vtx_count,idx_count,ConvertToCPP_ImPlot3DSpec(spec))",
-      "call_args_old": "(label_id,vtx_xs,vtx_ys,vtx_zs,idxs,vtx_count,idx_count,spec)",
+      "call_args": "(label_id,vtx_xs,vtx_ys,vtx_zs,idxs,vtx_count,idx_count,spec)",
+      "call_args_conv": "(label_id,vtx_xs,vtx_ys,vtx_zs,idxs,vtx_count,idx_count,ConvertToCPP_ImPlot3DSpec(spec))",
       "cimguiname": "ImPlot3D_PlotMesh",
       "defaults": {
         "spec": "ImPlot3DSpec()"
@@ -2938,8 +2881,8 @@
         }
       ],
       "argsoriginal": "(const char* label_id,const ImS32* vtx_xs,const ImS32* vtx_ys,const ImS32* vtx_zs,const unsigned int* idxs,int vtx_count,int idx_count,const ImPlot3DSpec& spec=ImPlot3DSpec())",
-      "call_args": "(label_id,vtx_xs,vtx_ys,vtx_zs,idxs,vtx_count,idx_count,ConvertToCPP_ImPlot3DSpec(spec))",
-      "call_args_old": "(label_id,vtx_xs,vtx_ys,vtx_zs,idxs,vtx_count,idx_count,spec)",
+      "call_args": "(label_id,vtx_xs,vtx_ys,vtx_zs,idxs,vtx_count,idx_count,spec)",
+      "call_args_conv": "(label_id,vtx_xs,vtx_ys,vtx_zs,idxs,vtx_count,idx_count,ConvertToCPP_ImPlot3DSpec(spec))",
       "cimguiname": "ImPlot3D_PlotMesh",
       "defaults": {
         "spec": "ImPlot3DSpec()"
@@ -2989,8 +2932,8 @@
         }
       ],
       "argsoriginal": "(const char* label_id,const ImU32* vtx_xs,const ImU32* vtx_ys,const ImU32* vtx_zs,const unsigned int* idxs,int vtx_count,int idx_count,const ImPlot3DSpec& spec=ImPlot3DSpec())",
-      "call_args": "(label_id,vtx_xs,vtx_ys,vtx_zs,idxs,vtx_count,idx_count,ConvertToCPP_ImPlot3DSpec(spec))",
-      "call_args_old": "(label_id,vtx_xs,vtx_ys,vtx_zs,idxs,vtx_count,idx_count,spec)",
+      "call_args": "(label_id,vtx_xs,vtx_ys,vtx_zs,idxs,vtx_count,idx_count,spec)",
+      "call_args_conv": "(label_id,vtx_xs,vtx_ys,vtx_zs,idxs,vtx_count,idx_count,ConvertToCPP_ImPlot3DSpec(spec))",
       "cimguiname": "ImPlot3D_PlotMesh",
       "defaults": {
         "spec": "ImPlot3DSpec()"
@@ -3040,8 +2983,8 @@
         }
       ],
       "argsoriginal": "(const char* label_id,const ImS64* vtx_xs,const ImS64* vtx_ys,const ImS64* vtx_zs,const unsigned int* idxs,int vtx_count,int idx_count,const ImPlot3DSpec& spec=ImPlot3DSpec())",
-      "call_args": "(label_id,vtx_xs,vtx_ys,vtx_zs,idxs,vtx_count,idx_count,ConvertToCPP_ImPlot3DSpec(spec))",
-      "call_args_old": "(label_id,vtx_xs,vtx_ys,vtx_zs,idxs,vtx_count,idx_count,spec)",
+      "call_args": "(label_id,vtx_xs,vtx_ys,vtx_zs,idxs,vtx_count,idx_count,spec)",
+      "call_args_conv": "(label_id,vtx_xs,vtx_ys,vtx_zs,idxs,vtx_count,idx_count,ConvertToCPP_ImPlot3DSpec(spec))",
       "cimguiname": "ImPlot3D_PlotMesh",
       "defaults": {
         "spec": "ImPlot3DSpec()"
@@ -3091,8 +3034,8 @@
         }
       ],
       "argsoriginal": "(const char* label_id,const ImU64* vtx_xs,const ImU64* vtx_ys,const ImU64* vtx_zs,const unsigned int* idxs,int vtx_count,int idx_count,const ImPlot3DSpec& spec=ImPlot3DSpec())",
-      "call_args": "(label_id,vtx_xs,vtx_ys,vtx_zs,idxs,vtx_count,idx_count,ConvertToCPP_ImPlot3DSpec(spec))",
-      "call_args_old": "(label_id,vtx_xs,vtx_ys,vtx_zs,idxs,vtx_count,idx_count,spec)",
+      "call_args": "(label_id,vtx_xs,vtx_ys,vtx_zs,idxs,vtx_count,idx_count,spec)",
+      "call_args_conv": "(label_id,vtx_xs,vtx_ys,vtx_zs,idxs,vtx_count,idx_count,ConvertToCPP_ImPlot3DSpec(spec))",
       "cimguiname": "ImPlot3D_PlotMesh",
       "defaults": {
         "spec": "ImPlot3DSpec()"
@@ -3136,8 +3079,8 @@
         }
       ],
       "argsoriginal": "(const char* label_id,const float* xs,const float* ys,const float* zs,int count,const ImPlot3DSpec& spec=ImPlot3DSpec())",
-      "call_args": "(label_id,xs,ys,zs,count,ConvertToCPP_ImPlot3DSpec(spec))",
-      "call_args_old": "(label_id,xs,ys,zs,count,spec)",
+      "call_args": "(label_id,xs,ys,zs,count,spec)",
+      "call_args_conv": "(label_id,xs,ys,zs,count,ConvertToCPP_ImPlot3DSpec(spec))",
       "cimguiname": "ImPlot3D_PlotQuad",
       "defaults": {
         "spec": "ImPlot3DSpec()"
@@ -3179,8 +3122,8 @@
         }
       ],
       "argsoriginal": "(const char* label_id,const double* xs,const double* ys,const double* zs,int count,const ImPlot3DSpec& spec=ImPlot3DSpec())",
-      "call_args": "(label_id,xs,ys,zs,count,ConvertToCPP_ImPlot3DSpec(spec))",
-      "call_args_old": "(label_id,xs,ys,zs,count,spec)",
+      "call_args": "(label_id,xs,ys,zs,count,spec)",
+      "call_args_conv": "(label_id,xs,ys,zs,count,ConvertToCPP_ImPlot3DSpec(spec))",
       "cimguiname": "ImPlot3D_PlotQuad",
       "defaults": {
         "spec": "ImPlot3DSpec()"
@@ -3222,8 +3165,8 @@
         }
       ],
       "argsoriginal": "(const char* label_id,const ImS8* xs,const ImS8* ys,const ImS8* zs,int count,const ImPlot3DSpec& spec=ImPlot3DSpec())",
-      "call_args": "(label_id,xs,ys,zs,count,ConvertToCPP_ImPlot3DSpec(spec))",
-      "call_args_old": "(label_id,xs,ys,zs,count,spec)",
+      "call_args": "(label_id,xs,ys,zs,count,spec)",
+      "call_args_conv": "(label_id,xs,ys,zs,count,ConvertToCPP_ImPlot3DSpec(spec))",
       "cimguiname": "ImPlot3D_PlotQuad",
       "defaults": {
         "spec": "ImPlot3DSpec()"
@@ -3265,8 +3208,8 @@
         }
       ],
       "argsoriginal": "(const char* label_id,const ImU8* xs,const ImU8* ys,const ImU8* zs,int count,const ImPlot3DSpec& spec=ImPlot3DSpec())",
-      "call_args": "(label_id,xs,ys,zs,count,ConvertToCPP_ImPlot3DSpec(spec))",
-      "call_args_old": "(label_id,xs,ys,zs,count,spec)",
+      "call_args": "(label_id,xs,ys,zs,count,spec)",
+      "call_args_conv": "(label_id,xs,ys,zs,count,ConvertToCPP_ImPlot3DSpec(spec))",
       "cimguiname": "ImPlot3D_PlotQuad",
       "defaults": {
         "spec": "ImPlot3DSpec()"
@@ -3308,8 +3251,8 @@
         }
       ],
       "argsoriginal": "(const char* label_id,const ImS16* xs,const ImS16* ys,const ImS16* zs,int count,const ImPlot3DSpec& spec=ImPlot3DSpec())",
-      "call_args": "(label_id,xs,ys,zs,count,ConvertToCPP_ImPlot3DSpec(spec))",
-      "call_args_old": "(label_id,xs,ys,zs,count,spec)",
+      "call_args": "(label_id,xs,ys,zs,count,spec)",
+      "call_args_conv": "(label_id,xs,ys,zs,count,ConvertToCPP_ImPlot3DSpec(spec))",
       "cimguiname": "ImPlot3D_PlotQuad",
       "defaults": {
         "spec": "ImPlot3DSpec()"
@@ -3351,8 +3294,8 @@
         }
       ],
       "argsoriginal": "(const char* label_id,const ImU16* xs,const ImU16* ys,const ImU16* zs,int count,const ImPlot3DSpec& spec=ImPlot3DSpec())",
-      "call_args": "(label_id,xs,ys,zs,count,ConvertToCPP_ImPlot3DSpec(spec))",
-      "call_args_old": "(label_id,xs,ys,zs,count,spec)",
+      "call_args": "(label_id,xs,ys,zs,count,spec)",
+      "call_args_conv": "(label_id,xs,ys,zs,count,ConvertToCPP_ImPlot3DSpec(spec))",
       "cimguiname": "ImPlot3D_PlotQuad",
       "defaults": {
         "spec": "ImPlot3DSpec()"
@@ -3394,8 +3337,8 @@
         }
       ],
       "argsoriginal": "(const char* label_id,const ImS32* xs,const ImS32* ys,const ImS32* zs,int count,const ImPlot3DSpec& spec=ImPlot3DSpec())",
-      "call_args": "(label_id,xs,ys,zs,count,ConvertToCPP_ImPlot3DSpec(spec))",
-      "call_args_old": "(label_id,xs,ys,zs,count,spec)",
+      "call_args": "(label_id,xs,ys,zs,count,spec)",
+      "call_args_conv": "(label_id,xs,ys,zs,count,ConvertToCPP_ImPlot3DSpec(spec))",
       "cimguiname": "ImPlot3D_PlotQuad",
       "defaults": {
         "spec": "ImPlot3DSpec()"
@@ -3437,8 +3380,8 @@
         }
       ],
       "argsoriginal": "(const char* label_id,const ImU32* xs,const ImU32* ys,const ImU32* zs,int count,const ImPlot3DSpec& spec=ImPlot3DSpec())",
-      "call_args": "(label_id,xs,ys,zs,count,ConvertToCPP_ImPlot3DSpec(spec))",
-      "call_args_old": "(label_id,xs,ys,zs,count,spec)",
+      "call_args": "(label_id,xs,ys,zs,count,spec)",
+      "call_args_conv": "(label_id,xs,ys,zs,count,ConvertToCPP_ImPlot3DSpec(spec))",
       "cimguiname": "ImPlot3D_PlotQuad",
       "defaults": {
         "spec": "ImPlot3DSpec()"
@@ -3480,8 +3423,8 @@
         }
       ],
       "argsoriginal": "(const char* label_id,const ImS64* xs,const ImS64* ys,const ImS64* zs,int count,const ImPlot3DSpec& spec=ImPlot3DSpec())",
-      "call_args": "(label_id,xs,ys,zs,count,ConvertToCPP_ImPlot3DSpec(spec))",
-      "call_args_old": "(label_id,xs,ys,zs,count,spec)",
+      "call_args": "(label_id,xs,ys,zs,count,spec)",
+      "call_args_conv": "(label_id,xs,ys,zs,count,ConvertToCPP_ImPlot3DSpec(spec))",
       "cimguiname": "ImPlot3D_PlotQuad",
       "defaults": {
         "spec": "ImPlot3DSpec()"
@@ -3523,8 +3466,8 @@
         }
       ],
       "argsoriginal": "(const char* label_id,const ImU64* xs,const ImU64* ys,const ImU64* zs,int count,const ImPlot3DSpec& spec=ImPlot3DSpec())",
-      "call_args": "(label_id,xs,ys,zs,count,ConvertToCPP_ImPlot3DSpec(spec))",
-      "call_args_old": "(label_id,xs,ys,zs,count,spec)",
+      "call_args": "(label_id,xs,ys,zs,count,spec)",
+      "call_args_conv": "(label_id,xs,ys,zs,count,ConvertToCPP_ImPlot3DSpec(spec))",
       "cimguiname": "ImPlot3D_PlotQuad",
       "defaults": {
         "spec": "ImPlot3DSpec()"
@@ -3568,8 +3511,8 @@
         }
       ],
       "argsoriginal": "(const char* label_id,const float* xs,const float* ys,const float* zs,int count,const ImPlot3DSpec& spec=ImPlot3DSpec())",
-      "call_args": "(label_id,xs,ys,zs,count,ConvertToCPP_ImPlot3DSpec(spec))",
-      "call_args_old": "(label_id,xs,ys,zs,count,spec)",
+      "call_args": "(label_id,xs,ys,zs,count,spec)",
+      "call_args_conv": "(label_id,xs,ys,zs,count,ConvertToCPP_ImPlot3DSpec(spec))",
       "cimguiname": "ImPlot3D_PlotScatter",
       "defaults": {
         "spec": "ImPlot3DSpec()"
@@ -3611,8 +3554,8 @@
         }
       ],
       "argsoriginal": "(const char* label_id,const double* xs,const double* ys,const double* zs,int count,const ImPlot3DSpec& spec=ImPlot3DSpec())",
-      "call_args": "(label_id,xs,ys,zs,count,ConvertToCPP_ImPlot3DSpec(spec))",
-      "call_args_old": "(label_id,xs,ys,zs,count,spec)",
+      "call_args": "(label_id,xs,ys,zs,count,spec)",
+      "call_args_conv": "(label_id,xs,ys,zs,count,ConvertToCPP_ImPlot3DSpec(spec))",
       "cimguiname": "ImPlot3D_PlotScatter",
       "defaults": {
         "spec": "ImPlot3DSpec()"
@@ -3654,8 +3597,8 @@
         }
       ],
       "argsoriginal": "(const char* label_id,const ImS8* xs,const ImS8* ys,const ImS8* zs,int count,const ImPlot3DSpec& spec=ImPlot3DSpec())",
-      "call_args": "(label_id,xs,ys,zs,count,ConvertToCPP_ImPlot3DSpec(spec))",
-      "call_args_old": "(label_id,xs,ys,zs,count,spec)",
+      "call_args": "(label_id,xs,ys,zs,count,spec)",
+      "call_args_conv": "(label_id,xs,ys,zs,count,ConvertToCPP_ImPlot3DSpec(spec))",
       "cimguiname": "ImPlot3D_PlotScatter",
       "defaults": {
         "spec": "ImPlot3DSpec()"
@@ -3697,8 +3640,8 @@
         }
       ],
       "argsoriginal": "(const char* label_id,const ImU8* xs,const ImU8* ys,const ImU8* zs,int count,const ImPlot3DSpec& spec=ImPlot3DSpec())",
-      "call_args": "(label_id,xs,ys,zs,count,ConvertToCPP_ImPlot3DSpec(spec))",
-      "call_args_old": "(label_id,xs,ys,zs,count,spec)",
+      "call_args": "(label_id,xs,ys,zs,count,spec)",
+      "call_args_conv": "(label_id,xs,ys,zs,count,ConvertToCPP_ImPlot3DSpec(spec))",
       "cimguiname": "ImPlot3D_PlotScatter",
       "defaults": {
         "spec": "ImPlot3DSpec()"
@@ -3740,8 +3683,8 @@
         }
       ],
       "argsoriginal": "(const char* label_id,const ImS16* xs,const ImS16* ys,const ImS16* zs,int count,const ImPlot3DSpec& spec=ImPlot3DSpec())",
-      "call_args": "(label_id,xs,ys,zs,count,ConvertToCPP_ImPlot3DSpec(spec))",
-      "call_args_old": "(label_id,xs,ys,zs,count,spec)",
+      "call_args": "(label_id,xs,ys,zs,count,spec)",
+      "call_args_conv": "(label_id,xs,ys,zs,count,ConvertToCPP_ImPlot3DSpec(spec))",
       "cimguiname": "ImPlot3D_PlotScatter",
       "defaults": {
         "spec": "ImPlot3DSpec()"
@@ -3783,8 +3726,8 @@
         }
       ],
       "argsoriginal": "(const char* label_id,const ImU16* xs,const ImU16* ys,const ImU16* zs,int count,const ImPlot3DSpec& spec=ImPlot3DSpec())",
-      "call_args": "(label_id,xs,ys,zs,count,ConvertToCPP_ImPlot3DSpec(spec))",
-      "call_args_old": "(label_id,xs,ys,zs,count,spec)",
+      "call_args": "(label_id,xs,ys,zs,count,spec)",
+      "call_args_conv": "(label_id,xs,ys,zs,count,ConvertToCPP_ImPlot3DSpec(spec))",
       "cimguiname": "ImPlot3D_PlotScatter",
       "defaults": {
         "spec": "ImPlot3DSpec()"
@@ -3826,8 +3769,8 @@
         }
       ],
       "argsoriginal": "(const char* label_id,const ImS32* xs,const ImS32* ys,const ImS32* zs,int count,const ImPlot3DSpec& spec=ImPlot3DSpec())",
-      "call_args": "(label_id,xs,ys,zs,count,ConvertToCPP_ImPlot3DSpec(spec))",
-      "call_args_old": "(label_id,xs,ys,zs,count,spec)",
+      "call_args": "(label_id,xs,ys,zs,count,spec)",
+      "call_args_conv": "(label_id,xs,ys,zs,count,ConvertToCPP_ImPlot3DSpec(spec))",
       "cimguiname": "ImPlot3D_PlotScatter",
       "defaults": {
         "spec": "ImPlot3DSpec()"
@@ -3869,8 +3812,8 @@
         }
       ],
       "argsoriginal": "(const char* label_id,const ImU32* xs,const ImU32* ys,const ImU32* zs,int count,const ImPlot3DSpec& spec=ImPlot3DSpec())",
-      "call_args": "(label_id,xs,ys,zs,count,ConvertToCPP_ImPlot3DSpec(spec))",
-      "call_args_old": "(label_id,xs,ys,zs,count,spec)",
+      "call_args": "(label_id,xs,ys,zs,count,spec)",
+      "call_args_conv": "(label_id,xs,ys,zs,count,ConvertToCPP_ImPlot3DSpec(spec))",
       "cimguiname": "ImPlot3D_PlotScatter",
       "defaults": {
         "spec": "ImPlot3DSpec()"
@@ -3912,8 +3855,8 @@
         }
       ],
       "argsoriginal": "(const char* label_id,const ImS64* xs,const ImS64* ys,const ImS64* zs,int count,const ImPlot3DSpec& spec=ImPlot3DSpec())",
-      "call_args": "(label_id,xs,ys,zs,count,ConvertToCPP_ImPlot3DSpec(spec))",
-      "call_args_old": "(label_id,xs,ys,zs,count,spec)",
+      "call_args": "(label_id,xs,ys,zs,count,spec)",
+      "call_args_conv": "(label_id,xs,ys,zs,count,ConvertToCPP_ImPlot3DSpec(spec))",
       "cimguiname": "ImPlot3D_PlotScatter",
       "defaults": {
         "spec": "ImPlot3DSpec()"
@@ -3955,8 +3898,8 @@
         }
       ],
       "argsoriginal": "(const char* label_id,const ImU64* xs,const ImU64* ys,const ImU64* zs,int count,const ImPlot3DSpec& spec=ImPlot3DSpec())",
-      "call_args": "(label_id,xs,ys,zs,count,ConvertToCPP_ImPlot3DSpec(spec))",
-      "call_args_old": "(label_id,xs,ys,zs,count,spec)",
+      "call_args": "(label_id,xs,ys,zs,count,spec)",
+      "call_args_conv": "(label_id,xs,ys,zs,count,ConvertToCPP_ImPlot3DSpec(spec))",
       "cimguiname": "ImPlot3D_PlotScatter",
       "defaults": {
         "spec": "ImPlot3DSpec()"
@@ -4012,8 +3955,8 @@
         }
       ],
       "argsoriginal": "(const char* label_id,const float* xs,const float* ys,const float* zs,int x_count,int y_count,double scale_min=0.0,double scale_max=0.0,const ImPlot3DSpec& spec=ImPlot3DSpec())",
-      "call_args": "(label_id,xs,ys,zs,x_count,y_count,scale_min,scale_max,ConvertToCPP_ImPlot3DSpec(spec))",
-      "call_args_old": "(label_id,xs,ys,zs,x_count,y_count,scale_min,scale_max,spec)",
+      "call_args": "(label_id,xs,ys,zs,x_count,y_count,scale_min,scale_max,spec)",
+      "call_args_conv": "(label_id,xs,ys,zs,x_count,y_count,scale_min,scale_max,ConvertToCPP_ImPlot3DSpec(spec))",
       "cimguiname": "ImPlot3D_PlotSurface",
       "defaults": {
         "scale_max": "0.0",
@@ -4069,8 +4012,8 @@
         }
       ],
       "argsoriginal": "(const char* label_id,const double* xs,const double* ys,const double* zs,int x_count,int y_count,double scale_min=0.0,double scale_max=0.0,const ImPlot3DSpec& spec=ImPlot3DSpec())",
-      "call_args": "(label_id,xs,ys,zs,x_count,y_count,scale_min,scale_max,ConvertToCPP_ImPlot3DSpec(spec))",
-      "call_args_old": "(label_id,xs,ys,zs,x_count,y_count,scale_min,scale_max,spec)",
+      "call_args": "(label_id,xs,ys,zs,x_count,y_count,scale_min,scale_max,spec)",
+      "call_args_conv": "(label_id,xs,ys,zs,x_count,y_count,scale_min,scale_max,ConvertToCPP_ImPlot3DSpec(spec))",
       "cimguiname": "ImPlot3D_PlotSurface",
       "defaults": {
         "scale_max": "0.0",
@@ -4126,8 +4069,8 @@
         }
       ],
       "argsoriginal": "(const char* label_id,const ImS8* xs,const ImS8* ys,const ImS8* zs,int x_count,int y_count,double scale_min=0.0,double scale_max=0.0,const ImPlot3DSpec& spec=ImPlot3DSpec())",
-      "call_args": "(label_id,xs,ys,zs,x_count,y_count,scale_min,scale_max,ConvertToCPP_ImPlot3DSpec(spec))",
-      "call_args_old": "(label_id,xs,ys,zs,x_count,y_count,scale_min,scale_max,spec)",
+      "call_args": "(label_id,xs,ys,zs,x_count,y_count,scale_min,scale_max,spec)",
+      "call_args_conv": "(label_id,xs,ys,zs,x_count,y_count,scale_min,scale_max,ConvertToCPP_ImPlot3DSpec(spec))",
       "cimguiname": "ImPlot3D_PlotSurface",
       "defaults": {
         "scale_max": "0.0",
@@ -4183,8 +4126,8 @@
         }
       ],
       "argsoriginal": "(const char* label_id,const ImU8* xs,const ImU8* ys,const ImU8* zs,int x_count,int y_count,double scale_min=0.0,double scale_max=0.0,const ImPlot3DSpec& spec=ImPlot3DSpec())",
-      "call_args": "(label_id,xs,ys,zs,x_count,y_count,scale_min,scale_max,ConvertToCPP_ImPlot3DSpec(spec))",
-      "call_args_old": "(label_id,xs,ys,zs,x_count,y_count,scale_min,scale_max,spec)",
+      "call_args": "(label_id,xs,ys,zs,x_count,y_count,scale_min,scale_max,spec)",
+      "call_args_conv": "(label_id,xs,ys,zs,x_count,y_count,scale_min,scale_max,ConvertToCPP_ImPlot3DSpec(spec))",
       "cimguiname": "ImPlot3D_PlotSurface",
       "defaults": {
         "scale_max": "0.0",
@@ -4240,8 +4183,8 @@
         }
       ],
       "argsoriginal": "(const char* label_id,const ImS16* xs,const ImS16* ys,const ImS16* zs,int x_count,int y_count,double scale_min=0.0,double scale_max=0.0,const ImPlot3DSpec& spec=ImPlot3DSpec())",
-      "call_args": "(label_id,xs,ys,zs,x_count,y_count,scale_min,scale_max,ConvertToCPP_ImPlot3DSpec(spec))",
-      "call_args_old": "(label_id,xs,ys,zs,x_count,y_count,scale_min,scale_max,spec)",
+      "call_args": "(label_id,xs,ys,zs,x_count,y_count,scale_min,scale_max,spec)",
+      "call_args_conv": "(label_id,xs,ys,zs,x_count,y_count,scale_min,scale_max,ConvertToCPP_ImPlot3DSpec(spec))",
       "cimguiname": "ImPlot3D_PlotSurface",
       "defaults": {
         "scale_max": "0.0",
@@ -4297,8 +4240,8 @@
         }
       ],
       "argsoriginal": "(const char* label_id,const ImU16* xs,const ImU16* ys,const ImU16* zs,int x_count,int y_count,double scale_min=0.0,double scale_max=0.0,const ImPlot3DSpec& spec=ImPlot3DSpec())",
-      "call_args": "(label_id,xs,ys,zs,x_count,y_count,scale_min,scale_max,ConvertToCPP_ImPlot3DSpec(spec))",
-      "call_args_old": "(label_id,xs,ys,zs,x_count,y_count,scale_min,scale_max,spec)",
+      "call_args": "(label_id,xs,ys,zs,x_count,y_count,scale_min,scale_max,spec)",
+      "call_args_conv": "(label_id,xs,ys,zs,x_count,y_count,scale_min,scale_max,ConvertToCPP_ImPlot3DSpec(spec))",
       "cimguiname": "ImPlot3D_PlotSurface",
       "defaults": {
         "scale_max": "0.0",
@@ -4354,8 +4297,8 @@
         }
       ],
       "argsoriginal": "(const char* label_id,const ImS32* xs,const ImS32* ys,const ImS32* zs,int x_count,int y_count,double scale_min=0.0,double scale_max=0.0,const ImPlot3DSpec& spec=ImPlot3DSpec())",
-      "call_args": "(label_id,xs,ys,zs,x_count,y_count,scale_min,scale_max,ConvertToCPP_ImPlot3DSpec(spec))",
-      "call_args_old": "(label_id,xs,ys,zs,x_count,y_count,scale_min,scale_max,spec)",
+      "call_args": "(label_id,xs,ys,zs,x_count,y_count,scale_min,scale_max,spec)",
+      "call_args_conv": "(label_id,xs,ys,zs,x_count,y_count,scale_min,scale_max,ConvertToCPP_ImPlot3DSpec(spec))",
       "cimguiname": "ImPlot3D_PlotSurface",
       "defaults": {
         "scale_max": "0.0",
@@ -4411,8 +4354,8 @@
         }
       ],
       "argsoriginal": "(const char* label_id,const ImU32* xs,const ImU32* ys,const ImU32* zs,int x_count,int y_count,double scale_min=0.0,double scale_max=0.0,const ImPlot3DSpec& spec=ImPlot3DSpec())",
-      "call_args": "(label_id,xs,ys,zs,x_count,y_count,scale_min,scale_max,ConvertToCPP_ImPlot3DSpec(spec))",
-      "call_args_old": "(label_id,xs,ys,zs,x_count,y_count,scale_min,scale_max,spec)",
+      "call_args": "(label_id,xs,ys,zs,x_count,y_count,scale_min,scale_max,spec)",
+      "call_args_conv": "(label_id,xs,ys,zs,x_count,y_count,scale_min,scale_max,ConvertToCPP_ImPlot3DSpec(spec))",
       "cimguiname": "ImPlot3D_PlotSurface",
       "defaults": {
         "scale_max": "0.0",
@@ -4468,8 +4411,8 @@
         }
       ],
       "argsoriginal": "(const char* label_id,const ImS64* xs,const ImS64* ys,const ImS64* zs,int x_count,int y_count,double scale_min=0.0,double scale_max=0.0,const ImPlot3DSpec& spec=ImPlot3DSpec())",
-      "call_args": "(label_id,xs,ys,zs,x_count,y_count,scale_min,scale_max,ConvertToCPP_ImPlot3DSpec(spec))",
-      "call_args_old": "(label_id,xs,ys,zs,x_count,y_count,scale_min,scale_max,spec)",
+      "call_args": "(label_id,xs,ys,zs,x_count,y_count,scale_min,scale_max,spec)",
+      "call_args_conv": "(label_id,xs,ys,zs,x_count,y_count,scale_min,scale_max,ConvertToCPP_ImPlot3DSpec(spec))",
       "cimguiname": "ImPlot3D_PlotSurface",
       "defaults": {
         "scale_max": "0.0",
@@ -4525,8 +4468,8 @@
         }
       ],
       "argsoriginal": "(const char* label_id,const ImU64* xs,const ImU64* ys,const ImU64* zs,int x_count,int y_count,double scale_min=0.0,double scale_max=0.0,const ImPlot3DSpec& spec=ImPlot3DSpec())",
-      "call_args": "(label_id,xs,ys,zs,x_count,y_count,scale_min,scale_max,ConvertToCPP_ImPlot3DSpec(spec))",
-      "call_args_old": "(label_id,xs,ys,zs,x_count,y_count,scale_min,scale_max,spec)",
+      "call_args": "(label_id,xs,ys,zs,x_count,y_count,scale_min,scale_max,spec)",
+      "call_args_conv": "(label_id,xs,ys,zs,x_count,y_count,scale_min,scale_max,ConvertToCPP_ImPlot3DSpec(spec))",
       "cimguiname": "ImPlot3D_PlotSurface",
       "defaults": {
         "scale_max": "0.0",
@@ -4572,8 +4515,8 @@
         }
       ],
       "argsoriginal": "(const char* text,double x,double y,double z,double angle=0.0,const ImVec2& pix_offset=ImVec2(0,0))",
-      "call_args": "(text,x,y,z,angle,ConvertToCPP_ImVec2(pix_offset))",
-      "call_args_old": "(text,x,y,z,angle,pix_offset)",
+      "call_args": "(text,x,y,z,angle,pix_offset)",
+      "call_args_conv": "(text,x,y,z,angle,ConvertToCPP_ImVec2(pix_offset))",
       "cimguiname": "ImPlot3D_PlotText",
       "defaults": {
         "angle": "0.0",
@@ -4598,8 +4541,8 @@
         }
       ],
       "argsoriginal": "(const ImPlot3DPoint& point)",
-      "call_args": "(ConvertToCPP_ImPlot3DPoint(point))",
-      "call_args_old": "(point)",
+      "call_args": "(point)",
+      "call_args_conv": "(ConvertToCPP_ImPlot3DPoint(point))",
       "cimguiname": "ImPlot3D_PlotToPixels",
       "conv": "ImVec2",
       "defaults": {},
@@ -4630,7 +4573,6 @@
       ],
       "argsoriginal": "(double x,double y,double z)",
       "call_args": "(x,y,z)",
-      "call_args_old": "(x,y,z)",
       "cimguiname": "ImPlot3D_PlotToPixels",
       "conv": "ImVec2",
       "defaults": {},
@@ -4674,8 +4616,8 @@
         }
       ],
       "argsoriginal": "(const char* label_id,const float* xs,const float* ys,const float* zs,int count,const ImPlot3DSpec& spec=ImPlot3DSpec())",
-      "call_args": "(label_id,xs,ys,zs,count,ConvertToCPP_ImPlot3DSpec(spec))",
-      "call_args_old": "(label_id,xs,ys,zs,count,spec)",
+      "call_args": "(label_id,xs,ys,zs,count,spec)",
+      "call_args_conv": "(label_id,xs,ys,zs,count,ConvertToCPP_ImPlot3DSpec(spec))",
       "cimguiname": "ImPlot3D_PlotTriangle",
       "defaults": {
         "spec": "ImPlot3DSpec()"
@@ -4717,8 +4659,8 @@
         }
       ],
       "argsoriginal": "(const char* label_id,const double* xs,const double* ys,const double* zs,int count,const ImPlot3DSpec& spec=ImPlot3DSpec())",
-      "call_args": "(label_id,xs,ys,zs,count,ConvertToCPP_ImPlot3DSpec(spec))",
-      "call_args_old": "(label_id,xs,ys,zs,count,spec)",
+      "call_args": "(label_id,xs,ys,zs,count,spec)",
+      "call_args_conv": "(label_id,xs,ys,zs,count,ConvertToCPP_ImPlot3DSpec(spec))",
       "cimguiname": "ImPlot3D_PlotTriangle",
       "defaults": {
         "spec": "ImPlot3DSpec()"
@@ -4760,8 +4702,8 @@
         }
       ],
       "argsoriginal": "(const char* label_id,const ImS8* xs,const ImS8* ys,const ImS8* zs,int count,const ImPlot3DSpec& spec=ImPlot3DSpec())",
-      "call_args": "(label_id,xs,ys,zs,count,ConvertToCPP_ImPlot3DSpec(spec))",
-      "call_args_old": "(label_id,xs,ys,zs,count,spec)",
+      "call_args": "(label_id,xs,ys,zs,count,spec)",
+      "call_args_conv": "(label_id,xs,ys,zs,count,ConvertToCPP_ImPlot3DSpec(spec))",
       "cimguiname": "ImPlot3D_PlotTriangle",
       "defaults": {
         "spec": "ImPlot3DSpec()"
@@ -4803,8 +4745,8 @@
         }
       ],
       "argsoriginal": "(const char* label_id,const ImU8* xs,const ImU8* ys,const ImU8* zs,int count,const ImPlot3DSpec& spec=ImPlot3DSpec())",
-      "call_args": "(label_id,xs,ys,zs,count,ConvertToCPP_ImPlot3DSpec(spec))",
-      "call_args_old": "(label_id,xs,ys,zs,count,spec)",
+      "call_args": "(label_id,xs,ys,zs,count,spec)",
+      "call_args_conv": "(label_id,xs,ys,zs,count,ConvertToCPP_ImPlot3DSpec(spec))",
       "cimguiname": "ImPlot3D_PlotTriangle",
       "defaults": {
         "spec": "ImPlot3DSpec()"
@@ -4846,8 +4788,8 @@
         }
       ],
       "argsoriginal": "(const char* label_id,const ImS16* xs,const ImS16* ys,const ImS16* zs,int count,const ImPlot3DSpec& spec=ImPlot3DSpec())",
-      "call_args": "(label_id,xs,ys,zs,count,ConvertToCPP_ImPlot3DSpec(spec))",
-      "call_args_old": "(label_id,xs,ys,zs,count,spec)",
+      "call_args": "(label_id,xs,ys,zs,count,spec)",
+      "call_args_conv": "(label_id,xs,ys,zs,count,ConvertToCPP_ImPlot3DSpec(spec))",
       "cimguiname": "ImPlot3D_PlotTriangle",
       "defaults": {
         "spec": "ImPlot3DSpec()"
@@ -4889,8 +4831,8 @@
         }
       ],
       "argsoriginal": "(const char* label_id,const ImU16* xs,const ImU16* ys,const ImU16* zs,int count,const ImPlot3DSpec& spec=ImPlot3DSpec())",
-      "call_args": "(label_id,xs,ys,zs,count,ConvertToCPP_ImPlot3DSpec(spec))",
-      "call_args_old": "(label_id,xs,ys,zs,count,spec)",
+      "call_args": "(label_id,xs,ys,zs,count,spec)",
+      "call_args_conv": "(label_id,xs,ys,zs,count,ConvertToCPP_ImPlot3DSpec(spec))",
       "cimguiname": "ImPlot3D_PlotTriangle",
       "defaults": {
         "spec": "ImPlot3DSpec()"
@@ -4932,8 +4874,8 @@
         }
       ],
       "argsoriginal": "(const char* label_id,const ImS32* xs,const ImS32* ys,const ImS32* zs,int count,const ImPlot3DSpec& spec=ImPlot3DSpec())",
-      "call_args": "(label_id,xs,ys,zs,count,ConvertToCPP_ImPlot3DSpec(spec))",
-      "call_args_old": "(label_id,xs,ys,zs,count,spec)",
+      "call_args": "(label_id,xs,ys,zs,count,spec)",
+      "call_args_conv": "(label_id,xs,ys,zs,count,ConvertToCPP_ImPlot3DSpec(spec))",
       "cimguiname": "ImPlot3D_PlotTriangle",
       "defaults": {
         "spec": "ImPlot3DSpec()"
@@ -4975,8 +4917,8 @@
         }
       ],
       "argsoriginal": "(const char* label_id,const ImU32* xs,const ImU32* ys,const ImU32* zs,int count,const ImPlot3DSpec& spec=ImPlot3DSpec())",
-      "call_args": "(label_id,xs,ys,zs,count,ConvertToCPP_ImPlot3DSpec(spec))",
-      "call_args_old": "(label_id,xs,ys,zs,count,spec)",
+      "call_args": "(label_id,xs,ys,zs,count,spec)",
+      "call_args_conv": "(label_id,xs,ys,zs,count,ConvertToCPP_ImPlot3DSpec(spec))",
       "cimguiname": "ImPlot3D_PlotTriangle",
       "defaults": {
         "spec": "ImPlot3DSpec()"
@@ -5018,8 +4960,8 @@
         }
       ],
       "argsoriginal": "(const char* label_id,const ImS64* xs,const ImS64* ys,const ImS64* zs,int count,const ImPlot3DSpec& spec=ImPlot3DSpec())",
-      "call_args": "(label_id,xs,ys,zs,count,ConvertToCPP_ImPlot3DSpec(spec))",
-      "call_args_old": "(label_id,xs,ys,zs,count,spec)",
+      "call_args": "(label_id,xs,ys,zs,count,spec)",
+      "call_args_conv": "(label_id,xs,ys,zs,count,ConvertToCPP_ImPlot3DSpec(spec))",
       "cimguiname": "ImPlot3D_PlotTriangle",
       "defaults": {
         "spec": "ImPlot3DSpec()"
@@ -5061,8 +5003,8 @@
         }
       ],
       "argsoriginal": "(const char* label_id,const ImU64* xs,const ImU64* ys,const ImU64* zs,int count,const ImPlot3DSpec& spec=ImPlot3DSpec())",
-      "call_args": "(label_id,xs,ys,zs,count,ConvertToCPP_ImPlot3DSpec(spec))",
-      "call_args_old": "(label_id,xs,ys,zs,count,spec)",
+      "call_args": "(label_id,xs,ys,zs,count,spec)",
+      "call_args_conv": "(label_id,xs,ys,zs,count,ConvertToCPP_ImPlot3DSpec(spec))",
       "cimguiname": "ImPlot3D_PlotTriangle",
       "defaults": {
         "spec": "ImPlot3DSpec()"
@@ -5087,7 +5029,6 @@
       ],
       "argsoriginal": "(int count=1)",
       "call_args": "(count)",
-      "call_args_old": "(count)",
       "cimguiname": "ImPlot3D_PopColormap",
       "defaults": {
         "count": "1"
@@ -5112,7 +5053,6 @@
       ],
       "argsoriginal": "(int count=1)",
       "call_args": "(count)",
-      "call_args_old": "(count)",
       "cimguiname": "ImPlot3D_PopStyleColor",
       "defaults": {
         "count": "1"
@@ -5137,7 +5077,6 @@
       ],
       "argsoriginal": "(int count=1)",
       "call_args": "(count)",
-      "call_args_old": "(count)",
       "cimguiname": "ImPlot3D_PopStyleVar",
       "defaults": {
         "count": "1"
@@ -5162,7 +5101,6 @@
       ],
       "argsoriginal": "(ImPlot3DColormap cmap)",
       "call_args": "(cmap)",
-      "call_args_old": "(cmap)",
       "cimguiname": "ImPlot3D_PushColormap",
       "defaults": {},
       "funcname": "PushColormap",
@@ -5183,7 +5121,6 @@
       ],
       "argsoriginal": "(const char* name)",
       "call_args": "(name)",
-      "call_args_old": "(name)",
       "cimguiname": "ImPlot3D_PushColormap",
       "defaults": {},
       "funcname": "PushColormap",
@@ -5210,7 +5147,6 @@
       ],
       "argsoriginal": "(ImPlot3DCol idx,ImU32 col)",
       "call_args": "(idx,col)",
-      "call_args_old": "(idx,col)",
       "cimguiname": "ImPlot3D_PushStyleColor",
       "defaults": {},
       "funcname": "PushStyleColor",
@@ -5234,8 +5170,8 @@
         }
       ],
       "argsoriginal": "(ImPlot3DCol idx,const ImVec4& col)",
-      "call_args": "(idx,ConvertToCPP_ImVec4(col))",
-      "call_args_old": "(idx,col)",
+      "call_args": "(idx,col)",
+      "call_args_conv": "(idx,ConvertToCPP_ImVec4(col))",
       "cimguiname": "ImPlot3D_PushStyleColor",
       "defaults": {},
       "funcname": "PushStyleColor",
@@ -5262,7 +5198,6 @@
       ],
       "argsoriginal": "(ImPlot3DStyleVar idx,float val)",
       "call_args": "(idx,val)",
-      "call_args_old": "(idx,val)",
       "cimguiname": "ImPlot3D_PushStyleVar",
       "defaults": {},
       "funcname": "PushStyleVar",
@@ -5287,7 +5222,6 @@
       ],
       "argsoriginal": "(ImPlot3DStyleVar idx,int val)",
       "call_args": "(idx,val)",
-      "call_args_old": "(idx,val)",
       "cimguiname": "ImPlot3D_PushStyleVar",
       "defaults": {},
       "funcname": "PushStyleVar",
@@ -5311,8 +5245,8 @@
         }
       ],
       "argsoriginal": "(ImPlot3DStyleVar idx,const ImVec2& val)",
-      "call_args": "(idx,ConvertToCPP_ImVec2(val))",
-      "call_args_old": "(idx,val)",
+      "call_args": "(idx,val)",
+      "call_args_conv": "(idx,ConvertToCPP_ImVec2(val))",
       "cimguiname": "ImPlot3D_PushStyleVar",
       "defaults": {},
       "funcname": "PushStyleVar",
@@ -5339,7 +5273,6 @@
       ],
       "argsoriginal": "(float t,ImPlot3DColormap cmap=-1)",
       "call_args": "(t,cmap)",
-      "call_args_old": "(t,cmap)",
       "cimguiname": "ImPlot3D_SampleColormap",
       "conv": "ImVec4",
       "defaults": {
@@ -5366,7 +5299,6 @@
       ],
       "argsoriginal": "(ImPlot3DContext* ctx)",
       "call_args": "(ctx)",
-      "call_args_old": "(ctx)",
       "cimguiname": "ImPlot3D_SetCurrentContext",
       "defaults": {},
       "funcname": "SetCurrentContext",
@@ -5388,8 +5320,8 @@
         }
       ],
       "argsoriginal": "(const ImPlot3DStyle& style)",
-      "call_args": "(ConvertToCPP_ImPlot3DStyle(style))",
-      "call_args_old": "(style)",
+      "call_args": "(style)",
+      "call_args_conv": "(ConvertToCPP_ImPlot3DStyle(style))",
       "cimguiname": "ImPlot3D_SetStyle",
       "defaults": {},
       "funcname": "SetStyle",
@@ -5432,7 +5364,6 @@
       ],
       "argsoriginal": "(const char* x_label,const char* y_label,const char* z_label,ImPlot3DAxisFlags x_flags=0,ImPlot3DAxisFlags y_flags=0,ImPlot3DAxisFlags z_flags=0)",
       "call_args": "(x_label,y_label,z_label,x_flags,y_flags,z_flags)",
-      "call_args_old": "(x_label,y_label,z_label,x_flags,y_flags,z_flags)",
       "cimguiname": "ImPlot3D_SetupAxes",
       "defaults": {
         "x_flags": "0",
@@ -5483,7 +5414,6 @@
       ],
       "argsoriginal": "(double x_min,double x_max,double y_min,double y_max,double z_min,double z_max,ImPlot3DCond cond=ImPlot3DCond_Once)",
       "call_args": "(x_min,x_max,y_min,y_max,z_min,z_max,cond)",
-      "call_args_old": "(x_min,x_max,y_min,y_max,z_min,z_max,cond)",
       "cimguiname": "ImPlot3D_SetupAxesLimits",
       "defaults": {
         "cond": "ImPlot3DCond_Once"
@@ -5516,7 +5446,6 @@
       ],
       "argsoriginal": "(ImAxis3D axis,const char* label=nullptr,ImPlot3DAxisFlags flags=0)",
       "call_args": "(axis,label,flags)",
-      "call_args_old": "(axis,label,flags)",
       "cimguiname": "ImPlot3D_SetupAxis",
       "defaults": {
         "flags": "0",
@@ -5550,7 +5479,6 @@
       ],
       "argsoriginal": "(ImAxis3D axis,ImPlot3DFormatter formatter,void* data=nullptr)",
       "call_args": "(axis,formatter,data)",
-      "call_args_old": "(axis,formatter,data)",
       "cimguiname": "ImPlot3D_SetupAxisFormat",
       "defaults": {
         "data": "nullptr"
@@ -5587,7 +5515,6 @@
       ],
       "argsoriginal": "(ImAxis3D axis,double v_min,double v_max,ImPlot3DCond cond=ImPlot3DCond_Once)",
       "call_args": "(axis,v_min,v_max,cond)",
-      "call_args_old": "(axis,v_min,v_max,cond)",
       "cimguiname": "ImPlot3D_SetupAxisLimits",
       "defaults": {
         "cond": "ImPlot3DCond_Once"
@@ -5620,7 +5547,6 @@
       ],
       "argsoriginal": "(ImAxis3D axis,double v_min,double v_max)",
       "call_args": "(axis,v_min,v_max)",
-      "call_args_old": "(axis,v_min,v_max)",
       "cimguiname": "ImPlot3D_SetupAxisLimitsConstraints",
       "defaults": {},
       "funcname": "SetupAxisLimitsConstraints",
@@ -5647,7 +5573,6 @@
       ],
       "argsoriginal": "(ImAxis3D axis,ImPlot3DScale scale)",
       "call_args": "(axis,scale)",
-      "call_args_old": "(axis,scale)",
       "cimguiname": "ImPlot3D_SetupAxisScale",
       "defaults": {},
       "funcname": "SetupAxisScale",
@@ -5680,7 +5605,6 @@
       ],
       "argsoriginal": "(ImAxis3D axis,ImPlot3DTransform forward,ImPlot3DTransform inverse,void* data=nullptr)",
       "call_args": "(axis,forward,inverse,data)",
-      "call_args_old": "(axis,forward,inverse,data)",
       "cimguiname": "ImPlot3D_SetupAxisScale",
       "defaults": {
         "data": "nullptr"
@@ -5721,7 +5645,6 @@
       ],
       "argsoriginal": "(ImAxis3D axis,const double* values,int n_ticks,const char* const labels[]=nullptr,bool keep_default=false)",
       "call_args": "(axis,values,n_ticks,labels,keep_default)",
-      "call_args_old": "(axis,values,n_ticks,labels,keep_default)",
       "cimguiname": "ImPlot3D_SetupAxisTicks",
       "defaults": {
         "keep_default": "false",
@@ -5765,7 +5688,6 @@
       ],
       "argsoriginal": "(ImAxis3D axis,double v_min,double v_max,int n_ticks,const char* const labels[]=nullptr,bool keep_default=false)",
       "call_args": "(axis,v_min,v_max,n_ticks,labels,keep_default)",
-      "call_args_old": "(axis,v_min,v_max,n_ticks,labels,keep_default)",
       "cimguiname": "ImPlot3D_SetupAxisTicks",
       "defaults": {
         "keep_default": "false",
@@ -5799,7 +5721,6 @@
       ],
       "argsoriginal": "(ImAxis3D axis,double zoom_min,double zoom_max)",
       "call_args": "(axis,zoom_min,zoom_max)",
-      "call_args_old": "(axis,zoom_min,zoom_max)",
       "cimguiname": "ImPlot3D_SetupAxisZoomConstraints",
       "defaults": {},
       "funcname": "SetupAxisZoomConstraints",
@@ -5826,7 +5747,6 @@
       ],
       "argsoriginal": "(double elevation,double azimuth)",
       "call_args": "(elevation,azimuth)",
-      "call_args_old": "(elevation,azimuth)",
       "cimguiname": "ImPlot3D_SetupBoxInitialRotation",
       "defaults": {},
       "funcname": "SetupBoxInitialRotation",
@@ -5846,8 +5766,8 @@
         }
       ],
       "argsoriginal": "(ImPlot3DQuat rotation)",
-      "call_args": "(ConvertToCPP_ImPlot3DQuat(rotation))",
-      "call_args_old": "(rotation)",
+      "call_args": "(rotation)",
+      "call_args_conv": "(ConvertToCPP_ImPlot3DQuat(rotation))",
       "cimguiname": "ImPlot3D_SetupBoxInitialRotation",
       "defaults": {},
       "funcname": "SetupBoxInitialRotation",
@@ -5882,7 +5802,6 @@
       ],
       "argsoriginal": "(double elevation,double azimuth,bool animate=false,ImPlot3DCond cond=ImPlot3DCond_Once)",
       "call_args": "(elevation,azimuth,animate,cond)",
-      "call_args_old": "(elevation,azimuth,animate,cond)",
       "cimguiname": "ImPlot3D_SetupBoxRotation",
       "defaults": {
         "animate": "false",
@@ -5913,8 +5832,8 @@
         }
       ],
       "argsoriginal": "(ImPlot3DQuat rotation,bool animate=false,ImPlot3DCond cond=ImPlot3DCond_Once)",
-      "call_args": "(ConvertToCPP_ImPlot3DQuat(rotation),animate,cond)",
-      "call_args_old": "(rotation,animate,cond)",
+      "call_args": "(rotation,animate,cond)",
+      "call_args_conv": "(ConvertToCPP_ImPlot3DQuat(rotation),animate,cond)",
       "cimguiname": "ImPlot3D_SetupBoxRotation",
       "defaults": {
         "animate": "false",
@@ -5948,7 +5867,6 @@
       ],
       "argsoriginal": "(double x,double y,double z)",
       "call_args": "(x,y,z)",
-      "call_args_old": "(x,y,z)",
       "cimguiname": "ImPlot3D_SetupBoxScale",
       "defaults": {},
       "funcname": "SetupBoxScale",
@@ -5975,7 +5893,6 @@
       ],
       "argsoriginal": "(ImPlot3DLocation location,ImPlot3DLegendFlags flags=0)",
       "call_args": "(location,flags)",
-      "call_args_old": "(location,flags)",
       "cimguiname": "ImPlot3D_SetupLegend",
       "defaults": {
         "flags": "0"
@@ -6000,7 +5917,6 @@
       ],
       "argsoriginal": "(bool* p_open=nullptr)",
       "call_args": "(p_open)",
-      "call_args_old": "(p_open)",
       "cimguiname": "ImPlot3D_ShowAboutWindow",
       "defaults": {
         "p_open": "nullptr"
@@ -6020,7 +5936,6 @@
       "argsT": [],
       "argsoriginal": "()",
       "call_args": "()",
-      "call_args_old": "()",
       "cimguiname": "ImPlot3D_ShowAllDemos",
       "defaults": {},
       "funcname": "ShowAllDemos",
@@ -6043,7 +5958,6 @@
       ],
       "argsoriginal": "(const char* label)",
       "call_args": "(label)",
-      "call_args_old": "(label)",
       "cimguiname": "ImPlot3D_ShowColormapSelector",
       "defaults": {},
       "funcname": "ShowColormapSelector",
@@ -6066,7 +5980,6 @@
       ],
       "argsoriginal": "(bool* p_open=nullptr)",
       "call_args": "(p_open)",
-      "call_args_old": "(p_open)",
       "cimguiname": "ImPlot3D_ShowDemoWindow",
       "defaults": {
         "p_open": "nullptr"
@@ -6091,7 +6004,6 @@
       ],
       "argsoriginal": "(bool* p_popen=nullptr)",
       "call_args": "(p_popen)",
-      "call_args_old": "(p_popen)",
       "cimguiname": "ImPlot3D_ShowMetricsWindow",
       "defaults": {
         "p_popen": "nullptr"
@@ -6116,7 +6028,6 @@
       ],
       "argsoriginal": "(ImPlot3DStyle* ref=nullptr)",
       "call_args": "(ref)",
-      "call_args_old": "(ref)",
       "cimguiname": "ImPlot3D_ShowStyleEditor",
       "defaults": {
         "ref": "nullptr"
@@ -6141,7 +6052,6 @@
       ],
       "argsoriginal": "(const char* label)",
       "call_args": "(label)",
-      "call_args_old": "(label)",
       "cimguiname": "ImPlot3D_ShowStyleSelector",
       "defaults": {},
       "funcname": "ShowStyleSelector",
@@ -6164,7 +6074,6 @@
       ],
       "argsoriginal": "(ImPlot3DStyle* dst=nullptr)",
       "call_args": "(dst)",
-      "call_args_old": "(dst)",
       "cimguiname": "ImPlot3D_StyleColorsAuto",
       "defaults": {
         "dst": "nullptr"
@@ -6189,7 +6098,6 @@
       ],
       "argsoriginal": "(ImPlot3DStyle* dst=nullptr)",
       "call_args": "(dst)",
-      "call_args_old": "(dst)",
       "cimguiname": "ImPlot3D_StyleColorsClassic",
       "defaults": {
         "dst": "nullptr"
@@ -6214,7 +6122,6 @@
       ],
       "argsoriginal": "(ImPlot3DStyle* dst=nullptr)",
       "call_args": "(dst)",
-      "call_args_old": "(dst)",
       "cimguiname": "ImPlot3D_StyleColorsDark",
       "defaults": {
         "dst": "nullptr"
@@ -6239,7 +6146,6 @@
       ],
       "argsoriginal": "(ImPlot3DStyle* dst=nullptr)",
       "call_args": "(dst)",
-      "call_args_old": "(dst)",
       "cimguiname": "ImPlot3D_StyleColorsLight",
       "defaults": {
         "dst": "nullptr"
